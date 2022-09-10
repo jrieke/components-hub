@@ -90,7 +90,7 @@ def get_stars_and_description(url):
     )
 
 
-# @st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
 def parse_github_readme(url):
     """get the image url from the github readme"""
     status_code, text = get(url)
