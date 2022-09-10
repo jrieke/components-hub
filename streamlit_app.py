@@ -23,7 +23,7 @@ EXCLUDE = [
     "st-kickoff",
     "st-undetected-chromedriver",
     "st-package-reviewer",
-    "streamlit-webcam-example"
+    "streamlit-webcam-example",
 ]
 
 
@@ -135,9 +135,9 @@ def parse_github_readme(url):
     description = None
     paragraphs = readme.find_all("p")
     for p in paragraphs:
-        text = p.text.strip()
+        text = p.text.strip().replace("\n", "")
         if text:
-            description = text.replace("\n", "")
+            description = text
             break
 
     # print("func", image_url, description)
@@ -193,6 +193,7 @@ class Component:
     # screenshot_url: str = None
     stars: int = None
     github_description: str = None
+    pypi_description: str = None
     avatar: str = None
     search_text: str = None
     github_author: str = None
@@ -305,8 +306,18 @@ def get_components():
                                             c.github,
                                         )
                                         break
-                        
-                        
+
+                        # TODO: Maybe do this outside of the if?
+                        project_description = soup.find(
+                            "div", class_="project-description"
+                        )
+                        if project_description:
+                            paragraphs = project_description.find_all("p")
+                            for p in paragraphs:
+                                text = p.text.replace("\n", "").strip()
+                                if text:
+                                    c.pypi_description = text
+                                    break
 
     # TODO: Could also find github + demo app + package name in the blog post or on github is nothing else is given.
     # At least getting demo app from github should be very easy, either from URL field or from readme text.
@@ -339,7 +350,9 @@ def get_components():
                 c.github
             )
 
-            c.image_url, readme_description = parse_github_readme(c.github)  # this can also return None!
+            c.image_url, readme_description = parse_github_readme(
+                c.github
+            )  # this can also return None!
             if not c.github_description:
                 print("found description from github readme")
                 c.github_description = readme_description
@@ -352,6 +365,7 @@ def get_components():
         c.search_text = (
             str(c.name)
             + str(c.github_description)
+            + str(c.pypi_description)
             + str(c.github_author)
             + str(c.package)
         )
@@ -430,18 +444,20 @@ def show_components(components, search):
                         unsafe_allow_html=True,
                     )
 
-                if c.github_description is not None:
+                if c.github_description:
                     st.write(c.github_description)
-                if c.package is not None:
+                elif c.pypi_description:
+                    st.write(c.pypi_description)
+                if c.package:
                     st.code(f"pip install {c.package}")
                 formatted_links = []
-                if c.github is not None:
+                if c.github:
                     formatted_links.append(f"[GitHub]({c.github})")
-                if c.demo is not None:
+                if c.demo:
                     formatted_links.append(f"[Demo]({c.demo})")
-                if c.forum_post is not None:
+                if c.forum_post:
                     formatted_links.append(f"[Forum]({c.forum_post})")
-                if c.pypi is not None:
+                if c.pypi:
                     formatted_links.append(f"[PyPI]({c.pypi})")
 
                 st.write(" • ".join(formatted_links))
