@@ -425,22 +425,27 @@ def show_components(components, search):
                 if c.stars:
                     title += f" ({c.stars} ⭐️)"
                 st.write(title)
+                if c.avatar:
+                    avatar_path = c.avatar
+                else:
+                    # TODO: Need to use web URL because we can't expose image through static folder.
+                    avatar_path = "https://icon-library.com/images/default-profile-icon/default-profile-icon-16.jpg"
                 if c.github_author and c.avatar:
                     st.caption(
-                        f'<a href="https://github.com/{c.github_author}"><img src="{c.avatar}" style="border: 1px solid #D6D6D9; width: 20px; height: 20px; border-radius: 50%"></a> &nbsp; <a href="https://github.com/{c.github_author}" style="color: inherit; text-decoration: inherit">{c.github_author}</a>',
+                        f'<a href="https://github.com/{c.github_author}"><img src="{avatar_path}" style="border: 1px solid #D6D6D9; width: 20px; height: 20px; border-radius: 50%"></a> &nbsp; <a href="https://github.com/{c.github_author}" style="color: inherit; text-decoration: inherit">{c.github_author}</a>',
                         unsafe_allow_html=True,
                     )
-                elif c.github_author:
-                    # TODO: Some of the Github pages extracted above return 404, so
-                    # we can't get the avatar image from them. We could get them by
-                    # querying with the author name directly but for now I'm just hiding the avatar images.
-                    st.caption(
-                        f'<a href="https://github.com/{c.github_author}" style="color: inherit; text-decoration: inherit">{c.github_author}</a>',
-                        unsafe_allow_html=True,
-                    )
+                # elif c.github_author:
+                #     # TODO: Some of the Github pages extracted above return 404, so
+                #     # we can't get the avatar image from them. We could get them by
+                #     # querying with the author name directly but for now I'm just hiding the avatar images.
+                #     st.caption(
+                #         f'<a href="https://github.com/{c.github_author}" style="color: inherit; text-decoration: inherit">{c.github_author}</a>',
+                #         unsafe_allow_html=True,
+                #     )
                 elif c.pypi_author:
                     st.caption(
-                        f'<a href="https://pypi.org/user/{c.pypi_author}" style="color: inherit; text-decoration: inherit">{c.pypi_author}</a>',
+                        f'<a href="https://pypi.org/user/{c.pypi_author}"><img src="{avatar_path}" style="border: 1px solid #D6D6D9; width: 20px; height: 20px; border-radius: 50%"></a> &nbsp; <a href="https://pypi.org/user/{c.pypi_author}" style="color: inherit; text-decoration: inherit">{c.pypi_author}</a>',
                         unsafe_allow_html=True,
                     )
 
