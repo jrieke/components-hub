@@ -2,6 +2,7 @@ import asyncio
 import re
 import time
 from dataclasses import dataclass
+from datetime import datetime
 from pathlib import Path
 
 import pyppeteer
@@ -24,6 +25,7 @@ EXCLUDE = [
     "st-undetected-chromedriver",
     "st-package-reviewer",
     "streamlit-webcam-example",
+    "st-pyv8",
 ]
 
 
@@ -50,15 +52,16 @@ icon("🧩")
 # Streamlit Components Hub
 """
 description = st.empty()
-col1, col2 = st.columns([2, 1])
+col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
-search = col1.text_input("Search")
-package_manager = col2.selectbox("Your package manager", ["pip", "pipenv", "poetry"])
+search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "button"')
+sorting = col2.selectbox("Sorting", ["⭐️ Stars", "🐣 Newest"])
+package_manager = col3.selectbox("Install command", ["pip", "pipenv", "poetry"])
 if package_manager == "pip" or package_manager == "pipenv":
     install_command = package_manager + " install"
 elif package_manager == "poetry":
-    install_command =  "poetry add"
+    install_command = "poetry add"
 # with col2:
 #     st.selectbox("Sort by", ["Github stars", "Newest"], disabled=True)
 st.write("")
@@ -72,7 +75,7 @@ def get(*args, **kwargs):
 
 
 @st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
-def get_stars_and_description(url):
+def get_github_info(url):
     """use the github api to get the number of stars for a given repo"""
     url = url.replace("https://", "").replace("http://", "")
     user, repo = url.split("/")[1:3]
@@ -84,16 +87,18 @@ def get_stars_and_description(url):
         },
     )
     if response.status_code == 404:
-        return None, None, None
+        return None, None, None, None
     elif response.status_code != 200:
         raise RuntimeError(
             f"Couldn't get repo details, status code {response.status_code} for url: {url}, user: {user}, repo: {repo}"
         )
     response_json = response.json()
+    created_at = datetime.strptime(response_json["created_at"], "%Y-%m-%dT%H:%M:%SZ")
     return (
         response_json["stargazers_count"],
         response_json["description"],
         response_json["owner"]["avatar_url"],
+        created_at,
     )
 
 
@@ -147,7 +152,7 @@ def parse_github_readme(url):
             break
 
     # Find link to demo app.
-    # TODO: Should only do this if demo app is not known yet. 
+    # TODO: Should only do this if demo app is not known yet.
     try:
         demo_url = soup.find("a", href=re.compile("share\.streamlit\.io/+"))["href"]
     except TypeError:
@@ -214,6 +219,7 @@ class Component:
     search_text: str = None
     github_author: str = None
     pypi_author: str = None
+    created_at: datetime = None
 
 
 @st.experimental_memo
@@ -227,7 +233,7 @@ def get_all_packages():
 
 @st.experimental_memo(ttl=3600, show_spinner=False)
 def get_components():
-    components = {}
+    components_dict = {}
 
     # Step 1: Get components from tracker
     status_code, text = get(TRACKER)
@@ -271,9 +277,9 @@ def get_components():
                 # print("found package based on repo name:", repo_name)
 
         if c.package:
-            components[c.package] = c
+            components_dict[c.package] = c
         else:
-            components[c.name] = c
+            components_dict[c.name] = c
 
     # Step 2: Get components from PyPI
     packages = get_all_packages()
@@ -286,9 +292,9 @@ def get_components():
                 if status_code != 404:
                     # st.expander("show html").code(res.text)
 
-                    if not p in components:
-                        components[p] = Component(name=p)
-                    c = components[p]
+                    if not p in components_dict:
+                        components_dict[p] = Component(name=p)
+                    c = components_dict[p]
 
                     if not c.package:
                         c.package = p
@@ -340,7 +346,7 @@ def get_components():
     # Package name might also be easy but should check that there's at least some overlap to repo name, to make sure this isn't another package.
 
     # Step 3: Enrich info of components found above
-    for c in stqdm(components.values(), desc="🔍 Enriching component info"):
+    for c in stqdm(components_dict.values(), desc="🔍 Enriching component info"):
 
         # Try to get Github URL by combining PyPI author name + package name.
         if c.github is None and c.package and c.pypi_author:
@@ -362,9 +368,12 @@ def get_components():
         if c.github is not None:
             # print(c.github)
             c.github_author = re.search("github.com/(.*?)/", c.github).group(1)
-            c.stars, c.github_description, c.avatar = get_stars_and_description(
-                c.github
-            )
+            (
+                c.stars,
+                c.github_description,
+                c.avatar,
+                c.created_at,
+            ) = get_github_info(c.github)
 
             c.image_url, readme_description, demo_url = parse_github_readme(
                 c.github
@@ -393,20 +402,54 @@ def get_components():
     for name in EXCLUDE:
 
         try:
-            del components[name]
+            del components_dict[name]
         except KeyError:
             pass
 
     # Sort by Github stars
-    components_list = sorted(
-        components.values(),
-        key=lambda c: (
-            c.stars if c.stars is not None else 0,
-            c.image_url is not None,  # items with image first
-        ),
-        reverse=True,
-    )
-    return components_list
+    # components_list = sorted(
+    #     components.values(),
+    #     key=lambda c: (
+    #         c.stars if c.stars is not None else 0,
+    #         c.image_url is not None,  # items with image first
+    #     ),
+    #     reverse=True,
+    # )
+
+    # Sort by creation date (note that this is only available if github repo is known!)
+    # components_list = sorted(
+    #     components.values(),
+    #     key=lambda c: (
+    #         c.created_at if c.created_at is not None else datetime.datetime(1970, 1, 1),
+    #         c.image_url is not None,  # items with image first
+    #     ),
+    #     reverse=True,
+    # )
+    return list(components_dict.values())
+
+
+@st.experimental_memo(show_spinner=False)
+def sort_components(components: list, by):
+    if by == "⭐️ Stars":
+        return sorted(
+            components,
+            key=lambda c: (
+                c.stars if c.stars is not None else 0,
+                c.image_url is not None,  # items with image first
+            ),
+            reverse=True,
+        )
+    elif by == "🐣 Newest":
+        return sorted(
+            components,
+            key=lambda c: (
+                c.created_at if c.created_at is not None else datetime(1970, 1, 1),
+                c.image_url is not None,  # items with image first
+            ),
+            reverse=True,
+        )
+    else:
+        raise ValueError("`by` must be either 'Stars' or 'Newest'")
 
 
 # @st.experimental_memo
@@ -497,6 +540,7 @@ All components are automatically crawled from [PyPI](https://pypi.org/) and the
 The metadata is coming from Github.
 """
 )
+components = sort_components(components, sorting)
 show_components(components, search)
 
 
