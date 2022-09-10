@@ -363,17 +363,18 @@ def show_components(components, search):
             with col:
                 if c.image_url is not None:
                     img_path = c.image_url
-                elif c.demo is not None:
-                    screenshot_dir = Path("screenshots")
-                    screenshot_dir.mkdir(exist_ok=True, parents=True)
-                    escaped_screenshot_url = (
-                        c.demo.replace("https://", "")
-                        .replace("/", "_")
-                        .replace(".", "_")
-                    )
-                    img_path = screenshot_dir / f"{escaped_screenshot_url}.png"
-                    if not img_path.exists():
-                        save_screenshot(c.demo, img_path, sleep=15)
+                # TODO: This doesn't work on Cloud, disabling for now. 
+                # elif c.demo is not None:
+                #     screenshot_dir = Path("screenshots")
+                #     screenshot_dir.mkdir(exist_ok=True, parents=True)
+                #     escaped_screenshot_url = (
+                #         c.demo.replace("https://", "")
+                #         .replace("/", "_")
+                #         .replace(".", "_")
+                #     )
+                #     img_path = screenshot_dir / f"{escaped_screenshot_url}.png"
+                #     if not img_path.exists():
+                #         save_screenshot(c.demo, img_path, sleep=15)
                 else:
                     img_path = "default_image.png"
 
