@@ -52,7 +52,7 @@ icon("🧩")
 description = st.empty()
 col1, col2 = st.columns([2, 1])
 # with col1:
-search = st_keyup("Search", debounce=50)
+search = st_keyup("Search", debounce=200)
 # with col2:
 #     st.selectbox("Sort by", ["Github stars", "Newest"], disabled=True)
 st.write("")
