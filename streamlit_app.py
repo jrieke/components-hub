@@ -52,7 +52,13 @@ icon("🧩")
 description = st.empty()
 col1, col2 = st.columns([2, 1])
 # with col1:
-search = st_keyup("Search", debounce=200)
+# search = st_keyup("Search", debounce=200)
+search = col1.text_input("Search")
+package_manager = col2.selectbox("Your package manager", ["pip", "pipenv", "poetry"])
+if package_manager == "pip" or package_manager == "pipenv":
+    install_command = package_manager + " install"
+elif package_manager == "poetry":
+    install_command =  "poetry add"
 # with col2:
 #     st.selectbox("Sort by", ["Github stars", "Newest"], disabled=True)
 st.write("")
@@ -467,7 +473,7 @@ def show_components(components, search):
                 elif c.pypi_description:
                     st.write(c.pypi_description)
                 if c.package:
-                    st.code(f"pip install {c.package}")
+                    st.code(f"{install_command} {c.package}")
                 formatted_links = []
                 if c.github:
                     formatted_links.append(f"[GitHub]({c.github})")
