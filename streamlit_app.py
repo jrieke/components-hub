@@ -15,11 +15,14 @@ st.set_page_config("Streamlit Components Hub", "🧩", layout="wide")
 NUM_COLS = 4
 
 EXCLUDE = [
+    "streamlit",
+    "streamlit-nightly",
     "streamlit-fesion",
     "streamlit-aggrid-pro",
     "st-dbscan",
     "st-kickoff",
     "st-undetected-chromedriver",
+    "st-package-reviewer",
 ]
 
 
@@ -51,6 +54,8 @@ col1, col2 = st.columns([2, 1])
 search = st_keyup("Search", debounce=50)
 # with col2:
 #     st.selectbox("Sort by", ["Github stars", "Newest"], disabled=True)
+st.write("")
+st.write("")
 
 
 @st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
@@ -85,12 +90,12 @@ def get_stars_and_description(url):
     )
 
 
-@st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
-def get_github_image(url):
+# @st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
+def parse_github_readme(url):
     """get the image url from the github readme"""
     status_code, text = get(url)
     if status_code == 404:
-        return None
+        return None, None
     elif status_code != 200:
         raise RuntimeError(
             f"Couldn't get Github page, status code {status_code} for url: {url}"
@@ -100,7 +105,9 @@ def get_github_image(url):
     # st.expander("Show HTML").code(response.text)
     readme = soup.find(id="readme")
     if readme is None:
-        return None
+        return None, None
+
+    # Find first image that's not a badge or logo.
     images = readme.find_all("img")
 
     def is_no_badge(img):
@@ -116,12 +123,23 @@ def get_github_image(url):
 
     images = list(filter(is_no_badge, images))
     if not images:
-        return None
+        image_url = None
     else:
-        src = images[0]["src"]
-        if src.startswith("/"):
-            src = "https://github.com" + src
-        return src
+        image_url = images[0]["src"]
+        if image_url.startswith("/"):
+            image_url = "https://github.com" + image_url
+
+    # Find text in first paragraph.
+    description = None
+    paragraphs = readme.find_all("p")
+    for p in paragraphs:
+        text = p.text.strip()
+        if text:
+            description = text.replace("\n", "")
+            break
+
+    # print("func", image_url, description)
+    return image_url, description
 
 
 async def _save_screenshot(
@@ -248,42 +266,45 @@ def get_components():
                 status_code, text = get(url)
                 if status_code != 404:
                     # st.expander("show html").code(res.text)
-                    soup = BeautifulSoup(text, "html.parser")
-                    try:
-                        homepage = str(soup.find("i", class_="fas fa-home").parent["href"])
-                    except AttributeError:
-                        homepage = ""
-                    pypi_author = soup.find(
-                        "span", class_="sidebar-section__user-gravatar-text"
-                    ).text.strip()
 
-                    if (
-                        "github.com" in homepage
-                    ):  # and requests.get(homepage).status_code != 404
-                        github = homepage
-                    else:
-                        github = None
+                    if not p in components:
+                        components[p] = Component(name=p)
+                    c = components[p]
 
-                    try:
+                    if not c.package:
+                        c.package = p
+                    if not c.pypi:
+                        c.pypi = url
 
-                        c = components[p]
-                        if not c.package:
-                            c.package = p
-                        if not c.pypi:
-                            c.pypi = url
-                        if not c.github:
-                            c.github = github
+                    if not c.pypi_author or not c.github:
+                        soup = BeautifulSoup(text, "html.parser")
+
                         if not c.pypi_author:
+                            pypi_author = soup.find(
+                                "span", class_="sidebar-section__user-gravatar-text"
+                            ).text.strip()
                             c.pypi_author = pypi_author
-                    except KeyError:
-                        c = Component(
-                            name=p,
-                            package=p,
-                            pypi=url,
-                            github=github,
-                            pypi_author=pypi_author,
-                        )
-                        components[p] = c
+
+                        if not c.github:
+                            homepage = soup.find("i", class_="fas fa-home")
+                            if homepage and "github.com" in homepage.parent["href"]:
+                                c.github = homepage.parent["href"]
+                                print("found github link from homepage link:", c.github)
+                            else:
+                                sidebar_links = soup.find_all(
+                                    "a",
+                                    class_="vertical-tabs__tab vertical-tabs__tab--with-icon vertical-tabs__tab--condensed",
+                                )
+                                for l in sidebar_links:
+                                    if "github.com" in l["href"]:
+                                        c.github = l["href"]
+                                        print(
+                                            "found github link from sidebar link:",
+                                            c.github,
+                                        )
+                                        break
+                        
+                        
 
     # TODO: Could also find github + demo app + package name in the blog post or on github is nothing else is given.
     # At least getting demo app from github should be very easy, either from URL field or from readme text.
@@ -303,10 +324,10 @@ def get_components():
             )
             if status_code == 200:
                 c.github = f"https://github.com/{c.pypi_author}/{c.package}"
-                print(
-                    "found github page by combining pypi author + package name:",
-                    c.github,
-                )
+                # print(
+                #     "found github page by combining pypi author + package name:",
+                #     c.github,
+                # )
 
         # st.write(c)
         if c.github is not None:
@@ -315,7 +336,11 @@ def get_components():
             c.stars, c.github_description, c.avatar = get_stars_and_description(
                 c.github
             )
-            c.image_url = get_github_image(c.github)  # this can also return None!
+
+            c.image_url, readme_description = parse_github_readme(c.github)  # this can also return None!
+            if not c.github_description:
+                print("found description from github readme")
+                c.github_description = readme_description
 
         # TODO: Can get rid of this by just looking below if image_url is set,
         # and if not, screenshot the demo url.
@@ -331,6 +356,7 @@ def get_components():
 
     # Exclude some manually defined components
     for name in EXCLUDE:
+
         try:
             del components[name]
         except KeyError:
@@ -363,7 +389,7 @@ def show_components(components, search):
             with col:
                 if c.image_url is not None:
                     img_path = c.image_url
-                # TODO: This doesn't work on Cloud, disabling for now. 
+                # TODO: This doesn't work on Cloud, disabling for now.
                 # elif c.demo is not None:
                 #     screenshot_dir = Path("screenshots")
                 #     screenshot_dir.mkdir(exist_ok=True, parents=True)
@@ -424,11 +450,9 @@ components = get_components()
 description.write(
     f"""
 Discover {len(components)} Streamlit components!
-All components are automatically crawled from [PyPI](https://pypi.org/) and the 
-[forum](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634). 
+All components are automatically crawled from [PyPI](https://pypi.org/) and the
+[forum](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634).
 The metadata is coming from Github.
 """
 )
-st.write("")
-st.write("")
 show_components(components, search)
