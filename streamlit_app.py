@@ -96,7 +96,7 @@ def parse_github_readme(url):
     """get the image url from the github readme"""
     status_code, text = get(url)
     if status_code == 404:
-        return None, None
+        return None, None, None
     elif status_code != 200:
         raise RuntimeError(
             f"Couldn't get Github page, status code {status_code} for url: {url}"
@@ -106,7 +106,7 @@ def parse_github_readme(url):
     # st.expander("Show HTML").code(response.text)
     readme = soup.find(id="readme")
     if readme is None:
-        return None, None
+        return None, None, None
 
     # Find first image that's not a badge or logo.
     images = readme.find_all("img")
@@ -134,14 +134,24 @@ def parse_github_readme(url):
     # Find text in first paragraph.
     description = None
     paragraphs = readme.find_all("p")
-    for p in paragraphs:
-        text = p.text.strip().replace("\n", "")
-        if text:
-            description = text
+    for paragraph in paragraphs:
+        clean_paragraph = paragraph.text.replace("\n", "").strip()
+        if clean_paragraph:
+            description = clean_paragraph
             break
 
+    # Find link to demo app.
+    # TODO: Should only do this if demo app is not known yet. 
+    try:
+        demo_url = soup.find("a", href=re.compile("share\.streamlit\.io/+"))["href"]
+    except TypeError:
+        try:
+            demo_url = soup.find("a", href=re.compile("\.streamlitapp\.com"))["href"]
+        except TypeError:
+            demo_url = None
+
     # print("func", image_url, description)
-    return image_url, description
+    return image_url, description, demo_url
 
 
 async def _save_screenshot(
@@ -292,7 +302,7 @@ def get_components():
                             homepage = soup.find("i", class_="fas fa-home")
                             if homepage and "github.com" in homepage.parent["href"]:
                                 c.github = homepage.parent["href"]
-                                print("found github link from homepage link:", c.github)
+                                # print("found github link from homepage link:", c.github)
                             else:
                                 sidebar_links = soup.find_all(
                                     "a",
@@ -301,10 +311,10 @@ def get_components():
                                 for l in sidebar_links:
                                     if "github.com" in l["href"]:
                                         c.github = l["href"]
-                                        print(
-                                            "found github link from sidebar link:",
-                                            c.github,
-                                        )
+                                        # print(
+                                        #     "found github link from sidebar link:",
+                                        #     c.github,
+                                        # )
                                         break
 
                         # TODO: Maybe do this outside of the if?
@@ -350,12 +360,15 @@ def get_components():
                 c.github
             )
 
-            c.image_url, readme_description = parse_github_readme(
+            c.image_url, readme_description, demo_url = parse_github_readme(
                 c.github
             )  # this can also return None!
-            if not c.github_description:
-                print("found description from github readme")
+            if not c.github_description and readme_description:
+                # print("found description in github readme")
                 c.github_description = readme_description
+            if not c.demo and demo_url:
+                print("found demo url in github readme", demo_url)
+                c.demo = demo_url
 
         # TODO: Can get rid of this by just looking below if image_url is set,
         # and if not, screenshot the demo url.
@@ -479,3 +492,31 @@ The metadata is coming from Github.
 """
 )
 show_components(components, search)
+
+
+# status_code, text = get("https://github.com/explosion/spacy-streamlit")
+# text = '<a href="/Wauplin/streamlit-sync/blob/main/toy_example.py">./toy_example.py</a>. <a href="https://sd.streamlitapp.com/wauplin/streamlit-sync/main/toy_example.py">sd</a>'
+# try:
+#     # Search for share.streamlit.io url# (?:https://|http://|)
+#     match = re.search('href="(.*share\.streamlit\.io/.+?)"', text)
+#     demo_url = match.group(1)
+#     print("found demo url!", demo_url)
+# except AttributeError:
+#     # Search for streamlitapp.com url.
+#     try:
+#         match = re.search(r'href="(.*?\.streamlitapp\.com.*?)"', text)
+#         demo_url = match.group(1)
+#     except AttributeError:
+#         demo_url = None
+
+# soup = BeautifulSoup(text, "html.parser")
+# start_time = time.time()
+# try:
+#     demo_url = soup.find("a", href=re.compile("share\.streamlit\.io"))["href"]
+# except TypeError:
+#     try:
+#         demo_url = soup.find("a", href=re.compile("\.streamlitapp\.com"))["href"]
+#     except TypeError:
+#         demo_url = None
+# st.write(demo_url)
+# st.write(time.time() - start_time)
