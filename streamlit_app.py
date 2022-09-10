@@ -23,6 +23,7 @@ EXCLUDE = [
     "st-kickoff",
     "st-undetected-chromedriver",
     "st-package-reviewer",
+    "streamlit-webcam-example"
 ]
 
 
@@ -119,6 +120,7 @@ def parse_github_readme(url):
             or "buymeacoffee" in srcs
             or "ko-fi" in srcs
             or "logo" in srcs
+            or "streamlit-mark" in srcs
         )
 
     images = list(filter(is_no_badge, images))
