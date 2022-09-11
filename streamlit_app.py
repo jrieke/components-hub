@@ -148,6 +148,7 @@ def parse_github_readme(url):
             or "ko-fi" in srcs
             or "logo" in srcs
             or "streamlit-mark" in srcs
+            or "coverage" in srcs
         )
 
     images = list(filter(is_no_badge, images))
@@ -546,7 +547,7 @@ def show_components(components, search):
                 elif c.pypi_description:
                     st.write(c.pypi_description)
                 if c.package:
-                    st.code(f"{install_command} {c.package}")
+                    st.code(f"{install_command} {c.package}", None)
                 formatted_links = []
                 if c.github:
                     formatted_links.append(f"[GitHub]({c.github})")
