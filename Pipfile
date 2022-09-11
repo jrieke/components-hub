@@ -6,10 +6,8 @@ name = "pypi"
 [packages]
 streamlit = "*"
 beautifulsoup4 = "*"
-pyppeteer = "*"
-streamlit-keyup = "*"
 stqdm = "*"
-pypi-simple = "*"
+pypistats = "*"
 
 [dev-packages]
 watchdog = "*"
