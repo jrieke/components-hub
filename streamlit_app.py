@@ -4,6 +4,7 @@ import time
 from dataclasses import dataclass
 from datetime import datetime
 
+import httpx
 import pypistats
 import requests
 import streamlit as st
@@ -70,7 +71,7 @@ col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
-sorting = col2.selectbox("Sorting", ["⬇️ Downloads last month", "⭐️ Stars", "🐣 Newest"])
+sorting = col2.selectbox("Sorting", ["⬇️ Downloads last month", "⭐️ Stars", "🐣 Newest")
 package_manager = col3.selectbox("Install command", ["pip", "pipenv", "poetry"])
 if package_manager == "pip" or package_manager == "pipenv":
     install_command = package_manager + " install"
@@ -254,7 +255,11 @@ def get_all_packages():
 
 @st.experimental_memo(ttl=24*3600, persist="disk", show_spinner=False)
 def get_downloads(package):
-    downloads = pypistats.recent(package, "month", format="pandas")["last_month"][0]#.iloc[-1]["downloads"]
+    try:
+        downloads = pypistats.recent(package, "month", format="pandas")["last_month"][0]#.iloc[-1]["downloads"]
+    except httpx.HTTPStatusError:
+        time.sleep(10)
+        downloads = pypistats.recent(package, "month", format="pandas")["last_month"][0]#.iloc[-1]["downloads"]
     time.sleep(0.1)  # don't get rate-limited
     return downloads
 
