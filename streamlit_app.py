@@ -36,6 +36,9 @@ EXCLUDE = [
     "st-git-hooks",
     "st-schema",
     "st-distributions",
+    "st-common-data",
+    "awesome-streamlit",
+    "awesome-streamlit-master",
 ]
 
 
@@ -67,7 +70,7 @@ col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "button"')
-sorting = col2.selectbox("Sorting", ["⭐️ Stars", "🐣 Newest", "⬇️ Downloads"])
+sorting = col2.selectbox("Sorting", ["⬇️ Downloads last month", "⭐️ Stars", "🐣 Newest"])
 package_manager = col3.selectbox("Install command", ["pip", "pipenv", "poetry"])
 if package_manager == "pip" or package_manager == "pipenv":
     install_command = package_manager + " install"
@@ -242,11 +245,17 @@ def get_all_packages():
     packages = [
         a.text
         for a in soup.find_all("a")
-        if a.text.startswith("streamlit")
+        if ("streamlit" in a.text
         or a.text.startswith("st-")
-        or a.text.startswith("st_")
+        or a.text.startswith("st_")) and a.text not in EXCLUDE
     ]
     return packages
+
+@st.experimental_memo(ttl=24*3600, persist="disk", show_spinner=False)
+def get_downloads(package):
+    downloads = pypistats.recent(package, "month", format="pandas")["last_month"][0]#.iloc[-1]["downloads"]
+    time.sleep(0.1)  # don't get rate-limited
+    return downloads
 
 
 @st.experimental_memo(ttl=24 * 3600, show_spinner=False)
@@ -307,6 +316,9 @@ def get_components():
     # TODO: This could be wrapped in memo as well.
     for p in stqdm(packages, desc="📦 Crawling PyPI (step 3/4)"):
         # if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
+        
+        # TODO: There's a JSON API to do this: https://pypi.org/pypi/<package>/json
+        
         url = f"https://pypi.org/project/{p}/"
         status_code, text = get(url)
         if status_code != 404:
@@ -416,7 +428,8 @@ def get_components():
         
         # Get download numbers from PyPI
         if c.package:
-            c.downloads = pypistats.overall(c.package, format="pandas").iloc[-1]["downloads"]
+            c.downloads = get_downloads(c.package)
+            
 
         c.search_text = (
             str(c.name)
@@ -428,32 +441,13 @@ def get_components():
         
 
     # Exclude some manually defined components
-    for name in EXCLUDE:
+    # for name in EXCLUDE:
 
-        try:
-            del components_dict[name]
-        except KeyError:
-            pass
+    #     try:
+    #         del components_dict[name]
+    #     except KeyError:
+    #         pass
 
-    # Sort by Github stars
-    # components_list = sorted(
-    #     components.values(),
-    #     key=lambda c: (
-    #         c.stars if c.stars is not None else 0,
-    #         c.image_url is not None,  # items with image first
-    #     ),
-    #     reverse=True,
-    # )
-
-    # Sort by creation date (note that this is only available if github repo is known!)
-    # components_list = sorted(
-    #     components.values(),
-    #     key=lambda c: (
-    #         c.created_at if c.created_at is not None else datetime.datetime(1970, 1, 1),
-    #         c.image_url is not None,  # items with image first
-    #     ),
-    #     reverse=True,
-    # )
     return list(components_dict.values())
 
 
@@ -479,7 +473,7 @@ def sort_components(components: list, by):
             ),
             reverse=True,
         )
-    elif by == "⬇️ Downloads":
+    elif by == "⬇️ Downloads last month":
         return sorted(
             components,
             key=lambda c: (
@@ -583,6 +577,8 @@ and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-co
 components = sort_components(components, sorting)
 show_components(components, search)
 
+# downloads = pypistats.recent("streamlit-image-select", "month", format="pandas")["last_month"][0]#.iloc[-1]["downloads"]
+# st.write(downloads)
 
 # status_code, text = get("https://pypi.org/project/st-searchbar/")
 # soup = BeautifulSoup(text, "html.parser")
