@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from st_keyup import st_keyup
 from stqdm import stqdm
 
-st.set_page_config("Streamlit Components Hub", "🧩", layout="wide")
+st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
 NUM_COLS = 4
 
 EXCLUDE = [
@@ -48,7 +48,7 @@ st.write(
 #     unsafe_allow_html=True,
 # )
 
-icon("🧩")
+icon("🎪")
 """
 # Streamlit Components Hub
 """
@@ -294,6 +294,7 @@ def get_components():
         packages = get_all_packages()
 
     # with st.spinner("Parsing PyPI packages"):
+    # TODO: This could be wrapped in memo as well. 
     for p in stqdm(packages, desc="📦 Crawling PyPI (step 3/4)"):
         # if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
         url = f"https://pypi.org/project/{p}/"
