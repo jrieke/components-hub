@@ -3,13 +3,11 @@ import re
 import time
 from dataclasses import dataclass
 from datetime import datetime
-from pathlib import Path
 
-import pyppeteer
+import pypistats
 import requests
 import streamlit as st
 from bs4 import BeautifulSoup
-from st_keyup import st_keyup
 from stqdm import stqdm
 
 st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
@@ -69,7 +67,7 @@ col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "button"')
-sorting = col2.selectbox("Sorting", ["⭐️ Stars", "🐣 Newest"])
+sorting = col2.selectbox("Sorting", ["⭐️ Stars", "🐣 Newest", "⬇️ Downloads"])
 package_manager = col3.selectbox("Install command", ["pip", "pipenv", "poetry"])
 if package_manager == "pip" or package_manager == "pipenv":
     install_command = package_manager + " install"
@@ -178,32 +176,32 @@ def parse_github_readme(url):
     return image_url, description, demo_url
 
 
-async def _save_screenshot(
-    url: str, img_path: str, sleep: int = 5, width: int = 1024, height: int = 576
-) -> None:
-    browser = await pyppeteer.launch(
-        {"args": ["--no-sandbox"]},
-        handleSIGINT=False,
-        handleSIGTERM=False,
-        handleSIGHUP=False,
-    )
-    page = await browser.newPage()
-    await page.goto(url, {"timeout": 6000})  # increase timeout to 60 s for heroku apps
-    await page.emulate({"viewport": {"width": width, "height": height}})
-    time.sleep(sleep)
-    # Type (PNG or JPEG) will be inferred from file ending.
-    await page.screenshot({"path": img_path})
-    await browser.close()
+# async def _save_screenshot(
+#     url: str, img_path: str, sleep: int = 5, width: int = 1024, height: int = 576
+# ) -> None:
+#     browser = await pyppeteer.launch(
+#         {"args": ["--no-sandbox"]},
+#         handleSIGINT=False,
+#         handleSIGTERM=False,
+#         handleSIGHUP=False,
+#     )
+#     page = await browser.newPage()
+#     await page.goto(url, {"timeout": 6000})  # increase timeout to 60 s for heroku apps
+#     await page.emulate({"viewport": {"width": width, "height": height}})
+#     time.sleep(sleep)
+#     # Type (PNG or JPEG) will be inferred from file ending.
+#     await page.screenshot({"path": img_path})
+#     await browser.close()
 
 
-def save_screenshot(
-    url: str, img_path: str, sleep: int = 5, width: int = 1024, height: int = 576
-):
-    asyncio.run(
-        _save_screenshot(
-            url=url, img_path=img_path, sleep=sleep, width=width, height=height
-        )
-    )
+# def save_screenshot(
+#     url: str, img_path: str, sleep: int = 5, width: int = 1024, height: int = 576
+# ):
+#     asyncio.run(
+#         _save_screenshot(
+#             url=url, img_path=img_path, sleep=sleep, width=width, height=height
+#         )
+#     )
 
 
 def chunks(lst, n):
@@ -233,6 +231,7 @@ class Component:
     github_author: str = None
     pypi_author: str = None
     created_at: datetime = None
+    downloads: int = None
 
 
 @st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
@@ -414,6 +413,10 @@ def get_components():
         # and if not, screenshot the demo url.
         # if c.image_url is None and c.demo is not None:
         #     c.screenshot_url = c.demo
+        
+        # Get download numbers from PyPI
+        if c.package:
+            c.downloads = pypistats.overall(c.package, format="pandas").iloc[-1]["downloads"]
 
         c.search_text = (
             str(c.name)
@@ -422,6 +425,7 @@ def get_components():
             + str(c.github_author)
             + str(c.package)
         )
+        
 
     # Exclude some manually defined components
     for name in EXCLUDE:
@@ -471,6 +475,15 @@ def sort_components(components: list, by):
             components,
             key=lambda c: (
                 c.created_at if c.created_at is not None else datetime(1970, 1, 1),
+                c.image_url is not None,  # items with image first
+            ),
+            reverse=True,
+        )
+    elif by == "⬇️ Downloads":
+        return sorted(
+            components,
+            key=lambda c: (
+                c.downloads if c.downloads is not None else 0,
                 c.image_url is not None,  # items with image first
             ),
             reverse=True,
@@ -577,3 +590,4 @@ show_components(components, search)
 # if summary and summary.text and summary.text != "No project description provided":
 #     print("found summary description on pypi:", summary.text)
 # print(summary)
+
