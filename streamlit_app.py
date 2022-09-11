@@ -36,7 +36,8 @@ EXCLUDE = [
     "st-jsme",
     "st-parsetree",
     "st-git-hooks",
-    
+    "st-schema",
+    "st-distributions",
 ]
 
 
@@ -299,11 +300,11 @@ def get_components():
         else:
             components_dict[c.name] = c
 
-    # Step 2: Get components from PyPI
+    # Step 2: Download PyPI index
     with st.spinner("⬇️ Downloading PyPI index (step 2/4)"):
         packages = get_all_packages()
 
-    # with st.spinner("Parsing PyPI packages"):
+    # Step 3: Search through PyPI packages
     # TODO: This could be wrapped in memo as well.
     for p in stqdm(packages, desc="📦 Crawling PyPI (step 3/4)"):
         # if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
@@ -350,20 +351,26 @@ def get_components():
                                 break
 
                 # TODO: Maybe do this outside of the if?
-                project_description = soup.find("div", class_="project-description")
-                if project_description:
-                    paragraphs = project_description.find_all("p")
-                    for p in paragraphs:
-                        text = p.text.replace("\n", "").strip()
-                        if text:
-                            c.pypi_description = text
-                            break
+                summary = soup.find("p", class_="package-description__summary")
+                if (
+                    summary
+                    and summary.text
+                    and summary.text != "No project description provided"
+                ):
+                    print("found summary description on pypi:", summary.text)
+                    c.pypi_description = summary.text
+                else:
+                    # Search for first non-empty paragraph.
+                    project_description = soup.find("div", class_="project-description")
+                    if project_description:
+                        paragraphs = project_description.find_all("p")
+                        for p in paragraphs:
+                            text = p.text.replace("\n", "").strip()
+                            if text:
+                                c.pypi_description = text
+                                break
 
-    # TODO: Could also find github + demo app + package name in the blog post or on github is nothing else is given.
-    # At least getting demo app from github should be very easy, either from URL field or from readme text.
-    # Package name might also be easy but should check that there's at least some overlap to repo name, to make sure this isn't another package.
-
-    # Step 3: Enrich info of components found above
+    # Step 4: Enrich info of components found above by reading data from Github
     for c in stqdm(components_dict.values(), desc="👾 Crawling Github (step 4/4)"):
 
         # Try to get Github URL by combining PyPI author name + package name.
@@ -400,7 +407,7 @@ def get_components():
                 # print("found description in github readme")
                 c.github_description = readme_description
             if not c.demo and demo_url:
-                print("found demo url in github readme", demo_url)
+                # print("found demo url in github readme", demo_url)
                 c.demo = demo_url
 
         # TODO: Can get rid of this by just looking below if image_url is set,
@@ -564,29 +571,9 @@ components = sort_components(components, sorting)
 show_components(components, search)
 
 
-# status_code, text = get("https://github.com/explosion/spacy-streamlit")
-# text = '<a href="/Wauplin/streamlit-sync/blob/main/toy_example.py">./toy_example.py</a>. <a href="https://sd.streamlitapp.com/wauplin/streamlit-sync/main/toy_example.py">sd</a>'
-# try:
-#     # Search for share.streamlit.io url# (?:https://|http://|)
-#     match = re.search('href="(.*share\.streamlit\.io/.+?)"', text)
-#     demo_url = match.group(1)
-#     print("found demo url!", demo_url)
-# except AttributeError:
-#     # Search for streamlitapp.com url.
-#     try:
-#         match = re.search(r'href="(.*?\.streamlitapp\.com.*?)"', text)
-#         demo_url = match.group(1)
-#     except AttributeError:
-#         demo_url = None
-
+# status_code, text = get("https://pypi.org/project/st-searchbar/")
 # soup = BeautifulSoup(text, "html.parser")
-# start_time = time.time()
-# try:
-#     demo_url = soup.find("a", href=re.compile("share\.streamlit\.io"))["href"]
-# except TypeError:
-#     try:
-#         demo_url = soup.find("a", href=re.compile("\.streamlitapp\.com"))["href"]
-#     except TypeError:
-#         demo_url = None
-# st.write(demo_url)
-# st.write(time.time() - start_time)
+# summary = soup.find("p", class_="package-description__summary")
+# if summary and summary.text and summary.text != "No project description provided":
+#     print("found summary description on pypi:", summary.text)
+# print(summary)
