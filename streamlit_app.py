@@ -27,6 +27,16 @@ EXCLUDE = [
     "streamlit-webcam-example",
     "st-pyv8",
     "streamlit-extras-arnaudmiribel",
+    "st-schema-python",
+    "st-optics",
+    "st-spin",
+    "st-dataprovider",
+    "st-microservice",
+    "st_nester",
+    "st-jsme",
+    "st-parsetree",
+    "st-git-hooks",
+    
 ]
 
 
@@ -294,7 +304,7 @@ def get_components():
         packages = get_all_packages()
 
     # with st.spinner("Parsing PyPI packages"):
-    # TODO: This could be wrapped in memo as well. 
+    # TODO: This could be wrapped in memo as well.
     for p in stqdm(packages, desc="📦 Crawling PyPI (step 3/4)"):
         # if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
         url = f"https://pypi.org/project/{p}/"
@@ -448,6 +458,8 @@ def sort_components(components: list, by):
             reverse=True,
         )
     elif by == "🐣 Newest":
+        # TODO: This only works for components that have a Github link because we pull
+        # the created_at date from Github. Make this work with the release date on PyPI.
         return sorted(
             components,
             key=lambda c: (
@@ -544,9 +556,8 @@ components = get_components()
 description.write(
     f"""
 Discover {len(components)} Streamlit components!
-All components are automatically crawled from [PyPI](https://pypi.org/) and the
-[forum](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634).
-The metadata is coming from Github.
+All information on this page is automatically crawled from Github, PyPI, 
+and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634).
 """
 )
 components = sort_components(components, sorting)
