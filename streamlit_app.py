@@ -119,6 +119,7 @@ def get_github_info(url):
 @st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
 def parse_github_readme(url):
     """get the image url from the github readme"""
+    # TODO: Could do this by getting the raw readme file and not the rendered page. 
     status_code, text = get(url)
     if status_code == 404:
         return None, None, None
