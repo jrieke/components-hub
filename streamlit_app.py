@@ -374,7 +374,7 @@ def get_components():
                     and summary.text
                     and summary.text != "No project description provided"
                 ):
-                    print("found summary description on pypi:", summary.text)
+                    # print("found summary description on pypi:", summary.text)
                     c.pypi_description = summary.text
                 else:
                     # Search for first non-empty paragraph.
@@ -391,23 +391,27 @@ def get_components():
     for c in stqdm(components_dict.values(), desc="👾 Crawling Github (step 4/4)"):
 
         # Try to get Github URL by combining PyPI author name + package name.
-        if c.github is None and c.package and c.pypi_author:
-            status_code, text = get(
-                f"https://api.github.com/repos/{c.pypi_author}/{c.package}",
-                headers={
-                    "Accept": "application/vnd.github.v3+json",
-                    "Authorization": f"Token {st.secrets.gh_token}",
-                },
-            )
-            if status_code == 200:
-                c.github = f"https://github.com/{c.pypi_author}/{c.package}"
-                # print(
-                #     "found github page by combining pypi author + package name:",
-                #     c.github,
-                # )
+        if not c.github and c.package and c.pypi_author:
+            possible_repo_names = [c.package]
+            if "-" in c.package:
+                # Sometimes, package names contain "-"" but repos "_", so check for these 
+                # mutations as well. 
+                possible_repo_names.append(c.package.replace("-", "_"))
+            for repo in possible_repo_names:
+                status_code, text = get(
+                    f"https://api.github.com/repos/{c.pypi_author}/{repo}",
+                    headers={
+                        "Accept": "application/vnd.github.v3+json",
+                        "Authorization": f"Token {st.secrets.gh_token}",
+                    },
+                )
+                if status_code == 200:
+                    c.github = f"https://github.com/{c.pypi_author}/{repo}"
+                    if repo != c.package:
+                        print(f"found github url by mutating package name, original: {c.package}, mutated: {repo}")
+                    break
 
-        # st.write(c)
-        if c.github is not None:
+        if c.github:
             # print(c.github)
             c.github_author = re.search("github.com/(.*?)/", c.github).group(1)
             (
@@ -417,25 +421,19 @@ def get_components():
                 c.created_at,
             ) = get_github_info(c.github)
 
-            c.image_url, readme_description, demo_url = parse_github_readme(
-                c.github
-            )  # this can also return None!
+
+            # this can also return None!
+            c.image_url, readme_description, demo_url = parse_github_readme(c.github)
             if not c.github_description and readme_description:
                 # print("found description in github readme")
                 c.github_description = readme_description
             if not c.demo and demo_url:
                 # print("found demo url in github readme", demo_url)
                 c.demo = demo_url
-
-        # TODO: Can get rid of this by just looking below if image_url is set,
-        # and if not, screenshot the demo url.
-        # if c.image_url is None and c.demo is not None:
-        #     c.screenshot_url = c.demo
         
         # Get download numbers from PyPI
         if c.package:
             c.downloads = get_downloads(c.package)
-            
 
         c.search_text = (
             str(c.name)
@@ -444,15 +442,6 @@ def get_components():
             + str(c.github_author)
             + str(c.package)
         )
-        
-
-    # Exclude some manually defined components
-    # for name in EXCLUDE:
-
-    #     try:
-    #         del components_dict[name]
-    #     except KeyError:
-    #         pass
 
     return list(components_dict.values())
 
