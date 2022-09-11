@@ -26,6 +26,7 @@ EXCLUDE = [
     "st-package-reviewer",
     "streamlit-webcam-example",
     "st-pyv8",
+    "streamlit-extras-arnaudmiribel",
 ]
 
 
@@ -52,6 +53,7 @@ icon("🧩")
 # Streamlit Components Hub
 """
 description = st.empty()
+st.write("")
 col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
@@ -222,16 +224,22 @@ class Component:
     created_at: datetime = None
 
 
-@st.experimental_memo
+@st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
 def get_all_packages():
     url = "https://pypi.org/simple/"
     status_code, text = get(url)
     soup = BeautifulSoup(text, "html.parser")
-    packages = [a.text for a in soup.find_all("a")]
+    packages = [
+        a.text
+        for a in soup.find_all("a")
+        if a.text.startswith("streamlit")
+        or a.text.startswith("st-")
+        or a.text.startswith("st_")
+    ]
     return packages
 
 
-@st.experimental_memo(ttl=3600, show_spinner=False)
+@st.experimental_memo(ttl=24 * 3600, show_spinner=False)
 def get_components():
     components_dict = {}
 
@@ -245,7 +253,7 @@ def get_components():
     soup = BeautifulSoup(text, "html.parser")
     lis = soup.find_all("ul")[3].find_all("li")
 
-    for li in stqdm(lis, desc="🔍 Crawling components"):
+    for li in stqdm(lis, desc="🎈 Crawling Streamlit forum (step 1/4)"):
 
         c = Component()
         name = re.sub("\(.*?\)", "", li.text)
@@ -282,71 +290,70 @@ def get_components():
             components_dict[c.name] = c
 
     # Step 2: Get components from PyPI
-    packages = get_all_packages()
+    with st.spinner("⬇️ Downloading PyPI index (step 2/4)"):
+        packages = get_all_packages()
 
-    with st.spinner("Parsing PyPI packages"):
-        for p in packages:
-            if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
-                url = f"https://pypi.org/project/{p}/"
-                status_code, text = get(url)
-                if status_code != 404:
-                    # st.expander("show html").code(res.text)
+    # with st.spinner("Parsing PyPI packages"):
+    for p in stqdm(packages, desc="📦 Crawling PyPI (step 3/4)"):
+        # if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
+        url = f"https://pypi.org/project/{p}/"
+        status_code, text = get(url)
+        if status_code != 404:
+            # st.expander("show html").code(res.text)
 
-                    if not p in components_dict:
-                        components_dict[p] = Component(name=p)
-                    c = components_dict[p]
+            if not p in components_dict:
+                components_dict[p] = Component(name=p)
+            c = components_dict[p]
 
-                    if not c.package:
-                        c.package = p
-                    if not c.pypi:
-                        c.pypi = url
+            if not c.package:
+                c.package = p
+            if not c.pypi:
+                c.pypi = url
 
-                    if not c.pypi_author or not c.github:
-                        soup = BeautifulSoup(text, "html.parser")
+            if not c.pypi_author or not c.github:
+                soup = BeautifulSoup(text, "html.parser")
 
-                        if not c.pypi_author:
-                            pypi_author = soup.find(
-                                "span", class_="sidebar-section__user-gravatar-text"
-                            ).text.strip()
-                            c.pypi_author = pypi_author
+                if not c.pypi_author:
+                    pypi_author = soup.find(
+                        "span", class_="sidebar-section__user-gravatar-text"
+                    ).text.strip()
+                    c.pypi_author = pypi_author
 
-                        if not c.github:
-                            homepage = soup.find("i", class_="fas fa-home")
-                            if homepage and "github.com" in homepage.parent["href"]:
-                                c.github = homepage.parent["href"]
-                                # print("found github link from homepage link:", c.github)
-                            else:
-                                sidebar_links = soup.find_all(
-                                    "a",
-                                    class_="vertical-tabs__tab vertical-tabs__tab--with-icon vertical-tabs__tab--condensed",
-                                )
-                                for l in sidebar_links:
-                                    if "github.com" in l["href"]:
-                                        c.github = l["href"]
-                                        # print(
-                                        #     "found github link from sidebar link:",
-                                        #     c.github,
-                                        # )
-                                        break
-
-                        # TODO: Maybe do this outside of the if?
-                        project_description = soup.find(
-                            "div", class_="project-description"
+                if not c.github:
+                    homepage = soup.find("i", class_="fas fa-home")
+                    if homepage and "github.com" in homepage.parent["href"]:
+                        c.github = homepage.parent["href"]
+                        # print("found github link from homepage link:", c.github)
+                    else:
+                        sidebar_links = soup.find_all(
+                            "a",
+                            class_="vertical-tabs__tab vertical-tabs__tab--with-icon vertical-tabs__tab--condensed",
                         )
-                        if project_description:
-                            paragraphs = project_description.find_all("p")
-                            for p in paragraphs:
-                                text = p.text.replace("\n", "").strip()
-                                if text:
-                                    c.pypi_description = text
-                                    break
+                        for l in sidebar_links:
+                            if "github.com" in l["href"]:
+                                c.github = l["href"]
+                                # print(
+                                #     "found github link from sidebar link:",
+                                #     c.github,
+                                # )
+                                break
+
+                # TODO: Maybe do this outside of the if?
+                project_description = soup.find("div", class_="project-description")
+                if project_description:
+                    paragraphs = project_description.find_all("p")
+                    for p in paragraphs:
+                        text = p.text.replace("\n", "").strip()
+                        if text:
+                            c.pypi_description = text
+                            break
 
     # TODO: Could also find github + demo app + package name in the blog post or on github is nothing else is given.
     # At least getting demo app from github should be very easy, either from URL field or from readme text.
     # Package name might also be easy but should check that there's at least some overlap to repo name, to make sure this isn't another package.
 
     # Step 3: Enrich info of components found above
-    for c in stqdm(components_dict.values(), desc="🔍 Enriching component info"):
+    for c in stqdm(components_dict.values(), desc="👾 Crawling Github (step 4/4)"):
 
         # Try to get Github URL by combining PyPI author name + package name.
         if c.github is None and c.package and c.pypi_author:
@@ -452,6 +459,7 @@ def sort_components(components: list, by):
         raise ValueError("`by` must be either 'Stars' or 'Newest'")
 
 
+# Can't memo-ize this right now because st.image doesn't work.
 # @st.experimental_memo
 def show_components(components, search):
     if search:
