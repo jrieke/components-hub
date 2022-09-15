@@ -67,12 +67,14 @@ icon("🎪")
 """
 description = st.empty()
 st.write("")
-col1, col2, col3 = st.columns([2, 1, 1])
+col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
 sorting = col2.selectbox("Sorting", ["⬇️ Downloads last month", "⭐️ Stars", "🐣 Newest"])
 package_manager = col3.selectbox("Install command", ["pip", "pipenv", "poetry"])
+if col4.button("♻️ Update packages"):
+    st.experimental_memo.clear()
 if package_manager == "pip" or package_manager == "pipenv":
     install_command = package_manager + " install"
 elif package_manager == "poetry":
@@ -83,13 +85,13 @@ st.write("")
 st.write("")
 
 
-@st.experimental_memo(ttl=7 * 24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get(*args, **kwargs):
     res = requests.get(*args, **kwargs)
     return res.status_code, res.text
 
 
-@st.experimental_memo(ttl=7 * 24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get_github_info(url):
     """use the github api to get the number of stars for a given repo"""
     url = url.replace("https://", "").replace("http://", "")
@@ -117,7 +119,7 @@ def get_github_info(url):
     )
 
 
-@st.experimental_memo(ttl=7 * 24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def parse_github_readme(url):
     """get the image url from the github readme"""
     # TODO: Could do this by getting the raw readme file and not the rendered page. 
@@ -240,7 +242,7 @@ class Component:
     downloads: int = None
 
 
-@st.experimental_memo(ttl=7 * 24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get_all_packages():
     url = "https://pypi.org/simple/"
     status_code, text = get(url)
@@ -265,7 +267,7 @@ def get_downloads(package):
     return downloads
 
 
-@st.experimental_memo(ttl=7 * 24 * 3600, show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, show_spinner=False)
 def get_components():
     components_dict = {}
 
