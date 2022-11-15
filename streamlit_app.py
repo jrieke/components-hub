@@ -73,6 +73,8 @@ col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
 sorting = col2.selectbox("Sorting", ["⬇️ Downloads last month", "⭐️ Stars", "🐣 Newest"])
 package_manager = col3.selectbox("Install command", ["pip", "pipenv", "poetry"])
+col4.write("")
+col4.write("")
 if col4.button("♻️ Update packages"):
     st.experimental_memo.clear()
 if package_manager == "pip" or package_manager == "pipenv":
@@ -417,12 +419,15 @@ def get_components():
         if c.github:
             # print(c.github)
             c.github_author = re.search("github.com/(.*?)/", c.github).group(1)
-            (
-                c.stars,
-                c.github_description,
-                c.avatar,
-                c.created_at,
-            ) = get_github_info(c.github)
+            try:
+                (
+                    c.stars,
+                    c.github_description,
+                    c.avatar,
+                    c.created_at,
+                ) = get_github_info(c.github)
+            except:
+                pass  # TODO: Handle this better. Sometimes Github shows 401 errors. 
 
 
             # this can also return None!
