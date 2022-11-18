@@ -8,6 +8,7 @@ streamlit = "*"
 beautifulsoup4 = "*"
 stqdm = "*"
 pypistats = "*"
+markdownlit = "*"
 
 [dev-packages]
 watchdog = "*"

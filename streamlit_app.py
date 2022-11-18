@@ -11,6 +11,7 @@ import requests
 import streamlit as st
 from bs4 import BeautifulSoup
 from stqdm import stqdm
+from markdownlit import mdlit
 
 st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
 NUM_COLS = 4
@@ -539,7 +540,7 @@ def show_components(components, search, limit=None):
                 title = f"#### {c.name}"
                 if c.stars:
                     title += f" ({c.stars} ⭐️)"
-                print(title)
+                # print(title)
                 st.write(title)
                 if c.avatar:
                     avatar_path = c.avatar
@@ -573,15 +574,24 @@ def show_components(components, search, limit=None):
                     st.code(f"{install_command} {c.package}", None)
                 formatted_links = []
                 if c.github:
-                    formatted_links.append(f"[GitHub]({c.github})")
+                    # formatted_links.append(mention("Github", c.github, icon="github", write=False))
+                    #formatted_links.append(f"[GitHub]({c.github})")
+                    formatted_links.append(f"@(GitHub)({c.github})")
                 if c.demo:
-                    formatted_links.append(f"[Demo]({c.demo})")
+                    # formatted_links.append(mention("Demo", c.demo, icon="🎈", write=False))
+                    # formatted_links.append(f"[Demo]({c.demo})")
+                    formatted_links.append(f"@(🎈)(Demo)({c.demo})")
                 if c.forum_post:
-                    formatted_links.append(f"[Forum]({c.forum_post})")
+                    # formatted_links.append(f"[Forum]({c.forum_post})")
+                    # formatted_links.append(mention("Forum", c.forum_post, icon="streamlit", write=False))
+                    formatted_links.append(f"@(Forum)({c.forum_post})")
                 if c.pypi:
-                    formatted_links.append(f"[PyPI]({c.pypi})")
+                    #formatted_links.append(f"[PyPI]({c.pypi})")
+                    # formatted_links.append(mention("PyPI", c.pypi, icon="📦", write=False))
+                    formatted_links.append(f"@(📦)(PyPI)({c.pypi})")
 
-                st.write(" • ".join(formatted_links))
+                # st.write(" • ".join(formatted_links), unsafe_allow_html=True)
+                mdlit(" &nbsp;•&nbsp; ".join(formatted_links))
         st.write("---")
 
 
