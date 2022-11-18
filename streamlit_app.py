@@ -40,6 +40,7 @@ EXCLUDE = [
     "st-common-data",
     "awesome-streamlit",
     "awesome-streamlit-master",
+    "extra-streamlit-components-SEM",
 ]
 
 
