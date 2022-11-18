@@ -63,7 +63,7 @@ st.write(
 
 icon("🎪")
 """
-# Streamlit Components Tracker
+# Streamlit Components Hub
 """
 description = st.empty()
 st.write("")
