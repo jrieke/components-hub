@@ -41,6 +41,7 @@ EXCLUDE = [
     "awesome-streamlit",
     "awesome-streamlit-master",
     "extra-streamlit-components-SEM",
+    "barfi",
 ]
 
 
