@@ -71,7 +71,7 @@ col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
-sorting = col2.selectbox("Sort", ["⭐️ Stars", "⬇️ Downloads last month", "🐣 Newest"])
+sorting = col2.selectbox("Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"])
 package_manager = col3.selectbox("Install via", ["pip", "pipenv", "poetry"])
 # col4.write("")
 # col4.write("")
