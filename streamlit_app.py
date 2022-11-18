@@ -12,7 +12,7 @@ from markdownlit import mdlit
 from stqdm import stqdm
 
 st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
-NUM_COLS = 4
+NUM_COLS = 5
 
 EXCLUDE = [
     "streamlit",
