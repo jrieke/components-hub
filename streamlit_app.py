@@ -1,5 +1,3 @@
-import asyncio
-import math
 import re
 import time
 from dataclasses import dataclass
@@ -10,8 +8,8 @@ import pypistats
 import requests
 import streamlit as st
 from bs4 import BeautifulSoup
-from stqdm import stqdm
 from markdownlit import mdlit
+from stqdm import stqdm
 
 st.set_page_config("Streamlit Components Hub", "🎪", layout="centered")
 NUM_COLS = 3
@@ -575,7 +573,7 @@ def show_components(components, search, limit=None):
                 formatted_links = []
                 if c.github:
                     # formatted_links.append(mention("Github", c.github, icon="github", write=False))
-                    #formatted_links.append(f"[GitHub]({c.github})")
+                    # formatted_links.append(f"[GitHub]({c.github})")
                     formatted_links.append(f"@(GitHub)({c.github})")
                 if c.demo:
                     # formatted_links.append(mention("Demo", c.demo, icon="🎈", write=False))
@@ -586,7 +584,7 @@ def show_components(components, search, limit=None):
                     # formatted_links.append(mention("Forum", c.forum_post, icon="streamlit", write=False))
                     formatted_links.append(f"@(Forum)({c.forum_post})")
                 if c.pypi:
-                    #formatted_links.append(f"[PyPI]({c.pypi})")
+                    # formatted_links.append(f"[PyPI]({c.pypi})")
                     # formatted_links.append(mention("PyPI", c.pypi, icon="📦", write=False))
                     formatted_links.append(f"@(📦)(PyPI)({c.pypi})")
 
