@@ -522,7 +522,7 @@ def show_components(components, search):
                     img_path = "default_image.png"
 
                 st.image(str(img_path), use_column_width=True)
-                title = f"#### {c.name}"
+                title = f"### {c.name}"
                 if c.stars:
                     title += f" ({c.stars} ⭐️)"
                 st.write(title)
