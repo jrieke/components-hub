@@ -604,11 +604,11 @@ and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-co
 """
 )
 if "limit" not in st.session_state:
-    st.session_state["limit"] = 100
+    st.session_state["limit"] = 80
 
 
 def show_more():
-    st.session_state["limit"] += 50
+    st.session_state["limit"] += 40
 
 
 components = sort_components(components, sorting)
