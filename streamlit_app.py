@@ -63,20 +63,21 @@ st.write(
 
 icon("🎪")
 """
-# Streamlit Components Hub
+# Streamlit Components Tracker
 """
 description = st.empty()
 st.write("")
-col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
+#col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
+col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
 sorting = col2.selectbox("Sorting", ["⬇️ Downloads last month", "⭐️ Stars", "🐣 Newest"])
 package_manager = col3.selectbox("Install command", ["pip", "pipenv", "poetry"])
-col4.write("")
-col4.write("")
-if col4.button("♻️ Update packages"):
-    st.experimental_memo.clear()
+#col4.write("")
+#col4.write("")
+#if col4.button("♻️ Update packages"):
+#    st.experimental_memo.clear()
 if package_manager == "pip" or package_manager == "pipenv":
     install_command = package_manager + " install"
 elif package_manager == "poetry":
