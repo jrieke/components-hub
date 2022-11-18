@@ -615,7 +615,7 @@ components = sort_components(components, sorting)
 show_components(components, search, st.session_state["limit"])
 
 if len(components) > st.session_state["limit"]:
-    st.button("Show more", on_click=show_more)
+    st.button("Show more", on_click=show_more, type="primary")
 
 # cols = st.columns(5)
 # for page in range(1, 1+ math.ceil(len(components) / 100)):
