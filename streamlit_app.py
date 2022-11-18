@@ -67,7 +67,6 @@ icon("🎪")
 # Streamlit Components Hub
 """
 description = st.empty()
-st.write("")
 # col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
 col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
@@ -299,6 +298,7 @@ def get_components():
         c = Component()
         name = re.sub("\(.*?\)", "", li.text)
         name = name.split(" – ")[0]
+        name = name.strip()
         c.name = name
 
         links = [a.get("href") for a in li.find_all("a")]
@@ -536,9 +536,10 @@ def show_components(components, search, limit=None):
                     img_path = "default_image.png"
 
                 st.image(str(img_path), use_column_width=True)
-                title = f"### {c.name}"
+                title = f"#### {c.name}"
                 if c.stars:
                     title += f" ({c.stars} ⭐️)"
+                print(title)
                 st.write(title)
                 if c.avatar:
                     avatar_path = c.avatar
