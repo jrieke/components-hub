@@ -467,7 +467,7 @@ def get_components():
 
 @st.experimental_memo(show_spinner=False)
 def sort_components(components: list, by):
-    if by == "⭐️ Stars":
+    if by == "⭐️ Stars on GitHub":
         return sorted(
             components,
             key=lambda c: (
