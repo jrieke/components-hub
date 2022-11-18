@@ -1,4 +1,5 @@
 import asyncio
+import math
 import re
 import time
 from dataclasses import dataclass
@@ -67,16 +68,16 @@ icon("🎪")
 """
 description = st.empty()
 st.write("")
-#col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
+# col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
 col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
 sorting = col2.selectbox("Sorting", ["⬇️ Downloads last month", "⭐️ Stars", "🐣 Newest"])
 package_manager = col3.selectbox("Install command", ["pip", "pipenv", "poetry"])
-#col4.write("")
-#col4.write("")
-#if col4.button("♻️ Update packages"):
+# col4.write("")
+# col4.write("")
+# if col4.button("♻️ Update packages"):
 #    st.experimental_memo.clear()
 if package_manager == "pip" or package_manager == "pipenv":
     install_command = package_manager + " install"
@@ -125,7 +126,7 @@ def get_github_info(url):
 @st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def parse_github_readme(url):
     """get the image url from the github readme"""
-    # TODO: Could do this by getting the raw readme file and not the rendered page. 
+    # TODO: Could do this by getting the raw readme file and not the rendered page.
     status_code, text = get(url)
     if status_code == 404:
         return None, None, None
@@ -154,6 +155,7 @@ def parse_github_readme(url):
             or "logo" in srcs
             or "streamlit-mark" in srcs
             or "coverage" in srcs
+            or "Cover" in srcs
         )
 
     images = list(filter(is_no_badge, images))
@@ -253,19 +255,27 @@ def get_all_packages():
     packages = [
         a.text
         for a in soup.find_all("a")
-        if ("streamlit" in a.text
-        or a.text.startswith("st-")
-        or a.text.startswith("st_")) and a.text not in EXCLUDE
+        if (
+            "streamlit" in a.text
+            or a.text.startswith("st-")
+            or a.text.startswith("st_")
+        )
+        and a.text not in EXCLUDE
     ]
     return packages
 
-@st.experimental_memo(ttl=24*3600, persist="disk", show_spinner=False)
+
+@st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
 def get_downloads(package):
     try:
-        downloads = pypistats.recent(package, "month", format="pandas")["last_month"][0]#.iloc[-1]["downloads"]
+        downloads = pypistats.recent(package, "month", format="pandas")["last_month"][
+            0
+        ]  # .iloc[-1]["downloads"]
     except httpx.HTTPStatusError:
         time.sleep(10)
-        downloads = pypistats.recent(package, "month", format="pandas")["last_month"][0]#.iloc[-1]["downloads"]
+        downloads = pypistats.recent(package, "month", format="pandas")["last_month"][
+            0
+        ]  # .iloc[-1]["downloads"]
     time.sleep(0.1)  # don't get rate-limited
     return downloads
 
@@ -328,9 +338,9 @@ def get_components():
     # TODO: This could be wrapped in memo as well.
     for p in stqdm(packages, desc="📦 Crawling PyPI (step 3/4)"):
         # if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
-        
+
         # TODO: There's a JSON API to do this: https://pypi.org/pypi/<package>/json
-        
+
         url = f"https://pypi.org/project/{p}/"
         status_code, text = get(url)
         if status_code != 404:
@@ -400,8 +410,8 @@ def get_components():
         if not c.github and c.package and c.pypi_author:
             possible_repo_names = [c.package]
             if "-" in c.package:
-                # Sometimes, package names contain "-"" but repos "_", so check for these 
-                # mutations as well. 
+                # Sometimes, package names contain "-"" but repos "_", so check for these
+                # mutations as well.
                 possible_repo_names.append(c.package.replace("-", "_"))
             for repo in possible_repo_names:
                 status_code, text = get(
@@ -414,7 +424,9 @@ def get_components():
                 if status_code == 200:
                     c.github = f"https://github.com/{c.pypi_author}/{repo}"
                     if repo != c.package:
-                        print(f"found github url by mutating package name, original: {c.package}, mutated: {repo}")
+                        print(
+                            f"found github url by mutating package name, original: {c.package}, mutated: {repo}"
+                        )
                     break
 
         if c.github:
@@ -428,8 +440,7 @@ def get_components():
                     c.created_at,
                 ) = get_github_info(c.github)
             except:
-                pass  # TODO: Handle this better. Sometimes Github shows 401 errors. 
-
+                pass  # TODO: Handle this better. Sometimes Github shows 401 errors.
 
             # this can also return None!
             c.image_url, readme_description, demo_url = parse_github_readme(c.github)
@@ -439,7 +450,7 @@ def get_components():
             if not c.demo and demo_url:
                 # print("found demo url in github readme", demo_url)
                 c.demo = demo_url
-        
+
         # Get download numbers from PyPI
         if c.package:
             c.downloads = get_downloads(c.package)
@@ -492,13 +503,16 @@ def sort_components(components: list, by):
 
 # Can't memo-ize this right now because st.image doesn't work.
 # @st.experimental_memo
-def show_components(components, search):
+def show_components(components, search, limit=None):
     if search:
         components_to_show = list(
             filter(lambda c: search.lower() in c.search_text, components)
         )
     else:
         components_to_show = components
+
+    if limit is not None:
+        components_to_show = components_to_show[:limit]
 
     for components_chunk in chunks(components_to_show, NUM_COLS):
         cols = st.columns(NUM_COLS, gap="medium")
@@ -569,6 +583,7 @@ def show_components(components, search):
                 st.write(" • ".join(formatted_links))
         st.write("---")
 
+
 components = get_components()
 description.write(
     f"""
@@ -577,8 +592,24 @@ All information on this page is automatically crawled from Github, PyPI,
 and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634).
 """
 )
+if "limit" not in st.session_state:
+    st.session_state["limit"] = 100
+
+
+def show_more():
+    st.session_state["limit"] += 50
+
+
 components = sort_components(components, sorting)
-show_components(components, search)
+show_components(components, search, st.session_state["limit"])
+
+if len(components) > st.session_state["limit"]:
+    st.button("Show more", on_click=show_more)
+
+# cols = st.columns(5)
+# for page in range(1, 1+ math.ceil(len(components) / 100)):
+#     print(page)
+#     cols[page - 1].button(f"Page {page}", on_click=set_page, args=(page,))
 
 # downloads = pypistats.recent("streamlit-image-select", "month", format="pandas")["last_month"][0]#.iloc[-1]["downloads"]
 # st.write(downloads)
@@ -589,4 +620,3 @@ show_components(components, search)
 # if summary and summary.text and summary.text != "No project description provided":
 #     print("found summary description on pypi:", summary.text)
 # print(summary)
-
