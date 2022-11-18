@@ -13,8 +13,8 @@ from bs4 import BeautifulSoup
 from stqdm import stqdm
 from markdownlit import mdlit
 
-st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
-NUM_COLS = 4
+st.set_page_config("Streamlit Components Hub", "🎪", layout="centered")
+NUM_COLS = 3
 
 EXCLUDE = [
     "streamlit",
