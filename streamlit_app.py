@@ -342,7 +342,7 @@ def get_components():
     soup = BeautifulSoup(text, "html.parser")
     lis = soup.find_all("ul")[3].find_all("li")
 
-    for li in stqdm(lis, desc="🎈 Crawling Streamlit forum (step 1/4)"):
+    for li in stqdm(lis, desc="🎈 Crawling Streamlit forum (step 1/5)"):
 
         c = Component()
         name = re.sub("\(.*?\)", "", li.text)
@@ -380,12 +380,12 @@ def get_components():
             components_dict[c.name] = c
 
     # Step 2: Download PyPI index
-    with st.spinner("⬇️ Downloading PyPI index (step 2/4)"):
+    with st.spinner("⬇️ Downloading PyPI index (step 2/5)"):
         packages = get_all_packages()
 
     # Step 3: Search through PyPI packages
     # TODO: This could be wrapped in memo as well.
-    for p in stqdm(packages, desc="📦 Crawling PyPI (step 3/4)"):
+    for p in stqdm(packages, desc="📦 Crawling PyPI (step 3/5)"):
         # if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
 
         # TODO: There's a JSON API to do this: https://pypi.org/pypi/<package>/json
@@ -453,7 +453,7 @@ def get_components():
                                 break
 
     # Step 4: Enrich info of components found above by reading data from Github
-    for c in stqdm(components_dict.values(), desc="👾 Crawling Github (step 4/4)"):
+    for c in stqdm(components_dict.values(), desc="👾 Crawling Github (step 4/5)"):
 
         # Try to get Github URL by combining PyPI author name + package name.
         if not c.github and c.package and c.pypi_author:
@@ -517,7 +517,7 @@ def get_components():
     with open("additional_data.yaml") as f:
         additional_data = yaml.safe_load(f)
     for c in stqdm(
-        components_dict.values(), desc="🖐 Enriching with manually collected data..."
+        components_dict.values(), desc="🖐 Enriching with manually collected data (step 5/5)"
     ):
         # TODO: Need to do this better. Maybe just store pypi name instead of entire url.
         if c.pypi and c.pypi.split("/")[-2] in additional_data:
