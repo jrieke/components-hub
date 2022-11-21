@@ -44,7 +44,6 @@ extra-streamlit-components:
 streamlit-option-menu:
   categories:
   - navigation
-  - widgets
 streamlit-agraph:
   categories:
   - graph
@@ -54,7 +53,6 @@ barfi:
 streamlit-prophet:
   categories:
   - integrations
-  - time-series
 streamlit-ace:
   categories:
   - text

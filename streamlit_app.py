@@ -51,28 +51,35 @@ EXCLUDE = [
     "streamlit-text-rating-component",
 ]
 
-# TODO: Should sort these so that important categories are first. 
-CATEGORIES = [
-    "3d",
-    "app-builder",
-    "authentication",
-    "charts",
-    "code",
-    "collection",
-    "dataframe",
-    "development",
-    "graph",
-    "image",
-    "integrations",
-    "maps",
-    "navigation",
-    "science",
-    "style",
-    "text",
-    "time-series",
-    "video",
-    "widgets",
-]
+# TODO: Should sort these so that important categories are first.
+CATEGORY_NAMES = {
+    "widgets": "🧰 General widgets",  # 35
+    
+    # Visualizations of different data types.
+    "charts": "📊 Charts",  # 16
+    "image": "🖼️ Images",  # 10
+    "video": "🎥 Video",  # 6
+    "text": "📝 Text",  # 12
+    "maps": "🗺️ Maps & geospatial",  # 7
+    "dataframe": "🧮 Dataframes & tables",  # 6
+    "science": "🧪 Molecules & genes",  # 3
+    "graph": "🪢 Graphs",  # 7
+    "3d": "🧊 3D",  # 1
+    "code": "✏️ Code & editors",  # 4
+    
+    # More general elements in the app.
+    "navigation": "📃 Page navigation",  # 12
+    "authentication": "🕵️ Authentication",  # 5
+    "style": "🎨 Style & layout",  # 3
+    
+    # More backend-y/dev stuff.
+    "development": "🧑‍💻 Developer tools",  # 22
+    "app-builder": "🚀 App builders",  # 3
+    
+    # General purpose categories.
+    "integrations": "🔌 Integrations with other tools",  # 14
+    "collection": "🤹 Collections of components",  # 4
+}
 
 
 def icon(emoji: str):
@@ -103,7 +110,11 @@ col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
-category = col2.selectbox("Category", ["All"] + CATEGORIES, format_func=lambda x: x.capitalize().replace("-", " "))
+category = col2.selectbox(
+    "Category",
+    ["All"] + list(CATEGORY_NAMES.keys()),
+    format_func=lambda x: CATEGORY_NAMES.get(x, x),
+)
 sorting = col3.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
