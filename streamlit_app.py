@@ -103,7 +103,7 @@ col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
-category = col2.selectbox("Category", ["All"] + CATEGORIES)
+category = col2.selectbox("Category", ["All"] + CATEGORIES, format_func=lambda x: x.capitalize().replace("-", " "))
 sorting = col3.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
