@@ -73,7 +73,9 @@ col1, col2, col3 = st.columns([2, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
-sorting = col2.selectbox("Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"])
+sorting = col2.selectbox(
+    "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
+)
 package_manager = col3.selectbox("Install via", ["pip", "pipenv", "poetry"])
 # col4.write("")
 # col4.write("")
@@ -502,20 +504,21 @@ def sort_components(components: list, by):
         raise ValueError("`by` must be either 'Stars' or 'Newest'")
 
 
+@st.experimental_memo(show_spinner=False)
+def filter_components(components, search):
+    if search:
+        components = list(filter(lambda c: search.lower() in c.search_text, components))
+    return components
+
+
 # Can't memo-ize this right now because st.image doesn't work.
 # @st.experimental_memo
-def show_components(components, search, limit=None):
-    if search:
-        components_to_show = list(
-            filter(lambda c: search.lower() in c.search_text, components)
-        )
-    else:
-        components_to_show = components
+def show_components(components, limit=None):
 
     if limit is not None:
-        components_to_show = components_to_show[:limit]
+        components = components[:limit]
 
-    for components_chunk in chunks(components_to_show, NUM_COLS):
+    for components_chunk in chunks(components, NUM_COLS):
         cols = st.columns(NUM_COLS, gap="medium")
         for c, col in zip(components_chunk, cols):
             with col:
@@ -595,14 +598,6 @@ def show_components(components, search, limit=None):
         st.write("---")
 
 
-components = get_components()
-description.write(
-    f"""
-Discover {len(components)} Streamlit components!
-All information on this page is automatically crawled from Github, PyPI, 
-and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634).
-"""
-)
 if "limit" not in st.session_state:
     st.session_state["limit"] = 80
 
@@ -611,7 +606,20 @@ def show_more():
     st.session_state["limit"] += 40
 
 
+components = get_components()
+description.write(
+    f"""
+Discover {len(components)} Streamlit components!
+All information on this page is automatically crawled from Github, PyPI, 
+and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634).
+"""
+)
+
+# It's more performant to do the sorting first. It's cached, so even though it's running
+# on more elements when done first, we almost always have a cache hit since the list of 
+# components doesn't change. 
 components = sort_components(components, sorting)
+components = filter_components(components, search)
 show_components(components, search, st.session_state["limit"])
 
 if len(components) > st.session_state["limit"]:
