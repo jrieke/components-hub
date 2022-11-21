@@ -7,6 +7,7 @@ import httpx
 import pypistats
 import requests
 import streamlit as st
+import yaml
 from bs4 import BeautifulSoup
 from markdownlit import mdlit
 from stqdm import stqdm
@@ -45,6 +46,8 @@ EXCLUDE = [
     "streamlit-plotly-events-retro",
     "pollination-streamlit-io",
     "pollination-streamlit-viewer",
+    "st-clustering",
+    "streamlit-text-rating-component",
 ]
 
 
@@ -189,6 +192,7 @@ def parse_github_readme(url):
             demo_url = soup.find("a", href=re.compile("\.streamlitapp\.com"))["href"]
         except TypeError:
             demo_url = None
+            # TODO: Need to add streamlit.app here.
 
     # print("func", image_url, description)
     return image_url, description, demo_url
@@ -627,6 +631,16 @@ show_components(components, st.session_state["limit"])
 
 if len(components) > st.session_state["limit"]:
     st.button("Show more components", on_click=show_more, type="primary")
+
+# if st.button("write additional data file"):
+#     yaml_dict = {
+#         c.pypi.split("/")[-2]: {"categories": [""]} for c in components if c.pypi
+#     }
+#     import yaml
+
+#     with open("additional_data.yaml", "w") as f:
+#         yaml.dump(yaml_dict, f, sort_keys=False)
+
 
 # cols = st.columns(5)
 # for page in range(1, 1+ math.ceil(len(components) / 100)):
