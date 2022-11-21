@@ -248,7 +248,7 @@ streamlit-wordcloud:
   - text
 streamlit-yellowbrick:
   categories:
-  - integrations
+  - charts
 streamlit-disqus:
   categories:
   - integrations
@@ -353,7 +353,6 @@ streamlit-dynamic-tabs:
   - widgets
 stpyvista:
   categories:
-  - integrations
   - 3d
 streamlit-gosling:
   categories:
@@ -397,7 +396,7 @@ streamlit-marquee:
   - widgets
 streamlit-react-flow:
   categories:
-  - integrations
+  - graph
 streamlit-js-eval:
   categories:
   - development

@@ -51,8 +51,9 @@ EXCLUDE = [
     "streamlit-text-rating-component",
 ]
 
-# TODO: Should sort these so that important categories are first.
 CATEGORY_NAMES = {
+    # Putting this first so people don't miss it. Plus I think's it's one of the most 
+    # important ones. 
     "widgets": "🧰 General widgets",  # 35
     
     # Visualizations of different data types.
@@ -73,6 +74,7 @@ CATEGORY_NAMES = {
     "style": "🎨 Style & layout",  # 3
     
     # More backend-y/dev stuff.
+    # TODO: Should probably split this up, "Developer tools" contains a lot of stuff. 
     "development": "🧑‍💻 Developer tools",  # 22
     "app-builder": "🚀 App builders",  # 3
     
