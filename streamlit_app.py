@@ -2,6 +2,7 @@ import re
 import time
 from dataclasses import dataclass
 from datetime import datetime
+from typing import List
 
 import httpx
 import pypistats
@@ -50,6 +51,29 @@ EXCLUDE = [
     "streamlit-text-rating-component",
 ]
 
+# TODO: Should sort these so that important categories are first. 
+CATEGORIES = [
+    "3d",
+    "app-builder",
+    "authentication",
+    "charts",
+    "code",
+    "collection",
+    "dataframe",
+    "development",
+    "graph",
+    "image",
+    "integrations",
+    "maps",
+    "navigation",
+    "science",
+    "style",
+    "text",
+    "time-series",
+    "video",
+    "widgets",
+]
+
 
 def icon(emoji: str):
     """Shows an emoji as a Notion-style page icon."""
@@ -75,14 +99,15 @@ icon("🎪")
 """
 description = st.empty()
 # col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
-col1, col2, col3 = st.columns([2, 1, 1])
+col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
-sorting = col2.selectbox(
+category = col2.selectbox("Category", ["All"] + CATEGORIES)
+sorting = col3.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
-package_manager = col3.selectbox("Install via", ["pip", "pipenv", "poetry"])
+package_manager = col4.selectbox("Install via", ["pip", "pipenv", "poetry"])
 # col4.write("")
 # col4.write("")
 # if col4.button("♻️ Update packages"):
@@ -254,6 +279,7 @@ class Component:
     pypi_author: str = None
     created_at: datetime = None
     downloads: int = None
+    categories: List[str] = None
 
 
 @st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
@@ -473,6 +499,18 @@ def get_components():
             + str(c.package)
         )
 
+    # Step 5: Enrich with additional data that was manually curated in
+    # additional_data.yaml (currently only categories).
+    with open("additional_data.yaml") as f:
+        additional_data = yaml.safe_load(f)
+    for c in stqdm(
+        components_dict.values(), desc="🖐 Enriching with manually collected data..."
+    ):
+        # TODO: Need to do this better. Maybe just store pypi name instead of entire url.
+        if c.pypi and c.pypi.split("/")[-2] in additional_data:
+            c.categories = additional_data[c.pypi.split("/")[-2]]["categories"]
+        else:
+            c.categories = []
     return list(components_dict.values())
 
 
@@ -512,9 +550,11 @@ def sort_components(components: list, by):
 
 
 @st.experimental_memo(show_spinner=False)
-def filter_components(components, search):
+def filter_components(components, search, category):
     if search:
         components = list(filter(lambda c: search.lower() in c.search_text, components))
+    if category and category != "All":
+        components = list(filter(lambda c: category in c.categories, components))
     return components
 
 
@@ -602,6 +642,7 @@ def show_components(components, limit=None):
 
                 # st.write(" • ".join(formatted_links), unsafe_allow_html=True)
                 mdlit(" &nbsp;•&nbsp; ".join(formatted_links))
+                # st.caption(", ".join(c.categories))
         st.write("---")
 
 
@@ -626,7 +667,7 @@ and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-co
 # on more elements when done first, we almost always have a cache hit since the list of
 # components doesn't change.
 components = sort_components(components, sorting)
-components = filter_components(components, search)
+components = filter_components(components, search, category)
 show_components(components, st.session_state["limit"])
 
 if len(components) > st.session_state["limit"]:

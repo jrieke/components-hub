@@ -40,7 +40,7 @@ extra-streamlit-components:
   - collection
   - navigation
   - widgets
-  - cookies
+  - development
 streamlit-option-menu:
   categories:
   - navigation
@@ -411,7 +411,7 @@ streamlit-card:
   - widgets
 streamlit-cookies-manager:
   categories:
-  - cookies
+  - devleopment
 streamlit-inspect:
   categories:
   - development
