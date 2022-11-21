@@ -620,7 +620,7 @@ and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-co
 # components doesn't change. 
 components = sort_components(components, sorting)
 components = filter_components(components, search)
-show_components(components, search, st.session_state["limit"])
+show_components(components, st.session_state["limit"])
 
 if len(components) > st.session_state["limit"]:
     st.button("Show more components", on_click=show_more, type="primary")
