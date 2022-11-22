@@ -127,7 +127,7 @@ icon("🎪")
 description = st.empty()
 description.write("Discover all Streamlit components! All information on this page is automatically crawled from Github, PyPI, and the Streamlit forum.")
 # col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
-col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
+col1, col2 = st.columns([2, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
@@ -136,18 +136,19 @@ search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"
 #     ["All"] + list(CATEGORY_NAMES.keys()),
 #     format_func=lambda x: CATEGORY_NAMES.get(x, x),
 # )
-sorting = col3.selectbox(
+sorting = col2.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
-package_manager = col4.selectbox("Install via", ["pip", "pipenv", "poetry"])
+# package_manager = col4.selectbox("Install via", ["pip", "pipenv", "poetry"])
 # col4.write("")
 # col4.write("")
 # if col4.button("♻️ Update packages"):
 #    st.experimental_memo.clear()
-if package_manager == "pip" or package_manager == "pipenv":
-    install_command = package_manager + " install"
-elif package_manager == "poetry":
-    install_command = "poetry add"
+# if package_manager == "pip" or package_manager == "pipenv":
+#     install_command = package_manager + " install"
+# elif package_manager == "poetry":
+#     install_command = "poetry add"
+install_command = "pip"
 # with col2:
 #     st.selectbox("Sort by", ["Github stars", "Newest"], disabled=True)
 category = pills(
