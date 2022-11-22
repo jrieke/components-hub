@@ -12,6 +12,7 @@ import yaml
 from bs4 import BeautifulSoup
 from markdownlit import mdlit
 from stqdm import stqdm
+from streamlit_pills import pills
 
 st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
 NUM_COLS = 4
@@ -52,36 +53,53 @@ EXCLUDE = [
 ]
 
 CATEGORY_NAMES = {
-    # Putting this first so people don't miss it. Plus I think's it's one of the most 
-    # important ones. 
-    "widgets": "🧰 General widgets",  # 35
-    
+    # Putting this first so people don't miss it. Plus I think's it's one of the most
+    # important ones.
+    "widgets": "General widgets",  # 35
     # Visualizations of different data types.
-    "charts": "📊 Charts",  # 16
-    "image": "🖼️ Images",  # 10
-    "video": "🎥 Video",  # 6
-    "text": "📝 Text",  # 12
-    "maps": "🗺️ Maps & geospatial",  # 7
-    "dataframe": "🧮 Dataframes & tables",  # 6
-    "science": "🧪 Molecules & genes",  # 3
-    "graph": "🪢 Graphs",  # 7
-    "3d": "🧊 3D",  # 1
-    "code": "✏️ Code & editors",  # 4
-    
+    "charts": "Charts",  # 16
+    "image": "Images",  # 10
+    "video": "Video",  # 6
+    "text": "Text",  # 12
+    "maps": "Maps & geospatial",  # 7
+    "dataframe": "Dataframes & tables",  # 6
+    "science": "Molecules & genes",  # 3
+    "graph": "Graphs",  # 7
+    "3d": "3D",  # 1
+    "code": "Code & editors",  # 4
     # More general elements in the app.
-    "navigation": "📃 Page navigation",  # 12
-    "authentication": "🕵️ Authentication",  # 5
-    "style": "🎨 Style & layout",  # 3
-    
+    "navigation": "Page navigation",  # 12
+    "authentication": "Authentication",  # 5
+    "style": "Style & layout",  # 3
     # More backend-y/dev stuff.
-    # TODO: Should probably split this up, "Developer tools" contains a lot of stuff. 
-    "development": "🧑‍💻 Developer tools",  # 22
-    "app-builder": "🚀 App builders",  # 3
-    
+    # TODO: Should probably split this up, "Developer tools" contains a lot of stuff.
+    "development": "Developer tools",  # 22
+    "app-builder": "App builders",  # 3
     # General purpose categories.
-    "integrations": "🔌 Integrations with other tools",  # 14
-    "collection": "🤹 Collections of components",  # 4
+    "integrations": "Integrations with other tools",  # 14
+    "collection": "Collections of components",  # 4
 }
+
+CATEGORY_ICONS = [
+    "🧰",
+    "📊",
+    "🌇",
+    "🎥",
+    "📝",
+    "🗺️",
+    "🧮",
+    "🧬",
+    "🪢",
+    "🧊",
+    "✏️",
+    "📃",
+    "🔐",
+    "🎨",
+    "🛠️",
+    "🏗️",
+    "🔌",
+    "📦",
+]
 
 
 def icon(emoji: str):
@@ -107,16 +125,17 @@ icon("🎪")
 # Streamlit Components Hub
 """
 description = st.empty()
+description.write("Discover all Streamlit components! All information on this page is automatically crawled from Github, PyPI, and the Streamlit forum.")
 # col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
 col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
-category = col2.selectbox(
-    "Category",
-    ["All"] + list(CATEGORY_NAMES.keys()),
-    format_func=lambda x: CATEGORY_NAMES.get(x, x),
-)
+# category = col2.selectbox(
+#     "Category",
+#     ["All"] + list(CATEGORY_NAMES.keys()),
+#     format_func=lambda x: CATEGORY_NAMES.get(x, x),
+# )
 sorting = col3.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
@@ -131,6 +150,13 @@ elif package_manager == "poetry":
     install_command = "poetry add"
 # with col2:
 #     st.selectbox("Sort by", ["Github stars", "Newest"], disabled=True)
+category = pills(
+    "Category",
+    list(CATEGORY_NAMES.keys()),
+    CATEGORY_ICONS,
+    index=None,
+    format_func=lambda x: CATEGORY_NAMES.get(x, x),
+)
 st.write("")
 st.write("")
 
@@ -517,7 +543,8 @@ def get_components():
     with open("additional_data.yaml") as f:
         additional_data = yaml.safe_load(f)
     for c in stqdm(
-        components_dict.values(), desc="🖐 Enriching with manually collected data (step 5/5)"
+        components_dict.values(),
+        desc="🖐 Enriching with manually collected data (step 5/5)",
     ):
         # TODO: Need to do this better. Maybe just store pypi name instead of entire url.
         if c.pypi and c.pypi.split("/")[-2] in additional_data:
@@ -566,7 +593,7 @@ def sort_components(components: list, by):
 def filter_components(components, search, category):
     if search:
         components = list(filter(lambda c: search.lower() in c.search_text, components))
-    if category and category != "All":
+    if category:
         components = list(filter(lambda c: category in c.categories, components))
     return components
 
