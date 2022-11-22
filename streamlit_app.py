@@ -146,16 +146,16 @@ description.write(
     "Discover all Streamlit components! All information on this page is automatically crawled from Github, PyPI, and the Streamlit forum."
 )
 # col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
-# col1, col2 = st.columns([2, 1])
+col1, col2 = st.columns([2, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
-search = st.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
+search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
 # category = col2.selectbox(
 #     "Category",
 #     ["All"] + list(CATEGORY_NAMES.keys()),
 #     format_func=lambda x: CATEGORY_NAMES.get(x, x),
 # )
-sorting = st.selectbox(
+sorting = col2.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
 # package_manager = col4.selectbox("Install via", ["pip", "pipenv", "poetry"])
