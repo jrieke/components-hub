@@ -15,6 +15,9 @@ from stqdm import stqdm
 
 # from streamlit_dimensions import st_dimensions
 from streamlit_pills import pills
+# from streamlit_profiler import Profiler
+
+# profiler = Profiler()
 
 st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
 NUM_COLS = 4
@@ -377,9 +380,13 @@ def get_downloads(package):
         ]  # .iloc[-1]["downloads"]
     except httpx.HTTPStatusError:
         time.sleep(10)
-        downloads = pypistats.recent(package, "month", format="pandas")["last_month"][
-            0
-        ]  # .iloc[-1]["downloads"]
+        try:
+            downloads = pypistats.recent(package, "month", format="pandas")["last_month"][
+                0
+            ]  # .iloc[-1]["downloads"]
+        except httpx.HTTPStatusError:
+            # give up
+            return 0
     time.sleep(0.1)  # don't get rate-limited
     return downloads
 
@@ -508,6 +515,7 @@ def get_components():
                                 c.pypi_description = text
                                 break
 
+    # profiler.start()
     # Step 4: Enrich info of components found above by reading data from Github
     for c in stqdm(components_dict.values(), desc="👾 Crawling Github (step 4/5)"):
 
@@ -568,6 +576,8 @@ def get_components():
             + str(c.package)
         )
 
+    # profiler.stop()
+    
     # Step 5: Enrich with additional data that was manually curated in
     # additional_data.yaml (currently only categories).
     with open("additional_data.yaml") as f:

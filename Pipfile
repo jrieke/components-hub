@@ -11,10 +11,12 @@ pypistats = "*"
 markdownlit = "*"
 pyyaml = "*"
 streamlit-pills = "==0.3.0"
+streamlit-dimensions = "*"
 
 [dev-packages]
 watchdog = "*"
 black = "*"
+streamlit-profiler = "*"
 
 [requires]
 python_version = "3.9"
