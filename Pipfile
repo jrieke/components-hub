@@ -10,7 +10,7 @@ stqdm = "*"
 pypistats = "*"
 markdownlit = "*"
 pyyaml = "*"
-streamlit-pills = "*"
+streamlit-pills = "==0.3.0"
 
 [dev-packages]
 watchdog = "*"

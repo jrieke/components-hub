@@ -157,6 +157,7 @@ category = pills(
     CATEGORY_ICONS,
     index=None,
     format_func=lambda x: CATEGORY_NAMES.get(x, x),
+    label_visibility="collapsed",
 )
 st.write("")
 st.write("")
