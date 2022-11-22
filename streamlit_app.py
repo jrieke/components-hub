@@ -12,6 +12,7 @@ import yaml
 from bs4 import BeautifulSoup
 from markdownlit import mdlit
 from stqdm import stqdm
+
 # from streamlit_dimensions import st_dimensions
 from streamlit_pills import pills
 
@@ -222,7 +223,13 @@ def get_github_info(url):
 def parse_github_readme(url):
     """get the image url from the github readme"""
     # TODO: Could do this by getting the raw readme file and not the rendered page.
-    status_code, text = get(url)
+    # But then it's a lot more difficult to find images, since we need to parse markdown.
+    status_code, text = get(
+        url,
+        headers={
+            "Authorization": f"Token {st.secrets.gh_token}",
+        },
+    )
     if status_code == 404:
         return None, None, None
     elif status_code != 200:
