@@ -12,6 +12,7 @@ import yaml
 from bs4 import BeautifulSoup
 from markdownlit import mdlit
 from stqdm import stqdm
+# from streamlit_dimensions import st_dimensions
 from streamlit_pills import pills
 
 st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
@@ -120,23 +121,41 @@ st.write(
 #     unsafe_allow_html=True,
 # )
 
+# Only do this once at the beginning of the session. If we're doing it at every rerun,
+# the width will fluctuate because the sidebar appears or disappears, leading to
+# this running over and over again.
+# Note that this slows the app down quite a bit because it triggers a second rerun,
+# as soon as st_dimensions knows its width.
+# if "screen_width" not in st.session_state:
+#     dimensions = st_dimensions()
+#     if dimensions is not None:
+#         st.session_state.screen_width = dimensions["width"]
+
+# if "screen_width" in st.session_state and st.session_state.screen_width < 768:
+#     container = st.container()  # small screen, show controls at top of page
+# else:
+#     container = st.sidebar  # large screen, show controls in sidebar
+
+# with container:
 icon("🎪")
 """
 # Streamlit Components Hub
 """
 description = st.empty()
-description.write("Discover all Streamlit components! All information on this page is automatically crawled from Github, PyPI, and the Streamlit forum.")
+description.write(
+    "Discover all Streamlit components! All information on this page is automatically crawled from Github, PyPI, and the Streamlit forum."
+)
 # col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
-col1, col2 = st.columns([2, 1])
+# col1, col2 = st.columns([2, 1])
 # with col1:
 # search = st_keyup("Search", debounce=200)
-search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
+search = st.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
 # category = col2.selectbox(
 #     "Category",
 #     ["All"] + list(CATEGORY_NAMES.keys()),
 #     format_func=lambda x: CATEGORY_NAMES.get(x, x),
 # )
-sorting = col2.selectbox(
+sorting = st.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
 # package_manager = col4.selectbox("Install via", ["pip", "pipenv", "poetry"])
@@ -148,7 +167,7 @@ sorting = col2.selectbox(
 #     install_command = package_manager + " install"
 # elif package_manager == "poetry":
 #     install_command = "poetry add"
-install_command = "pip"
+install_command = "pip install"
 # with col2:
 #     st.selectbox("Sort by", ["Github stars", "Newest"], disabled=True)
 category = pills(
@@ -159,6 +178,8 @@ category = pills(
     format_func=lambda x: CATEGORY_NAMES.get(x, x),
     label_visibility="collapsed",
 )
+
+# if "screen_width" in st.session_state and st.session_state.screen_width < 768:
 st.write("")
 st.write("")
 
