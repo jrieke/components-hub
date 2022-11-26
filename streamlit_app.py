@@ -672,8 +672,32 @@ def filter_components(components, search=None, category=None, newer_than=None):
     if category:
         components = list(filter(lambda c: category in c.categories, components))
     if newer_than:
-        components = list(filter(lambda c: c.created_at and c.created_at >= newer_than, components))
+        components = list(
+            filter(lambda c: c.created_at and c.created_at >= newer_than, components)
+        )
     return components
+
+
+def shorten(text, length=100):
+    if len(text) > length:
+        short_text = text[:length]
+        
+        # Cut last word if short_text doesn't end on a word. 
+        if short_text[-1] != " " and text[length] != " ":
+            short_text = short_text[: short_text.rfind(" ")]
+            
+        # Remove whitespace at the end. 
+        short_text = short_text.rstrip()
+        
+        # Deal with sentence end markers.
+        if short_text[-1] in [".", "!", "?"]:
+            return short_text
+        elif short_text[-1] in [",", ";", ":", "-"]:
+            return short_text[:-1] + "..."
+        else:
+            return short_text + "..."
+    else:
+        return text
 
 
 # Can't memo-ize this right now because st.image doesn't work.
@@ -735,7 +759,7 @@ def show_components(components, limit=None):
                     )
 
                 if c.github_description:
-                    st.write(c.github_description)
+                    st.write(shorten(c.github_description))
                 elif c.pypi_description:
                     st.write(c.pypi_description)
                 if c.package:
@@ -764,10 +788,9 @@ def show_components(components, limit=None):
                 st.write("")
                 st.write("")
                 # st.write("")
-        
+
         # if i < (min(limit, len(components)) // NUM_COLS) - 1:
         # st.write("---")
-        
 
 
 if "limit" not in st.session_state:
@@ -801,7 +824,7 @@ if not search and not category and sorting != "🐣 Newest":
     show_components(new_components, limit=4)
 
     "## 🌟 All-time favorites"
-    
+
 st.write("")
 st.write("")
 
