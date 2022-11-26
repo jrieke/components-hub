@@ -574,6 +574,8 @@ def get_components():
         if c.package:
             if c.package.startswith("streamlit-"):
                 c.name = c.package[10:].replace("-", " ").capitalize()
+            elif c.package.endswith("-streamlit"):
+                c.name = c.package[:-10].replace("-", " ").capitalize()
             elif c.package.startswith("st-"):
                 c.name = c.package[3:].replace("-", " ").capitalize()
             else:
