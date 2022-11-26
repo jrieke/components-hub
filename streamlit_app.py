@@ -567,6 +567,17 @@ def get_components():
         # Get download numbers from PyPI
         if c.package:
             c.downloads = get_downloads(c.package)
+            
+        # Set names based on PyPI package names.
+        # TODO: If I go with this, I should not even fetch the names from the forum post 
+        # above.
+        if c.package:
+            if c.package.startswith("streamlit-"):
+                c.name = c.package[10:].replace("-", " ").capitalize()
+            elif c.package.startswith("st-"):
+                c.name = c.package[3:].replace("-", " ").capitalize()
+            else:
+                c.name = c.package
 
         c.search_text = (
             str(c.name)
