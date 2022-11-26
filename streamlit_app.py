@@ -591,6 +591,7 @@ def get_components():
                 .replace("rtc", "RTC")
                 .replace("Hiplot", "HiPlot")
                 .replace("Spacy", "SpaCy")
+                .replace("Aggrid", "AgGrid")
             )
 
             # if c.package.startswith("streamlit-"):
