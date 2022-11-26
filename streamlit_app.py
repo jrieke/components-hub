@@ -575,14 +575,26 @@ def get_components():
         # TODO: If I go with this, I should not even fetch the names from the forum post
         # above.
         if c.package:
-            if c.package.startswith("streamlit-"):
-                c.name = c.package[10:].replace("-", " ").capitalize()
-            elif c.package.endswith("-streamlit"):
-                c.name = c.package[:-10].replace("-", " ").capitalize()
-            elif c.package.startswith("st-"):
-                c.name = c.package[3:].replace("-", " ").capitalize()
-            else:
-                c.name = c.package
+            name = c.package
+            if name.startswith("st-") or name.startswith("st_"):  # only do at start
+                name = name[3:]
+            c.name = (
+                name.replace("streamlit", "")
+                .replace("--", " ")
+                .replace("-", " ")
+                .replace("__", " ")
+                .replace("_", " ")
+                .capitalize()
+            )
+
+            # if c.package.startswith("streamlit-"):
+            #     c.name = c.package[10:].replace("-", " ").capitalize()
+            # elif c.package.endswith("-streamlit"):
+            #     c.name = c.package[:-10].replace("-", " ").capitalize()
+            # elif c.package.startswith("st-"):
+            #     c.name = c.package[3:].replace("-", " ").capitalize()
+            # else:
+            #     c.name = c.package.replace("-streamlit-", " ").replace("-", " ").capitalize()
 
         c.search_text = (
             str(c.name)
