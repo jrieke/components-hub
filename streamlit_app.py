@@ -586,6 +586,7 @@ def get_components():
                 .replace("_", " ")
                 .replace("nlu", "NLU")  # special case adjustments ;)
                 .replace("cli", "CLI")
+                .replace("rtc", "RTC")
                 .strip()
                 .title()
             )
