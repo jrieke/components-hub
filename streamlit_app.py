@@ -15,6 +15,7 @@ from stqdm import stqdm
 
 # from streamlit_dimensions import st_dimensions
 from streamlit_pills import pills
+
 # from streamlit_profiler import Profiler
 
 # profiler = Profiler()
@@ -381,7 +382,9 @@ def get_downloads(package):
     except httpx.HTTPStatusError:
         time.sleep(10)
         try:
-            downloads = pypistats.recent(package, "month", format="pandas")["last_month"][
+            downloads = pypistats.recent(package, "month", format="pandas")[
+                "last_month"
+            ][
                 0
             ]  # .iloc[-1]["downloads"]
         except httpx.HTTPStatusError:
@@ -567,19 +570,26 @@ def get_components():
         # Get download numbers from PyPI
         if c.package:
             c.downloads = get_downloads(c.package)
-            
+
         # Set names based on PyPI package names.
-        # TODO: If I go with this, I should not even fetch the names from the forum post 
+        # TODO: If I go with this, I should not even fetch the names from the forum post
         # above.
         if c.package:
-            if c.package.startswith("streamlit-"):
-                c.name = c.package[10:].replace("-", " ").capitalize()
-            elif c.package.endswith("-streamlit"):
-                c.name = c.package[:-10].replace("-", " ").capitalize()
-            elif c.package.startswith("st-"):
-                c.name = c.package[3:].replace("-", " ").capitalize()
-            else:
-                c.name = c.package
+            c.name = (
+                c.package.replace("streamlit", "")
+                .replace("--", " ")
+                .replace("__", " ")
+                .replace("-", " ")
+                .replace("_", " ")
+            )
+            # if c.package.startswith("streamlit-"):
+            #     c.name = c.package[10:].replace("-", " ").capitalize()
+            # elif c.package.endswith("-streamlit"):
+            #     c.name = c.package[:-10].replace("-", " ").capitalize()
+            # elif c.package.startswith("st-"):
+            #     c.name = c.package[3:].replace("-", " ").capitalize()
+            # else:
+            #     c.name = c.package
 
         c.search_text = (
             str(c.name)
@@ -590,7 +600,7 @@ def get_components():
         )
 
     # profiler.stop()
-    
+
     # Step 5: Enrich with additional data that was manually curated in
     # additional_data.yaml (currently only categories).
     with open("additional_data.yaml") as f:
