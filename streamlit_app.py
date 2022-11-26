@@ -740,7 +740,7 @@ def show_components(components, limit=None):
 
 
 if "limit" not in st.session_state:
-    st.session_state["limit"] = 80
+    st.session_state["limit"] = 60
 
 
 def show_more():
