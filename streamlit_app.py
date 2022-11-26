@@ -787,7 +787,7 @@ def show_components(components, limit=None):
                 # st.caption(", ".join(c.categories))
                 st.write("")
                 st.write("")
-                # st.write("")
+                st.write("")
 
         # if i < (min(limit, len(components)) // NUM_COLS) - 1:
         # st.write("---")
