@@ -584,11 +584,11 @@ def get_components():
                 .replace("-", " ")
                 .replace("__", " ")
                 .replace("_", " ")
-                .replace("nlu", "NLU")  # special case adjustments ;)
-                .replace("cli", "CLI")
-                .replace("rtc", "RTC")
                 .strip()
                 .title()
+                .replace("Nlu", "NLU")  # special case adjustments ;)
+                .replace("Cli", "CLI")
+                .replace("rtc", "RTC")
             )
 
             # if c.package.startswith("streamlit-"):
