@@ -261,6 +261,7 @@ def parse_github_readme(url):
             or "streamlit-mark" in srcs
             or "coverage" in srcs
             or "Cover" in srcs
+            or "hydra.png" in srcs
         )
 
     images = list(filter(is_no_badge, images))
