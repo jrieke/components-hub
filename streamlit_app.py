@@ -1,7 +1,7 @@
 import re
 import time
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List
 
 import httpx
@@ -185,7 +185,6 @@ category = pills(
 )
 
 # if "screen_width" in st.session_state and st.session_state.screen_width < 768:
-st.write("")
 st.write("")
 
 
@@ -667,11 +666,13 @@ def sort_components(components: list, by):
 
 
 @st.experimental_memo(show_spinner=False)
-def filter_components(components, search, category):
+def filter_components(components, search=None, category=None, newer_than=None):
     if search:
         components = list(filter(lambda c: search.lower() in c.search_text, components))
     if category:
         components = list(filter(lambda c: category in c.categories, components))
+    if newer_than:
+        components = list(filter(lambda c: c.created_at and c.created_at >= newer_than, components))
     return components
 
 
@@ -682,7 +683,7 @@ def show_components(components, limit=None):
     if limit is not None:
         components = components[:limit]
 
-    for components_chunk in chunks(components, NUM_COLS):
+    for i, components_chunk in enumerate(chunks(components, NUM_COLS)):
         cols = st.columns(NUM_COLS, gap="medium")
         for c, col in zip(components_chunk, cols):
             with col:
@@ -760,7 +761,13 @@ def show_components(components, limit=None):
                 # st.write(" • ".join(formatted_links), unsafe_allow_html=True)
                 mdlit(" &nbsp;•&nbsp; ".join(formatted_links))
                 # st.caption(", ".join(c.categories))
-        st.write("---")
+                st.write("")
+                st.write("")
+                # st.write("")
+        
+        # if i < (min(limit, len(components)) // NUM_COLS) - 1:
+        # st.write("---")
+        
 
 
 if "limit" not in st.session_state:
@@ -784,6 +791,20 @@ and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-co
 # on more elements when done first, we almost always have a cache hit since the list of
 # components doesn't change.
 components = sort_components(components, sorting)
+
+if not search and not category and sorting != "🐣 Newest":
+    "## 🚀 Newcomers"
+    st.write("")
+    new_components = filter_components(
+        components, search, category, newer_than=datetime.now() - timedelta(days=60)
+    )
+    show_components(new_components, limit=4)
+
+    "## 🌟 All-time favorites"
+    
+st.write("")
+st.write("")
+
 components = filter_components(components, search, category)
 show_components(components, st.session_state["limit"])
 
