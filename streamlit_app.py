@@ -587,7 +587,7 @@ def get_components():
                 .strip()
                 .title()
                 .replace("Nlu", "NLU")  # special case adjustments for top results ;)
-                .replace("Cli", "CLI")
+                .replace(" Cli", " CLI")
                 .replace("rtc", "RTC")
                 .replace("Hiplot", "HiPlot")
                 .replace("Spacy", "SpaCy")
