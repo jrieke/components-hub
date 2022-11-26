@@ -783,6 +783,7 @@ and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-co
 # It's more performant to do the sorting first. It's cached, so even though it's running
 # on more elements when done first, we almost always have a cache hit since the list of
 # components doesn't change.
+print(components)
 components = sort_components(components, sorting)
 components = filter_components(components, search, category)
 show_components(components, st.session_state["limit"])
