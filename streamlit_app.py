@@ -584,6 +584,7 @@ def get_components():
                 .replace("-", " ")
                 .replace("__", " ")
                 .replace("_", " ")
+                .strip()
                 .capitalize()
             )
 
