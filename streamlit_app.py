@@ -121,11 +121,6 @@ st.write(
     unsafe_allow_html=True,
 )
 
-# st.write(
-#     "<style>.block-container img {border: 1px solid #D6D6D9; border-radius: 3px; width: 100%; height: 200px; position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);} .block-container img:hover {}</style>",
-#     unsafe_allow_html=True,
-# )
-
 # Only do this once at the beginning of the session. If we're doing it at every rerun,
 # the width will fluctuate because the sidebar appears or disappears, leading to
 # this running over and over again.
@@ -145,36 +140,25 @@ st.write(
 icon("🎪")
 """
 # Streamlit Components Hub
+
+[![](https://img.shields.io/github/stars/jrieke/components-hub?style=social)](https://github.com/jrieke/components-hub) &nbsp; [![](https://img.shields.io/twitter/follow/jrieke?style=social)](https://twitter.com/jrieke)
+"""
+
+description_text = """
+Discover {} Streamlit components! Most information on this page is 
+automatically crawled from Github, PyPI, and the 
+[Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634).
+If you build your own [custom component](https://docs.streamlit.io/library/components/create), 
+it should appear here within a few days.
 """
 description = st.empty()
-description.write(
-    "Discover all Streamlit components! All information on this page is automatically crawled from Github, PyPI, and the Streamlit forum."
-)
-# col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
+description.write(description_text.format("all"))
 col1, col2 = st.columns([2, 1])
-# with col1:
-# search = st_keyup("Search", debounce=200)
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
-# category = col2.selectbox(
-#     "Category",
-#     ["All"] + list(CATEGORY_NAMES.keys()),
-#     format_func=lambda x: CATEGORY_NAMES.get(x, x),
-# )
 sorting = col2.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
-# package_manager = col4.selectbox("Install via", ["pip", "pipenv", "poetry"])
-# col4.write("")
-# col4.write("")
-# if col4.button("♻️ Update packages"):
-#    st.experimental_memo.clear()
-# if package_manager == "pip" or package_manager == "pipenv":
-#     install_command = package_manager + " install"
-# elif package_manager == "poetry":
-#     install_command = "poetry add"
 install_command = "pip install"
-# with col2:
-#     st.selectbox("Sort by", ["Github stars", "Newest"], disabled=True)
 category = pills(
     "Category",
     list(CATEGORY_NAMES.keys()),
@@ -294,34 +278,6 @@ def parse_github_readme(url):
 
     # print("func", image_url, description)
     return image_url, description, demo_url
-
-
-# async def _save_screenshot(
-#     url: str, img_path: str, sleep: int = 5, width: int = 1024, height: int = 576
-# ) -> None:
-#     browser = await pyppeteer.launch(
-#         {"args": ["--no-sandbox"]},
-#         handleSIGINT=False,
-#         handleSIGTERM=False,
-#         handleSIGHUP=False,
-#     )
-#     page = await browser.newPage()
-#     await page.goto(url, {"timeout": 6000})  # increase timeout to 60 s for heroku apps
-#     await page.emulate({"viewport": {"width": width, "height": height}})
-#     time.sleep(sleep)
-#     # Type (PNG or JPEG) will be inferred from file ending.
-#     await page.screenshot({"path": img_path})
-#     await browser.close()
-
-
-# def save_screenshot(
-#     url: str, img_path: str, sleep: int = 5, width: int = 1024, height: int = 576
-# ):
-#     asyncio.run(
-#         _save_screenshot(
-#             url=url, img_path=img_path, sleep=sleep, width=width, height=height
-#         )
-#     )
 
 
 def chunks(lst, n):
@@ -682,14 +638,14 @@ def filter_components(components, search=None, category=None, newer_than=None):
 def shorten(text, length=100):
     if len(text) > length:
         short_text = text[:length]
-        
-        # Cut last word if short_text doesn't end on a word. 
+
+        # Cut last word if short_text doesn't end on a word.
         if short_text[-1] != " " and text[length] != " ":
             short_text = short_text[: short_text.rfind(" ")]
-            
-        # Remove whitespace at the end. 
+
+        # Remove whitespace at the end.
         short_text = short_text.rstrip()
-        
+
         # Deal with sentence end markers.
         if short_text[-1] in [".", "!", "?"]:
             return short_text
@@ -803,13 +759,7 @@ def show_more():
 
 
 components = get_components()
-description.write(
-    f"""
-Discover {len(components)} Streamlit components!
-All information on this page is automatically crawled from Github, PyPI, 
-and the [Streamlit forum](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634).
-"""
-)
+description.write(description_text.format(len(components)))
 
 # It's more performant to do the sorting first. It's cached, so even though it's running
 # on more elements when done first, we almost always have a cache hit since the list of
