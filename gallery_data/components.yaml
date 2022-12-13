@@ -202,6 +202,24 @@ components:
     socialUrl: https://github.com/Mohamed-512
     stars: 172
     title: Extra Components
+  extra-streamlit-components-better-cookie-manager:
+    appUrl: null
+    author: matheusfillipe
+    avatar: https://avatars.githubusercontent.com/u/24435787?v=4
+    category: []
+    componentOfTheWeek: false
+    description: An all in one place, to find complex or just not available components
+      by default on streamlit.
+    enabled: true
+    forum: null
+    gitHubUrl: https://github.com/matheusfillipe/Extra-Streamlit-Components
+    hostedWithStreamlit: false
+    image: https://github.com/matheusfillipe/Extra-Streamlit-Components/raw/master/Demo_Assets/cookie_manager.gif
+    pipLink: pip install extra-streamlit-components-better-cookie-manager
+    pypi: https://pypi.org/project/extra-streamlit-components-better-cookie-manager/
+    socialUrl: https://github.com/matheusfillipe
+    stars: 0
+    title: Extra Components Better Cookie Manager
   flet-like-streamlit:
     appUrl: null
     author: Shogo0607
@@ -235,7 +253,7 @@ components:
     pipLink: pip install hiplot
     pypi: https://pypi.org/project/hiplot/
     socialUrl: https://github.com/facebookresearch
-    stars: 2383
+    stars: 2384
     title: HiPlot
   hydralit-components:
     appUrl: null
@@ -840,6 +858,23 @@ components:
     socialUrl: https://github.com/blackary
     stars: 18
     title: Pages
+  st-phot:
+    appUrl: null
+    author: jpierel
+    avatar: null
+    category: []
+    componentOfTheWeek: false
+    description: ''
+    enabled: true
+    forum: null
+    gitHubUrl: null
+    hostedWithStreamlit: false
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    pipLink: pip install st-phot
+    pypi: https://pypi.org/project/st-phot/
+    socialUrl: https://pypi.org/user/jpierel
+    stars: 0
+    title: Phot
   st-rating-df:
     appUrl: null
     author: AntonBuch
