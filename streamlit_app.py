@@ -211,7 +211,6 @@ class Component:
     github: str = None
     pypi: str = None
     image_url: str = None
-    # screenshot_url: str = None
     stars: int = None
     github_description: str = None
     pypi_description: str = None
@@ -735,10 +734,10 @@ if st.button("Write frontmatter files"):
             frontmatter.dump(post, components_dir / f"{c.package}.md")
 
     for i, (category, data) in enumerate(load_categories().items()):
-        st.write(category, data)
+        # st.write(category, data)
         post = frontmatter.Post(
             "",
-            title=data["title"],
+            title=data["icon"] + " " + data["title"],
             enabled=True,
             icon=data["icon"],
             order=i,
