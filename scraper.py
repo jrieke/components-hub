@@ -521,7 +521,7 @@ for i, (category, data) in enumerate(categories.items()):
 
     # Write json_dict to a json file
     with open("gallery_data/components.json", "w") as f:
-        json.dump(json_dict, f)
+        json.dump(json_dict, f, indent=4)
 
     with open("gallery_data/components.yaml", "w") as f:
         yaml.dump(json_dict, f)
