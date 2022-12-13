@@ -1,0 +1,54 @@
+widgets:
+  title: General widgets
+  icon: 🧰
+charts:
+  title: Charts
+  icon: 📊
+image:
+  title: Images
+  icon: 🌇
+video:
+  title: Video
+  icon: 🎥
+text:
+  title: Text
+  icon: 📝
+maps:
+  title: Maps & geospatial
+  icon: 🗺️
+dataframe:
+  title: Dataframes & tables
+  icon: 🧮
+science:
+  title: Molecules & genes
+  icon: 🧬
+graph:
+  title: Graphs
+  icon: 🪢
+3d:
+  title: 3D
+  icon: 🧊
+code:
+  title: Code & editors
+  icon: ✏️
+navigation:
+  title: Page navigation
+  icon: 📃
+authentication:
+  title: Authentication
+  icon: 🔐
+style:
+  title: Style & layout
+  icon: 🎨
+development:
+  title: Developer tools
+  icon: 🛠️
+app-builder:
+  title: App builders
+  icon: 🏗️
+integrations:
+  title: Integrations with other tools
+  icon: 🔌
+collection:
+  title: Collections of components
+  icon: 📦

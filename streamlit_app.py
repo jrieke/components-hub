@@ -30,55 +30,10 @@ def load_exclude():
         return yaml.load(f, Loader=yaml.FullLoader)
 
 
-
-CATEGORY_NAMES = {
-    # Putting this first so people don't miss it. Plus I think's it's one of the most
-    # important ones.
-    "widgets": "General widgets",  # 35
-    # Visualizations of different data types.
-    "charts": "Charts",  # 16
-    "image": "Images",  # 10
-    "video": "Video",  # 6
-    "text": "Text",  # 12
-    "maps": "Maps & geospatial",  # 7
-    "dataframe": "Dataframes & tables",  # 6
-    "science": "Molecules & genes",  # 3
-    "graph": "Graphs",  # 7
-    "3d": "3D",  # 1
-    "code": "Code & editors",  # 4
-    # More general elements in the app.
-    "navigation": "Page navigation",  # 12
-    "authentication": "Authentication",  # 5
-    "style": "Style & layout",  # 3
-    # More backend-y/dev stuff.
-    # TODO: Should probably split this up, "Developer tools" contains a lot of stuff.
-    "development": "Developer tools",  # 22
-    "app-builder": "App builders",  # 3
-    # General purpose categories.
-    "integrations": "Integrations with other tools",  # 14
-    "collection": "Collections of components",  # 4
-}
-
-CATEGORY_ICONS = [
-    "🧰",
-    "📊",
-    "🌇",
-    "🎥",
-    "📝",
-    "🗺️",
-    "🧮",
-    "🧬",
-    "🪢",
-    "🧊",
-    "✏️",
-    "📃",
-    "🔐",
-    "🎨",
-    "🛠️",
-    "🏗️",
-    "🔌",
-    "📦",
-]
+@st.experimental_memo(ttl=24 * 3600)
+def load_categories():
+    with open("categories.yaml") as f:
+        return yaml.load(f, Loader=yaml.FullLoader)
 
 
 def icon(emoji: str):
@@ -132,12 +87,15 @@ sorting = col2.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
 install_command = "pip install"
+# TODO: Should maybe do this faster.
+# category_titles = [c["title"] for c in load_categories().values()]
+category_icons = [c["icon"] for c in load_categories().values()]
 category = pills(
     "Category",
-    list(CATEGORY_NAMES.keys()),
-    CATEGORY_ICONS,
+    list(load_categories().keys()),
+    category_icons,
     index=None,
-    format_func=lambda x: CATEGORY_NAMES.get(x, x),
+    format_func=lambda x: load_categories()[x]["title"],
     label_visibility="collapsed",
 )
 
@@ -834,14 +792,13 @@ if st.button("Write frontmatter files"):
 
             frontmatter.dump(post, components_dir / f"{c.package}.md")
 
-    for i, (icon, (category, title)) in enumerate(
-        zip(CATEGORY_ICONS, CATEGORY_NAMES.items())
-    ):
+    for i, (category, data) in enumerate(load_categories().items()):
+        st.write(category, data)
         post = frontmatter.Post(
             "",
-            title=title,
+            title=data["title"],
             enabled=True,
-            icon=icon,
+            icon=data["icon"],
             order=i,
         )
         frontmatter.dump(post, categories_dir / f"{category}.md")
