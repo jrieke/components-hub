@@ -1,13 +1,21 @@
-name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
-on: [push]
+name: scrape
+run-name: Scrape components and write to file
+on:
+  schedule:
+    - cron: "0 0 * * *" #runs at 00:00 UTC everyday
 jobs:
-  check-bats-version:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v2
         with:
-          node-version: '14'
-      - run: npm install -g bats
-      - run: bats -v
+          python-version: 3.9 #install the python needed
+      - name: execute py script # run the run.py to get the latest data
+        run: |
+          python scraper.py
+        #env:
+        #  key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
