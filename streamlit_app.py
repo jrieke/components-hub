@@ -14,8 +14,6 @@ import yaml
 from bs4 import BeautifulSoup
 from markdownlit import mdlit
 from stqdm import stqdm
-
-# from streamlit_dimensions import st_dimensions
 from streamlit_pills import pills
 
 # from streamlit_profiler import Profiler
@@ -25,40 +23,13 @@ from streamlit_pills import pills
 st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
 NUM_COLS = 4
 
-EXCLUDE = [
-    "streamlit",
-    "streamlit-nightly",
-    "streamlit-fesion",
-    "streamlit-aggrid-pro",
-    "st-dbscan",
-    "st-kickoff",
-    "st-undetected-chromedriver",
-    "st-package-reviewer",
-    "streamlit-webcam-example",
-    "st-pyv8",
-    "streamlit-extras-arnaudmiribel",
-    "st-schema-python",
-    "st-optics",
-    "st-spin",
-    "st-dataprovider",
-    "st-microservice",
-    "st_nester",
-    "st-jsme",
-    "st-parsetree",
-    "st-git-hooks",
-    "st-schema",
-    "st-distributions",
-    "st-common-data",
-    "awesome-streamlit",
-    "awesome-streamlit-master",
-    "extra-streamlit-components-SEM",
-    "barfi",
-    "streamlit-plotly-events-retro",
-    "pollination-streamlit-io",
-    "pollination-streamlit-viewer",
-    "st-clustering",
-    "streamlit-text-rating-component",
-]
+
+@st.experimental_memo(ttl=24 * 3600)
+def load_exclude():
+    with open("exclude.yaml") as f:
+        return yaml.load(f, Loader=yaml.FullLoader)
+
+
 
 CATEGORY_NAMES = {
     # Putting this first so people don't miss it. Plus I think's it's one of the most
@@ -326,7 +297,7 @@ def get_all_packages():
             or a.text.startswith("st-")
             or a.text.startswith("st_")
         )
-        and a.text not in EXCLUDE
+        and a.text not in load_exclude()
     ]
     return packages
 
