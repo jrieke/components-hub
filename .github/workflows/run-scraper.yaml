@@ -31,6 +31,8 @@ jobs:
       - name: Execute scraper script # run the run.py to get the latest data
         run: |
           pipenv run python scraper.py
+        env: 
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
