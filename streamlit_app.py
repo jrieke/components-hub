@@ -546,15 +546,15 @@ def get_components():
 
     # Step 5: Enrich with additional data that was manually curated in
     # additional_data.yaml (currently only categories).
-    with open("additional_data.yaml") as f:
-        additional_data = yaml.safe_load(f)
+    with open("overwrite.yaml") as f:
+        overwrites = yaml.safe_load(f)
     for c in stqdm(
         components_dict.values(),
         desc="🖐 Enriching with manually collected data (step 5/5)",
     ):
         # TODO: Need to do this better. Maybe just store pypi name instead of entire url.
-        if c.pypi and c.pypi.split("/")[-2] in additional_data:
-            c.categories = additional_data[c.pypi.split("/")[-2]]["categories"]
+        if c.pypi and c.pypi.split("/")[-2] in overwrites:
+            c.categories = overwrites[c.pypi.split("/")[-2]]["categories"]
         else:
             c.categories = []
     return list(components_dict.values())
