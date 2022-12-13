@@ -1,3 +1,4 @@
+import json
 import re
 import time
 from dataclasses import dataclass
@@ -683,13 +684,15 @@ show_components(components, st.session_state["limit"])
 if len(components) > st.session_state["limit"]:
     st.button("Show more components", on_click=show_more, type="primary")
 
-components_dir = Path("components")
-components_dir.mkdir(exist_ok=True)
+components_dir = Path("gallery_data/components")
+components_dir.mkdir(exist_ok=True, parents=True)
 
-categories_dir = Path("componentCategories")
-categories_dir.mkdir(exist_ok=True)
+categories_dir = Path("gallery_data/componentCategories")
+categories_dir.mkdir(exist_ok=True, parents=True)
 
-if st.button("Write frontmatter files"):
+if st.button("Write frontmatter + JSON files"):
+
+    json_dict = {"components": {}, "componentCategories": {}}
 
     for c in components:
         # TODO: Need to exclude components without packages above as well.
@@ -712,6 +715,10 @@ if st.button("Write frontmatter files"):
             # TODO: Should probably remove newlines above already.
             description = description.replace("\n", "")
 
+            image = "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png"
+            if c.image_url:
+                image = c.image_url
+
             post = frontmatter.Post(
                 "",
                 title=c.name,
@@ -719,7 +726,7 @@ if st.button("Write frontmatter files"):
                 description=description,
                 pipLink=f"pip install {c.package}",
                 category=c.categories,
-                image=c.image_url,
+                image=image,
                 gitHubUrl=c.github,
                 socialUrl=socialUrl,
                 componentOfTheWeek=False,
@@ -732,6 +739,7 @@ if st.button("Write frontmatter files"):
             )
 
             frontmatter.dump(post, components_dir / f"{c.package}.md")
+            json_dict["components"][c.package] = post.metadata
 
     for i, (category, data) in enumerate(load_categories().items()):
         # st.write(category, data)
@@ -743,3 +751,11 @@ if st.button("Write frontmatter files"):
             order=i,
         )
         frontmatter.dump(post, categories_dir / f"{category}.md")
+        json_dict["componentCategories"][category] = post.metadata
+
+        # Write json_dict to a json file
+        with open("gallery_data/components.json", "w") as f:
+            json.dump(json_dict, f)
+        
+        with open("gallery_data/components.yaml", "w") as f:
+            yaml.dump(json_dict, f)

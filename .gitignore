@@ -1,6 +1,7 @@
 .streamlit/secrets.toml
-components
-componentCategories
+gallery_data/components
+gallery_data/componentCategories
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
