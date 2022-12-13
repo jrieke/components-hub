@@ -8,16 +8,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout repo content
+      - name: Checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner.
-      - name: setup python
+      - name: Setup python
         uses: actions/setup-python@v2
         with:
           python-version: 3.9 #install the python needed
       - name: Install pipenv
         run: |
           python -m pip install --upgrade pipenv wheel
-      - id: cache-pipenv
+      - name: Use cached dependencies if available
+        id: cache-pipenv
         uses: actions/cache@v1
         with:
           path: ~/.local/share/virtualenvs
@@ -26,8 +27,8 @@ jobs:
         if: steps.cache-pipenv.outputs.cache-hit != 'true'
         run: |
           pipenv install
-      - name: execute py script # run the run.py to get the latest data
+      - name: Execute scraper script # run the run.py to get the latest data
         run: |
-          python scraper.py
+          pipenv run python scraper.py
         #env:
         #  key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
