@@ -126,14 +126,13 @@ components:
     pipLink: pip install barfi
     pypi: https://pypi.org/project/barfi/
     socialUrl: https://github.com/krish-adi
-    stars: 149
+    stars: 150
     title: Barfi
   ct-auth0-streamlit-component:
     appUrl: null
     author: arindam.biswas0994
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -150,8 +149,7 @@ components:
     appUrl: null
     author: iterative
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit components for DVC.
     enabled: true
@@ -202,14 +200,13 @@ components:
     pipLink: pip install extra-streamlit-components
     pypi: https://pypi.org/project/extra-streamlit-components/
     socialUrl: https://github.com/Mohamed-512
-    stars: 171
+    stars: 172
     title: Extra Components
   flet-like-streamlit:
     appUrl: null
     author: Shogo0607
     avatar: https://avatars.githubusercontent.com/u/53640086?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Flet working like streamlit
     enabled: true
@@ -263,8 +260,7 @@ components:
     appUrl: null
     author: danthe3rd
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Helper library for creating ML demos in streamlit
     enabled: true
@@ -295,24 +291,6 @@ components:
     socialUrl: https://github.com/crxi
     stars: 3
     title: Multipage
-  mystreamlit:
-    appUrl: null
-    author: horysk
-    avatar: null
-    category:
-    - ''
-    componentOfTheWeek: false
-    description: The fastest way to build data apps in Python
-    enabled: true
-    forum: null
-    gitHubUrl: null
-    hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
-    pipLink: pip install mystreamlit
-    pypi: https://pypi.org/project/mystreamlit/
-    socialUrl: https://pypi.org/user/horysk
-    stars: 0
-    title: My
   nlu:
     appUrl: null
     author: JohnSnowLabs
@@ -354,8 +332,7 @@ components:
     appUrl: null
     author: pollination
     avatar: https://avatars.githubusercontent.com/u/46136343?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A pollination extention to facilitate working with Pollination in
       Streamlit apps
@@ -373,8 +350,7 @@ components:
     appUrl: null
     author: gamcoh
     avatar: https://avatars.githubusercontent.com/u/18115514?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A PR Streamlit template
     enabled: true
@@ -391,8 +367,7 @@ components:
     appUrl: null
     author: thingsTHINKING
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: This is the project for a streamlit component which uses semantha
       semantic compare.
@@ -410,8 +385,7 @@ components:
     appUrl: null
     author: oterrier
     avatar: https://avatars.githubusercontent.com/u/8970395?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Kairntech Sherpa building blocks for Streamlit apps
     enabled: true
@@ -446,8 +420,7 @@ components:
     appUrl: null
     author: symrzknr
     avatar: https://avatars.githubusercontent.com/u/30259408?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Based on react-d3-graph
     enabled: true
@@ -500,8 +473,7 @@ components:
     appUrl: null
     author: kfhuang
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -536,8 +508,7 @@ components:
     appUrl: null
     author: y0sh1
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -554,8 +525,7 @@ components:
     appUrl: null
     author: jamescalam
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -572,8 +542,7 @@ components:
     appUrl: null
     author: AlexPerezAsturies
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -590,8 +559,7 @@ components:
     appUrl: null
     author: uyaseen
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -647,8 +615,7 @@ components:
     appUrl: null
     author: spectereye
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: streamlit component for 3d model
     enabled: true
@@ -665,8 +632,7 @@ components:
     appUrl: null
     author: MihaiBlebea
     avatar: https://avatars.githubusercontent.com/u/28536015?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: This repo contains templates and example code for creating Streamlit
       Components.
@@ -703,8 +669,7 @@ components:
     appUrl: null
     author: MrYasuo
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -721,8 +686,7 @@ components:
     appUrl: null
     author: yixiong321
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -757,8 +721,7 @@ components:
     appUrl: null
     author: moinshaikh
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -793,8 +756,7 @@ components:
     appUrl: null
     author: ljxia
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Custom flash card component for streamlit
     enabled: true
@@ -811,8 +773,7 @@ components:
     appUrl: null
     author: tstosse-adva
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Highlightable text for data labelling.
     enabled: true
@@ -837,7 +798,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/icheft/st-material-table
     hostedWithStreamlit: false
-    image: https://camo.githubusercontent.com/eb6e75d27f3d46c638b5144bf8f625e70a834bfc6669741be0d74a1b4c52a4aa/68747470733a2f2f656d6f6a6970656469612d75732e73332e6475616c737461636b2e75732d776573742d312e616d617a6f6e6177732e636f6d2f7468756d62732f3234302f747769747465722f3238322f636c6173736963616c2d6275696c64696e675f31663364622d666530662e706e67
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
     pipLink: pip install st-material-table
     pypi: https://pypi.org/project/st-material-table/
     socialUrl: https://github.com/icheft
@@ -883,8 +844,7 @@ components:
     appUrl: null
     author: AntonBuch
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -901,8 +861,7 @@ components:
     appUrl: https://share.streamlit.io/0phoff/st-btn-select/demo/test.py
     author: twelvefootball
     avatar: https://avatars.githubusercontent.com/u/32181194?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit Button Select Component Customized
     enabled: true
@@ -919,8 +878,7 @@ components:
     appUrl: null
     author: ragunax2
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A search bar component for streamlit with audio input and suggestions.
     enabled: true
@@ -956,8 +914,7 @@ components:
     appUrl: null
     author: busbyk
     avatar: https://avatars.githubusercontent.com/u/5056653?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A collection of custom components and helper functions for Streamlit
       that are focused on providing...
@@ -975,8 +932,7 @@ components:
     appUrl: null
     author: moinshaikh
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -993,8 +949,7 @@ components:
     appUrl: null
     author: yixiong321
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1139,8 +1094,7 @@ components:
     appUrl: https://share.streamlit.io/pablocfonseca/streamlit-aggrid/main/examples/example.py
     author: LucasTrg
     avatar: https://avatars.githubusercontent.com/u/47852577?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Implementation of Ag-Grid component for Streamlit. Safe from evil
       licenses.
@@ -1176,8 +1130,7 @@ components:
     appUrl: null
     author: Hadarak
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1285,8 +1238,7 @@ components:
     appUrl: null
     author: conradbez
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1303,8 +1255,7 @@ components:
     appUrl: null
     author: m.yazdani
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Service to authorize Streamlit page based on token in URL param.
     enabled: true
@@ -1334,7 +1285,7 @@ components:
     pipLink: pip install streamlit-authenticator
     pypi: https://pypi.org/project/streamlit-authenticator/
     socialUrl: https://github.com/mkhorasani
-    stars: 315
+    stars: 316
     title: Authenticator
   streamlit-autorefresh:
     appUrl: null
@@ -1371,14 +1322,13 @@ components:
     pipLink: pip install streamlit-awesome-table
     pypi: https://pypi.org/project/streamlit-awesome-table/
     socialUrl: https://github.com/caiodearaujo
-    stars: 22
+    stars: 23
     title: Awesome Table
   streamlit-azure-ad-login:
     appUrl: null
     author: raga
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Python package to use a login with Azure AD
     enabled: true
@@ -1413,8 +1363,7 @@ components:
     appUrl: null
     author: RKocielnik
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1444,7 +1393,7 @@ components:
     pipLink: pip install streamlit-bokeh-events
     pypi: https://pypi.org/project/streamlit-bokeh-events/
     socialUrl: https://github.com/ash2shukla
-    stars: 120
+    stars: 122
     title: Bokeh Events
   streamlit-book:
     appUrl: https://share.streamlit.io/sebastiandres/stb_book_demo_v070/main
@@ -1462,7 +1411,7 @@ components:
     pipLink: pip install streamlit-book
     pypi: https://pypi.org/project/streamlit-book/
     socialUrl: https://github.com/sebastiandres
-    stars: 51
+    stars: 52
     title: Book
   streamlit-bridge:
     appUrl: null
@@ -1487,8 +1436,7 @@ components:
     appUrl: null
     author: kosfera
     avatar: https://avatars.githubusercontent.com/u/100473238?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: 'Streamlit component allowing one to connect to the following browser
       storages:'
@@ -1581,8 +1529,7 @@ components:
     appUrl: null
     author: mmaelicke
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit component to select a card from a grid
     enabled: true
@@ -1599,8 +1546,7 @@ components:
     appUrl: null
     author: acarson_sfc
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1635,8 +1581,7 @@ components:
     appUrl: null
     author: zBritva
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Component to render charticulator templates with streamlit data
     enabled: true
@@ -1653,8 +1598,7 @@ components:
     appUrl: null
     author: alteirac
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1689,8 +1633,7 @@ components:
     appUrl: null
     author: Hadarak
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1707,8 +1650,7 @@ components:
     appUrl: null
     author: Kale112
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1761,8 +1703,7 @@ components:
     appUrl: null
     author: Kale112
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1817,8 +1758,7 @@ components:
     appUrl: null
     author: andrewnelson23
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -1884,14 +1824,13 @@ components:
     pipLink: pip install streamlit-d3graph
     pypi: https://pypi.org/project/streamlit-d3graph/
     socialUrl: https://github.com/snehankekre
-    stars: 14
+    stars: 15
     title: D3Graph
   streamlit-data-profile-viewer:
     appUrl: null
     author: scastelo
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Data profile viewer component for Streamlit
     enabled: true
@@ -1926,8 +1865,7 @@ components:
     appUrl: null
     author: alteirac
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Visualize Snowflake DB tree
     enabled: true
@@ -1944,8 +1882,7 @@ components:
     appUrl: null
     author: quentinfebvre
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A simple component to view diff between to files
     enabled: true
@@ -2018,8 +1955,7 @@ components:
     appUrl: null
     author: kotamori
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A streamlit custom component for doubutsushogi (animal chess) game
     enabled: true
@@ -2140,14 +2076,13 @@ components:
     pipLink: pip install streamlit-elements
     pypi: https://pypi.org/project/streamlit-elements/
     socialUrl: https://github.com/okld
-    stars: 128
+    stars: 129
     title: Elements
   streamlit-elements-fluence:
     appUrl: null
     author: aschofield
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: React Components for Streamlit.
     enabled: true
@@ -2183,8 +2118,7 @@ components:
     appUrl: null
     author: mapix
     avatar: https://avatars.githubusercontent.com/u/932699?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: '[![GitHub][github_badge]][github_link] [![PyPI][pypi_badge]][pypi_link]'
     enabled: true
@@ -2260,7 +2194,7 @@ components:
     pipLink: pip install streamlit-extras
     pypi: https://pypi.org/project/streamlit-extras/
     socialUrl: https://github.com/arnaudmiribel
-    stars: 112
+    stars: 113
     title: Extras
   streamlit-faker:
     appUrl: https://fakker.streamlitapp.com
@@ -2284,8 +2218,7 @@ components:
     appUrl: null
     author: gamcoh
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A streamlit component, to make facebook posts
     enabled: true
@@ -2302,8 +2235,7 @@ components:
     appUrl: null
     author: Graniti
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Firebase Remote Config and Google Analytics for Streamlit
     enabled: true
@@ -2339,8 +2271,7 @@ components:
     appUrl: null
     author: ljxia
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Custom flash card component for streamlit
     enabled: true
@@ -2369,7 +2300,7 @@ components:
     pipLink: pip install streamlit-folium
     pypi: https://pypi.org/project/streamlit-folium/
     socialUrl: https://github.com/randyzwitch
-    stars: 221
+    stars: 222
     title: Folium
   streamlit-force-graph-simulator:
     appUrl: null
@@ -2413,8 +2344,7 @@ components:
     appUrl: null
     author: yevgnen
     avatar: https://avatars.githubusercontent.com/u/16749790?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: To ensure the codebase complies with a style guide, please use flake8,
       black and isort tools to...
@@ -2451,8 +2381,7 @@ components:
     appUrl: null
     author: lzanini
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: The fastest way to build data apps in Python
     enabled: true
@@ -2469,8 +2398,7 @@ components:
     appUrl: null
     author: crsmi
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit Leaflet component that allows user to place marker on map
       and return coordinates.
@@ -2507,8 +2435,7 @@ components:
     appUrl: null
     author: karriebear
     avatar: https://avatars.githubusercontent.com/u/24946400?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Create a Google Geochart for Streamlit
     enabled: true
@@ -2563,8 +2490,7 @@ components:
     appUrl: null
     author: truefoundry
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A streamlit wrapper for gradio
     enabled: true
@@ -2581,8 +2507,7 @@ components:
     appUrl: null
     author: mmaelicke
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Graphic background slider for Streamlit
     enabled: true
@@ -2599,8 +2524,7 @@ components:
     appUrl: null
     author: danielschutz
     avatar: https://avatars.githubusercontent.com/u/53131308?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A command line tool to help create necessary files to deploy a Streamlit
       app on Heroku
@@ -2618,8 +2542,7 @@ components:
     appUrl: null
     author: 6br
     avatar: https://avatars.githubusercontent.com/u/12047794?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A streamlit component of a hybrid genome browser
     enabled: true
@@ -2636,8 +2559,7 @@ components:
     appUrl: null
     author: alteirac
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Simple wrapper for Highcharts JS libs
     enabled: true
@@ -2654,8 +2576,7 @@ components:
     appUrl: null
     author: lukasmasuch
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit components to build interactive Huggingface-powered apps.
     enabled: true
@@ -2672,8 +2593,7 @@ components:
     appUrl: null
     author: Hadarak
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -2702,7 +2622,7 @@ components:
     pipLink: pip install streamlit-image-comparison
     pypi: https://pypi.org/project/streamlit-image-comparison/
     socialUrl: https://github.com/fcakyon
-    stars: 104
+    stars: 106
     title: Image Comparison
   streamlit-image-crop:
     appUrl: null
@@ -2738,7 +2658,7 @@ components:
     pipLink: pip install streamlit-image-select
     pypi: https://pypi.org/project/streamlit-image-select/
     socialUrl: https://github.com/jrieke
-    stars: 19
+    stars: 20
     title: Image Select
   streamlit-image-select-mod:
     appUrl: null
@@ -2761,8 +2681,7 @@ components:
     appUrl: null
     author: midhunharikumar
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit imagegrid
     enabled: true
@@ -2854,8 +2773,7 @@ components:
     appUrl: null
     author: jihaoran
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: streamlit components
     enabled: true
@@ -2909,8 +2827,7 @@ components:
     appUrl: null
     author: alteirac
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Wrapper around Kebolla python client to list tables, buckets and
       upload files to stage
@@ -3001,8 +2918,7 @@ components:
     appUrl: null
     author: 100mitra
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Library to create KPI metric for streamlit dashboards
     enabled: true
@@ -3096,8 +3012,7 @@ components:
     appUrl: null
     author: llllyang123
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit component implementation of lianshan
     enabled: true
@@ -3114,8 +3029,7 @@ components:
     appUrl: null
     author: ragunax2
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -3132,8 +3046,7 @@ components:
     appUrl: null
     author: ash2shukla
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -3163,7 +3076,7 @@ components:
     pipLink: pip install streamlit-login-auth-ui
     pypi: https://pypi.org/project/streamlit-login-auth-ui/
     socialUrl: https://github.com/GauriSP10
-    stars: 34
+    stars: 35
     title: Login Auth UI
   streamlit-lottie:
     appUrl: https://share.streamlit.io/andfanilo/streamlit-lottie-demo/master/app.py
@@ -3223,8 +3136,7 @@ components:
     appUrl: null
     author: gamcoh
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A streamlit component, to make chat ui messages
     enabled: true
@@ -3259,8 +3171,7 @@ components:
     appUrl: null
     author: acschofield
     avatar: https://avatars.githubusercontent.com/u/6517163?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Mock of streamlit to allow unit tests
     enabled: true
@@ -3295,8 +3206,7 @@ components:
     appUrl: null
     author: skalarsystems
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Monaco editor component for Streamlit for editing YAML files.
     enabled: true
@@ -3313,8 +3223,7 @@ components:
     appUrl: null
     author: Planete
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit componenet can contain multiple row inputs
     enabled: true
@@ -3331,8 +3240,7 @@ components:
     appUrl: null
     author: Planete
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit componenet can contain multiple text area.
     enabled: true
@@ -3403,8 +3311,7 @@ components:
     appUrl: null
     author: conradbez
     avatar: https://avatars.githubusercontent.com/u/3398156?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: pip install streamlit-node-graph
     enabled: true
@@ -3439,8 +3346,7 @@ components:
     appUrl: null
     author: smejak
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit component for running compute-to-data with Ocean Protocol
     enabled: true
@@ -3531,8 +3437,7 @@ components:
     appUrl: null
     author: Hadarak
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -3549,8 +3454,7 @@ components:
     appUrl: null
     author: ragunax2
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -3579,7 +3483,7 @@ components:
     pipLink: pip install streamlit-pandas
     pypi: https://pypi.org/project/streamlit-pandas/
     socialUrl: https://github.com/wjbmattingly
-    stars: 11
+    stars: 12
     title: Pandas
   streamlit-pandas-profiling:
     appUrl: https://share.streamlit.io/okld/streamlit-gallery/main?p=pandas-profiling
@@ -3642,8 +3546,7 @@ components:
     appUrl: null
     author: yaphott
     avatar: https://avatars.githubusercontent.com/u/56131068?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Allows for persistence of class attributes when using Streamlit in
       Python.
@@ -3710,7 +3613,7 @@ components:
     pipLink: pip install streamlit-plotly-events
     pypi: https://pypi.org/project/streamlit-plotly-events/
     socialUrl: https://github.com/null-jones
-    stars: 102
+    stars: 103
     title: Plotly Events
   streamlit-plotly-mapboxEvents:
     appUrl: null
@@ -3735,8 +3638,7 @@ components:
     appUrl: null
     author: pollination
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A streamlit extention to interact with Pollination Cloud
     enabled: true
@@ -3827,8 +3729,7 @@ components:
     appUrl: null
     author: falakmasir
     avatar: https://avatars.githubusercontent.com/u/1222747?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: react-querybuilder + streamlit
     enabled: true
@@ -3918,8 +3819,7 @@ components:
     appUrl: null
     author: wisdomofgod
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -3973,8 +3873,7 @@ components:
     appUrl: null
     author: alteirac
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Search bar component
     enabled: true
@@ -4010,8 +3909,7 @@ components:
     appUrl: null
     author: Doogle_publish
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A selector for a list of sentences or strings, and return a list
       of sentences or strings that you...
@@ -4103,8 +4001,7 @@ components:
     appUrl: https://share.streamlit.io/imyizhang/streamlit-space/main/streamlit_app.py
     author: imyizhang
     avatar: https://avatars.githubusercontent.com/u/61935833?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Spacing component for Streamlit
     enabled: true
@@ -4138,8 +4035,7 @@ components:
     appUrl: https://share.streamlit.io/jpaulorc/streamlit_stackoverflow/main/streamlit_stackoverflow/streamlit_app.py
     author: jpaulorc
     avatar: https://avatars.githubusercontent.com/u/25757129?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Project created to learn Streamlit.
     enabled: true
@@ -4156,8 +4052,7 @@ components:
     appUrl: null
     author: fx-kirin
     avatar: https://avatars.githubusercontent.com/u/2161266?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: streamlit_state was written by fx-kirin.
     enabled: true
@@ -4174,8 +4069,7 @@ components:
     appUrl: null
     author: BionomeeX
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A MaterialUI stepper bar based for Streamlit.
     enabled: true
@@ -4265,8 +4159,7 @@ components:
     appUrl: https://share.streamlit.io/ai-yash/st-chat/main/examples/chatbot.py
     author: yichern
     avatar: https://avatars.githubusercontent.com/u/32623504?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Streamlit Component, for a Chatbot UI
     enabled: true
@@ -4319,8 +4212,7 @@ components:
     appUrl: null
     author: victoryhb
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: streamlit-text-annotation is a simple streamlit component for displaying
       and editing text...
@@ -4357,8 +4249,7 @@ components:
     appUrl: null
     author: PROFESSOR-PENGUIN
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: streamlit_text_like enables to like or dislike a text input
     enabled: true
@@ -4393,8 +4284,7 @@ components:
     appUrl: https://codesue-tfx-visualizers.streamlitapp.com
     author: codesue
     avatar: https://avatars.githubusercontent.com/u/11793274?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: "\U0001F331 TensorFlow Extended visualizers for Streamlit apps"
     enabled: true
@@ -4411,8 +4301,7 @@ components:
     appUrl: null
     author: samdobson
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Easy customisation of Streamlit look and feel.
     enabled: true
@@ -4448,8 +4337,7 @@ components:
     appUrl: null
     author: whitphx
     avatar: https://avatars.githubusercontent.com/u/3135397?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -4466,8 +4354,7 @@ components:
     appUrl: https://share.streamlit.io/imyizhang/streamlit-toggle/main/streamlit_app.py
     author: imyizhang
     avatar: https://avatars.githubusercontent.com/u/61935833?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Toggling component for Streamlit
     enabled: true
@@ -4520,8 +4407,7 @@ components:
     appUrl: null
     author: ktosiek
     avatar: https://avatars.githubusercontent.com/u/278013?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Get the query fragment in your Streamlit script
     enabled: true
@@ -4587,7 +4473,7 @@ components:
     pipLink: pip install streamlit-vis-timeline
     pypi: https://pypi.org/project/streamlit-vis-timeline/
     socialUrl: https://github.com/giswqs
-    stars: 28
+    stars: 29
     title: Vis Timeline
   streamlit-visgraph:
     appUrl: null
@@ -4611,8 +4497,7 @@ components:
     appUrl: null
     author: pollination
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: vtkjs component for streamlit
     enabled: true
@@ -4629,8 +4514,7 @@ components:
     appUrl: null
     author: smejak
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A Streamlit component for interacting with Web3.
     enabled: true
@@ -4647,8 +4531,7 @@ components:
     appUrl: null
     author: muhammadateeb
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: A component loading forecast data from OpenWeather and uses react-open-weather
       React component
@@ -4678,14 +4561,13 @@ components:
     pipLink: pip install streamlit-webrtc
     pypi: https://pypi.org/project/streamlit-webrtc/
     socialUrl: https://github.com/whitphx
-    stars: 634
+    stars: 636
     title: WebRTC
   streamlit-webscrap-tool:
     appUrl: null
     author: tianning.li_20
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: ''
     enabled: true
@@ -4702,8 +4584,7 @@ components:
     appUrl: null
     author: PROFESSOR-PENGUIN
     avatar: https://avatars.githubusercontent.com/u/54973126?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: streamlit-widget-tracker helps track the widget values in use
     enabled: true
@@ -4720,8 +4601,7 @@ components:
     appUrl: null
     author: archydeberker
     avatar: https://avatars.githubusercontent.com/u/9258253?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Component for handling wizard-like sequential interactions in streamlit
     enabled: true
@@ -4770,7 +4650,7 @@ components:
     pipLink: pip install streamlit-ws-localstorage
     pypi: https://pypi.org/project/streamlit-ws-localstorage/
     socialUrl: https://github.com/gagangoku
-    stars: 6
+    stars: 7
     title: Ws Localstorage
   streamlit-xui:
     appUrl: null
@@ -4814,8 +4694,7 @@ components:
     appUrl: https://aalteirac-streamlit-highcharts-test-app-main-3vgde6.streamlitapp.com/
     author: aalteirac
     avatar: https://avatars.githubusercontent.com/u/8478296?v=4
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Simple wrapper for Highcharts JS libs
     enabled: true
@@ -4826,7 +4705,7 @@ components:
     pipLink: pip install streamlit_highcharts
     pypi: https://pypi.org/project/streamlit_highcharts/
     socialUrl: https://github.com/aalteirac
-    stars: 1
+    stars: 2
     title: Highcharts
   streamlitfront:
     appUrl: null
@@ -4868,8 +4747,7 @@ components:
     appUrl: null
     author: jmmease
     avatar: null
-    category:
-    - ''
+    category: []
     componentOfTheWeek: false
     description: Stay Tuned!
     enabled: true

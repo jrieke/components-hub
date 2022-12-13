@@ -94,7 +94,7 @@ def get(*args, **kwargs):
 
 @st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get_github_info(url):
-    """use the github api to get the number of stars for a given repo"""
+    """Use the GitHub API to retrieve a bunch of information about a repo."""
     url = url.replace("https://", "").replace("http://", "")
     user, repo = url.split("/")[1:3]
     response = requests.get(

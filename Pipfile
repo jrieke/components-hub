@@ -12,6 +12,7 @@ markdownlit = "*"
 pyyaml = "*"
 streamlit-pills = "==0.3.0"
 python-frontmatter = "*"
+tqdm = "*"
 
 [dev-packages]
 watchdog = "*"
