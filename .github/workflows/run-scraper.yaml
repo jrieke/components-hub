@@ -47,3 +47,5 @@ jobs:
 
             Check the **Files changed** tab at the top to see which components were updated. 
           branch: latest-scraper-run
+          commit-message: 🤖 Add updates from latest scraper run
+          author: GitHub <noreply@github.com>
