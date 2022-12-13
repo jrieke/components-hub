@@ -1,8 +1,8 @@
 name: scrape
 run-name: Scrape components and write to file
-on:
-  schedule:
-    - cron: "0 0 * * *" #runs at 00:00 UTC everyday
+on: [push]
+  #schedule:
+  #  - cron: "0 0 * * *" #runs at 00:00 UTC everyday
 jobs:
   build:
     runs-on: ubuntu-latest
