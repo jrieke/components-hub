@@ -1,17 +1,23 @@
+
 # Add any data that should overwrite the automatically scraped data. 
 hiplot:
+  title: HiPlot
   categories:
   - charts
 streamlit-webrtc:
+  title: WebRTC
   categories:
   - video
 spacy-streamlit:
+  title: SpaCy
   categories:
   - text
 nlu:
+  title: NLU
   categories:
   - text
 streamlit-aggrid:
+  title: AgGrid
   categories:
   - dataframe
 streamlit-drawable-canvas:
@@ -24,6 +30,7 @@ streamlit-authenticator:
   categories:
   - authentication
 streamlit-echarts:
+  title: ECharts
   categories:
   - charts
 streamlit-folium:
@@ -169,6 +176,7 @@ streamlit-shap:
   categories:
   - charts
 streamlit-login-auth-ui:
+  title: Login Auth UI
   categories:
   - authentication
 streamlit-tensorboard:
@@ -212,6 +220,7 @@ streamlit-searchbox:
   categories:
   - widgets
 streamlit-kickoff-cli:
+  title: Kickoff CLI
   categories:
   - development
 st-vizzu:

@@ -49,22 +49,6 @@ st.write(
     unsafe_allow_html=True,
 )
 
-# Only do this once at the beginning of the session. If we're doing it at every rerun,
-# the width will fluctuate because the sidebar appears or disappears, leading to
-# this running over and over again.
-# Note that this slows the app down quite a bit because it triggers a second rerun,
-# as soon as st_dimensions knows its width.
-# if "screen_width" not in st.session_state:
-#     dimensions = st_dimensions()
-#     if dimensions is not None:
-#         st.session_state.screen_width = dimensions["width"]
-
-# if "screen_width" in st.session_state and st.session_state.screen_width < 768:
-#     container = st.container()  # small screen, show controls at top of page
-# else:
-#     container = st.sidebar  # large screen, show controls in sidebar
-
-# with container:
 icon("🎪")
 """
 # Streamlit Components Hub
@@ -88,7 +72,6 @@ sorting = col2.selectbox(
 )
 install_command = "pip install"
 # TODO: Should maybe do this faster.
-# category_titles = [c["title"] for c in load_categories().values()]
 category_icons = [c["icon"] for c in load_categories().values()]
 category = pills(
     "Category",
@@ -99,7 +82,6 @@ category = pills(
     label_visibility="collapsed",
 )
 
-# if "screen_width" in st.session_state and st.session_state.screen_width < 768:
 st.write("")
 
 
@@ -473,24 +455,7 @@ def get_components():
                 .replace("_", " ")
                 .strip()
                 .title()
-                .replace("Nlu", "NLU")  # special case adjustments for top results ;)
-                .replace(" Cli", " CLI")
-                .replace("rtc", "RTC")
-                .replace("Hiplot", "HiPlot")
-                .replace("Spacy", "SpaCy")
-                .replace("Aggrid", "AgGrid")
-                .replace("Echarts", "ECharts")
-                .replace("Ui", "UI")
             )
-
-            # if c.package.startswith("streamlit-"):
-            #     c.name = c.package[10:].replace("-", " ").capitalize()
-            # elif c.package.endswith("-streamlit"):
-            #     c.name = c.package[:-10].replace("-", " ").capitalize()
-            # elif c.package.startswith("st-"):
-            #     c.name = c.package[3:].replace("-", " ").capitalize()
-            # else:
-            #     c.name = c.package.replace("-streamlit-", " ").replace("-", " ").capitalize()
 
         c.search_text = (
             str(c.name)
@@ -510,9 +475,12 @@ def get_components():
         components_dict.values(),
         desc="🖐 Enriching with manually collected data (step 5/5)",
     ):
-        # TODO: Need to do this better. Maybe just store pypi name instead of entire url.
-        if c.pypi and c.pypi.split("/")[-2] in overwrites:
-            c.categories = overwrites[c.pypi.split("/")[-2]]["categories"]
+        if c.package and c.package in overwrites:
+            c.categories = overwrites[c.package]["categories"]
+            if "title" in overwrites[c.package]:
+                c.name = overwrites[c.package]["title"]
+            # TODO: Do this for all other properties as well. 
+        
         else:
             c.categories = []
     return list(components_dict.values())
