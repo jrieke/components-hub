@@ -235,7 +235,7 @@ components:
     pipLink: pip install hiplot
     pypi: https://pypi.org/project/hiplot/
     socialUrl: https://github.com/facebookresearch
-    stars: 2383
+    stars: 2384
     title: HiPlot
   hydralit-components:
     appUrl: null
