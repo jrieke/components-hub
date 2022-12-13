@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import time
 from dataclasses import dataclass
@@ -13,9 +14,12 @@ import requests
 import streamlit as st
 import yaml
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 from tqdm import tqdm
 
 TRACKER = "https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634"
+load_dotenv()
+GH_TOKEN = os.getenv("GH_TOKEN")
 
 
 @dataclass
@@ -66,7 +70,7 @@ def get_github_info(url):
         f"https://api.github.com/repos/{user}/{repo}",
         headers={
             "Accept": "application/vnd.github.v3+json",
-            "Authorization": f"Token {st.secrets.gh_token}",
+            "Authorization": f"Token {GH_TOKEN}",
         },
     )
     if response.status_code == 404:
@@ -92,7 +96,7 @@ def parse_github_readme(url):
     status_code, text = get(
         url,
         headers={
-            "Authorization": f"Token {st.secrets.gh_token}",
+            "Authorization": f"Token {GH_TOKEN}",
         },
     )
     if status_code == 404:
@@ -335,7 +339,7 @@ def get_components():
                     f"https://api.github.com/repos/{c.pypi_author}/{repo}",
                     headers={
                         "Accept": "application/vnd.github.v3+json",
-                        "Authorization": f"Token {st.secrets.gh_token}",
+                        "Authorization": f"Token {GH_TOKEN}",
                     },
                 )
                 if status_code == 200:
@@ -440,7 +444,6 @@ def shorten(text, length=100):
 
 
 components = get_components()
-
 
 
 print("✍️ Writing to files")

@@ -13,6 +13,7 @@ pyyaml = "*"
 streamlit-pills = "==0.3.0"
 python-frontmatter = "*"
 tqdm = "*"
+python-dotenv = "*"
 
 [dev-packages]
 watchdog = "*"
