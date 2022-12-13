@@ -10,7 +10,7 @@ on:
   # TODO: Must be in the default branch according to docs.
   workflow_dispatch:
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo content
@@ -43,9 +43,7 @@ jobs:
           delete-branch: true
           title: 🤖 Latest scraper run
           body: |
-            Hey there 👋 Here are the changes from the latest run of the components 
-            scraper in `scraper.py`. This is an automatic PR created via Github Actions. 
+            Hey there 👋 Here are the changes from the latest run of the components scraper in `scraper.py`. This is an automatic PR created via Github Actions. 
 
-            Check the **Files changed** tab at the top to see which components were 
-            updated. 
+            Check the **Files changed** tab at the top to see which components were updated. 
           branch: latest-scraper-run
