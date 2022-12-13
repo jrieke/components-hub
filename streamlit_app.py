@@ -2,8 +2,10 @@ import re
 import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta
+from pathlib import Path
 from typing import List
 
+import frontmatter
 import httpx
 import pypistats
 import requests
@@ -809,3 +811,66 @@ if len(components) > st.session_state["limit"]:
 # if summary and summary.text and summary.text != "No project description provided":
 #     print("found summary description on pypi:", summary.text)
 # print(summary)
+
+
+components_dir = Path("components")
+components_dir.mkdir(exist_ok=True)
+
+categories_dir = Path("componentCategories")
+categories_dir.mkdir(exist_ok=True)
+
+if st.button("Write frontmatter files"):
+
+    for c in components:
+        # TODO: Need to exclude components without packages above as well.
+        if c.package:
+
+            author = ""
+            socialUrl = ""
+            if c.github_author:
+                author = c.github_author
+                socialUrl = f"https://github.com/{c.github_author}"
+            elif c.pypi_author:
+                author = c.pypi_author
+                socialUrl = f"https://pypi.org/user/{c.pypi_author}"
+
+            description = ""
+            if c.github_description:
+                description = shorten(c.github_description)
+            elif c.pypi_description:
+                description = shorten(c.pypi_description)
+            # TODO: Should probably remove newlines above already.
+            description = description.replace("\n", "")
+
+            post = frontmatter.Post(
+                "",
+                title=c.name,
+                author=author,
+                description=description,
+                pipLink=f"pip install {c.package}",
+                category=c.categories,
+                image=c.image_url,
+                gitHubUrl=c.github,
+                socialUrl=socialUrl,
+                componentOfTheWeek=False,
+                hostedWithStreamlit=False,
+                enabled=True,
+                appUrl=c.demo,
+                forum=c.forum_post,
+                pypi=c.pypi,
+                avatar=c.avatar,
+            )
+
+            frontmatter.dump(post, components_dir / f"{c.package}.md")
+
+    for i, (icon, (category, title)) in enumerate(
+        zip(CATEGORY_ICONS, CATEGORY_NAMES.items())
+    ):
+        post = frontmatter.Post(
+            "",
+            title=title,
+            enabled=True,
+            icon=icon,
+            order=i,
+        )
+        frontmatter.dump(post, categories_dir / f"{category}.md")
