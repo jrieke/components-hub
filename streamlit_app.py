@@ -479,8 +479,8 @@ def get_components():
             c.categories = overwrites[c.package]["categories"]
             if "title" in overwrites[c.package]:
                 c.name = overwrites[c.package]["title"]
-            # TODO: Do this for all other properties as well. 
-        
+            # TODO: Do this for all other properties as well.
+
         else:
             c.categories = []
     return list(components_dict.values())
@@ -683,32 +683,6 @@ show_components(components, st.session_state["limit"])
 
 if len(components) > st.session_state["limit"]:
     st.button("Show more components", on_click=show_more, type="primary")
-
-# if st.button("write additional data file"):
-#     yaml_dict = {
-#         c.pypi.split("/")[-2]: {"categories": [""]} for c in components if c.pypi
-#     }
-#     import yaml
-
-#     with open("additional_data.yaml", "w") as f:
-#         yaml.dump(yaml_dict, f, sort_keys=False)
-
-
-# cols = st.columns(5)
-# for page in range(1, 1+ math.ceil(len(components) / 100)):
-#     print(page)
-#     cols[page - 1].button(f"Page {page}", on_click=set_page, args=(page,))
-
-# downloads = pypistats.recent("streamlit-image-select", "month", format="pandas")["last_month"][0]#.iloc[-1]["downloads"]
-# st.write(downloads)
-
-# status_code, text = get("https://pypi.org/project/st-searchbar/")
-# soup = BeautifulSoup(text, "html.parser")
-# summary = soup.find("p", class_="package-description__summary")
-# if summary and summary.text and summary.text != "No project description provided":
-#     print("found summary description on pypi:", summary.text)
-# print(summary)
-
 
 components_dir = Path("components")
 components_dir.mkdir(exist_ok=True)
