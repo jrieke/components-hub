@@ -7,10 +7,11 @@ on:
       - snowvation
   schedule:
     - cron: "0 0 * * *"  # runs at 00:00 UTC every day
+  # TODO: Must be in the default branch according to docs.
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo content
         uses: actions/checkout@v2
