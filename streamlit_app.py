@@ -718,6 +718,10 @@ if st.button("Write frontmatter + JSON files"):
             image = "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png"
             if c.image_url:
                 image = c.image_url
+                
+            stars = 0
+            if c.stars:
+                stars = c.stars
 
             post = frontmatter.Post(
                 "",
@@ -736,6 +740,7 @@ if st.button("Write frontmatter + JSON files"):
                 forum=c.forum_post,
                 pypi=c.pypi,
                 avatar=c.avatar,
+                stars=stars, 
             )
 
             frontmatter.dump(post, components_dir / f"{c.package}.md")

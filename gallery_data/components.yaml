@@ -107,6 +107,7 @@ components:
     pipLink: pip install audio-recorder-streamlit
     pypi: https://pypi.org/project/audio-recorder-streamlit/
     socialUrl: https://github.com/Joooohan
+    stars: 1
     title: Audio Recorder
   barfi:
     appUrl: null
@@ -125,6 +126,7 @@ components:
     pipLink: pip install barfi
     pypi: https://pypi.org/project/barfi/
     socialUrl: https://github.com/krish-adi
+    stars: 149
     title: Barfi
   ct-auth0-streamlit-component:
     appUrl: null
@@ -142,6 +144,7 @@ components:
     pipLink: pip install ct-auth0-streamlit-component
     pypi: https://pypi.org/project/ct-auth0-streamlit-component/
     socialUrl: https://pypi.org/user/arindam.biswas0994
+    stars: 0
     title: Ct Auth0 Component
   dvc-streamlit:
     appUrl: null
@@ -159,6 +162,7 @@ components:
     pipLink: pip install dvc-streamlit
     pypi: https://pypi.org/project/dvc-streamlit/
     socialUrl: https://github.com/iterative
+    stars: 0
     title: Dvc
   elyra-streamlit-extension:
     appUrl: null
@@ -176,6 +180,7 @@ components:
     pipLink: pip install elyra-streamlit-extension
     pypi: https://pypi.org/project/elyra-streamlit-extension/
     socialUrl: https://github.com/elyra-ai
+    stars: 3
     title: Elyra Extension
   extra-streamlit-components:
     appUrl: null
@@ -197,6 +202,7 @@ components:
     pipLink: pip install extra-streamlit-components
     pypi: https://pypi.org/project/extra-streamlit-components/
     socialUrl: https://github.com/Mohamed-512
+    stars: 171
     title: Extra Components
   flet-like-streamlit:
     appUrl: null
@@ -214,6 +220,7 @@ components:
     pipLink: pip install flet-like-streamlit
     pypi: https://pypi.org/project/flet-like-streamlit/
     socialUrl: https://github.com/Shogo0607
+    stars: 0
     title: Flet Like
   hiplot:
     appUrl: null
@@ -231,6 +238,7 @@ components:
     pipLink: pip install hiplot
     pypi: https://pypi.org/project/hiplot/
     socialUrl: https://github.com/facebookresearch
+    stars: 2383
     title: HiPlot
   hydralit-components:
     appUrl: null
@@ -249,6 +257,7 @@ components:
     pipLink: pip install hydralit-components
     pypi: https://pypi.org/project/hydralit-components/
     socialUrl: https://github.com/TangleSpace
+    stars: 60
     title: Hydralit Components
   metastreamlit:
     appUrl: null
@@ -266,6 +275,7 @@ components:
     pipLink: pip install metastreamlit
     pypi: https://pypi.org/project/metastreamlit/
     socialUrl: https://pypi.org/user/danthe3rd
+    stars: 0
     title: Meta
   multipage-streamlit:
     appUrl: https://share.streamlit.io/crxi/multipage_streamlit/main/example/demo/app.py
@@ -283,6 +293,7 @@ components:
     pipLink: pip install multipage-streamlit
     pypi: https://pypi.org/project/multipage-streamlit/
     socialUrl: https://github.com/crxi
+    stars: 3
     title: Multipage
   mystreamlit:
     appUrl: null
@@ -300,6 +311,7 @@ components:
     pipLink: pip install mystreamlit
     pypi: https://pypi.org/project/mystreamlit/
     socialUrl: https://pypi.org/user/horysk
+    stars: 0
     title: My
   nlu:
     appUrl: null
@@ -318,6 +330,7 @@ components:
     pipLink: pip install nlu
     pypi: https://pypi.org/project/nlu/
     socialUrl: https://github.com/JohnSnowLabs
+    stars: 595
     title: NLU
   plost:
     appUrl: https://share.streamlit.io/tvst/plost
@@ -335,6 +348,7 @@ components:
     pipLink: pip install plost
     pypi: https://pypi.org/project/plost/
     socialUrl: https://github.com/tvst
+    stars: 190
     title: Plost
   pollination-streamlit:
     appUrl: null
@@ -353,6 +367,7 @@ components:
     pipLink: pip install pollination-streamlit
     pypi: https://pypi.org/project/pollination-streamlit/
     socialUrl: https://github.com/pollination
+    stars: 0
     title: Pollination
   pr-streamlit-template:
     appUrl: null
@@ -370,6 +385,7 @@ components:
     pipLink: pip install pr-streamlit-template
     pypi: https://pypi.org/project/pr-streamlit-template/
     socialUrl: https://github.com/gamcoh
+    stars: 0
     title: Pr Template
   semantha-streamlit-compare:
     appUrl: null
@@ -388,6 +404,7 @@ components:
     pipLink: pip install semantha-streamlit-compare
     pypi: https://pypi.org/project/semantha-streamlit-compare/
     socialUrl: https://pypi.org/user/thingsTHINKING
+    stars: 0
     title: Semantha Compare
   sherpa-streamlit:
     appUrl: null
@@ -405,6 +422,7 @@ components:
     pipLink: pip install sherpa-streamlit
     pypi: https://pypi.org/project/sherpa-streamlit/
     socialUrl: https://github.com/oterrier
+    stars: 0
     title: Sherpa
   spacy-streamlit:
     appUrl: https://share.streamlit.io/ines/spacy-streamlit-demo/master/app.py
@@ -422,6 +440,7 @@ components:
     pipLink: pip install spacy-streamlit
     pypi: https://pypi.org/project/spacy-streamlit/
     socialUrl: https://github.com/explosion
+    stars: 607
     title: SpaCy
   st-agraph-symrzknr:
     appUrl: null
@@ -439,6 +458,7 @@ components:
     pipLink: pip install st-agraph-symrzknr
     pypi: https://pypi.org/project/st-agraph-symrzknr/
     socialUrl: https://github.com/symrzknr
+    stars: 0
     title: Agraph Symrzknr
   st-annotated-text:
     appUrl: null
@@ -456,6 +476,7 @@ components:
     pipLink: pip install st-annotated-text
     pypi: https://pypi.org/project/st-annotated-text/
     socialUrl: https://github.com/tvst
+    stars: 307
     title: Annotated Text
   st-btn-select:
     appUrl: https://share.streamlit.io/0phoff/st-btn-select/demo/test.py
@@ -473,6 +494,7 @@ components:
     pipLink: pip install st-btn-select
     pypi: https://pypi.org/project/st-btn-select/
     socialUrl: https://github.com/0phoff
+    stars: 13
     title: Btn Select
   st-card-alert-2:
     appUrl: null
@@ -490,6 +512,7 @@ components:
     pipLink: pip install st-card-alert-2
     pypi: https://pypi.org/project/st-card-alert-2/
     socialUrl: https://pypi.org/user/kfhuang
+    stars: 0
     title: Card Alert 2
   st-card-component:
     appUrl: null
@@ -507,6 +530,7 @@ components:
     pipLink: pip install st-card-component
     pypi: https://pypi.org/project/st-card-component/
     socialUrl: https://github.com/jamescalam
+    stars: 1
     title: Card Component
   st-card-component-0:
     appUrl: null
@@ -524,6 +548,7 @@ components:
     pipLink: pip install st-card-component-0
     pypi: https://pypi.org/project/st-card-component-0/
     socialUrl: https://pypi.org/user/y0sh1
+    stars: 0
     title: Card Component 0
   st-card-component-2:
     appUrl: null
@@ -541,6 +566,7 @@ components:
     pipLink: pip install st-card-component-2
     pypi: https://pypi.org/project/st-card-component-2/
     socialUrl: https://pypi.org/user/jamescalam
+    stars: 0
     title: Card Component 2
   st-card-component-alex:
     appUrl: null
@@ -558,6 +584,7 @@ components:
     pipLink: pip install st-card-component-alex
     pypi: https://pypi.org/project/st-card-component-alex/
     socialUrl: https://pypi.org/user/AlexPerezAsturies
+    stars: 0
     title: Card Component Alex
   st-card-search-component:
     appUrl: null
@@ -575,6 +602,7 @@ components:
     pipLink: pip install st-card-search-component
     pypi: https://pypi.org/project/st-card-search-component/
     socialUrl: https://pypi.org/user/uyaseen
+    stars: 0
     title: Card Search Component
   st-click-detector:
     appUrl: null
@@ -594,6 +622,7 @@ components:
     pipLink: pip install st-click-detector
     pypi: https://pypi.org/project/st-click-detector/
     socialUrl: https://github.com/vivien000
+    stars: 20
     title: Click Detector
   st-clickable-images:
     appUrl: null
@@ -612,6 +641,7 @@ components:
     pipLink: pip install st-clickable-images
     pypi: https://pypi.org/project/st-clickable-images/
     socialUrl: https://github.com/vivien000
+    stars: 12
     title: Clickable Images
   st-comp-3dmodel:
     appUrl: null
@@ -629,6 +659,7 @@ components:
     pipLink: pip install st-comp-3dmodel
     pypi: https://pypi.org/project/st-comp-3dmodel/
     socialUrl: https://pypi.org/user/spectereye
+    stars: 0
     title: Comp 3Dmodel
   st-compare-stock:
     appUrl: null
@@ -647,6 +678,7 @@ components:
     pipLink: pip install st-compare-stock
     pypi: https://pypi.org/project/st-compare-stock/
     socialUrl: https://github.com/MihaiBlebea
+    stars: 0
     title: Compare Stock
   st-cytoscape:
     appUrl: https://share.streamlit.io/vivien0000/causal-simulator/main/app.py
@@ -665,6 +697,7 @@ components:
     pipLink: pip install st-cytoscape
     pypi: https://pypi.org/project/st-cytoscape/
     socialUrl: https://github.com/vivien000
+    stars: 8
     title: Cytoscape
   st-dataframe-component:
     appUrl: null
@@ -682,6 +715,7 @@ components:
     pipLink: pip install st-dataframe-component
     pypi: https://pypi.org/project/st-dataframe-component/
     socialUrl: https://pypi.org/user/MrYasuo
+    stars: 0
     title: Dataframe Component
   st-dep-parsing-component:
     appUrl: null
@@ -699,6 +733,7 @@ components:
     pipLink: pip install st-dep-parsing-component
     pypi: https://pypi.org/project/st-dep-parsing-component/
     socialUrl: https://pypi.org/user/yixiong321
+    stars: 0
     title: Dep Parsing Component
   st-echarts-events:
     appUrl: null
@@ -716,6 +751,7 @@ components:
     pipLink: pip install st-echarts-events
     pypi: https://pypi.org/project/st-echarts-events/
     socialUrl: https://github.com/brightxml
+    stars: 1
     title: Echarts Events
   st-event-selection-interfaces:
     appUrl: null
@@ -733,6 +769,7 @@ components:
     pipLink: pip install st-event-selection-interfaces
     pypi: https://pypi.org/project/st-event-selection-interfaces/
     socialUrl: https://pypi.org/user/moinshaikh
+    stars: 0
     title: Event Selection Interfaces
   st-execbox:
     appUrl: null
@@ -750,6 +787,7 @@ components:
     pipLink: pip install st-execbox
     pypi: https://pypi.org/project/st-execbox/
     socialUrl: https://github.com/tvst
+    stars: 8
     title: Execbox
   st-flashcard:
     appUrl: null
@@ -767,6 +805,7 @@ components:
     pipLink: pip install st-flashcard
     pypi: https://pypi.org/project/st-flashcard/
     socialUrl: https://pypi.org/user/ljxia
+    stars: 0
     title: Flashcard
   st-highlightable-text:
     appUrl: null
@@ -784,6 +823,7 @@ components:
     pipLink: pip install st-highlightable-text
     pypi: https://pypi.org/project/st-highlightable-text/
     socialUrl: https://pypi.org/user/tstosse-adva
+    stars: 0
     title: Highlightable Text
   st-material-table:
     appUrl: https://share.streamlit.io/icheft/ntuclasscrawler/react-table/app.py
@@ -801,6 +841,7 @@ components:
     pipLink: pip install st-material-table
     pypi: https://pypi.org/project/st-material-table/
     socialUrl: https://github.com/icheft
+    stars: 9
     title: Material Table
   st-mui-multiselect:
     appUrl: null
@@ -818,6 +859,7 @@ components:
     pipLink: pip install st-mui-multiselect
     pypi: https://pypi.org/project/st-mui-multiselect/
     socialUrl: https://github.com/supern8ent
+    stars: 1
     title: Mui Multiselect
   st-pages:
     appUrl: null
@@ -835,6 +877,7 @@ components:
     pipLink: pip install st-pages
     pypi: https://pypi.org/project/st-pages/
     socialUrl: https://github.com/blackary
+    stars: 18
     title: Pages
   st-rating-df:
     appUrl: null
@@ -852,6 +895,7 @@ components:
     pipLink: pip install st-rating-df
     pypi: https://pypi.org/project/st-rating-df/
     socialUrl: https://pypi.org/user/AntonBuch
+    stars: 0
     title: Rating Df
   st-row-buttons:
     appUrl: https://share.streamlit.io/0phoff/st-btn-select/demo/test.py
@@ -869,6 +913,7 @@ components:
     pipLink: pip install st-row-buttons
     pypi: https://pypi.org/project/st-row-buttons/
     socialUrl: https://github.com/twelvefootball
+    stars: 0
     title: Row Buttons
   st-searchbar:
     appUrl: null
@@ -886,6 +931,7 @@ components:
     pipLink: pip install st-searchbar
     pypi: https://pypi.org/project/st-searchbar/
     socialUrl: https://pypi.org/user/ragunax2
+    stars: 0
     title: Searchbar
   st-speckmol:
     appUrl: https://hellostspeckmol.streamlitapp.com
@@ -904,6 +950,7 @@ components:
     pipLink: pip install st-speckmol
     pypi: https://pypi.org/project/st-speckmol/
     socialUrl: https://github.com/avrabyt
+    stars: 13
     title: Speckmol
   st-stylish:
     appUrl: null
@@ -922,6 +969,7 @@ components:
     pipLink: pip install st-stylish
     pypi: https://pypi.org/project/st-stylish/
     socialUrl: https://github.com/busbyk
+    stars: 0
     title: Stylish
   st-textnav-components:
     appUrl: null
@@ -939,6 +987,7 @@ components:
     pipLink: pip install st-textnav-components
     pypi: https://pypi.org/project/st-textnav-components/
     socialUrl: https://pypi.org/user/moinshaikh
+    stars: 0
     title: Textnav Components
   st-tokenization-vis-component:
     appUrl: null
@@ -956,6 +1005,7 @@ components:
     pipLink: pip install st-tokenization-vis-component
     pypi: https://pypi.org/project/st-tokenization-vis-component/
     socialUrl: https://pypi.org/user/yixiong321
+    stars: 0
     title: Tokenization Vis Component
   st-vizzu:
     appUrl: https://hellostvizzu.streamlitapp.com/
@@ -974,6 +1024,7 @@ components:
     pipLink: pip install st-vizzu
     pypi: https://pypi.org/project/st-vizzu/
     socialUrl: https://github.com/avrabyt
+    stars: 18
     title: Vizzu
   stmol:
     appUrl: https://napoles-uach-stmol-home-pom051.streamlitapp.com/Documentation
@@ -992,6 +1043,7 @@ components:
     pipLink: pip install stmol
     pypi: https://pypi.org/project/stmol/
     socialUrl: https://github.com/napoles-uach
+    stars: 103
     title: Stmol
   stpyvista:
     appUrl: null
@@ -1009,6 +1061,7 @@ components:
     pipLink: pip install stpyvista
     pypi: https://pypi.org/project/stpyvista/
     socialUrl: https://github.com/edsaac
+    stars: 4
     title: Stpyvista
   stqdm:
     appUrl: null
@@ -1026,6 +1079,7 @@ components:
     pipLink: pip install stqdm
     pypi: https://pypi.org/project/stqdm/
     socialUrl: https://github.com/Wirg
+    stars: 101
     title: Stqdm
   streamlit-3d:
     appUrl: null
@@ -1042,6 +1096,7 @@ components:
     pipLink: pip install streamlit-3d
     pypi: https://pypi.org/project/streamlit-3d/
     socialUrl: https://pypi.org/user/alteirac
+    stars: 0
     title: 3D
   streamlit-ace:
     appUrl: https://share.streamlit.io/okld/streamlit-gallery/main?p=ace-editor
@@ -1060,6 +1115,7 @@ components:
     pipLink: pip install streamlit-ace
     pypi: https://pypi.org/project/streamlit-ace/
     socialUrl: https://github.com/okld
+    stars: 138
     title: Ace
   streamlit-aggrid:
     appUrl: https://share.streamlit.io/pablocfonseca/streamlit-aggrid/main/example.py
@@ -1077,6 +1133,7 @@ components:
     pipLink: pip install streamlit-aggrid
     pypi: https://pypi.org/project/streamlit-aggrid/
     socialUrl: https://github.com/PablocFonseca
+    stars: 545
     title: AgGrid
   streamlit-aggrid-community:
     appUrl: https://share.streamlit.io/pablocfonseca/streamlit-aggrid/main/examples/example.py
@@ -1095,6 +1152,7 @@ components:
     pipLink: pip install streamlit-aggrid-community
     pypi: https://pypi.org/project/streamlit-aggrid-community/
     socialUrl: https://github.com/LucasTrg
+    stars: 0
     title: Aggrid Community
   streamlit-agraph:
     appUrl: https://chrisdelclea-word-knowledge-graph-main-luylof.streamlitapp.com
@@ -1112,6 +1170,7 @@ components:
     pipLink: pip install streamlit-agraph
     pypi: https://pypi.org/project/streamlit-agraph/
     socialUrl: https://github.com/ChrisChross
+    stars: 154
     title: Agraph
   streamlit-alert-component:
     appUrl: null
@@ -1129,6 +1188,7 @@ components:
     pipLink: pip install streamlit-alert-component
     pypi: https://pypi.org/project/streamlit-alert-component/
     socialUrl: https://pypi.org/user/Hadarak
+    stars: 0
     title: Alert Component
   streamlit-analytics:
     appUrl: https://share.streamlit.io/jrieke/streamlit-analytics/main/examples/sharing-demo.py?analytics=on
@@ -1147,6 +1207,7 @@ components:
     pipLink: pip install streamlit-analytics
     pypi: https://pypi.org/project/streamlit-analytics/
     socialUrl: https://github.com/jrieke
+    stars: 108
     title: Analytics
   streamlit-antd:
     appUrl: null
@@ -1163,6 +1224,7 @@ components:
     pipLink: pip install streamlit-antd
     pypi: https://pypi.org/project/streamlit-antd/
     socialUrl: https://github.com/mapix
+    stars: 0
     title: Antd
   streamlit-antv:
     appUrl: null
@@ -1181,6 +1243,7 @@ components:
     pipLink: pip install streamlit-antv
     pypi: https://pypi.org/project/streamlit-antv/
     socialUrl: https://github.com/ais-one
+    stars: 21
     title: Antv
   streamlit-audiorecorder:
     appUrl: https://theevann-streamlit-audiorecorder-exampleexample-5ds2ug.streamlitapp.com
@@ -1198,6 +1261,7 @@ components:
     pipLink: pip install streamlit-audiorecorder
     pypi: https://pypi.org/project/streamlit-audiorecorder/
     socialUrl: https://github.com/theevann
+    stars: 8
     title: Audiorecorder
   streamlit-auth0:
     appUrl: null
@@ -1215,6 +1279,7 @@ components:
     pipLink: pip install streamlit-auth0
     pypi: https://pypi.org/project/streamlit-auth0/
     socialUrl: https://github.com/pvieito
+    stars: 1
     title: Auth0
   streamlit-auth0-component:
     appUrl: null
@@ -1232,6 +1297,7 @@ components:
     pipLink: pip install streamlit-auth0-component
     pypi: https://pypi.org/project/streamlit-auth0-component/
     socialUrl: https://pypi.org/user/conradbez
+    stars: 0
     title: Auth0 Component
   streamlit-auth0-service:
     appUrl: null
@@ -1249,6 +1315,7 @@ components:
     pipLink: pip install streamlit-auth0-service
     pypi: https://pypi.org/project/streamlit-auth0-service/
     socialUrl: https://pypi.org/user/m.yazdani
+    stars: 0
     title: Auth0 Service
   streamlit-authenticator:
     appUrl: null
@@ -1267,6 +1334,7 @@ components:
     pipLink: pip install streamlit-authenticator
     pypi: https://pypi.org/project/streamlit-authenticator/
     socialUrl: https://github.com/mkhorasani
+    stars: 315
     title: Authenticator
   streamlit-autorefresh:
     appUrl: null
@@ -1284,6 +1352,7 @@ components:
     pipLink: pip install streamlit-autorefresh
     pypi: https://pypi.org/project/streamlit-autorefresh/
     socialUrl: https://github.com/kmcgrady
+    stars: 63
     title: Autorefresh
   streamlit-awesome-table:
     appUrl: null
@@ -1302,6 +1371,7 @@ components:
     pipLink: pip install streamlit-awesome-table
     pypi: https://pypi.org/project/streamlit-awesome-table/
     socialUrl: https://github.com/caiodearaujo
+    stars: 22
     title: Awesome Table
   streamlit-azure-ad-login:
     appUrl: null
@@ -1319,6 +1389,7 @@ components:
     pipLink: pip install streamlit-azure-ad-login
     pypi: https://pypi.org/project/streamlit-azure-ad-login/
     socialUrl: https://pypi.org/user/raga
+    stars: 0
     title: Azure Ad Login
   streamlit-base-extras:
     appUrl: null
@@ -1336,6 +1407,7 @@ components:
     pipLink: pip install streamlit-base-extras
     pypi: https://pypi.org/project/streamlit-base-extras/
     socialUrl: https://github.com/blipk
+    stars: 7
     title: Base Extras
   streamlit-bias-rank-component:
     appUrl: null
@@ -1353,6 +1425,7 @@ components:
     pipLink: pip install streamlit-bias-rank-component
     pypi: https://pypi.org/project/streamlit-bias-rank-component/
     socialUrl: https://pypi.org/user/RKocielnik
+    stars: 0
     title: Bias Rank Component
   streamlit-bokeh-events:
     appUrl: null
@@ -1371,6 +1444,7 @@ components:
     pipLink: pip install streamlit-bokeh-events
     pypi: https://pypi.org/project/streamlit-bokeh-events/
     socialUrl: https://github.com/ash2shukla
+    stars: 120
     title: Bokeh Events
   streamlit-book:
     appUrl: https://share.streamlit.io/sebastiandres/stb_book_demo_v070/main
@@ -1388,6 +1462,7 @@ components:
     pipLink: pip install streamlit-book
     pypi: https://pypi.org/project/streamlit-book/
     socialUrl: https://github.com/sebastiandres
+    stars: 51
     title: Book
   streamlit-bridge:
     appUrl: null
@@ -1406,6 +1481,7 @@ components:
     pipLink: pip install streamlit-bridge
     pypi: https://pypi.org/project/streamlit-bridge/
     socialUrl: https://github.com/binh-vu
+    stars: 5
     title: Bridge
   streamlit-browser-storage:
     appUrl: null
@@ -1424,6 +1500,7 @@ components:
     pipLink: pip install streamlit-browser-storage
     pypi: https://pypi.org/project/streamlit-browser-storage/
     socialUrl: https://github.com/kosfera
+    stars: 0
     title: Browser Storage
   streamlit-business-intelligence:
     appUrl: null
@@ -1442,6 +1519,7 @@ components:
     pipLink: pip install streamlit-business-intelligence
     pypi: https://pypi.org/project/streamlit-business-intelligence/
     socialUrl: https://github.com/GeorgePearse
+    stars: 1
     title: Business Intelligence
   streamlit-callbacks:
     appUrl: null
@@ -1459,6 +1537,7 @@ components:
     pipLink: pip install streamlit-callbacks
     pypi: https://pypi.org/project/streamlit-callbacks/
     socialUrl: https://github.com/FloWide
+    stars: 6
     title: Callbacks
   streamlit-camera-input-live:
     appUrl: https://camera.streamlitapp.com/
@@ -1478,6 +1557,7 @@ components:
     pipLink: pip install streamlit-camera-input-live
     pypi: https://pypi.org/project/streamlit-camera-input-live/
     socialUrl: https://github.com/blackary
+    stars: 5
     title: Camera Input Live
   streamlit-card:
     appUrl: null
@@ -1495,6 +1575,7 @@ components:
     pipLink: pip install streamlit-card
     pypi: https://pypi.org/project/streamlit-card/
     socialUrl: https://github.com/gamcoh
+    stars: 3
     title: Card
   streamlit-card-select:
     appUrl: null
@@ -1512,6 +1593,7 @@ components:
     pipLink: pip install streamlit-card-select
     pypi: https://pypi.org/project/streamlit-card-select/
     socialUrl: https://pypi.org/user/mmaelicke
+    stars: 0
     title: Card Select
   streamlit-cards-templates:
     appUrl: null
@@ -1529,6 +1611,7 @@ components:
     pipLink: pip install streamlit-cards-templates
     pypi: https://pypi.org/project/streamlit-cards-templates/
     socialUrl: https://pypi.org/user/acarson_sfc
+    stars: 0
     title: Cards Templates
   streamlit-cardselectable:
     appUrl: null
@@ -1546,6 +1629,7 @@ components:
     pipLink: pip install streamlit-cardselectable
     pypi: https://pypi.org/project/streamlit-cardselectable/
     socialUrl: https://github.com/Mathtzt
+    stars: 1
     title: Cardselectable
   streamlit-charticulator:
     appUrl: null
@@ -1563,6 +1647,7 @@ components:
     pipLink: pip install streamlit-charticulator
     pypi: https://pypi.org/project/streamlit-charticulator/
     socialUrl: https://pypi.org/user/zBritva
+    stars: 0
     title: Charticulator
   streamlit-charty:
     appUrl: null
@@ -1580,6 +1665,7 @@ components:
     pipLink: pip install streamlit-charty
     pypi: https://pypi.org/project/streamlit-charty/
     socialUrl: https://pypi.org/user/alteirac
+    stars: 0
     title: Charty
   streamlit-chat:
     appUrl: https://share.streamlit.io/ai-yash/st-chat/main/examples/chatbot.py
@@ -1597,6 +1683,7 @@ components:
     pipLink: pip install streamlit-chat
     pypi: https://pypi.org/project/streamlit-chat/
     socialUrl: https://github.com/AI-Yash
+    stars: 91
     title: Chat
   streamlit-circular-progress-component:
     appUrl: null
@@ -1614,6 +1701,7 @@ components:
     pipLink: pip install streamlit-circular-progress-component
     pypi: https://pypi.org/project/streamlit-circular-progress-component/
     socialUrl: https://pypi.org/user/Hadarak
+    stars: 0
     title: Circular Progress Component
   streamlit-cookies:
     appUrl: null
@@ -1631,6 +1719,7 @@ components:
     pipLink: pip install streamlit-cookies
     pypi: https://pypi.org/project/streamlit-cookies/
     socialUrl: https://pypi.org/user/Kale112
+    stars: 0
     title: Cookies
   streamlit-cookies-manager:
     appUrl: null
@@ -1648,6 +1737,7 @@ components:
     pipLink: pip install streamlit-cookies-manager
     pypi: https://pypi.org/project/streamlit-cookies-manager/
     socialUrl: https://github.com/ktosiek
+    stars: 2
     title: Cookies Manager
   streamlit-cropper:
     appUrl: null
@@ -1665,6 +1755,7 @@ components:
     pipLink: pip install streamlit-cropper
     pypi: https://pypi.org/project/streamlit-cropper/
     socialUrl: https://github.com/turner-anderson
+    stars: 92
     title: Cropper
   streamlit-custom-button:
     appUrl: null
@@ -1682,6 +1773,7 @@ components:
     pipLink: pip install streamlit-custom-button
     pypi: https://pypi.org/project/streamlit-custom-button/
     socialUrl: https://pypi.org/user/Kale112
+    stars: 0
     title: Custom Button
   streamlit-custom-notification-box:
     appUrl: null
@@ -1700,6 +1792,7 @@ components:
     pipLink: pip install streamlit-custom-notification-box
     pypi: https://pypi.org/project/streamlit-custom-notification-box/
     socialUrl: https://github.com/Socvest
+    stars: 4
     title: Custom Notification Box
   streamlit-custom-toggle:
     appUrl: null
@@ -1718,6 +1811,7 @@ components:
     pipLink: pip install streamlit-custom-toggle
     pypi: https://pypi.org/project/streamlit-custom-toggle/
     socialUrl: https://github.com/ShruAgarwal
+    stars: 6
     title: Custom Toggle
   streamlit-custom-tooltip:
     appUrl: null
@@ -1735,6 +1829,7 @@ components:
     pipLink: pip install streamlit-custom-tooltip
     pypi: https://pypi.org/project/streamlit-custom-tooltip/
     socialUrl: https://pypi.org/user/andrewnelson23
+    stars: 0
     title: Custom Tooltip
   streamlit-cytoscapejs:
     appUrl: null
@@ -1752,6 +1847,7 @@ components:
     pipLink: pip install streamlit-cytoscapejs
     pypi: https://pypi.org/project/streamlit-cytoscapejs/
     socialUrl: https://github.com/andfanilo
+    stars: 10
     title: Cytoscapejs
   streamlit-d3-demo:
     appUrl: null
@@ -1769,6 +1865,7 @@ components:
     pipLink: pip install streamlit-d3-demo
     pypi: https://pypi.org/project/streamlit-d3-demo/
     socialUrl: https://github.com/andfanilo
+    stars: 51
     title: D3 Demo
   streamlit-d3graph:
     appUrl: https://share.streamlit.io/snehankekre/streamlit-d3graph/main/examples/example.py
@@ -1787,6 +1884,7 @@ components:
     pipLink: pip install streamlit-d3graph
     pypi: https://pypi.org/project/streamlit-d3graph/
     socialUrl: https://github.com/snehankekre
+    stars: 14
     title: D3Graph
   streamlit-data-profile-viewer:
     appUrl: null
@@ -1804,6 +1902,7 @@ components:
     pipLink: pip install streamlit-data-profile-viewer
     pypi: https://pypi.org/project/streamlit-data-profile-viewer/
     socialUrl: https://pypi.org/user/scastelo
+    stars: 0
     title: Data Profile Viewer
   streamlit-datalist:
     appUrl: null
@@ -1821,6 +1920,7 @@ components:
     pipLink: pip install streamlit-datalist
     pypi: https://pypi.org/project/streamlit-datalist/
     socialUrl: https://github.com/RobertoFN
+    stars: 2
     title: Datalist
   streamlit-dbtree:
     appUrl: null
@@ -1838,6 +1938,7 @@ components:
     pipLink: pip install streamlit-dbtree
     pypi: https://pypi.org/project/streamlit-dbtree/
     socialUrl: https://pypi.org/user/alteirac
+    stars: 0
     title: Dbtree
   streamlit-diff-viewer:
     appUrl: null
@@ -1855,6 +1956,7 @@ components:
     pipLink: pip install streamlit-diff-viewer
     pypi: https://pypi.org/project/streamlit-diff-viewer/
     socialUrl: https://pypi.org/user/quentinfebvre
+    stars: 0
     title: Diff Viewer
   streamlit-dimensions:
     appUrl: null
@@ -1874,6 +1976,7 @@ components:
     pipLink: pip install streamlit-dimensions
     pypi: https://pypi.org/project/streamlit-dimensions/
     socialUrl: https://github.com/avsolatorio
+    stars: 1
     title: Dimensions
   streamlit-discourse:
     appUrl: https://share.streamlit.io/okld/streamlit-gallery/main?p=discourse
@@ -1891,6 +1994,7 @@ components:
     pipLink: pip install streamlit-discourse
     pypi: https://pypi.org/project/streamlit-discourse/
     socialUrl: https://github.com/okld
+    stars: 8
     title: Discourse
   streamlit-disqus:
     appUrl: https://share.streamlit.io/okld/streamlit-gallery/main?p=disqus
@@ -1908,6 +2012,7 @@ components:
     pipLink: pip install streamlit-disqus
     pypi: https://pypi.org/project/streamlit-disqus/
     socialUrl: https://github.com/okld
+    stars: 9
     title: Disqus
   streamlit-doubutsushogi:
     appUrl: null
@@ -1925,6 +2030,7 @@ components:
     pipLink: pip install streamlit-doubutsushogi
     pypi: https://pypi.org/project/streamlit-doubutsushogi/
     socialUrl: https://pypi.org/user/kotamori
+    stars: 0
     title: Doubutsushogi
   streamlit-draggable-list:
     appUrl: null
@@ -1942,6 +2048,7 @@ components:
     pipLink: pip install streamlit-draggable-list
     pypi: https://pypi.org/project/streamlit-draggable-list/
     socialUrl: https://github.com/tk42
+    stars: 1
     title: Draggable List
   streamlit-drawable-canvas:
     appUrl: https://share.streamlit.io/andfanilo/streamlit-drawable-canvas-demo/master/app.py
@@ -1960,6 +2067,7 @@ components:
     pipLink: pip install streamlit-drawable-canvas
     pypi: https://pypi.org/project/streamlit-drawable-canvas/
     socialUrl: https://github.com/andfanilo
+    stars: 310
     title: Drawable Canvas
   streamlit-dynamic-tabs:
     appUrl: null
@@ -1977,6 +2085,7 @@ components:
     pipLink: pip install streamlit-dynamic-tabs
     pypi: https://pypi.org/project/streamlit-dynamic-tabs/
     socialUrl: https://github.com/Socvest
+    stars: 4
     title: Dynamic Tabs
   streamlit-echarts:
     appUrl: https://share.streamlit.io/andfanilo/streamlit-echarts-demo/master/app.py
@@ -1994,6 +2103,7 @@ components:
     pipLink: pip install streamlit-echarts
     pypi: https://pypi.org/project/streamlit-echarts/
     socialUrl: https://github.com/andfanilo
+    stars: 282
     title: ECharts
   streamlit-editorjs:
     appUrl: https://share.streamlit.io/okld/streamlit-gallery/main?p=quill-editor
@@ -2010,6 +2120,7 @@ components:
     pipLink: pip install streamlit-editorjs
     pypi: https://pypi.org/project/streamlit-editorjs/
     socialUrl: https://github.com/caviri
+    stars: 0
     title: Editorjs
   streamlit-elements:
     appUrl: https://share.streamlit.io/okld/streamlit-gallery/main?p=elements
@@ -2029,6 +2140,7 @@ components:
     pipLink: pip install streamlit-elements
     pypi: https://pypi.org/project/streamlit-elements/
     socialUrl: https://github.com/okld
+    stars: 128
     title: Elements
   streamlit-elements-fluence:
     appUrl: null
@@ -2046,6 +2158,7 @@ components:
     pipLink: pip install streamlit-elements-fluence
     pypi: https://pypi.org/project/streamlit-elements-fluence/
     socialUrl: https://pypi.org/user/aschofield
+    stars: 0
     title: Elements Fluence
   streamlit-embedcode:
     appUrl: https://share.streamlit.io/randyzwitch/streamlit-embedcode/examples/streamlit_app.py
@@ -2064,6 +2177,7 @@ components:
     pipLink: pip install streamlit-embedcode
     pypi: https://pypi.org/project/streamlit-embedcode/
     socialUrl: https://github.com/randyzwitch
+    stars: 35
     title: Embedcode
   streamlit-embeded:
     appUrl: null
@@ -2081,6 +2195,7 @@ components:
     pipLink: pip install streamlit-embeded
     pypi: https://pypi.org/project/streamlit-embeded/
     socialUrl: https://github.com/mapix
+    stars: 0
     title: Embeded
   streamlit-excel-table:
     appUrl: null
@@ -2098,6 +2213,7 @@ components:
     pipLink: pip install streamlit-excel-table
     pypi: https://pypi.org/project/streamlit-excel-table/
     socialUrl: https://github.com/tk42
+    stars: 5
     title: Excel Table
   streamlit-ext:
     appUrl: https://paleneutron-streamlit-ext-testse2etest-sync-widget-orfpyh.streamlitapp.com/
@@ -2116,6 +2232,7 @@ components:
     pipLink: pip install streamlit-ext
     pypi: https://pypi.org/project/streamlit-ext/
     socialUrl: https://github.com/PaleNeutron
+    stars: 8
     title: Ext
   streamlit-extras:
     appUrl: https://extras.streamlitapp.com
@@ -2143,6 +2260,7 @@ components:
     pipLink: pip install streamlit-extras
     pypi: https://pypi.org/project/streamlit-extras/
     socialUrl: https://github.com/arnaudmiribel
+    stars: 112
     title: Extras
   streamlit-faker:
     appUrl: https://fakker.streamlitapp.com
@@ -2160,6 +2278,7 @@ components:
     pipLink: pip install streamlit-faker
     pypi: https://pypi.org/project/streamlit-faker/
     socialUrl: https://github.com/arnaudmiribel
+    stars: 14
     title: Faker
   streamlit-fb-post:
     appUrl: null
@@ -2177,6 +2296,7 @@ components:
     pipLink: pip install streamlit-fb-post
     pypi: https://pypi.org/project/streamlit-fb-post/
     socialUrl: https://github.com/gamcoh
+    stars: 0
     title: Fb Post
   streamlit-firebase-remote-config-component:
     appUrl: null
@@ -2194,6 +2314,7 @@ components:
     pipLink: pip install streamlit-firebase-remote-config-component
     pypi: https://pypi.org/project/streamlit-firebase-remote-config-component/
     socialUrl: https://pypi.org/user/Graniti
+    stars: 0
     title: Firebase Remote Config Component
   streamlit-firstlanguage:
     appUrl: https://share.streamlit.io/firstlanguage/streamlit-firstlanguage/main/streamlit_firstlanguage/examples/firstlanguage_app.py
@@ -2212,6 +2333,7 @@ components:
     pipLink: pip install streamlit-firstlanguage
     pypi: https://pypi.org/project/streamlit-firstlanguage/
     socialUrl: https://github.com/FirstLanguage
+    stars: 1
     title: Firstlanguage
   streamlit-flashcard:
     appUrl: null
@@ -2229,6 +2351,7 @@ components:
     pipLink: pip install streamlit-flashcard
     pypi: https://pypi.org/project/streamlit-flashcard/
     socialUrl: https://pypi.org/user/ljxia
+    stars: 0
     title: Flashcard
   streamlit-folium:
     appUrl: https://share.streamlit.io/randyzwitch/streamlit-folium/examples/streamlit_app.py
@@ -2246,6 +2369,7 @@ components:
     pipLink: pip install streamlit-folium
     pypi: https://pypi.org/project/streamlit-folium/
     socialUrl: https://github.com/randyzwitch
+    stars: 221
     title: Folium
   streamlit-force-graph-simulator:
     appUrl: null
@@ -2264,6 +2388,7 @@ components:
     pipLink: pip install streamlit-force-graph-simulator
     pypi: https://pypi.org/project/streamlit-force-graph-simulator/
     socialUrl: https://github.com/erikweis
+    stars: 1
     title: Force Graph Simulator
   streamlit-forum:
     appUrl: null
@@ -2282,6 +2407,7 @@ components:
     pipLink: pip install streamlit-forum
     pypi: https://pypi.org/project/streamlit-forum/
     socialUrl: https://github.com/snehankekre
+    stars: 7
     title: Forum
   streamlit-gallery:
     appUrl: null
@@ -2300,6 +2426,7 @@ components:
     pipLink: pip install streamlit-gallery
     pypi: https://pypi.org/project/streamlit-gallery/
     socialUrl: https://github.com/yevgnen
+    stars: 0
     title: Gallery
   streamlit-gchart:
     appUrl: null
@@ -2318,6 +2445,7 @@ components:
     pipLink: pip install streamlit-gchart
     pypi: https://pypi.org/project/streamlit-gchart/
     socialUrl: https://github.com/consultimi
+    stars: 6
     title: Gchart
   streamlit-gcp:
     appUrl: null
@@ -2335,6 +2463,7 @@ components:
     pipLink: pip install streamlit-gcp
     pypi: https://pypi.org/project/streamlit-gcp/
     socialUrl: https://pypi.org/user/lzanini
+    stars: 0
     title: Gcp
   streamlit-geo-selector:
     appUrl: null
@@ -2353,6 +2482,7 @@ components:
     pipLink: pip install streamlit-geo-selector
     pypi: https://pypi.org/project/streamlit-geo-selector/
     socialUrl: https://pypi.org/user/crsmi
+    stars: 0
     title: Geo Selector
   streamlit-globe:
     appUrl: null
@@ -2371,6 +2501,7 @@ components:
     pipLink: pip install streamlit-globe
     pypi: https://pypi.org/project/streamlit-globe/
     socialUrl: https://github.com/padmalcom
+    stars: 1
     title: Globe
   streamlit-google-geochart:
     appUrl: null
@@ -2388,6 +2519,7 @@ components:
     pipLink: pip install streamlit-google-geochart
     pypi: https://pypi.org/project/streamlit-google-geochart/
     socialUrl: https://github.com/karriebear
+    stars: 0
     title: Google Geochart
   streamlit-gosling:
     appUrl: https://wangqianwen0418-streamlit-gosling-demo-st-gos-demo-zo60pz.streamlitapp.com/
@@ -2406,6 +2538,7 @@ components:
     pipLink: pip install streamlit-gosling
     pypi: https://pypi.org/project/streamlit-gosling/
     socialUrl: https://github.com/gosling-lang
+    stars: 4
     title: Gosling
   streamlit-gov-uk-components:
     appUrl: null
@@ -2424,6 +2557,7 @@ components:
     pipLink: pip install streamlit-gov-uk-components
     pypi: https://pypi.org/project/streamlit-gov-uk-components/
     socialUrl: https://github.com/uktrade
+    stars: 2
     title: Gov Uk Components
   streamlit-gradio:
     appUrl: null
@@ -2441,6 +2575,7 @@ components:
     pipLink: pip install streamlit-gradio
     pypi: https://pypi.org/project/streamlit-gradio/
     socialUrl: https://github.com/truefoundry
+    stars: 0
     title: Gradio
   streamlit-graphic-slider:
     appUrl: null
@@ -2458,6 +2593,7 @@ components:
     pipLink: pip install streamlit-graphic-slider
     pypi: https://pypi.org/project/streamlit-graphic-slider/
     socialUrl: https://pypi.org/user/mmaelicke
+    stars: 0
     title: Graphic Slider
   streamlit-heroku:
     appUrl: null
@@ -2476,6 +2612,7 @@ components:
     pipLink: pip install streamlit-heroku
     pypi: https://pypi.org/project/streamlit-heroku/
     socialUrl: https://github.com/danielschutz
+    stars: 1
     title: Heroku
   streamlit-hgb:
     appUrl: null
@@ -2493,6 +2630,7 @@ components:
     pipLink: pip install streamlit-hgb
     pypi: https://pypi.org/project/streamlit-hgb/
     socialUrl: https://github.com/6br
+    stars: 0
     title: Hgb
   streamlit-highcharts:
     appUrl: null
@@ -2510,6 +2648,7 @@ components:
     pipLink: pip install streamlit-highcharts
     pypi: https://pypi.org/project/streamlit-highcharts/
     socialUrl: https://pypi.org/user/alteirac
+    stars: 0
     title: Highcharts
   streamlit-huggingface:
     appUrl: null
@@ -2527,6 +2666,7 @@ components:
     pipLink: pip install streamlit-huggingface
     pypi: https://pypi.org/project/streamlit-huggingface/
     socialUrl: https://github.com/lukasmasuch
+    stars: 0
     title: Huggingface
   streamlit-icon-component:
     appUrl: null
@@ -2544,6 +2684,7 @@ components:
     pipLink: pip install streamlit-icon-component
     pypi: https://pypi.org/project/streamlit-icon-component/
     socialUrl: https://pypi.org/user/Hadarak
+    stars: 0
     title: Icon Component
   streamlit-image-comparison:
     appUrl: null
@@ -2561,6 +2702,7 @@ components:
     pipLink: pip install streamlit-image-comparison
     pypi: https://pypi.org/project/streamlit-image-comparison/
     socialUrl: https://github.com/fcakyon
+    stars: 104
     title: Image Comparison
   streamlit-image-crop:
     appUrl: null
@@ -2578,6 +2720,7 @@ components:
     pipLink: pip install streamlit-image-crop
     pypi: https://pypi.org/project/streamlit-image-crop/
     socialUrl: https://github.com/mitsuse
+    stars: 11
     title: Image Crop
   streamlit-image-select:
     appUrl: https://image-select.streamlitapp.com/
@@ -2595,6 +2738,7 @@ components:
     pipLink: pip install streamlit-image-select
     pypi: https://pypi.org/project/streamlit-image-select/
     socialUrl: https://github.com/jrieke
+    stars: 19
     title: Image Select
   streamlit-image-select-mod:
     appUrl: null
@@ -2611,6 +2755,7 @@ components:
     pipLink: pip install streamlit-image-select-mod
     pypi: https://pypi.org/project/streamlit-image-select-mod/
     socialUrl: https://pypi.org/user/essuhasa
+    stars: 0
     title: Image Select Mod
   streamlit-imagegrid:
     appUrl: null
@@ -2628,6 +2773,7 @@ components:
     pipLink: pip install streamlit-imagegrid
     pypi: https://pypi.org/project/streamlit-imagegrid/
     socialUrl: https://pypi.org/user/midhunharikumar
+    stars: 0
     title: Imagegrid
   streamlit-img-label:
     appUrl: null
@@ -2646,6 +2792,7 @@ components:
     pipLink: pip install streamlit-img-label
     pypi: https://pypi.org/project/streamlit-img-label/
     socialUrl: https://github.com/lit26
+    stars: 60
     title: Img Label
   streamlit-inspect:
     appUrl: null
@@ -2663,6 +2810,7 @@ components:
     pipLink: pip install streamlit-inspect
     pypi: https://pypi.org/project/streamlit-inspect/
     socialUrl: https://github.com/cceyda
+    stars: 2
     title: Inspect
   streamlit-inspector:
     appUrl: https://share.streamlit.io/jrieke/streamlit-inspector/main
@@ -2681,6 +2829,7 @@ components:
     pipLink: pip install streamlit-inspector
     pypi: https://pypi.org/project/streamlit-inspector/
     socialUrl: https://github.com/jrieke
+    stars: 4
     title: Inspector
   streamlit-javascript:
     appUrl: null
@@ -2699,6 +2848,7 @@ components:
     pipLink: pip install streamlit-javascript
     pypi: https://pypi.org/project/streamlit-javascript/
     socialUrl: https://github.com/thunderbug1
+    stars: 24
     title: Javascript
   streamlit-jet:
     appUrl: null
@@ -2716,6 +2866,7 @@ components:
     pipLink: pip install streamlit-jet
     pypi: https://pypi.org/project/streamlit-jet/
     socialUrl: https://pypi.org/user/jihaoran
+    stars: 0
     title: Jet
   streamlit-jina:
     appUrl: null
@@ -2734,6 +2885,7 @@ components:
     pipLink: pip install streamlit-jina
     pypi: https://pypi.org/project/streamlit-jina/
     socialUrl: https://github.com/jina-ai
+    stars: 31
     title: Jina
   streamlit-js-eval:
     appUrl: https://aghasemi-streamlit-js-eval-example-yleu91.streamlitapp.com/
@@ -2751,6 +2903,7 @@ components:
     pipLink: pip install streamlit-js-eval
     pypi: https://pypi.org/project/streamlit-js-eval/
     socialUrl: https://github.com/aghasemi
+    stars: 4
     title: Js Eval
   streamlit-keboola-api:
     appUrl: null
@@ -2769,6 +2922,7 @@ components:
     pipLink: pip install streamlit-keboola-api
     pypi: https://pypi.org/project/streamlit-keboola-api/
     socialUrl: https://pypi.org/user/alteirac
+    stars: 0
     title: Keboola Api
   streamlit-keplergl:
     appUrl: https://share.streamlit.io/chrieke/streamlit-keplergl/main/examples/streamlit-keplergl-example.py
@@ -2786,6 +2940,7 @@ components:
     pipLink: pip install streamlit-keplergl
     pypi: https://pypi.org/project/streamlit-keplergl/
     socialUrl: https://github.com/chrieke
+    stars: 38
     title: Keplergl
   streamlit-keycloak:
     appUrl: null
@@ -2804,6 +2959,7 @@ components:
     pipLink: pip install streamlit-keycloak
     pypi: https://pypi.org/project/streamlit-keycloak/
     socialUrl: https://github.com/bleumink
+    stars: 7
     title: Keycloak
   streamlit-keyup:
     appUrl: https://key-up.streamlitapp.com/
@@ -2821,6 +2977,7 @@ components:
     pipLink: pip install streamlit-keyup
     pypi: https://pypi.org/project/streamlit-keyup/
     socialUrl: https://github.com/blackary
+    stars: 23
     title: Keyup
   streamlit-kickoff-cli:
     appUrl: null
@@ -2838,6 +2995,7 @@ components:
     pipLink: pip install streamlit-kickoff-cli
     pypi: https://pypi.org/project/streamlit-kickoff-cli/
     socialUrl: https://github.com/arnaudmiribel
+    stars: 17
     title: Kickoff CLI
   streamlit-kpi-metric:
     appUrl: null
@@ -2855,6 +3013,7 @@ components:
     pipLink: pip install streamlit-kpi-metric
     pypi: https://pypi.org/project/streamlit-kpi-metric/
     socialUrl: https://pypi.org/user/100mitra
+    stars: 0
     title: Kpi Metric
   streamlit-labelstudio:
     appUrl: null
@@ -2876,6 +3035,7 @@ components:
     pipLink: pip install streamlit-labelstudio
     pypi: https://pypi.org/project/streamlit-labelstudio/
     socialUrl: https://github.com/deneland
+    stars: 50
     title: Labelstudio
   streamlit-launchpad:
     appUrl: null
@@ -2894,6 +3054,7 @@ components:
     pipLink: pip install streamlit-launchpad
     pypi: https://pypi.org/project/streamlit-launchpad/
     socialUrl: https://github.com/ideonate
+    stars: 85
     title: Launchpad
   streamlit-leaflet:
     appUrl: null
@@ -2911,6 +3072,7 @@ components:
     pipLink: pip install streamlit-leaflet
     pypi: https://pypi.org/project/streamlit-leaflet/
     socialUrl: https://github.com/giswqs
+    stars: 4
     title: Leaflet
   streamlit-letsplot:
     appUrl: https://share.streamlit.io/randyzwitch/streamlit-letsplot/examples/streamlit_app.py
@@ -2928,6 +3090,7 @@ components:
     pipLink: pip install streamlit-letsplot
     pypi: https://pypi.org/project/streamlit-letsplot/
     socialUrl: https://github.com/randyzwitch
+    stars: 9
     title: Letsplot
   streamlit-lianshan:
     appUrl: null
@@ -2945,6 +3108,7 @@ components:
     pipLink: pip install streamlit-lianshan
     pypi: https://pypi.org/project/streamlit-lianshan/
     socialUrl: https://github.com/llllyang123
+    stars: 0
     title: Lianshan
   streamlit-likedislike:
     appUrl: null
@@ -2962,6 +3126,7 @@ components:
     pipLink: pip install streamlit-likedislike
     pypi: https://pypi.org/project/streamlit-likedislike/
     socialUrl: https://pypi.org/user/ragunax2
+    stars: 0
     title: Likedislike
   streamlit-location:
     appUrl: null
@@ -2979,6 +3144,7 @@ components:
     pipLink: pip install streamlit-location
     pypi: https://pypi.org/project/streamlit-location/
     socialUrl: https://pypi.org/user/ash2shukla
+    stars: 0
     title: Location
   streamlit-login-auth-ui:
     appUrl: null
@@ -2997,6 +3163,7 @@ components:
     pipLink: pip install streamlit-login-auth-ui
     pypi: https://pypi.org/project/streamlit-login-auth-ui/
     socialUrl: https://github.com/GauriSP10
+    stars: 34
     title: Login Auth UI
   streamlit-lottie:
     appUrl: https://share.streamlit.io/andfanilo/streamlit-lottie-demo/master/app.py
@@ -3014,6 +3181,7 @@ components:
     pipLink: pip install streamlit-lottie
     pypi: https://pypi.org/project/streamlit-lottie/
     socialUrl: https://github.com/andfanilo
+    stars: 79
     title: Lottie
   streamlit-mapbox:
     appUrl: null
@@ -3031,6 +3199,7 @@ components:
     pipLink: pip install streamlit-mapbox
     pypi: https://pypi.org/project/streamlit-mapbox/
     socialUrl: https://github.com/giswqs
+    stars: 4
     title: Mapbox
   streamlit-marquee:
     appUrl: null
@@ -3048,6 +3217,7 @@ components:
     pipLink: pip install streamlit-marquee
     pypi: https://pypi.org/project/streamlit-marquee/
     socialUrl: https://github.com/inspurer
+    stars: 1
     title: Marquee
   streamlit-message:
     appUrl: null
@@ -3065,6 +3235,7 @@ components:
     pipLink: pip install streamlit-message
     pypi: https://pypi.org/project/streamlit-message/
     socialUrl: https://github.com/gamcoh
+    stars: 0
     title: Message
   streamlit-metrics:
     appUrl: https://share.streamlit.io/streamlit/release-demos/0.87/0.87
@@ -3082,6 +3253,7 @@ components:
     pipLink: pip install streamlit-metrics
     pypi: https://pypi.org/project/streamlit-metrics/
     socialUrl: https://github.com/samdobson
+    stars: 18
     title: Metrics
   streamlit-mock:
     appUrl: null
@@ -3099,6 +3271,7 @@ components:
     pipLink: pip install streamlit-mock
     pypi: https://pypi.org/project/streamlit-mock/
     socialUrl: https://github.com/acschofield
+    stars: 1
     title: Mock
   streamlit-modal:
     appUrl: null
@@ -3116,6 +3289,7 @@ components:
     pipLink: pip install streamlit-modal
     pypi: https://pypi.org/project/streamlit-modal/
     socialUrl: https://github.com/teamtv
+    stars: 22
     title: Modal
   streamlit-monaco-yaml:
     appUrl: null
@@ -3133,6 +3307,7 @@ components:
     pipLink: pip install streamlit-monaco-yaml
     pypi: https://pypi.org/project/streamlit-monaco-yaml/
     socialUrl: https://pypi.org/user/skalarsystems
+    stars: 0
     title: Monaco Yaml
   streamlit-multi-row-inputs:
     appUrl: null
@@ -3150,6 +3325,7 @@ components:
     pipLink: pip install streamlit-multi-row-inputs
     pypi: https://pypi.org/project/streamlit-multi-row-inputs/
     socialUrl: https://pypi.org/user/Planete
+    stars: 0
     title: Multi Row Inputs
   streamlit-multi-textarea:
     appUrl: null
@@ -3167,6 +3343,7 @@ components:
     pipLink: pip install streamlit-multi-textarea
     pypi: https://pypi.org/project/streamlit-multi-textarea/
     socialUrl: https://pypi.org/user/Planete
+    stars: 0
     title: Multi Textarea
   streamlit-multipage:
     appUrl: null
@@ -3184,6 +3361,7 @@ components:
     pipLink: pip install streamlit-multipage
     pypi: https://pypi.org/project/streamlit-multipage/
     socialUrl: https://github.com/ELC
+    stars: 10
     title: Multipage
   streamlit-nested-layout:
     appUrl: null
@@ -3201,6 +3379,7 @@ components:
     pipLink: pip install streamlit-nested-layout
     pypi: https://pypi.org/project/streamlit-nested-layout/
     socialUrl: https://github.com/joy13975
+    stars: 27
     title: Nested Layout
   streamlit-nivo:
     appUrl: null
@@ -3218,6 +3397,7 @@ components:
     pipLink: pip install streamlit-nivo
     pypi: https://pypi.org/project/streamlit-nivo/
     socialUrl: https://github.com/aswan-heart-centre
+    stars: 5
     title: Nivo
   streamlit-node-graph:
     appUrl: null
@@ -3235,6 +3415,7 @@ components:
     pipLink: pip install streamlit-node-graph
     pypi: https://pypi.org/project/streamlit-node-graph/
     socialUrl: https://github.com/conradbez
+    stars: 0
     title: Node Graph
   streamlit-observable:
     appUrl: null
@@ -3252,6 +3433,7 @@ components:
     pipLink: pip install streamlit-observable
     pypi: https://pypi.org/project/streamlit-observable/
     socialUrl: https://github.com/asg017
+    stars: 70
     title: Observable
   streamlit-ocean-compute:
     appUrl: null
@@ -3269,6 +3451,7 @@ components:
     pipLink: pip install streamlit-ocean-compute
     pypi: https://pypi.org/project/streamlit-ocean-compute/
     socialUrl: https://pypi.org/user/smejak
+    stars: 0
     title: Ocean Compute
   streamlit-on-Hover-tabs:
     appUrl: null
@@ -3287,6 +3470,7 @@ components:
     pipLink: pip install streamlit-on-Hover-tabs
     pypi: https://pypi.org/project/streamlit-on-Hover-tabs/
     socialUrl: https://github.com/Socvest
+    stars: 50
     title: On Hover Tabs
   streamlit-option-menu:
     appUrl: null
@@ -3305,6 +3489,7 @@ components:
     pipLink: pip install streamlit-option-menu
     pypi: https://pypi.org/project/streamlit-option-menu/
     socialUrl: https://github.com/victoryhb
+    stars: 157
     title: Option Menu
   streamlit-pages:
     appUrl: null
@@ -3322,6 +3507,7 @@ components:
     pipLink: pip install streamlit-pages
     pypi: https://pypi.org/project/streamlit-pages/
     socialUrl: https://github.com/bvenkatesh-ai
+    stars: 35
     title: Pages
   streamlit-pagination:
     appUrl: null
@@ -3339,6 +3525,7 @@ components:
     pipLink: pip install streamlit-pagination
     pypi: https://pypi.org/project/streamlit-pagination/
     socialUrl: https://github.com/Socvest
+    stars: 3
     title: Pagination
   streamlit-pagination-component:
     appUrl: null
@@ -3356,6 +3543,7 @@ components:
     pipLink: pip install streamlit-pagination-component
     pypi: https://pypi.org/project/streamlit-pagination-component/
     socialUrl: https://pypi.org/user/Hadarak
+    stars: 0
     title: Pagination Component
   streamlit-pagnation:
     appUrl: null
@@ -3373,6 +3561,7 @@ components:
     pipLink: pip install streamlit-pagnation
     pypi: https://pypi.org/project/streamlit-pagnation/
     socialUrl: https://pypi.org/user/ragunax2
+    stars: 0
     title: Pagnation
   streamlit-pandas:
     appUrl: null
@@ -3390,6 +3579,7 @@ components:
     pipLink: pip install streamlit-pandas
     pypi: https://pypi.org/project/streamlit-pandas/
     socialUrl: https://github.com/wjbmattingly
+    stars: 11
     title: Pandas
   streamlit-pandas-profiling:
     appUrl: https://share.streamlit.io/okld/streamlit-gallery/main?p=pandas-profiling
@@ -3408,6 +3598,7 @@ components:
     pipLink: pip install streamlit-pandas-profiling
     pypi: https://pypi.org/project/streamlit-pandas-profiling/
     socialUrl: https://github.com/okld
+    stars: 179
     title: Pandas Profiling
   streamlit-parameters:
     appUrl: https://share.streamlit.io/stonier/streamlit_parameters/devel/demo.py
@@ -3425,6 +3616,7 @@ components:
     pipLink: pip install streamlit-parameters
     pypi: https://pypi.org/project/streamlit-parameters/
     socialUrl: https://github.com/stonier
+    stars: 5
     title: Parameters
   streamlit-permalink:
     appUrl: null
@@ -3444,6 +3636,7 @@ components:
     pipLink: pip install streamlit-permalink
     pypi: https://pypi.org/project/streamlit-permalink/
     socialUrl: https://github.com/franekp
+    stars: 14
     title: Permalink
   streamlit-persistence:
     appUrl: null
@@ -3462,6 +3655,7 @@ components:
     pipLink: pip install streamlit-persistence
     pypi: https://pypi.org/project/streamlit-persistence/
     socialUrl: https://github.com/yaphott
+    stars: 1
     title: Persistence
   streamlit-pills:
     appUrl: null
@@ -3478,6 +3672,7 @@ components:
     pipLink: pip install streamlit-pills
     pypi: https://pypi.org/project/streamlit-pills/
     socialUrl: https://github.com/jrieke
+    stars: 6
     title: Pills
   streamlit-player:
     appUrl: https://share.streamlit.io/okld/streamlit-gallery/main?p=react-player
@@ -3496,6 +3691,7 @@ components:
     pipLink: pip install streamlit-player
     pypi: https://pypi.org/project/streamlit-player/
     socialUrl: https://github.com/okld
+    stars: 60
     title: Player
   streamlit-plotly-events:
     appUrl: null
@@ -3514,6 +3710,7 @@ components:
     pipLink: pip install streamlit-plotly-events
     pypi: https://pypi.org/project/streamlit-plotly-events/
     socialUrl: https://github.com/null-jones
+    stars: 102
     title: Plotly Events
   streamlit-plotly-mapboxEvents:
     appUrl: null
@@ -3532,6 +3729,7 @@ components:
     pipLink: pip install streamlit-plotly-mapboxEvents
     pypi: https://pypi.org/project/streamlit-plotly-mapboxEvents/
     socialUrl: https://github.com/reyemb
+    stars: 2
     title: Plotly Mapboxevents
   streamlit-pollination:
     appUrl: null
@@ -3549,6 +3747,7 @@ components:
     pipLink: pip install streamlit-pollination
     pypi: https://pypi.org/project/streamlit-pollination/
     socialUrl: https://github.com/pollination
+    stars: 0
     title: Pollination
   streamlit-pretty-notification-box:
     appUrl: null
@@ -3566,6 +3765,7 @@ components:
     pipLink: pip install streamlit-pretty-notification-box
     pypi: https://pypi.org/project/streamlit-pretty-notification-box/
     socialUrl: https://github.com/Socvest
+    stars: 3
     title: Pretty Notification Box
   streamlit-profiler:
     appUrl: https://share.streamlit.io/jrieke/streamlit-profiler/main/examples/basic.py
@@ -3584,6 +3784,7 @@ components:
     pipLink: pip install streamlit-profiler
     pypi: https://pypi.org/project/streamlit-profiler/
     socialUrl: https://github.com/jrieke
+    stars: 23
     title: Profiler
   streamlit-prophet:
     appUrl: https://share.streamlit.io/maximelutel/streamlit_prophet/main/streamlit_prophet/app/dashboard.py
@@ -3602,6 +3803,7 @@ components:
     pipLink: pip install streamlit-prophet
     pypi: https://pypi.org/project/streamlit-prophet/
     socialUrl: https://github.com/artefactory-global
+    stars: 140
     title: Prophet
   streamlit-pydantic:
     appUrl: https://share.streamlit.io/lukasmasuch/streamlit-pydantic/main/playground/playground_app.py
@@ -3619,6 +3821,7 @@ components:
     pipLink: pip install streamlit-pydantic
     pypi: https://pypi.org/project/streamlit-pydantic/
     socialUrl: https://github.com/lukasmasuch
+    stars: 100
     title: Pydantic
   streamlit-query-builder:
     appUrl: null
@@ -3636,6 +3839,7 @@ components:
     pipLink: pip install streamlit-query-builder
     pypi: https://pypi.org/project/streamlit-query-builder/
     socialUrl: https://github.com/falakmasir
+    stars: 0
     title: Query Builder
   streamlit-quill:
     appUrl: https://share.streamlit.io/okld/streamlit-gallery/main?p=quill-editor
@@ -3653,6 +3857,7 @@ components:
     pipLink: pip install streamlit-quill
     pypi: https://pypi.org/project/streamlit-quill/
     socialUrl: https://github.com/Ghasel
+    stars: 16
     title: Quill
   streamlit-raster:
     appUrl: null
@@ -3671,6 +3876,7 @@ components:
     pipLink: pip install streamlit-raster
     pypi: https://pypi.org/project/streamlit-raster/
     socialUrl: https://github.com/giswqs
+    stars: 7
     title: Raster
   streamlit-raw-echarts:
     appUrl: null
@@ -3688,6 +3894,7 @@ components:
     pipLink: pip install streamlit-raw-echarts
     pypi: https://pypi.org/project/streamlit-raw-echarts/
     socialUrl: https://github.com/liunux4odoo
+    stars: 4
     title: Raw Echarts
   streamlit-react-flow:
     appUrl: null
@@ -3705,6 +3912,7 @@ components:
     pipLink: pip install streamlit-react-flow
     pypi: https://pypi.org/project/streamlit-react-flow/
     socialUrl: https://github.com/rajagurunath
+    stars: 2
     title: React Flow
   streamlit-rightly-component:
     appUrl: null
@@ -3722,6 +3930,7 @@ components:
     pipLink: pip install streamlit-rightly-component
     pypi: https://pypi.org/project/streamlit-rightly-component/
     socialUrl: https://pypi.org/user/wisdomofgod
+    stars: 0
     title: Rightly Component
   streamlit-router:
     appUrl: null
@@ -3739,6 +3948,7 @@ components:
     pipLink: pip install streamlit-router
     pypi: https://pypi.org/project/streamlit-router/
     socialUrl: https://github.com/mapix
+    stars: 2
     title: Router
   streamlit-scrollable-textbox:
     appUrl: null
@@ -3757,6 +3967,7 @@ components:
     pipLink: pip install streamlit-scrollable-textbox
     pypi: https://pypi.org/project/streamlit-scrollable-textbox/
     socialUrl: https://github.com/RobertoFN
+    stars: 1
     title: Scrollable Textbox
   streamlit-searchbar:
     appUrl: null
@@ -3774,6 +3985,7 @@ components:
     pipLink: pip install streamlit-searchbar
     pypi: https://pypi.org/project/streamlit-searchbar/
     socialUrl: https://pypi.org/user/alteirac
+    stars: 0
     title: Searchbar
   streamlit-searchbox:
     appUrl: null
@@ -3792,6 +4004,7 @@ components:
     pipLink: pip install streamlit-searchbox
     pypi: https://pypi.org/project/streamlit-searchbox/
     socialUrl: https://github.com/m-wrzr
+    stars: 22
     title: Searchbox
   streamlit-sentence-selector:
     appUrl: null
@@ -3810,6 +4023,7 @@ components:
     pipLink: pip install streamlit-sentence-selector
     pypi: https://pypi.org/project/streamlit-sentence-selector/
     socialUrl: https://pypi.org/user/Doogle_publish
+    stars: 0
     title: Sentence Selector
   streamlit-server-state:
     appUrl: https://share.streamlit.io/whitphx/streamlit-server-state/main/app_chat_rooms.py
@@ -3828,6 +4042,7 @@ components:
     pipLink: pip install streamlit-server-state
     pypi: https://pypi.org/project/streamlit-server-state/
     socialUrl: https://github.com/whitphx
+    stars: 37
     title: Server State
   streamlit-shap:
     appUrl: null
@@ -3845,6 +4060,7 @@ components:
     pipLink: pip install streamlit-shap
     pypi: https://pypi.org/project/streamlit-shap/
     socialUrl: https://github.com/snehankekre
+    stars: 30
     title: Shap
   streamlit-sidemenu:
     appUrl: null
@@ -3863,6 +4079,7 @@ components:
     pipLink: pip install streamlit-sidemenu
     pypi: https://pypi.org/project/streamlit-sidemenu/
     socialUrl: https://github.com/ais-one
+    stars: 21
     title: Sidemenu
   streamlit-sortables:
     appUrl: null
@@ -3880,6 +4097,7 @@ components:
     pipLink: pip install streamlit-sortables
     pypi: https://pypi.org/project/streamlit-sortables/
     socialUrl: https://github.com/ohtaman
+    stars: 10
     title: Sortables
   streamlit-space:
     appUrl: https://share.streamlit.io/imyizhang/streamlit-space/main/streamlit_app.py
@@ -3897,6 +4115,7 @@ components:
     pipLink: pip install streamlit-space
     pypi: https://pypi.org/project/streamlit-space/
     socialUrl: https://github.com/imyizhang
+    stars: 2
     title: Space
   streamlit-sparrow-labeling:
     appUrl: null
@@ -3913,6 +4132,7 @@ components:
     pipLink: pip install streamlit-sparrow-labeling
     pypi: https://pypi.org/project/streamlit-sparrow-labeling/
     socialUrl: https://github.com/katanaml
+    stars: 12
     title: Sparrow Labeling
   streamlit-stackoverflow:
     appUrl: https://share.streamlit.io/jpaulorc/streamlit_stackoverflow/main/streamlit_stackoverflow/streamlit_app.py
@@ -3930,6 +4150,7 @@ components:
     pipLink: pip install streamlit-stackoverflow
     pypi: https://pypi.org/project/streamlit-stackoverflow/
     socialUrl: https://github.com/jpaulorc
+    stars: 0
     title: Stackoverflow
   streamlit-state:
     appUrl: null
@@ -3947,6 +4168,7 @@ components:
     pipLink: pip install streamlit-state
     pypi: https://pypi.org/project/streamlit-state/
     socialUrl: https://github.com/fx-kirin
+    stars: 0
     title: State
   streamlit-stepper-bar:
     appUrl: null
@@ -3964,6 +4186,7 @@ components:
     pipLink: pip install streamlit-stepper-bar
     pypi: https://pypi.org/project/streamlit-stepper-bar/
     socialUrl: https://github.com/BionomeeX
+    stars: 0
     title: Stepper Bar
   streamlit-supabase-auth:
     appUrl: null
@@ -3981,6 +4204,7 @@ components:
     pipLink: pip install streamlit-supabase-auth
     pypi: https://pypi.org/project/streamlit-supabase-auth/
     socialUrl: https://github.com/sweatybridge
+    stars: 3
     title: Supabase Auth
   streamlit-sync:
     appUrl: https://share.streamlit.io/wauplin/streamlit-sync/main/toy_example.py
@@ -3999,6 +4223,7 @@ components:
     pipLink: pip install streamlit-sync
     pypi: https://pypi.org/project/streamlit-sync/
     socialUrl: https://github.com/Wauplin
+    stars: 5
     title: Sync
   streamlit-tags:
     appUrl: https://share.streamlit.io/gagan3012/streamlit-tags/examples/app.py
@@ -4016,6 +4241,7 @@ components:
     pipLink: pip install streamlit-tags
     pypi: https://pypi.org/project/streamlit-tags/
     socialUrl: https://github.com/gagan3012
+    stars: 110
     title: Tags
   streamlit-tailwind:
     appUrl: null
@@ -4033,6 +4259,7 @@ components:
     pipLink: pip install streamlit-tailwind
     pypi: https://pypi.org/project/streamlit-tailwind/
     socialUrl: https://github.com/kevinismus
+    stars: 0
     title: Tailwind
   streamlit-talk:
     appUrl: https://share.streamlit.io/ai-yash/st-chat/main/examples/chatbot.py
@@ -4050,6 +4277,7 @@ components:
     pipLink: pip install streamlit-talk
     pypi: https://pypi.org/project/streamlit-talk/
     socialUrl: https://github.com/yichern
+    stars: 0
     title: Talk
   streamlit-tensorboard:
     appUrl: https://share.streamlit.io/
@@ -4067,6 +4295,7 @@ components:
     pipLink: pip install streamlit-tensorboard
     pypi: https://pypi.org/project/streamlit-tensorboard/
     socialUrl: https://github.com/snehankekre
+    stars: 27
     title: Tensorboard
   streamlit-terran-timeline:
     appUrl: null
@@ -4084,6 +4313,7 @@ components:
     pipLink: pip install streamlit-terran-timeline
     pypi: https://pypi.org/project/streamlit-terran-timeline/
     socialUrl: https://github.com/pento-group
+    stars: 96
     title: Terran Timeline
   streamlit-text-annotation:
     appUrl: null
@@ -4102,6 +4332,7 @@ components:
     pipLink: pip install streamlit-text-annotation
     pypi: https://pypi.org/project/streamlit-text-annotation/
     socialUrl: https://github.com/victoryhb
+    stars: 0
     title: Text Annotation
   streamlit-text-label:
     appUrl: null
@@ -4120,6 +4351,7 @@ components:
     pipLink: pip install streamlit-text-label
     pypi: https://pypi.org/project/streamlit-text-label/
     socialUrl: https://github.com/sweatybridge
+    stars: 7
     title: Text Label
   streamlit-text-like:
     appUrl: null
@@ -4137,6 +4369,7 @@ components:
     pipLink: pip install streamlit-text-like
     pypi: https://pypi.org/project/streamlit-text-like/
     socialUrl: https://github.com/PROFESSOR-PENGUIN
+    stars: 0
     title: Text Like
   streamlit-text-rating:
     appUrl: null
@@ -4154,6 +4387,7 @@ components:
     pipLink: pip install streamlit-text-rating
     pypi: https://pypi.org/project/streamlit-text-rating/
     socialUrl: https://github.com/TVS-Motor-Company
+    stars: 4
     title: Text Rating
   streamlit-tfx:
     appUrl: https://codesue-tfx-visualizers.streamlitapp.com
@@ -4171,6 +4405,7 @@ components:
     pipLink: pip install streamlit-tfx
     pypi: https://pypi.org/project/streamlit-tfx/
     socialUrl: https://github.com/codesue
+    stars: 1
     title: Tfx
   streamlit-theme:
     appUrl: null
@@ -4188,6 +4423,7 @@ components:
     pipLink: pip install streamlit-theme
     pypi: https://pypi.org/project/streamlit-theme/
     socialUrl: https://github.com/samdobson
+    stars: 0
     title: Theme
   streamlit-timeline:
     appUrl: null
@@ -4206,6 +4442,7 @@ components:
     pipLink: pip install streamlit-timeline
     pypi: https://pypi.org/project/streamlit-timeline/
     socialUrl: https://github.com/innerdoc
+    stars: 44
     title: Timeline
   streamlit-timing:
     appUrl: null
@@ -4223,6 +4460,7 @@ components:
     pipLink: pip install streamlit-timing
     pypi: https://pypi.org/project/streamlit-timing/
     socialUrl: https://github.com/whitphx
+    stars: 0
     title: Timing
   streamlit-toggle:
     appUrl: https://share.streamlit.io/imyizhang/streamlit-toggle/main/streamlit_app.py
@@ -4240,6 +4478,7 @@ components:
     pipLink: pip install streamlit-toggle
     pypi: https://pypi.org/project/streamlit-toggle/
     socialUrl: https://github.com/imyizhang
+    stars: 0
     title: Toggle
   streamlit-toggle-switch:
     appUrl: null
@@ -4257,6 +4496,7 @@ components:
     pipLink: pip install streamlit-toggle-switch
     pypi: https://pypi.org/project/streamlit-toggle-switch/
     socialUrl: https://github.com/sqlinsights
+    stars: 6
     title: Toggle Switch
   streamlit-tree-select:
     appUrl: null
@@ -4274,6 +4514,7 @@ components:
     pipLink: pip install streamlit-tree-select
     pypi: https://pypi.org/project/streamlit-tree-select/
     socialUrl: https://github.com/Schluca
+    stars: 12
     title: Tree Select
   streamlit-url-fragment:
     appUrl: null
@@ -4291,6 +4532,7 @@ components:
     pipLink: pip install streamlit-url-fragment
     pypi: https://pypi.org/project/streamlit-url-fragment/
     socialUrl: https://github.com/ktosiek
+    stars: 1
     title: Url Fragment
   streamlit-vega-lite:
     appUrl: null
@@ -4309,6 +4551,7 @@ components:
     pipLink: pip install streamlit-vega-lite
     pypi: https://pypi.org/project/streamlit-vega-lite/
     socialUrl: https://github.com/domoritz
+    stars: 69
     title: Vega Lite
   streamlit-vertical-slider:
     appUrl: null
@@ -4326,6 +4569,7 @@ components:
     pipLink: pip install streamlit-vertical-slider
     pypi: https://pypi.org/project/streamlit-vertical-slider/
     socialUrl: https://github.com/sqlinsights
+    stars: 11
     title: Vertical Slider
   streamlit-vis-timeline:
     appUrl: https://timeline.streamlitapp.com
@@ -4343,6 +4587,7 @@ components:
     pipLink: pip install streamlit-vis-timeline
     pypi: https://pypi.org/project/streamlit-vis-timeline/
     socialUrl: https://github.com/giswqs
+    stars: 28
     title: Vis Timeline
   streamlit-visgraph:
     appUrl: null
@@ -4360,6 +4605,7 @@ components:
     pipLink: pip install streamlit-visgraph
     pypi: https://pypi.org/project/streamlit-visgraph/
     socialUrl: https://github.com/tbhuy
+    stars: 9
     title: Visgraph
   streamlit-vtkjs:
     appUrl: null
@@ -4377,6 +4623,7 @@ components:
     pipLink: pip install streamlit-vtkjs
     pypi: https://pypi.org/project/streamlit-vtkjs/
     socialUrl: https://github.com/pollination
+    stars: 0
     title: Vtkjs
   streamlit-wallet-connect:
     appUrl: null
@@ -4394,6 +4641,7 @@ components:
     pipLink: pip install streamlit-wallet-connect
     pypi: https://pypi.org/project/streamlit-wallet-connect/
     socialUrl: https://pypi.org/user/smejak
+    stars: 0
     title: Wallet Connect
   streamlit-weather-widget:
     appUrl: null
@@ -4412,6 +4660,7 @@ components:
     pipLink: pip install streamlit-weather-widget
     pypi: https://pypi.org/project/streamlit-weather-widget/
     socialUrl: https://pypi.org/user/muhammadateeb
+    stars: 0
     title: Weather Widget
   streamlit-webrtc:
     appUrl: https://share.streamlit.io/whitphx/streamlit-webrtc-example/main/app.py
@@ -4429,6 +4678,7 @@ components:
     pipLink: pip install streamlit-webrtc
     pypi: https://pypi.org/project/streamlit-webrtc/
     socialUrl: https://github.com/whitphx
+    stars: 634
     title: WebRTC
   streamlit-webscrap-tool:
     appUrl: null
@@ -4446,6 +4696,7 @@ components:
     pipLink: pip install streamlit-webscrap-tool
     pypi: https://pypi.org/project/streamlit-webscrap-tool/
     socialUrl: https://pypi.org/user/tianning.li_20
+    stars: 0
     title: Webscrap Tool
   streamlit-widget-tracker:
     appUrl: null
@@ -4463,6 +4714,7 @@ components:
     pipLink: pip install streamlit-widget-tracker
     pypi: https://pypi.org/project/streamlit-widget-tracker/
     socialUrl: https://github.com/PROFESSOR-PENGUIN
+    stars: 0
     title: Widget Tracker
   streamlit-wizard:
     appUrl: null
@@ -4480,6 +4732,7 @@ components:
     pipLink: pip install streamlit-wizard
     pypi: https://pypi.org/project/streamlit-wizard/
     socialUrl: https://github.com/archydeberker
+    stars: 0
     title: Wizard
   streamlit-wordcloud:
     appUrl: null
@@ -4498,6 +4751,7 @@ components:
     pipLink: pip install streamlit-wordcloud
     pypi: https://pypi.org/project/streamlit-wordcloud/
     socialUrl: https://github.com/rezaho
+    stars: 11
     title: Wordcloud
   streamlit-ws-localstorage:
     appUrl: null
@@ -4516,6 +4770,7 @@ components:
     pipLink: pip install streamlit-ws-localstorage
     pypi: https://pypi.org/project/streamlit-ws-localstorage/
     socialUrl: https://github.com/gagangoku
+    stars: 6
     title: Ws Localstorage
   streamlit-xui:
     appUrl: null
@@ -4534,6 +4789,7 @@ components:
     pipLink: pip install streamlit-xui
     pypi: https://pypi.org/project/streamlit-xui/
     socialUrl: https://github.com/ais-one
+    stars: 21
     title: Xui
   streamlit-yellowbrick:
     appUrl: https://share.streamlit.io/snehankekre/streamlit-yellowbrick/examples/app.py
@@ -4552,6 +4808,7 @@ components:
     pipLink: pip install streamlit-yellowbrick
     pypi: https://pypi.org/project/streamlit-yellowbrick/
     socialUrl: https://github.com/snehankekre
+    stars: 11
     title: Yellowbrick
   streamlit_highcharts:
     appUrl: https://aalteirac-streamlit-highcharts-test-app-main-3vgde6.streamlitapp.com/
@@ -4569,6 +4826,7 @@ components:
     pipLink: pip install streamlit_highcharts
     pypi: https://pypi.org/project/streamlit_highcharts/
     socialUrl: https://github.com/aalteirac
+    stars: 1
     title: Highcharts
   streamlitfront:
     appUrl: null
@@ -4586,6 +4844,7 @@ components:
     pipLink: pip install streamlitfront
     pypi: https://pypi.org/project/streamlitfront/
     socialUrl: https://github.com/i2mint
+    stars: 2
     title: Front
   stvis:
     appUrl: null
@@ -4603,6 +4862,7 @@ components:
     pipLink: pip install stvis
     pypi: https://pypi.org/project/stvis/
     socialUrl: https://github.com/napoles-uach
+    stars: 1
     title: Stvis
   vegafusion-streamlit:
     appUrl: null
@@ -4620,4 +4880,5 @@ components:
     pipLink: pip install vegafusion-streamlit
     pypi: https://pypi.org/project/vegafusion-streamlit/
     socialUrl: https://pypi.org/user/jmmease
+    stars: 0
     title: Vegafusion
