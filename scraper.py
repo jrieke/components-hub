@@ -476,9 +476,9 @@ for c in components:
         # TODO: Should probably remove newlines above already.
         description = description.replace("\n", "")
 
-        image = "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png"
-        if c.image_url:
-            image = c.image_url
+        # image = "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png"
+        # if c.image_url:
+        #     image = c.image_url
 
         stars = 0
         if c.stars:
@@ -491,7 +491,7 @@ for c in components:
             description=description,
             pipLink=f"pip install {c.package}",
             category=c.categories,
-            image=image,
+            image=c.image_url,
             gitHubUrl=c.github,
             socialUrl=socialUrl,
             componentOfTheWeek=False,
