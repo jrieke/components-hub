@@ -476,7 +476,7 @@ for c in components:
         # TODO: Should probably remove newlines above already.
         description = description.replace("\n", "")
 
-        image = "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png"
+        image = "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png"
         if c.image_url:
             image = c.image_url
 
