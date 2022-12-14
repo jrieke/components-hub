@@ -121,7 +121,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/Joooohan/audio-recorder-streamlit
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install audio-recorder-streamlit
     pypi: https://pypi.org/project/audio-recorder-streamlit/
     socialUrl: https://github.com/Joooohan
@@ -157,7 +157,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install ct-auth0-streamlit-component
     pypi: https://pypi.org/project/ct-auth0-streamlit-component/
     socialUrl: https://pypi.org/user/arindam.biswas0994
@@ -174,7 +174,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/iterative/dvc_streamlit
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install dvc-streamlit
     pypi: https://pypi.org/project/dvc-streamlit/
     socialUrl: https://github.com/iterative
@@ -192,7 +192,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/elyra-ai/streamlit-extension
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install elyra-streamlit-extension
     pypi: https://pypi.org/project/elyra-streamlit-extension/
     socialUrl: https://github.com/elyra-ai
@@ -231,7 +231,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/Shogo0607/flet-like-streamlit
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install flet-like-streamlit
     pypi: https://pypi.org/project/flet-like-streamlit/
     socialUrl: https://github.com/Shogo0607
@@ -285,7 +285,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install metastreamlit
     pypi: https://pypi.org/project/metastreamlit/
     socialUrl: https://pypi.org/user/danthe3rd
@@ -303,7 +303,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/crxi/multipage_streamlit
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install multipage-streamlit
     pypi: https://pypi.org/project/multipage-streamlit/
     socialUrl: https://github.com/crxi
@@ -340,7 +340,7 @@ components:
     forum: https://discuss.streamlit.io/t/plost-a-deceptively-simple-plotting-component-for-streamlit/16536
     gitHubUrl: https://github.com/tvst/plost
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install plost
     pypi: https://pypi.org/project/plost/
     socialUrl: https://github.com/tvst
@@ -358,7 +358,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/pollination/pollination-streamlit
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install pollination-streamlit
     pypi: https://pypi.org/project/pollination-streamlit/
     socialUrl: https://github.com/pollination
@@ -375,7 +375,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/gamcoh/pr-streamlit-template
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install pr-streamlit-template
     pypi: https://pypi.org/project/pr-streamlit-template/
     socialUrl: https://github.com/gamcoh
@@ -393,7 +393,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install semantha-streamlit-compare
     pypi: https://pypi.org/project/semantha-streamlit-compare/
     socialUrl: https://pypi.org/user/thingsTHINKING
@@ -410,7 +410,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/oterrier/sherpa_streamlit/
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install sherpa-streamlit
     pypi: https://pypi.org/project/sherpa-streamlit/
     socialUrl: https://github.com/oterrier
@@ -445,7 +445,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/symrzknr/st-agraph-symrzknr
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-agraph-symrzknr
     pypi: https://pypi.org/project/st-agraph-symrzknr/
     socialUrl: https://github.com/symrzknr
@@ -481,7 +481,7 @@ components:
     forum: https://discuss.streamlit.io/t/new-component-st-btn-select-selectbox-alternative-with-buttons/18466
     gitHubUrl: https://github.com/0phoff/st-btn-select
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-btn-select
     pypi: https://pypi.org/project/st-btn-select/
     socialUrl: https://github.com/0phoff
@@ -498,7 +498,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-card-alert-2
     pypi: https://pypi.org/project/st-card-alert-2/
     socialUrl: https://pypi.org/user/kfhuang
@@ -516,7 +516,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/jamescalam/st-card-component
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-card-component
     pypi: https://pypi.org/project/st-card-component/
     socialUrl: https://github.com/jamescalam
@@ -533,7 +533,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-card-component-0
     pypi: https://pypi.org/project/st-card-component-0/
     socialUrl: https://pypi.org/user/y0sh1
@@ -550,7 +550,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-card-component-2
     pypi: https://pypi.org/project/st-card-component-2/
     socialUrl: https://pypi.org/user/jamescalam
@@ -567,7 +567,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-card-component-alex
     pypi: https://pypi.org/project/st-card-component-alex/
     socialUrl: https://pypi.org/user/AlexPerezAsturies
@@ -584,7 +584,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-card-search-component
     pypi: https://pypi.org/project/st-card-search-component/
     socialUrl: https://pypi.org/user/uyaseen
@@ -640,7 +640,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-comp-3dmodel
     pypi: https://pypi.org/project/st-comp-3dmodel/
     socialUrl: https://pypi.org/user/spectereye
@@ -694,7 +694,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-dataframe-component
     pypi: https://pypi.org/project/st-dataframe-component/
     socialUrl: https://pypi.org/user/MrYasuo
@@ -711,7 +711,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-dep-parsing-component
     pypi: https://pypi.org/project/st-dep-parsing-component/
     socialUrl: https://pypi.org/user/yixiong321
@@ -729,7 +729,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/brightxml/st_echarts_events
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-echarts-events
     pypi: https://pypi.org/project/st-echarts-events/
     socialUrl: https://github.com/brightxml
@@ -746,7 +746,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-event-selection-interfaces
     pypi: https://pypi.org/project/st-event-selection-interfaces/
     socialUrl: https://pypi.org/user/moinshaikh
@@ -764,7 +764,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/tvst/st-execbox
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-execbox
     pypi: https://pypi.org/project/st-execbox/
     socialUrl: https://github.com/tvst
@@ -781,7 +781,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-flashcard
     pypi: https://pypi.org/project/st-flashcard/
     socialUrl: https://pypi.org/user/ljxia
@@ -798,7 +798,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-highlightable-text
     pypi: https://pypi.org/project/st-highlightable-text/
     socialUrl: https://pypi.org/user/tstosse-adva
@@ -816,7 +816,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/icheft/st-material-table
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-material-table
     pypi: https://pypi.org/project/st-material-table/
     socialUrl: https://github.com/icheft
@@ -834,7 +834,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/supern8ent/st-mui-multiselect
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-mui-multiselect
     pypi: https://pypi.org/project/st-mui-multiselect/
     socialUrl: https://github.com/supern8ent
@@ -869,7 +869,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-rating-df
     pypi: https://pypi.org/project/st-rating-df/
     socialUrl: https://pypi.org/user/AntonBuch
@@ -886,7 +886,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/twelvefootball/st-btn-select-custom
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-row-buttons
     pypi: https://pypi.org/project/st-row-buttons/
     socialUrl: https://github.com/twelvefootball
@@ -903,7 +903,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-searchbar
     pypi: https://pypi.org/project/st-searchbar/
     socialUrl: https://pypi.org/user/ragunax2
@@ -940,7 +940,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/busbyk/st_stylish
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-stylish
     pypi: https://pypi.org/project/st-stylish/
     socialUrl: https://github.com/busbyk
@@ -957,7 +957,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-textnav-components
     pypi: https://pypi.org/project/st-textnav-components/
     socialUrl: https://pypi.org/user/moinshaikh
@@ -974,7 +974,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install st-tokenization-vis-component
     pypi: https://pypi.org/project/st-tokenization-vis-component/
     socialUrl: https://pypi.org/user/yixiong321
@@ -1065,7 +1065,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-3d
     pypi: https://pypi.org/project/streamlit-3d/
     socialUrl: https://pypi.org/user/alteirac
@@ -1155,7 +1155,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-alert-component
     pypi: https://pypi.org/project/streamlit-alert-component/
     socialUrl: https://pypi.org/user/Hadarak
@@ -1191,7 +1191,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/mapix/streamlit-antd
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-antd
     pypi: https://pypi.org/project/streamlit-antd/
     socialUrl: https://github.com/mapix
@@ -1210,7 +1210,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/ais-one/favv
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-antv
     pypi: https://pypi.org/project/streamlit-antv/
     socialUrl: https://github.com/ais-one
@@ -1228,7 +1228,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/theevann/streamlit-audiorecorder
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-audiorecorder
     pypi: https://pypi.org/project/streamlit-audiorecorder/
     socialUrl: https://github.com/theevann
@@ -1246,7 +1246,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/pvieito/streamlit-auth0
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-auth0
     pypi: https://pypi.org/project/streamlit-auth0/
     socialUrl: https://github.com/pvieito
@@ -1263,7 +1263,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-auth0-component
     pypi: https://pypi.org/project/streamlit-auth0-component/
     socialUrl: https://pypi.org/user/conradbez
@@ -1280,7 +1280,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-auth0-service
     pypi: https://pypi.org/project/streamlit-auth0-service/
     socialUrl: https://pypi.org/user/m.yazdani
@@ -1317,7 +1317,7 @@ components:
     forum: https://discuss.streamlit.io/t/streamlit-autorefresh/14519
     gitHubUrl: https://github.com/kmcgrady/streamlit-autorefresh
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-autorefresh
     pypi: https://pypi.org/project/streamlit-autorefresh/
     socialUrl: https://github.com/kmcgrady
@@ -1353,7 +1353,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-azure-ad-login
     pypi: https://pypi.org/project/streamlit-azure-ad-login/
     socialUrl: https://pypi.org/user/raga
@@ -1371,7 +1371,7 @@ components:
     forum: https://discuss.streamlit.io/t/some-new-components-threading-management-router-cookie-manager-firebase-authenticator/32348
     gitHubUrl: https://github.com/blipk/streamlitextras
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-base-extras
     pypi: https://pypi.org/project/streamlit-base-extras/
     socialUrl: https://github.com/blipk
@@ -1388,7 +1388,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-bias-rank-component
     pypi: https://pypi.org/project/streamlit-bias-rank-component/
     socialUrl: https://pypi.org/user/RKocielnik
@@ -1462,7 +1462,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/kosfera/streamlit-browser-storage
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-browser-storage
     pypi: https://pypi.org/project/streamlit-browser-storage/
     socialUrl: https://github.com/kosfera
@@ -1481,7 +1481,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/GeorgePearse/streamlit-projects/tree/master/streamlit-bi
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-business-intelligence
     pypi: https://pypi.org/project/streamlit-business-intelligence/
     socialUrl: https://github.com/GeorgePearse
@@ -1499,7 +1499,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/FloWide/streamlit_callbacks
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-callbacks
     pypi: https://pypi.org/project/streamlit-callbacks/
     socialUrl: https://github.com/FloWide
@@ -1519,7 +1519,7 @@ components:
     forum: https://discuss.streamlit.io/t/new-component-streamlit-camera-live-input/31220
     gitHubUrl: https://github.com/blackary/streamlit-camera-input-live
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-camera-input-live
     pypi: https://pypi.org/project/streamlit-camera-input-live/
     socialUrl: https://github.com/blackary
@@ -1537,7 +1537,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/gamcoh/st-card
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-card
     pypi: https://pypi.org/project/streamlit-card/
     socialUrl: https://github.com/gamcoh
@@ -1554,7 +1554,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-card-select
     pypi: https://pypi.org/project/streamlit-card-select/
     socialUrl: https://pypi.org/user/mmaelicke
@@ -1571,7 +1571,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-cards-templates
     pypi: https://pypi.org/project/streamlit-cards-templates/
     socialUrl: https://pypi.org/user/acarson_sfc
@@ -1606,7 +1606,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-charticulator
     pypi: https://pypi.org/project/streamlit-charticulator/
     socialUrl: https://pypi.org/user/zBritva
@@ -1623,7 +1623,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-charty
     pypi: https://pypi.org/project/streamlit-charty/
     socialUrl: https://pypi.org/user/alteirac
@@ -1641,7 +1641,7 @@ components:
     forum: https://discuss.streamlit.io/t/new-component-streamlit-chat-a-new-way-to-create-chatbots/20412
     gitHubUrl: https://github.com/AI-Yash/st-chat
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-chat
     pypi: https://pypi.org/project/streamlit-chat/
     socialUrl: https://github.com/AI-Yash
@@ -1658,7 +1658,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-circular-progress-component
     pypi: https://pypi.org/project/streamlit-circular-progress-component/
     socialUrl: https://pypi.org/user/Hadarak
@@ -1675,7 +1675,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-cookies
     pypi: https://pypi.org/project/streamlit-cookies/
     socialUrl: https://pypi.org/user/Kale112
@@ -1693,7 +1693,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/ktosiek/streamlit-cookies-manager
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-cookies-manager
     pypi: https://pypi.org/project/streamlit-cookies-manager/
     socialUrl: https://github.com/ktosiek
@@ -1728,7 +1728,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-custom-button
     pypi: https://pypi.org/project/streamlit-custom-button/
     socialUrl: https://pypi.org/user/Kale112
@@ -1783,7 +1783,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-custom-tooltip
     pypi: https://pypi.org/project/streamlit-custom-tooltip/
     socialUrl: https://pypi.org/user/andrewnelson23
@@ -1801,7 +1801,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/andfanilo/streamlit-cytoscapejs
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-cytoscapejs
     pypi: https://pypi.org/project/streamlit-cytoscapejs/
     socialUrl: https://github.com/andfanilo
@@ -1855,7 +1855,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-data-profile-viewer
     pypi: https://pypi.org/project/streamlit-data-profile-viewer/
     socialUrl: https://pypi.org/user/scastelo
@@ -1890,7 +1890,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-dbtree
     pypi: https://pypi.org/project/streamlit-dbtree/
     socialUrl: https://pypi.org/user/alteirac
@@ -1907,7 +1907,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-diff-viewer
     pypi: https://pypi.org/project/streamlit-diff-viewer/
     socialUrl: https://pypi.org/user/quentinfebvre
@@ -1980,7 +1980,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-doubutsushogi
     pypi: https://pypi.org/project/streamlit-doubutsushogi/
     socialUrl: https://pypi.org/user/kotamori
@@ -2070,7 +2070,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/caviri/streamlit-editorjs
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-editorjs
     pypi: https://pypi.org/project/streamlit-editorjs/
     socialUrl: https://github.com/caviri
@@ -2107,7 +2107,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-elements-fluence
     pypi: https://pypi.org/project/streamlit-elements-fluence/
     socialUrl: https://pypi.org/user/aschofield
@@ -2143,7 +2143,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/mapix/streamlit-embeded
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-embeded
     pypi: https://pypi.org/project/streamlit-embeded/
     socialUrl: https://github.com/mapix
@@ -2243,7 +2243,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/gamcoh/streamlit-fb-post
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-fb-post
     pypi: https://pypi.org/project/streamlit-fb-post/
     socialUrl: https://github.com/gamcoh
@@ -2260,7 +2260,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-firebase-remote-config-component
     pypi: https://pypi.org/project/streamlit-firebase-remote-config-component/
     socialUrl: https://pypi.org/user/Graniti
@@ -2296,7 +2296,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-flashcard
     pypi: https://pypi.org/project/streamlit-flashcard/
     socialUrl: https://pypi.org/user/ljxia
@@ -2333,7 +2333,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/erikweis/streamlit-force-graph-simulator
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-force-graph-simulator
     pypi: https://pypi.org/project/streamlit-force-graph-simulator/
     socialUrl: https://github.com/erikweis
@@ -2352,7 +2352,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/snehankekre/streamlit-forum
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-forum
     pypi: https://pypi.org/project/streamlit-forum/
     socialUrl: https://github.com/snehankekre
@@ -2370,7 +2370,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/yevgnen/streamlit-gallery
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-gallery
     pypi: https://pypi.org/project/streamlit-gallery/
     socialUrl: https://github.com/yevgnen
@@ -2389,7 +2389,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/consultimi/streamlit-gchart
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-gchart
     pypi: https://pypi.org/project/streamlit-gchart/
     socialUrl: https://github.com/consultimi
@@ -2406,7 +2406,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-gcp
     pypi: https://pypi.org/project/streamlit-gcp/
     socialUrl: https://pypi.org/user/lzanini
@@ -2424,7 +2424,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-geo-selector
     pypi: https://pypi.org/project/streamlit-geo-selector/
     socialUrl: https://pypi.org/user/crsmi
@@ -2460,7 +2460,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/karriebear/streamlit-google-geochart
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-google-geochart
     pypi: https://pypi.org/project/streamlit-google-geochart/
     socialUrl: https://github.com/karriebear
@@ -2515,7 +2515,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/truefoundry/streamlit-gradio
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-gradio
     pypi: https://pypi.org/project/streamlit-gradio/
     socialUrl: https://github.com/truefoundry
@@ -2532,7 +2532,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-graphic-slider
     pypi: https://pypi.org/project/streamlit-graphic-slider/
     socialUrl: https://pypi.org/user/mmaelicke
@@ -2550,7 +2550,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/danielschutz/streamlit_heroku
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-heroku
     pypi: https://pypi.org/project/streamlit-heroku/
     socialUrl: https://github.com/danielschutz
@@ -2567,7 +2567,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/6br/streamlit_hgb
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-hgb
     pypi: https://pypi.org/project/streamlit-hgb/
     socialUrl: https://github.com/6br
@@ -2584,7 +2584,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-highcharts
     pypi: https://pypi.org/project/streamlit-highcharts/
     socialUrl: https://pypi.org/user/alteirac
@@ -2601,7 +2601,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/lukasmasuch/streamlit-huggingface
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-huggingface
     pypi: https://pypi.org/project/streamlit-huggingface/
     socialUrl: https://github.com/lukasmasuch
@@ -2618,7 +2618,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-icon-component
     pypi: https://pypi.org/project/streamlit-icon-component/
     socialUrl: https://pypi.org/user/Hadarak
@@ -2689,7 +2689,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-image-select-mod
     pypi: https://pypi.org/project/streamlit-image-select-mod/
     socialUrl: https://pypi.org/user/essuhasa
@@ -2706,7 +2706,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-imagegrid
     pypi: https://pypi.org/project/streamlit-imagegrid/
     socialUrl: https://pypi.org/user/midhunharikumar
@@ -2743,7 +2743,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/cceyda/streamlit-inspect
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-inspect
     pypi: https://pypi.org/project/streamlit-inspect/
     socialUrl: https://github.com/cceyda
@@ -2798,7 +2798,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-jet
     pypi: https://pypi.org/project/streamlit-jet/
     socialUrl: https://pypi.org/user/jihaoran
@@ -2835,7 +2835,7 @@ components:
     forum: https://discuss.streamlit.io/t/new-component-streamlit-js-eval/30861
     gitHubUrl: https://github.com/aghasemi/streamlit_js_eval
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-js-eval
     pypi: https://pypi.org/project/streamlit-js-eval/
     socialUrl: https://github.com/aghasemi
@@ -2853,7 +2853,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-keboola-api
     pypi: https://pypi.org/project/streamlit-keboola-api/
     socialUrl: https://pypi.org/user/alteirac
@@ -2943,7 +2943,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-kpi-metric
     pypi: https://pypi.org/project/streamlit-kpi-metric/
     socialUrl: https://pypi.org/user/100mitra
@@ -2965,7 +2965,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/deneland/streamlit-labelstudio
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-labelstudio
     pypi: https://pypi.org/project/streamlit-labelstudio/
     socialUrl: https://github.com/deneland
@@ -3002,7 +3002,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/giswqs/streamlit-leaflet
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-leaflet
     pypi: https://pypi.org/project/streamlit-leaflet/
     socialUrl: https://github.com/giswqs
@@ -3037,7 +3037,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/llllyang123/streamlit-lianshan
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-lianshan
     pypi: https://pypi.org/project/streamlit-lianshan/
     socialUrl: https://github.com/llllyang123
@@ -3054,7 +3054,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-likedislike
     pypi: https://pypi.org/project/streamlit-likedislike/
     socialUrl: https://pypi.org/user/ragunax2
@@ -3071,7 +3071,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-location
     pypi: https://pypi.org/project/streamlit-location/
     socialUrl: https://pypi.org/user/ash2shukla
@@ -3126,7 +3126,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/giswqs/streamlit-mapbox
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-mapbox
     pypi: https://pypi.org/project/streamlit-mapbox/
     socialUrl: https://github.com/giswqs
@@ -3161,7 +3161,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/gamcoh/st-message
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-message
     pypi: https://pypi.org/project/streamlit-message/
     socialUrl: https://github.com/gamcoh
@@ -3179,7 +3179,7 @@ components:
     forum: https://discuss.streamlit.io/t/metrics-kpi-component/6991
     gitHubUrl: https://github.com/samdobson/streamlit-metrics
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-metrics
     pypi: https://pypi.org/project/streamlit-metrics/
     socialUrl: https://github.com/samdobson
@@ -3196,7 +3196,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/acschofield/streamlit_mock
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-mock
     pypi: https://pypi.org/project/streamlit-mock/
     socialUrl: https://github.com/acschofield
@@ -3214,7 +3214,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/teamtv/streamlit_modal
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-modal
     pypi: https://pypi.org/project/streamlit-modal/
     socialUrl: https://github.com/teamtv
@@ -3231,7 +3231,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-monaco-yaml
     pypi: https://pypi.org/project/streamlit-monaco-yaml/
     socialUrl: https://pypi.org/user/skalarsystems
@@ -3248,7 +3248,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-multi-row-inputs
     pypi: https://pypi.org/project/streamlit-multi-row-inputs/
     socialUrl: https://pypi.org/user/Planete
@@ -3265,7 +3265,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-multi-textarea
     pypi: https://pypi.org/project/streamlit-multi-textarea/
     socialUrl: https://pypi.org/user/Planete
@@ -3283,7 +3283,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/ELC/streamlit-multipage
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-multipage
     pypi: https://pypi.org/project/streamlit-multipage/
     socialUrl: https://github.com/ELC
@@ -3336,7 +3336,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/conradbez/streamlit-node-graph
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-node-graph
     pypi: https://pypi.org/project/streamlit-node-graph/
     socialUrl: https://github.com/conradbez
@@ -3371,7 +3371,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-ocean-compute
     pypi: https://pypi.org/project/streamlit-ocean-compute/
     socialUrl: https://pypi.org/user/smejak
@@ -3462,7 +3462,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-pagination-component
     pypi: https://pypi.org/project/streamlit-pagination-component/
     socialUrl: https://pypi.org/user/Hadarak
@@ -3479,7 +3479,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-pagnation
     pypi: https://pypi.org/project/streamlit-pagnation/
     socialUrl: https://pypi.org/user/ragunax2
@@ -3554,7 +3554,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/franekp/streamlit-permalink
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-permalink
     pypi: https://pypi.org/project/streamlit-permalink/
     socialUrl: https://github.com/franekp
@@ -3572,7 +3572,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/yaphott/streamlit-persistence
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-persistence
     pypi: https://pypi.org/project/streamlit-persistence/
     socialUrl: https://github.com/yaphott
@@ -3663,7 +3663,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/pollination/streamlit-pollination
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-pollination
     pypi: https://pypi.org/project/streamlit-pollination/
     socialUrl: https://github.com/pollination
@@ -3791,7 +3791,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/giswqs/streamlit-raster
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-raster
     pypi: https://pypi.org/project/streamlit-raster/
     socialUrl: https://github.com/giswqs
@@ -3809,7 +3809,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/liunux4odoo/streamlit-raw-echarts
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-raw-echarts
     pypi: https://pypi.org/project/streamlit-raw-echarts/
     socialUrl: https://github.com/liunux4odoo
@@ -3844,7 +3844,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-rightly-component
     pypi: https://pypi.org/project/streamlit-rightly-component/
     socialUrl: https://pypi.org/user/wisdomofgod
@@ -3862,7 +3862,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/mapix/streamlit-router
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-router
     pypi: https://pypi.org/project/streamlit-router/
     socialUrl: https://github.com/mapix
@@ -3898,7 +3898,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-searchbar
     pypi: https://pypi.org/project/streamlit-searchbar/
     socialUrl: https://pypi.org/user/alteirac
@@ -3935,7 +3935,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-sentence-selector
     pypi: https://pypi.org/project/streamlit-sentence-selector/
     socialUrl: https://pypi.org/user/Doogle_publish
@@ -3954,7 +3954,7 @@ components:
     forum: https://discuss.streamlit.io/t/new-library-streamlit-server-state-a-new-way-to-share-states-across-sessions-on-the-server/14981
     gitHubUrl: https://github.com/whitphx/streamlit-server-state
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-server-state
     pypi: https://pypi.org/project/streamlit-server-state/
     socialUrl: https://github.com/whitphx
@@ -3991,7 +3991,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/ais-one/favv
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-sidemenu
     pypi: https://pypi.org/project/streamlit-sidemenu/
     socialUrl: https://github.com/ais-one
@@ -4009,7 +4009,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/ohtaman/streamlit-sortables
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-sortables
     pypi: https://pypi.org/project/streamlit-sortables/
     socialUrl: https://github.com/ohtaman
@@ -4026,7 +4026,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/imyizhang/streamlit-space
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-space
     pypi: https://pypi.org/project/streamlit-space/
     socialUrl: https://github.com/imyizhang
@@ -4060,7 +4060,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/jpaulorc/streamlit_stackoverflow
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-stackoverflow
     pypi: https://pypi.org/project/streamlit-stackoverflow/
     socialUrl: https://github.com/jpaulorc
@@ -4077,7 +4077,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/fx-kirin/streamlit_state
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-state
     pypi: https://pypi.org/project/streamlit-state/
     socialUrl: https://github.com/fx-kirin
@@ -4094,7 +4094,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/BionomeeX/streamlit-stepper-bar
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-stepper-bar
     pypi: https://pypi.org/project/streamlit-stepper-bar/
     socialUrl: https://github.com/BionomeeX
@@ -4167,7 +4167,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/kevinismus/streamlit-tailwind
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-tailwind
     pypi: https://pypi.org/project/streamlit-tailwind/
     socialUrl: https://github.com/kevinismus
@@ -4184,7 +4184,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/yichern/st-chat
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-talk
     pypi: https://pypi.org/project/streamlit-talk/
     socialUrl: https://github.com/yichern
@@ -4238,7 +4238,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/victoryhb/streamlit-text-annotation
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-text-annotation
     pypi: https://pypi.org/project/streamlit-text-annotation/
     socialUrl: https://github.com/victoryhb
@@ -4274,7 +4274,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/PROFESSOR-PENGUIN/streamlit-text-like
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-text-like
     pypi: https://pypi.org/project/streamlit-text-like/
     socialUrl: https://github.com/PROFESSOR-PENGUIN
@@ -4309,7 +4309,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/codesue/streamlit-tfx
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-tfx
     pypi: https://pypi.org/project/streamlit-tfx/
     socialUrl: https://github.com/codesue
@@ -4326,7 +4326,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/samdobson/streamlit_theme
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-theme
     pypi: https://pypi.org/project/streamlit-theme/
     socialUrl: https://github.com/samdobson
@@ -4362,7 +4362,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/whitphx/streamlit-timing
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-timing
     pypi: https://pypi.org/project/streamlit-timing/
     socialUrl: https://github.com/whitphx
@@ -4379,7 +4379,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/imyizhang/streamlit-toggle
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-toggle
     pypi: https://pypi.org/project/streamlit-toggle/
     socialUrl: https://github.com/imyizhang
@@ -4432,7 +4432,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/ktosiek/streamlit-url-fragment
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-url-fragment
     pypi: https://pypi.org/project/streamlit-url-fragment/
     socialUrl: https://github.com/ktosiek
@@ -4522,7 +4522,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/pollination/streamlit-vtkjs
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-vtkjs
     pypi: https://pypi.org/project/streamlit-vtkjs/
     socialUrl: https://github.com/pollination
@@ -4539,7 +4539,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-wallet-connect
     pypi: https://pypi.org/project/streamlit-wallet-connect/
     socialUrl: https://pypi.org/user/smejak
@@ -4557,7 +4557,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-weather-widget
     pypi: https://pypi.org/project/streamlit-weather-widget/
     socialUrl: https://pypi.org/user/muhammadateeb
@@ -4592,7 +4592,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-webscrap-tool
     pypi: https://pypi.org/project/streamlit-webscrap-tool/
     socialUrl: https://pypi.org/user/tianning.li_20
@@ -4609,7 +4609,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/PROFESSOR-PENGUIN/streamlit-widget-tracker
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-widget-tracker
     pypi: https://pypi.org/project/streamlit-widget-tracker/
     socialUrl: https://github.com/PROFESSOR-PENGUIN
@@ -4626,7 +4626,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/archydeberker/streamlit-wizard
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-wizard
     pypi: https://pypi.org/project/streamlit-wizard/
     socialUrl: https://github.com/archydeberker
@@ -4664,7 +4664,7 @@ components:
     forum: https://discuss.streamlit.io/t/new-component-login-authentication-oauth-and-localstorage-access-in-streamlit-synchronous-communication/29460
     gitHubUrl: https://github.com/gagangoku/streamlit-ws-localstorage
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-ws-localstorage
     pypi: https://pypi.org/project/streamlit-ws-localstorage/
     socialUrl: https://github.com/gagangoku
@@ -4683,7 +4683,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/ais-one/favv
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit-xui
     pypi: https://pypi.org/project/streamlit-xui/
     socialUrl: https://github.com/ais-one
@@ -4719,7 +4719,7 @@ components:
     forum: null
     gitHubUrl: https://github.com/aalteirac/streamlit_highcharts
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install streamlit_highcharts
     pypi: https://pypi.org/project/streamlit_highcharts/
     socialUrl: https://github.com/aalteirac
@@ -4772,7 +4772,7 @@ components:
     forum: null
     gitHubUrl: null
     hostedWithStreamlit: false
-    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png
+    image: https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png
     pipLink: pip install vegafusion-streamlit
     pypi: https://pypi.org/project/vegafusion-streamlit/
     socialUrl: https://pypi.org/user/jmmease
