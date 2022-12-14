@@ -511,6 +511,7 @@ for i, (category, data) in enumerate(categories.items()):
     # st.write(category, data)
     post = frontmatter.Post(
         "",
+        id=category,
         title=data["icon"] + " " + data["title"],
         enabled=True,
         icon=data["icon"],
