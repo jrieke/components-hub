@@ -2,91 +2,109 @@ componentCategories:
   3d:
     enabled: true
     icon: "\U0001F9CA"
+    id: 3d
     order: 9
     title: "\U0001F9CA 3D"
   app-builder:
     enabled: true
     icon: "\U0001F3D7\uFE0F"
+    id: app-builder
     order: 15
     title: "\U0001F3D7\uFE0F App builders"
   authentication:
     enabled: true
     icon: "\U0001F510"
+    id: authentication
     order: 12
     title: "\U0001F510 Authentication"
   charts:
     enabled: true
     icon: "\U0001F4CA"
+    id: charts
     order: 1
     title: "\U0001F4CA Charts"
   code:
     enabled: true
     icon: "\u270F\uFE0F"
+    id: code
     order: 10
     title: "\u270F\uFE0F Code & editors"
   collection:
     enabled: true
     icon: "\U0001F4E6"
+    id: collection
     order: 17
     title: "\U0001F4E6 Collections of components"
   dataframe:
     enabled: true
     icon: "\U0001F9EE"
+    id: dataframe
     order: 6
     title: "\U0001F9EE Dataframes & tables"
   development:
     enabled: true
     icon: "\U0001F6E0\uFE0F"
+    id: development
     order: 14
     title: "\U0001F6E0\uFE0F Developer tools"
   graph:
     enabled: true
     icon: "\U0001FAA2"
+    id: graph
     order: 8
     title: "\U0001FAA2 Graphs"
   image:
     enabled: true
     icon: "\U0001F307"
+    id: image
     order: 2
     title: "\U0001F307 Images"
   integrations:
     enabled: true
     icon: "\U0001F50C"
+    id: integrations
     order: 16
     title: "\U0001F50C Integrations with other tools"
   maps:
     enabled: true
     icon: "\U0001F5FA\uFE0F"
+    id: maps
     order: 5
     title: "\U0001F5FA\uFE0F Maps & geospatial"
   navigation:
     enabled: true
     icon: "\U0001F4C3"
+    id: navigation
     order: 11
     title: "\U0001F4C3 Page navigation"
   science:
     enabled: true
     icon: "\U0001F9EC"
+    id: science
     order: 7
     title: "\U0001F9EC Molecules & genes"
   style:
     enabled: true
     icon: "\U0001F3A8"
+    id: style
     order: 13
     title: "\U0001F3A8 Style & layout"
   text:
     enabled: true
     icon: "\U0001F4DD"
+    id: text
     order: 4
     title: "\U0001F4DD Text"
   video:
     enabled: true
     icon: "\U0001F3A5"
+    id: video
     order: 3
     title: "\U0001F3A5 Video"
   widgets:
     enabled: true
     icon: "\U0001F9F0"
+    id: widgets
     order: 0
     title: "\U0001F9F0 General widgets"
 components:
@@ -1196,7 +1214,7 @@ components:
     pipLink: pip install streamlit-antv
     pypi: https://pypi.org/project/streamlit-antv/
     socialUrl: https://github.com/ais-one
-    stars: 21
+    stars: 20
     title: Antv
   streamlit-audiorecorder:
     appUrl: https://theevann-streamlit-audiorecorder-exampleexample-5ds2ug.streamlitapp.com
@@ -1285,7 +1303,7 @@ components:
     pipLink: pip install streamlit-authenticator
     pypi: https://pypi.org/project/streamlit-authenticator/
     socialUrl: https://github.com/mkhorasani
-    stars: 316
+    stars: 318
     title: Authenticator
   streamlit-autorefresh:
     appUrl: null
@@ -1668,7 +1686,7 @@ components:
     author: ktosiek
     avatar: https://avatars.githubusercontent.com/u/278013?v=4
     category:
-    - devleopment
+    - development
     componentOfTheWeek: false
     description: Access and change cookies from your Streamlit script
     enabled: true
@@ -3395,7 +3413,7 @@ components:
     pipLink: pip install streamlit-option-menu
     pypi: https://pypi.org/project/streamlit-option-menu/
     socialUrl: https://github.com/victoryhb
-    stars: 157
+    stars: 159
     title: Option Menu
   streamlit-pages:
     appUrl: null
@@ -3613,7 +3631,7 @@ components:
     pipLink: pip install streamlit-plotly-events
     pypi: https://pypi.org/project/streamlit-plotly-events/
     socialUrl: https://github.com/null-jones
-    stars: 103
+    stars: 104
     title: Plotly Events
   streamlit-plotly-mapboxEvents:
     appUrl: null
@@ -3977,7 +3995,7 @@ components:
     pipLink: pip install streamlit-sidemenu
     pypi: https://pypi.org/project/streamlit-sidemenu/
     socialUrl: https://github.com/ais-one
-    stars: 21
+    stars: 20
     title: Sidemenu
   streamlit-sortables:
     appUrl: null
@@ -4561,7 +4579,7 @@ components:
     pipLink: pip install streamlit-webrtc
     pypi: https://pypi.org/project/streamlit-webrtc/
     socialUrl: https://github.com/whitphx
-    stars: 636
+    stars: 638
     title: WebRTC
   streamlit-webscrap-tool:
     appUrl: null
@@ -4669,7 +4687,7 @@ components:
     pipLink: pip install streamlit-xui
     pypi: https://pypi.org/project/streamlit-xui/
     socialUrl: https://github.com/ais-one
-    stars: 21
+    stars: 20
     title: Xui
   streamlit-yellowbrick:
     appUrl: https://share.streamlit.io/snehankekre/streamlit-yellowbrick/examples/app.py
