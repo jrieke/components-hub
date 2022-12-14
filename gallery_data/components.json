@@ -318,7 +318,7 @@
             "forum": "https://discuss.streamlit.io/t/bi-directional-plotly-component/12229",
             "pypi": "https://pypi.org/project/streamlit-plotly-events/",
             "avatar": "https://avatars.githubusercontent.com/u/42727975?v=4",
-            "stars": 103
+            "stars": 104
         },
         "st-vizzu": {
             "title": "Vizzu",
@@ -658,7 +658,7 @@
             "forum": "https://discuss.streamlit.io/t/new-component-streamlit-webrtc-a-new-way-to-deal-with-real-time-media-streams/8669",
             "pypi": "https://pypi.org/project/streamlit-webrtc/",
             "avatar": "https://avatars.githubusercontent.com/u/3135397?v=4",
-            "stars": 636
+            "stars": 638
         },
         "stqdm": {
             "title": "Stqdm",
@@ -882,7 +882,7 @@
             "forum": "https://discuss.streamlit.io/t/new-component-streamlit-authenticator-a-secure-authenticaton-module-to-validate-user-credentials-in-a-streamlit-application/18893",
             "pypi": "https://pypi.org/project/streamlit-authenticator/",
             "avatar": "https://avatars.githubusercontent.com/u/38884731?v=4",
-            "stars": 316
+            "stars": 318
         },
         "streamlit-text-rating": {
             "title": "Text Rating",
@@ -942,7 +942,7 @@
             "forum": "https://discuss.streamlit.io/t/streamlit-option-menu-is-a-simple-streamlit-component-that-allows-users-to-select-a-single-item-from-a-list-of-options-in-a-menu/20514/7",
             "pypi": "https://pypi.org/project/streamlit-option-menu/",
             "avatar": "https://avatars.githubusercontent.com/u/3033215?v=4",
-            "stars": 157
+            "stars": 159
         },
         "streamlit-img-label": {
             "title": "Img Label",
@@ -2154,7 +2154,7 @@
             "forum": null,
             "pypi": "https://pypi.org/project/streamlit-antv/",
             "avatar": "https://avatars.githubusercontent.com/u/4284574?v=4",
-            "stars": 21
+            "stars": 20
         },
         "streamlit-audiorecorder": {
             "title": "Audiorecorder",
@@ -2540,7 +2540,7 @@
             "description": "Access and change cookies from your Streamlit script",
             "pipLink": "pip install streamlit-cookies-manager",
             "category": [
-                "devleopment"
+                "development"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/default_image.png",
             "gitHubUrl": "https://github.com/ktosiek/streamlit-cookies-manager",
@@ -4293,7 +4293,7 @@
             "forum": null,
             "pypi": "https://pypi.org/project/streamlit-sidemenu/",
             "avatar": "https://avatars.githubusercontent.com/u/4284574?v=4",
-            "stars": 21
+            "stars": 20
         },
         "streamlit-sortables": {
             "title": "Sortables",
@@ -4873,7 +4873,7 @@
             "forum": null,
             "pypi": "https://pypi.org/project/streamlit-xui/",
             "avatar": "https://avatars.githubusercontent.com/u/4284574?v=4",
-            "stars": 21
+            "stars": 20
         },
         "streamlit-yellowbrick": {
             "title": "Yellowbrick",
@@ -5006,108 +5006,126 @@
     },
     "componentCategories": {
         "widgets": {
+            "id": "widgets",
             "title": "\ud83e\uddf0 General widgets",
             "enabled": true,
             "icon": "\ud83e\uddf0",
             "order": 0
         },
         "charts": {
+            "id": "charts",
             "title": "\ud83d\udcca Charts",
             "enabled": true,
             "icon": "\ud83d\udcca",
             "order": 1
         },
         "image": {
+            "id": "image",
             "title": "\ud83c\udf07 Images",
             "enabled": true,
             "icon": "\ud83c\udf07",
             "order": 2
         },
         "video": {
+            "id": "video",
             "title": "\ud83c\udfa5 Video",
             "enabled": true,
             "icon": "\ud83c\udfa5",
             "order": 3
         },
         "text": {
+            "id": "text",
             "title": "\ud83d\udcdd Text",
             "enabled": true,
             "icon": "\ud83d\udcdd",
             "order": 4
         },
         "maps": {
+            "id": "maps",
             "title": "\ud83d\uddfa\ufe0f Maps & geospatial",
             "enabled": true,
             "icon": "\ud83d\uddfa\ufe0f",
             "order": 5
         },
         "dataframe": {
+            "id": "dataframe",
             "title": "\ud83e\uddee Dataframes & tables",
             "enabled": true,
             "icon": "\ud83e\uddee",
             "order": 6
         },
         "science": {
+            "id": "science",
             "title": "\ud83e\uddec Molecules & genes",
             "enabled": true,
             "icon": "\ud83e\uddec",
             "order": 7
         },
         "graph": {
+            "id": "graph",
             "title": "\ud83e\udea2 Graphs",
             "enabled": true,
             "icon": "\ud83e\udea2",
             "order": 8
         },
         "3d": {
+            "id": "3d",
             "title": "\ud83e\uddca 3D",
             "enabled": true,
             "icon": "\ud83e\uddca",
             "order": 9
         },
         "code": {
+            "id": "code",
             "title": "\u270f\ufe0f Code & editors",
             "enabled": true,
             "icon": "\u270f\ufe0f",
             "order": 10
         },
         "navigation": {
+            "id": "navigation",
             "title": "\ud83d\udcc3 Page navigation",
             "enabled": true,
             "icon": "\ud83d\udcc3",
             "order": 11
         },
         "authentication": {
+            "id": "authentication",
             "title": "\ud83d\udd10 Authentication",
             "enabled": true,
             "icon": "\ud83d\udd10",
             "order": 12
         },
         "style": {
+            "id": "style",
             "title": "\ud83c\udfa8 Style & layout",
             "enabled": true,
             "icon": "\ud83c\udfa8",
             "order": 13
         },
         "development": {
+            "id": "development",
             "title": "\ud83d\udee0\ufe0f Developer tools",
             "enabled": true,
             "icon": "\ud83d\udee0\ufe0f",
             "order": 14
         },
         "app-builder": {
+            "id": "app-builder",
             "title": "\ud83c\udfd7\ufe0f App builders",
             "enabled": true,
             "icon": "\ud83c\udfd7\ufe0f",
             "order": 15
         },
         "integrations": {
+            "id": "integrations",
             "title": "\ud83d\udd0c Integrations with other tools",
             "enabled": true,
             "icon": "\ud83d\udd0c",
             "order": 16
         },
         "collection": {
+            "id": "collection",
             "title": "\ud83d\udce6 Collections of components",
             "enabled": true,
             "icon": "\ud83d\udce6",
