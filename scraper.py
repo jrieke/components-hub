@@ -417,9 +417,9 @@ def get_components(use_pypi=True, use_github=True, use_pypistats=True, use_manua
     ):
         if not c.categories:
             c.categories = []
-        print(c.categories)
+        # print(c.categories)
         c.categories.append("all")
-        print(c.categories)
+        # print(c.categories)
         # TODO: Should use pypi release date here instead of github date.
         if c.created_at and c.created_at >= datetime.now() - timedelta(days=60):
             c.categories.append("newcomers")
@@ -467,7 +467,21 @@ def shorten(text, length=100):
         return text
 
 
-components = get_components()  # use_github=False, use_pypi=False)
+components = get_components()#use_github=False, use_pypi=False)
+
+# Sort components by Github stars and download numbers. Note that the JSON file sorts
+# all components alphabetically (to make the diff easier to read and not have components
+# jump around all the time). Instead, there's an explicit "order" value in the JSON.
+components = sorted(
+    components,
+    key=lambda c: (
+        c.stars if c.stars is not None else 0,
+        c.downloads if c.downloads is not None else 0,
+        c.image_url is not None,  # items with image first
+    ),
+    reverse=True,
+)
+# print(components)
 
 # components = [
 #     Component(name="Foo", package="foo"),
@@ -484,7 +498,7 @@ print("✍️ Writing to files")
 
 json_dict = {"components": {}, "componentCategories": {}}
 
-for c in components:
+for i, c in enumerate(components):
     # TODO: Need to exclude components without packages above as well.
     if c.package:
 
@@ -537,6 +551,7 @@ for c in components:
             avatar=c.avatar,
             stars=stars,
             downloads=downloads,
+            order=i,
         )
 
         # frontmatter.dump(post, components_dir / f"{c.package}.md")
