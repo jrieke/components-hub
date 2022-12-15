@@ -12,6 +12,7 @@ import requests
 import yaml
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
+from millify import millify
 from tqdm import tqdm
 
 TRACKER = "https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634"
@@ -406,7 +407,7 @@ def get_components(use_pypi=True, use_github=True, use_pypistats=True, use_manua
             # Get download numbers from PyPI
             if c.package:
                 c.downloads = get_downloads(c.package)
-                print(c.downloads)
+                # print(c.downloads)
     # profiler.stop()
 
     # Step 5: Enrich with additional data that was manually curated in
@@ -494,9 +495,13 @@ for c in components:
         if c.image_url:
             image = c.image_url
 
-        stars = 0
+        stars = "0"
         if c.stars:
-            stars = c.stars
+            stars = millify(c.stars, precision=1)
+
+        downloads = "0"
+        if c.downloads:
+            downloads = millify(c.downloads, precision=1)
 
         # post = frontmatter.Post(
         #     "",
@@ -517,7 +522,7 @@ for c in components:
             pypi=c.pypi,
             avatar=c.avatar,
             stars=stars,
-            downloads=c.downloads,
+            downloads=downloads,
         )
 
         # frontmatter.dump(post, components_dir / f"{c.package}.md")
