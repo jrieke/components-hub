@@ -6,6 +6,8 @@
             "description": "An experimental version of Streamlit Multi-Page Apps",
             "pipLink": "pip install st-pages",
             "category": [
+                "all",
+                "newcomers",
                 "navigation"
             ],
             "image": "https://user-images.githubusercontent.com/4040678/204576356-a436713f-93e4-41e3-82b9-6efeff744355.png",
@@ -27,6 +29,8 @@
             "description": "A Streamlit custom component to load heart-shaped Toggle Switch widget \ud83e\udde1",
             "pipLink": "pip install streamlit-custom-toggle",
             "category": [
+                "all",
+                "newcomers",
                 "widgets"
             ],
             "image": "https://github.com/ShruAgarwal/streamlit-custom-toggle/raw/main/toggle_demo.gif",
@@ -48,6 +52,8 @@
             "description": "Creates a toggle switch with color and placement customizations.",
             "pipLink": "pip install streamlit-toggle-switch",
             "category": [
+                "all",
+                "newcomers",
                 "widgets"
             ],
             "image": "https://github.com/sqlinsights/streamlit-toggle-switch/raw/main/sample.gif?raw=true",
@@ -69,6 +75,8 @@
             "description": "StreamlitExtras",
             "pipLink": "pip install streamlit-base-extras",
             "category": [
+                "all",
+                "newcomers",
                 "collection"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -109,6 +117,7 @@
             "description": "A simple Streamlit Component to display a Timeline in Streamlit apps. It integrates Knightlab's...",
             "pipLink": "pip install streamlit-timeline",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://github.com/innerdoc/streamlit-timeline/raw/main/example.png",
@@ -130,6 +139,7 @@
             "description": "1 line for thousands of State of The Art NLP models in hundreds of languages  The fastest and most...",
             "pipLink": "pip install nlu",
             "category": [
+                "all",
                 "text"
             ],
             "image": "https://camo.githubusercontent.com/ffd837f8400fd228c94f392cd5d7efee52368610d7b49eeb6091f1152fdee377/687474703a2f2f636b6c2d69742e64652f77702d636f6e74656e742f75706c6f6164732f323032302f30382f4d792d566964656f362e676966",
@@ -151,6 +161,7 @@
             "description": "HiPlot makes understanding high dimensional data easy",
             "pipLink": "pip install hiplot",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://raw.githubusercontent.com/facebookresearch/hiplot/main/assets/notebook.png",
@@ -172,6 +183,7 @@
             "description": "A Streamlit component to render ECharts.",
             "pipLink": "pip install streamlit-echarts",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/andfanilo/streamlit-echarts/raw/develop/img/demo.gif",
@@ -193,6 +205,7 @@
             "description": "\ud83d\udc51 spaCy building blocks and visualizers for Streamlit apps",
             "pipLink": "pip install spacy-streamlit",
             "category": [
+                "all",
                 "text"
             ],
             "image": "https://user-images.githubusercontent.com/13643239/85388081-f2da8700-b545-11ea-9bd4-e303d3c5763c.png",
@@ -214,6 +227,7 @@
             "description": "Pandas profiling component for Streamlit.",
             "pipLink": "pip install streamlit-pandas-profiling",
             "category": [
+                "all",
                 "dataframe",
                 "development"
             ],
@@ -236,6 +250,7 @@
             "description": "Streamlit component for embedding code snippets such as GitHub gists, CodePen snippets, Gitlab...",
             "pipLink": "pip install streamlit-embedcode",
             "category": [
+                "all",
                 "code"
             ],
             "image": "https://github.com/randyzwitch/streamlit-embedcode/raw/master/_static/gh_gist_example.png",
@@ -257,6 +272,7 @@
             "description": "Ace editor component for Streamlit.",
             "pipLink": "pip install streamlit-ace",
             "category": [
+                "all",
                 "text",
                 "code"
             ],
@@ -279,6 +295,7 @@
             "description": "Do you like Quick, Draw? Well what if you could train/predict doodles drawn inside Streamlit? Also...",
             "pipLink": "pip install streamlit-drawable-canvas",
             "category": [
+                "all",
                 "image"
             ],
             "image": "https://github.com/andfanilo/streamlit-drawable-canvas/raw/develop/img/demo.gif",
@@ -300,6 +317,7 @@
             "description": "A streamlit component for bi-directional communication with bokeh plots.",
             "pipLink": "pip install streamlit-bokeh-events",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/ash2shukla/streamlit-bokeh-events/raw/master/assets/plots.gif",
@@ -321,6 +339,7 @@
             "description": "Streamlit component that allows Plotly events to bubble back up to streamlit.  Makes Plotly charts...",
             "pipLink": "pip install streamlit-plotly-events",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/null-jones/streamlit-plotly-events/raw/master/example.gif",
@@ -342,6 +361,7 @@
             "description": "Create animated charts easily! A ipyvizzu wrapper for intuitive usage of ipyvizzu functions and...",
             "pipLink": "pip install st-vizzu",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/avrabyt/Streamlit-ipyvizzu/raw/main/Resources/animation.gif",
@@ -363,6 +383,7 @@
             "description": "Streamlit Component for rendering Folium maps",
             "pipLink": "pip install streamlit-folium",
             "category": [
+                "all",
                 "maps"
             ],
             "image": "https://raw.githubusercontent.com/randyzwitch/streamlit-folium/master/tests/visual_baseline/test_basic/first_test/baseline.png",
@@ -384,6 +405,7 @@
             "description": "This is the repository for the Stmol project, a Streamlit component that uses py3Dmol to render...",
             "pipLink": "pip install stmol",
             "category": [
+                "all",
                 "science"
             ],
             "image": "https://github.com/napoles-uach/stmol/raw/master/Resources/Quickstart-1.gif",
@@ -405,6 +427,7 @@
             "description": "\ud83e\uddecStreamlit Component for creating Speck molecular structures within Streamlit Web app\ud83d\ude80.",
             "pipLink": "pip install st-speckmol",
             "category": [
+                "all",
                 "science"
             ],
             "image": "https://github.com/avrabyt/Specklit/raw/main/Resources/SpeckLit_demo.gif",
@@ -426,6 +449,7 @@
             "description": "A simple component to display annotated text in Streamlit apps.",
             "pipLink": "pip install st-annotated-text",
             "category": [
+                "all",
                 "text"
             ],
             "image": "https://github.com/tvst/st-annotated-text/raw/master/example.png",
@@ -447,6 +471,7 @@
             "description": "D3 in React in Streamlit tech demo",
             "pipLink": "pip install streamlit-d3-demo",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/andfanilo/streamlit-d3-demo/raw/master/images/demo.gif",
@@ -468,6 +493,7 @@
             "description": "Using Terran for creating video timelines",
             "pipLink": "pip install streamlit-terran-timeline",
             "category": [
+                "all",
                 "video"
             ],
             "image": "https://raw.githubusercontent.com/pento-group/streamlit-terran-timeline/master/resources/animation.gif",
@@ -489,6 +515,7 @@
             "description": "A simple image cropper for Streamlit",
             "pipLink": "pip install streamlit-cropper",
             "category": [
+                "all",
                 "image"
             ],
             "image": "https://github.com/turner-anderson/streamlit-cropper/raw/master/img/demo.gif",
@@ -510,6 +537,7 @@
             "description": "Embed Observable notebooks into Streamlit apps!",
             "pipLink": "pip install streamlit-observable",
             "category": [
+                "all",
                 "integrations"
             ],
             "image": "https://user-images.githubusercontent.com/15178711/91647141-030e5700-ea0c-11ea-9afd-fbef728db533.png",
@@ -531,6 +559,7 @@
             "description": "Component for displaying KPI widgets on a Streamlit dashboard",
             "pipLink": "pip install streamlit-metrics",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -552,6 +581,7 @@
             "description": "A Streamlit Graph Vis",
             "pipLink": "pip install streamlit-agraph",
             "category": [
+                "all",
                 "graph"
             ],
             "image": "https://github.com/ChrisDelClea/streamlit-agraph/raw/master/imgs/marvel.png",
@@ -573,6 +603,7 @@
             "description": "st-cytoscape is a Streamlit component to embed a Cytoscape.js graph and get the selected nodes and...",
             "pipLink": "pip install st-cytoscape",
             "category": [
+                "all",
                 "graph"
             ],
             "image": "https://github.com/vivien000/st-cytoscape/raw/master/screenshot.gif",
@@ -594,6 +625,7 @@
             "description": "Streamlit component to render Lottie animations",
             "pipLink": "pip install streamlit-lottie",
             "category": [
+                "all",
                 "style"
             ],
             "image": "https://github.com/andfanilo/streamlit-lottie/raw/main/img/demo.gif",
@@ -615,6 +647,7 @@
             "description": "A streamlit component to embed video and music players from various websites.",
             "pipLink": "pip install streamlit-player",
             "category": [
+                "all",
                 "video"
             ],
             "image": "https://raw.githubusercontent.com/okld/streamlit-player/main/preview.png",
@@ -636,6 +669,7 @@
             "description": "A streamlit component to embed Disqus in your applications.",
             "pipLink": "pip install streamlit-disqus",
             "category": [
+                "all",
                 "integrations"
             ],
             "image": "https://raw.githubusercontent.com/okld/streamlit-disqus/main/preview.png",
@@ -657,6 +691,7 @@
             "description": "A streamlit component to embed Discourse topics in your applications.",
             "pipLink": "pip install streamlit-discourse",
             "category": [
+                "all",
                 "integrations"
             ],
             "image": "https://raw.githubusercontent.com/okld/streamlit-discourse/main/preview.png",
@@ -678,6 +713,7 @@
             "description": "Real-time video and audio streams over the network, with Streamlit.",
             "pipLink": "pip install streamlit-webrtc",
             "category": [
+                "all",
                 "video"
             ],
             "image": "https://camo.githubusercontent.com/c4236cd1adecba9b0542d4b4b6e9851e0b94baf89301af3c786d73f7eac92598/68747470733a2f2f617773312e646973636f757273652d63646e2e636f6d2f627573696e657373372f75706c6f6164732f73747265616d6c69742f6f726967696e616c2f32582f612f616631313161373339336337376362363964373731326163386537316361383632666561656232342e676966",
@@ -699,6 +735,7 @@
             "description": "stqdm is the simplest way to handle a progress bar in streamlit app.",
             "pipLink": "pip install stqdm",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/Wirg/stqdm/main/assets/demo.gif",
@@ -720,6 +757,7 @@
             "description": "Custom Tag component for streamlit",
             "pipLink": "pip install streamlit-tags",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://user-images.githubusercontent.com/49101362/114277814-83cb1200-9a35-11eb-8761-9d8bb81ffadc.gif",
@@ -741,6 +779,7 @@
             "description": "Google Charts wordtree component for Streamlit",
             "pipLink": "pip install streamlit-gchart",
             "category": [
+                "all",
                 "charts",
                 "text"
             ],
@@ -763,6 +802,7 @@
             "description": "An autorefresh component for Streamlit apps",
             "pipLink": "pip install streamlit-autorefresh",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -784,6 +824,7 @@
             "description": "An all in one place, to find complex or just not available components by default on streamlit.",
             "pipLink": "pip install extra-streamlit-components",
             "category": [
+                "all",
                 "collection",
                 "navigation",
                 "widgets",
@@ -808,6 +849,7 @@
             "description": "A \"server-wide\" state object shared across sessions on a Streamlit server.",
             "pipLink": "pip install streamlit-server-state",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -829,6 +871,7 @@
             "description": "A deceptively simple plotting library for Streamlit",
             "pipLink": "pip install plost",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -850,6 +893,7 @@
             "description": "A package of custom components for Streamlit and Hydralit. Can be used directly or in combination...",
             "pipLink": "pip install hydralit-components",
             "category": [
+                "all",
                 "navigation"
             ],
             "image": "https://github.com/TangleSpace/hydralit_components/raw/main/resources/info_card.PNG?raw=true",
@@ -871,6 +915,7 @@
             "description": "stvis component",
             "pipLink": "pip install stvis",
             "category": [
+                "all",
                 "graph"
             ],
             "image": "https://github.com/napoles-uach/stvis/raw/main/image/stvis.png",
@@ -892,6 +937,7 @@
             "description": "Streamlit Button Select Component",
             "pipLink": "pip install st-btn-select",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -913,6 +959,7 @@
             "description": "A secure authentication module to validate user credentials in a Streamlit application.",
             "pipLink": "pip install streamlit-authenticator",
             "category": [
+                "all",
                 "authentication"
             ],
             "image": "https://github.com/mkhorasani/Streamlit-Authenticator/raw/main/graphics/login_form.PNG",
@@ -934,6 +981,7 @@
             "description": "A streamlit component for rating text.",
             "pipLink": "pip install streamlit-text-rating",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/TVS-Motor-Company/streamlit-text-rating/main/st_text_rater.gif",
@@ -955,6 +1003,7 @@
             "description": "Streamlit Component, for a Chatbot UI",
             "pipLink": "pip install streamlit-chat",
             "category": [
+                "all",
                 "text"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -976,6 +1025,7 @@
             "description": "streamlit-option-menu is a simple Streamlit component that allows users to select a single item from...",
             "pipLink": "pip install streamlit-option-menu",
             "category": [
+                "all",
                 "navigation"
             ],
             "image": "https://github.com/victoryhb/streamlit-option-menu/raw/master/img/menu.png",
@@ -997,6 +1047,7 @@
             "description": "streamlit-img-label is a graphical image annotation tool using streamlit. Annotations are saved as...",
             "pipLink": "pip install streamlit-img-label",
             "category": [
+                "all",
                 "image"
             ],
             "image": "https://github.com/lit26/streamlit-img-label/raw/main/asset/st_img_label.gif",
@@ -1018,6 +1069,7 @@
             "description": "st-click-detector is a Streamlit component to display some HTML content and detect when hyperlinks...",
             "pipLink": "pip install st-click-detector",
             "category": [
+                "all",
                 "widgets",
                 "image"
             ],
@@ -1040,6 +1092,7 @@
             "description": "[You might be interested by st-click-detector which generalizes this component]",
             "pipLink": "pip install st-clickable-images",
             "category": [
+                "all",
                 "image"
             ],
             "image": "https://github.com/vivien000/st-clickable-images/raw/master/screenshot.gif",
@@ -1061,6 +1114,7 @@
             "description": "Implementation of Ag-Grid component for Streamlit",
             "pipLink": "pip install streamlit-aggrid",
             "category": [
+                "all",
                 "dataframe"
             ],
             "image": "https://github.com/PablocFonseca/streamlit-aggrid/raw/main/group_selection_example.gif",
@@ -1082,6 +1136,7 @@
             "description": "Streamlit component to execute javascript code on the client side and get back the result",
             "pipLink": "pip install streamlit-javascript",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://github.com/thunderbug1/streamlit-javascript/raw/master/example.png",
@@ -1103,6 +1158,7 @@
             "description": "streamlit-shap provides a wrapper to display SHAP plots in Streamlit.",
             "pipLink": "pip install streamlit-shap",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/snehankekre/streamlit-shap/raw/main/example.gif",
@@ -1124,6 +1180,7 @@
             "description": "Python Flow Based Programming environment that provides a graphical programming environment.",
             "pipLink": "pip install barfi",
             "category": [
+                "all",
                 "integrations"
             ],
             "image": "https://github.com/krish-adi/barfi/raw/main/docs/source/_static/demo.gif",
@@ -1145,6 +1202,7 @@
             "description": "Streamlit components for FirstLanguage API",
             "pipLink": "pip install streamlit-firstlanguage",
             "category": [
+                "all",
                 "text",
                 "integrations"
             ],
@@ -1167,6 +1225,7 @@
             "description": "A simple component to display d3graph network graphs in Streamlit apps.",
             "pipLink": "pip install streamlit-d3graph",
             "category": [
+                "all",
                 "graph"
             ],
             "image": "https://github.com/snehankekre/streamlit-d3graph/raw/main/images/demo.png",
@@ -1188,6 +1247,7 @@
             "description": "Custom tabs for on hover streamlit navigation bar created by custom css",
             "pipLink": "pip install streamlit-on-Hover-tabs",
             "category": [
+                "all",
                 "navigation"
             ],
             "image": "https://github.com/Socvest/streamlit-on-Hover-tabs/raw/main/img/demonstration-on-hover.gif",
@@ -1209,6 +1269,7 @@
             "description": "Create a draggable and resizable dashboard in Streamlit, featuring Material UI widgets, Monaco...",
             "pipLink": "pip install streamlit-elements",
             "category": [
+                "all",
                 "collection",
                 "widgets"
             ],
@@ -1231,6 +1292,7 @@
             "description": "A custom notification box for streamlit with the ability to close it out",
             "pipLink": "pip install streamlit-custom-notification-box",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://github.com/Socvest/streamlit-custom-notification-box/raw/main/img/custom-notification-box.png",
@@ -1252,6 +1314,7 @@
             "description": "Pretty notification box",
             "pipLink": "pip install streamlit-pretty-notification-box",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://github.com/Socvest/streamlit_pretty_notification_box/raw/main/img/pretty.png",
@@ -1273,6 +1336,7 @@
             "description": "Create and close tabs",
             "pipLink": "pip install streamlit-dynamic-tabs",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://github.com/Socvest/streamlit-dynamic-tabs/raw/main/videos/General-demonstration-pt1.gif",
@@ -1294,6 +1358,7 @@
             "description": "Image comparison slider component for Streamlit",
             "pipLink": "pip install streamlit-image-comparison",
             "category": [
+                "all",
                 "image"
             ],
             "image": "https://user-images.githubusercontent.com/34196005/143328163-2976a3b6-91d0-47c5-b872-c92dd6ea404e.gif",
@@ -1315,6 +1380,7 @@
             "description": "Mui pagination component to segment data by numbered pages",
             "pipLink": "pip install streamlit-pagination",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://github.com/Socvest/streamlit-pagination/raw/main/img/pagination.jpg",
@@ -1336,6 +1402,7 @@
             "description": "It lets you connect your streamlit application to a pre-built and secure Login/ Sign-Up page.",
             "pipLink": "pip install streamlit-login-auth-ui",
             "category": [
+                "all",
                 "authentication"
             ],
             "image": "https://user-images.githubusercontent.com/75731631/185765909-a70dd7af-240d-4a90-9140-45d6292e76f0.png",
@@ -1357,6 +1424,7 @@
             "description": "A simple synchronous way of accessing localStorage from your Streamlit app.",
             "pipLink": "pip install streamlit-ws-localstorage",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -1378,6 +1446,7 @@
             "description": "Streamlit text input that returns value on keyup",
             "pipLink": "pip install streamlit-keyup",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://user-images.githubusercontent.com/4040678/189153486-7ff7641c-1c76-4fa1-b0d5-f6634f8f0e41.gif",
@@ -1399,6 +1468,7 @@
             "description": "\ud83d\uddbc\ufe0f An image select component for Streamlit",
             "pipLink": "pip install streamlit-image-select",
             "category": [
+                "all",
                 "image"
             ],
             "image": "https://github.com/jrieke/streamlit-image-select/raw/main/images/demo.gif",
@@ -1420,6 +1490,7 @@
             "description": "A custom Streamlit component to evaluate arbitrary Javascript expressions",
             "pipLink": "pip install streamlit-js-eval",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -1441,6 +1512,7 @@
             "description": "Alternative version of st.camera_input which returns the webcam images live, without any button...",
             "pipLink": "pip install streamlit-camera-input-live",
             "category": [
+                "all",
                 "video",
                 "image"
             ],
@@ -1463,6 +1535,7 @@
             "description": "Streamlit widgets synce value with url ,download button which won't cause rerun and some useful...",
             "pipLink": "pip install streamlit-ext",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://raw.githubusercontent.com/PaleNeutron/streamlit-ext/master/docs/examples.gif",
@@ -1484,6 +1557,7 @@
             "description": "Example of connecting Pyvista, ipythreejs and streamlit",
             "pipLink": "pip install stpyvista",
             "category": [
+                "all",
                 "3d"
             ],
             "image": "https://camo.githubusercontent.com/56c8ee0835743a3b2ba7aa28344ad7606cb3025727b80eb3d57e84a368c4879e/68747470733a2f2f617773312e646973636f757273652d63646e2e636f6d2f627573696e657373372f75706c6f6164732f73747265616d6c69742f6f726967696e616c2f33582f662f642f666463623863623762653532346534633864316534356539333731636336623137613733326232342e676966",
@@ -1505,6 +1579,8 @@
             "description": "Creates a constinuous vertical slider with color customizations.",
             "pipLink": "pip install streamlit-vertical-slider",
             "category": [
+                "all",
+                "newcomers",
                 "widgets"
             ],
             "image": "https://github.com/sqlinsights/streamlit-vertical-slider/raw/main/sample.gif?raw=true",
@@ -1526,6 +1602,8 @@
             "description": "Datalist element for Streamlit",
             "pipLink": "pip install streamlit-datalist",
             "category": [
+                "all",
+                "newcomers",
                 "widgets"
             ],
             "image": "https://user-images.githubusercontent.com/108201791/200101163-b91ed217-d60a-4695-a5e1-a198cf2c857c.gif",
@@ -1547,6 +1625,8 @@
             "description": "User authentication and single sign-on in your Streamlit app using Keycloak",
             "pipLink": "pip install streamlit-keycloak",
             "category": [
+                "all",
+                "newcomers",
                 "authentication"
             ],
             "image": "https://github.com/bleumink/streamlit-keycloak/raw/master/example.gif?raw=true",
@@ -1568,6 +1648,7 @@
             "description": "This streamlit component allows to register an audio utterence from a user.",
             "pipLink": "pip install audio-recorder-streamlit",
             "category": [
+                "all",
                 "audio"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -1627,6 +1708,7 @@
             "description": "A JupyterLab extension to open a streamlit app within JupyterLab.",
             "pipLink": "pip install elyra-streamlit-extension",
             "category": [
+                "all",
                 "integrations"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -1686,6 +1768,7 @@
             "description": "MultiPage Streamlit",
             "pipLink": "pip install multipage-streamlit",
             "category": [
+                "all",
                 "navigation"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -1821,6 +1904,7 @@
             "description": "Card component for Streamlit",
             "pipLink": "pip install st-card-component",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -1994,6 +2078,7 @@
             "description": "a bi-directional streamlit components with pyecharts plots",
             "pipLink": "pip install st-echarts-events",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2034,6 +2119,7 @@
             "description": "Execbox is basically a text editor plus exec().",
             "pipLink": "pip install st-execbox",
             "category": [
+                "all",
                 "code"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2093,6 +2179,7 @@
             "description": "How to Use \u2022  Contributions",
             "pipLink": "pip install st-material-table",
             "category": [
+                "all",
                 "dataframe"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2114,6 +2201,7 @@
             "description": "Multiselect component for Streamlit using Material UI's tool",
             "pipLink": "pip install st-mui-multiselect",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2211,6 +2299,7 @@
             "description": "\ud83d\udc40 Track & visualize user interactions with your streamlit app",
             "pipLink": "pip install streamlit-analytics",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://github.com/jrieke/streamlit-analytics/raw/main/images/example.png",
@@ -2251,6 +2340,7 @@
             "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS. Streamlit for rapid development.",
             "pipLink": "pip install streamlit-antv",
             "category": [
+                "all",
                 "integrations"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2272,6 +2362,7 @@
             "description": "Audio recorder for streamlit",
             "pipLink": "pip install streamlit-audiorecorder",
             "category": [
+                "all",
                 "audio"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2293,6 +2384,7 @@
             "description": "",
             "pipLink": "pip install streamlit-auth0",
             "category": [
+                "all",
                 "authentication"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2344,7 +2436,7 @@
             "pypi": "https://pypi.org/project/streamlit-auth0-service/",
             "avatar": null,
             "stars": "0",
-            "downloads": "0"
+            "downloads": "5k"
         },
         "streamlit-awesome-table": {
             "title": "Awesome Table",
@@ -2352,6 +2444,7 @@
             "description": "Table with many features for Streamlit. This component use Bootstrap and FontAwesome.",
             "pipLink": "pip install streamlit-awesome-table",
             "category": [
+                "all",
                 "dataframe"
             ],
             "image": "https://github.com/caiodearaujo/streamlit-awesome-table/raw/main/samples/simple_table/awesome-table-simple.png",
@@ -2365,7 +2458,7 @@
             "pypi": "https://pypi.org/project/streamlit-awesome-table/",
             "avatar": "https://avatars.githubusercontent.com/u/15247334?v=4",
             "stars": "23",
-            "downloads": "0"
+            "downloads": "2.4k"
         },
         "streamlit-azure-ad-login": {
             "title": "Azure Ad Login",
@@ -2411,6 +2504,7 @@
             "description": "A framework for creating streamlit apps from markdown and python",
             "pipLink": "pip install streamlit-book",
             "category": [
+                "all",
                 "app-builder"
             ],
             "image": "https://camo.githubusercontent.com/44b5db39843378db63769a10dd088ecbedc9753260ad8cea6f55f594ed4f75ce/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d73656261737469616e647265732f73747265616d6c69745f626f6f6b26747970653d44617465",
@@ -2432,6 +2526,7 @@
             "description": "Streamlit components that allow client side (javascript) to send data to the server side (python)...",
             "pipLink": "pip install streamlit-bridge",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://github.com/binh-vu/streamlit-bridge/raw/master/examples/inline_buttons.gif",
@@ -2472,6 +2567,7 @@
             "description": "A set of streamlit projects of increasing complexity, for Analytics and ML",
             "pipLink": "pip install streamlit-business-intelligence",
             "category": [
+                "all",
                 ""
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2493,6 +2589,7 @@
             "description": "The interface delay times are always in seconds.",
             "pipLink": "pip install streamlit-callbacks",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2514,6 +2611,7 @@
             "description": "Streamlit component for UI cards",
             "pipLink": "pip install streamlit-card",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2554,6 +2652,7 @@
             "description": "Currently, there is one function defined:",
             "pipLink": "pip install streamlit-cardselectable",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://github.com/Mathtzt/st_cardselectable/raw/master/example/cards_init.png",
@@ -2670,6 +2769,7 @@
             "description": "Access and change cookies from your Streamlit script",
             "pipLink": "pip install streamlit-cookies-manager",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2729,6 +2829,7 @@
             "description": "Cytoscape.js wrapper for Streamlit",
             "pipLink": "pip install streamlit-cytoscapejs",
             "category": [
+                "all",
                 "graph"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2807,6 +2908,7 @@
             "description": "A simple streamlit component that returns the dimensions of the container where it is rendered.",
             "pipLink": "pip install streamlit-dimensions",
             "category": [
+                "all",
                 "development",
                 "widgets"
             ],
@@ -2848,6 +2950,7 @@
             "description": "A Streamlit wrapper component on react-smooth-dnd",
             "pipLink": "pip install streamlit-draggable-list",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://github.com/tk42/streamlit-draggable-list/raw/main/draggable_list.png",
@@ -2926,6 +3029,7 @@
             "description": "Streamlit component like Microsoft Excel",
             "pipLink": "pip install streamlit-excel-table",
             "category": [
+                "all",
                 "dataframe"
             ],
             "image": "https://github.com/tk42/streamlit-excel-table/raw/main/sample.png",
@@ -2947,6 +3051,7 @@
             "description": "Discover, try, install and share Streamlit re-usable bits we call \"extras\"!",
             "pipLink": "pip install streamlit-extras",
             "category": [
+                "all",
                 "collection",
                 "charts",
                 "text",
@@ -2977,6 +3082,7 @@
             "description": "A faker for Streamlit",
             "pipLink": "pip install streamlit-faker",
             "category": [
+                "all",
                 "development",
                 "app-builder"
             ],
@@ -3056,6 +3162,7 @@
             "description": "Useful for animating dynamic networks using d3 force-directed graph from a purely python interface.",
             "pipLink": "pip install streamlit-force-graph-simulator",
             "category": [
+                "all",
                 "graph"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -3077,6 +3184,7 @@
             "description": "Streamlit component to display topics from Streamlit's community forum related to any exception.",
             "pipLink": "pip install streamlit-forum",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -3098,6 +3206,7 @@
             "description": "Generate streamlit frontends from python functions",
             "pipLink": "pip install streamlitfront",
             "category": [
+                "all",
                 "app-builder"
             ],
             "image": "https://user-images.githubusercontent.com/63666082/172496315-86f65258-f59f-4e17-b9bc-c92c69884311.png",
@@ -3176,6 +3285,7 @@
             "description": "Streamlit Globe is a wrapper around globe.gl and provides some simple data visualization...",
             "pipLink": "pip install streamlit-globe",
             "category": [
+                "all",
                 "maps"
             ],
             "image": "https://github.com/padmalcom/streamlit_globe/raw/main/globe.png",
@@ -3216,6 +3326,7 @@
             "description": "Gosling custom component for Streamlit",
             "pipLink": "pip install streamlit-gosling",
             "category": [
+                "all",
                 "charts",
                 "science"
             ],
@@ -3238,6 +3349,7 @@
             "description": "A collection of Streamlit components that use or are inspired by the GOV.UK Design System",
             "pipLink": "pip install streamlit-gov-uk-components",
             "category": [
+                "all",
                 "collections"
             ],
             "image": "https://github.com/uktrade/streamlit-gov-uk-components/raw/main/example_checkbox.png?raw=true",
@@ -3392,6 +3504,7 @@
             "description": "A Streamlit component based on React Image Crop.",
             "pipLink": "pip install streamlit-image-crop",
             "category": [
+                "all",
                 "image"
             ],
             "image": "https://raw.githubusercontent.com/mitsuse/streamlit-image-crop/master/screenshot.png",
@@ -3451,6 +3564,7 @@
             "description": "This is a proof-of-concept",
             "pipLink": "pip install streamlit-inspect",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -3472,6 +3586,7 @@
             "description": "\ud83d\udd75\ufe0f Streamlit component to inspect Python objects during development",
             "pipLink": "pip install streamlit-inspector",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://github.com/jrieke/streamlit-inspector/raw/main/images/demo.png",
@@ -3512,6 +3627,7 @@
             "description": "Streamlit component for Jina neural search",
             "pipLink": "pip install streamlit-jina",
             "category": [
+                "all",
                 "integrations",
                 "text"
             ],
@@ -3553,6 +3669,7 @@
             "description": "\ud83d\uddfe Streamlit Component for rendering kepler.gl maps",
             "pipLink": "pip install streamlit-keplergl",
             "category": [
+                "all",
                 "maps"
             ],
             "image": "https://github.com/chrieke/streamlit-keplergl/raw/main/examples/example-screenshot.png",
@@ -3574,6 +3691,7 @@
             "description": "A simple CLI to kickoff and manage Streamlit projects",
             "pipLink": "pip install streamlit-kickoff-cli",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://user-images.githubusercontent.com/7164864/186680966-f70851a6-867a-4608-a52c-aa139d0ebf20.gif",
@@ -3614,6 +3732,7 @@
             "description": "A Streamlit component that provides an annotation interface using the LabelStudio Frontend.",
             "pipLink": "pip install streamlit-labelstudio",
             "category": [
+                "all",
                 "integrations",
                 "text",
                 "image",
@@ -3638,6 +3757,7 @@
             "description": "Browse a folder containing multiple streamlit apps and launch them immediately",
             "pipLink": "pip install streamlit-launchpad",
             "category": [
+                "all",
                 "navigation"
             ],
             "image": "https://github.com/ideonate/streamlit-launchpad/raw/master/screenshots/Launchpad.png",
@@ -3659,6 +3779,7 @@
             "description": "A Streamlit component for rendering leaflet maps",
             "pipLink": "pip install streamlit-leaflet",
             "category": [
+                "all",
                 "maps"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -3680,6 +3801,7 @@
             "description": "Streamlit component for Let's-Plot visualization library",
             "pipLink": "pip install streamlit-letsplot",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/randyzwitch/streamlit-letsplot/raw/master/_static/simple_example.png",
@@ -3758,6 +3880,7 @@
             "description": "A Streamlit Component for rendering Mapbox GL JS",
             "pipLink": "pip install streamlit-mapbox",
             "category": [
+                "all",
                 "maps"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -3779,6 +3902,7 @@
             "description": "a marquee component for streamlit",
             "pipLink": "pip install streamlit-marquee",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://camo.githubusercontent.com/ac8cc296f9fb2d3a63f7c58fdfff6794a0a310a8db7a49e7b4975c3f08df4c80/68747470733a2f2f73322e6c6f6c692e6e65742f323032322f31302f30392f50786533724c35434b6f584a4f4d702e676966",
@@ -3838,6 +3962,7 @@
             "description": "Modal support for streamlit. The hackish way.",
             "pipLink": "pip install streamlit-modal",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -3878,6 +4003,7 @@
             "description": "Framework for implementing multipage structure in streamlit apps",
             "pipLink": "pip install streamlit-multipage",
             "category": [
+                "all",
                 "navigation"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -3937,6 +4063,7 @@
             "description": "Allows columns and expanders to be nested",
             "pipLink": "pip install streamlit-nested-layout",
             "category": [
+                "all",
                 "style"
             ],
             "image": "https://raw.githubusercontent.com/joy13975/streamlit-nested-layout/main/images/demo.png",
@@ -3958,6 +4085,7 @@
             "description": "streamlit component that render nivo charts",
             "pipLink": "pip install streamlit-nivo",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/aswan-heart-centre/streamlit_nivo/raw/master/st-nivo.png",
@@ -4017,6 +4145,7 @@
             "description": "Addons like multipages for streamlit webapp",
             "pipLink": "pip install streamlit-pages",
             "category": [
+                "all",
                 "navigation"
             ],
             "image": "https://github.com/bvenkatesh-ai/streamlit_pages/raw/main/show.gif",
@@ -4095,6 +4224,7 @@
             "description": "Weave in interaction...",
             "pipLink": "pip install streamlit-parameters",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://github.com/stonier/streamlit_parameters/raw/devel/resources/demo.gif?raw=true",
@@ -4116,6 +4246,7 @@
             "description": "The streamlit_permalink (shorthand: stp) namespace contains url-aware versions of almost all input...",
             "pipLink": "pip install streamlit-permalink",
             "category": [
+                "all",
                 "development",
                 "widgets"
             ],
@@ -4176,6 +4307,7 @@
             "description": "Plotly mapbox component for Streamlit that also allows for events to bubble back up to Streamlit.",
             "pipLink": "pip install streamlit-plotly-mapboxEvents",
             "category": [
+                "all",
                 "maps"
             ],
             "image": "https://github.com/reyemb/streamlit-plotly-mapbox-events/raw/main/example.gif",
@@ -4216,6 +4348,7 @@
             "description": "\ud83c\udfc4\ud83c\udffc Runtime profiler for Streamlit, powered by pyinstrument",
             "pipLink": "pip install streamlit-profiler",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://github.com/jrieke/streamlit-profiler/raw/main/images/demo.png",
@@ -4237,6 +4370,7 @@
             "description": "Streamlit app to train, evaluate and optimize a Prophet forecasting model.",
             "pipLink": "pip install streamlit-prophet",
             "category": [
+                "all",
                 "integrations"
             ],
             "image": "https://github.com/artefactory/streamlit_prophet/raw/main/streamlit_prophet/references/input_format.png",
@@ -4258,6 +4392,7 @@
             "description": "\ud83e\ude84 Auto-generate Streamlit UI from Pydantic Models and Dataclasses.",
             "pipLink": "pip install streamlit-pydantic",
             "category": [
+                "all",
                 "app-builder"
             ],
             "image": "https://raw.githubusercontent.com/lukasmasuch/streamlit-pydantic/main/docs/images/banner.png",
@@ -4298,6 +4433,7 @@
             "description": "Quill editor component for Streamlit.",
             "pipLink": "pip install streamlit-quill",
             "category": [
+                "all",
                 "code"
             ],
             "image": "https://raw.githubusercontent.com/okld/streamlit-quill/main/preview.png",
@@ -4319,6 +4455,8 @@
             "description": "A Python package for rendering raster datasets with streamlit and localtileserver",
             "pipLink": "pip install streamlit-raster",
             "category": [
+                "all",
+                "newcomers",
                 "maps"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -4340,6 +4478,7 @@
             "description": "A Streamlit component for the ECharts library.",
             "pipLink": "pip install streamlit-raw-echarts",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -4361,6 +4500,7 @@
             "description": "A Streamlit Wrapper around React-flow component",
             "pipLink": "pip install streamlit-react-flow",
             "category": [
+                "all",
                 "graph"
             ],
             "image": "https://github.com/rajagurunath/streamlit-react-flow/raw/main/friends_graph.png",
@@ -4401,6 +4541,7 @@
             "description": "werkzeug router for streamlit",
             "pipLink": "pip install streamlit-router",
             "category": [
+                "all",
                 "navigation"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -4422,6 +4563,8 @@
             "description": "Scrollable textbox component for Streamlit.",
             "pipLink": "pip install streamlit-scrollable-textbox",
             "category": [
+                "all",
+                "newcomers",
                 "widgets",
                 "text"
             ],
@@ -4463,6 +4606,7 @@
             "description": "Streamlit searchbox that dynamically updates and provides a list of suggestions based on a provided...",
             "pipLink": "pip install streamlit-searchbox",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://github.com/m-wrzr/streamlit-searchbox/raw/main/assets/example.gif",
@@ -4503,6 +4647,7 @@
             "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS. Streamlit for rapid development.",
             "pipLink": "pip install streamlit-sidemenu",
             "category": [
+                "all",
                 "navigation"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -4524,6 +4669,7 @@
             "description": "An Streamlit component to provide sortable items.",
             "pipLink": "pip install streamlit-sortables",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -4575,7 +4721,7 @@
             "pypi": "https://pypi.org/project/streamlit-sparrow-labeling/",
             "avatar": "https://avatars.githubusercontent.com/u/49202856?v=4",
             "stars": "15",
-            "downloads": "0"
+            "downloads": "243"
         },
         "streamlit-stackoverflow": {
             "title": "Stackoverflow",
@@ -4613,7 +4759,7 @@
             "pypi": "https://pypi.org/project/streamlit-state/",
             "avatar": "https://avatars.githubusercontent.com/u/2161266?v=4",
             "stars": "0",
-            "downloads": "0"
+            "downloads": "441"
         },
         "streamlit-stepper-bar": {
             "title": "Stepper Bar",
@@ -4640,6 +4786,7 @@
             "description": "Prerequisite:",
             "pipLink": "pip install streamlit-supabase-auth",
             "category": [
+                "all",
                 "authentication"
             ],
             "image": "https://user-images.githubusercontent.com/1639722/164980408-22bbd548-348d-449b-8865-b024f9fe7a68.png",
@@ -4661,6 +4808,7 @@
             "description": "A library to easily synchronize sessions between themselves or on local drive for later reuse.",
             "pipLink": "pip install streamlit-sync",
             "category": [
+                "all",
                 "development"
             ],
             "image": "https://github.com/Wauplin/streamlit-sync/raw/main/images/demo.gif",
@@ -4720,6 +4868,7 @@
             "description": "Streamlit component for TensorBoard, TensorFlow's visualization toolkit",
             "pipLink": "pip install streamlit-tensorboard",
             "category": [
+                "all",
                 "integrations"
             ],
             "image": "https://github.com/snehankekre/streamlit-tensorboard/raw/master/_static/st-tensorboard-example.png",
@@ -4760,6 +4909,7 @@
             "description": "Custom streamlit component for labelling text selections, based on Label Studio.",
             "pipLink": "pip install streamlit-text-label",
             "category": [
+                "all",
                 "text"
             ],
             "image": "https://user-images.githubusercontent.com/1639722/136137713-752622a5-25f0-42b2-9645-a800674bff31.gif",
@@ -4876,6 +5026,7 @@
             "description": "A simple and elegant checkbox tree for Streamlit.",
             "pipLink": "pip install streamlit-tree-select",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://github.com/Schluca/streamlit_tree_select/raw/main/img/example.gif",
@@ -4916,6 +5067,7 @@
             "description": "A Streamlit component to render interactive Vega, Vega-Lite, and Altair visualizations and access...",
             "pipLink": "pip install streamlit-vega-lite",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/domoritz/streamlit-vega-lite/raw/master/demo.gif",
@@ -4937,6 +5089,7 @@
             "description": "A streamlit component for graph visualization",
             "pipLink": "pip install streamlit-visgraph",
             "category": [
+                "all",
                 "graph"
             ],
             "image": "https://github.com/tbhuy/streamlit_visgraph/raw/main/examples/example1.png",
@@ -4958,6 +5111,7 @@
             "description": "Streamlit component for rendering vis.js timeline",
             "pipLink": "pip install streamlit-vis-timeline",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://camo.githubusercontent.com/e794114eb5f19f91ecc2aadf898ca8fe81ef4aabefc19cc03db47d2deb297270/68747470733a2f2f692e696d6775722e636f6d2f69364e37616a342e676966",
@@ -5112,6 +5266,7 @@
             "description": "This component will allow you to build beautiful and interactive Wordcloud visualizations in...",
             "pipLink": "pip install streamlit-wordcloud",
             "category": [
+                "all",
                 "text"
             ],
             "image": "https://github.com/rezaho/streamlit-wordcloud/raw/master/img/wordcloud-example.png",
@@ -5133,6 +5288,7 @@
             "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS. Streamlit for rapid development.",
             "pipLink": "pip install streamlit-xui",
             "category": [
+                "all",
                 "widgets"
             ],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -5154,6 +5310,7 @@
             "description": "Streamlit component for the Yellowbrick visualization and model diagnostics library",
             "pipLink": "pip install streamlit-yellowbrick",
             "category": [
+                "all",
                 "charts"
             ],
             "image": "https://github.com/snehankekre/streamlit-yellowbrick/raw/master/_static/example.png",
@@ -5285,131 +5442,145 @@
         }
     },
     "componentCategories": {
+        "all": {
+            "id": "all",
+            "title": "\ud83c\udf1f All-time favorites",
+            "enabled": true,
+            "icon": "\ud83c\udf1f",
+            "order": 0
+        },
+        "newcomers": {
+            "id": "newcomers",
+            "title": "\ud83d\udc23 Newcomers",
+            "enabled": true,
+            "icon": "\ud83d\udc23",
+            "order": 1
+        },
         "widgets": {
             "id": "widgets",
-            "title": "\ud83e\uddf0 General widgets",
+            "title": "\ud83e\uddf0 Widgets",
             "enabled": true,
             "icon": "\ud83e\uddf0",
-            "order": 0
+            "order": 2
         },
         "charts": {
             "id": "charts",
             "title": "\ud83d\udcca Charts",
             "enabled": true,
             "icon": "\ud83d\udcca",
-            "order": 1
+            "order": 3
         },
         "image": {
             "id": "image",
             "title": "\ud83c\udf07 Images",
             "enabled": true,
             "icon": "\ud83c\udf07",
-            "order": 2
+            "order": 4
         },
         "video": {
             "id": "video",
             "title": "\ud83c\udfa5 Video",
             "enabled": true,
             "icon": "\ud83c\udfa5",
-            "order": 3
+            "order": 5
         },
         "text": {
             "id": "text",
             "title": "\ud83d\udcdd Text",
             "enabled": true,
             "icon": "\ud83d\udcdd",
-            "order": 4
+            "order": 6
         },
         "maps": {
             "id": "maps",
-            "title": "\ud83d\uddfa\ufe0f Maps & geospatial",
+            "title": "\ud83d\uddfa\ufe0f Maps",
             "enabled": true,
             "icon": "\ud83d\uddfa\ufe0f",
-            "order": 5
+            "order": 7
         },
         "dataframe": {
             "id": "dataframe",
-            "title": "\ud83e\uddee Dataframes & tables",
+            "title": "\ud83e\uddee Dataframes",
             "enabled": true,
             "icon": "\ud83e\uddee",
-            "order": 6
+            "order": 8
         },
         "science": {
             "id": "science",
             "title": "\ud83e\uddec Molecules & genes",
             "enabled": true,
             "icon": "\ud83e\uddec",
-            "order": 7
+            "order": 9
         },
         "graph": {
             "id": "graph",
             "title": "\ud83e\udea2 Graphs",
             "enabled": true,
             "icon": "\ud83e\udea2",
-            "order": 8
+            "order": 10
         },
         "3d": {
             "id": "3d",
             "title": "\ud83e\uddca 3D",
             "enabled": true,
             "icon": "\ud83e\uddca",
-            "order": 9
+            "order": 11
         },
         "code": {
             "id": "code",
             "title": "\u270f\ufe0f Code & editors",
             "enabled": true,
             "icon": "\u270f\ufe0f",
-            "order": 10
+            "order": 12
         },
         "navigation": {
             "id": "navigation",
             "title": "\ud83d\udcc3 Page navigation",
             "enabled": true,
             "icon": "\ud83d\udcc3",
-            "order": 11
+            "order": 13
         },
         "authentication": {
             "id": "authentication",
             "title": "\ud83d\udd10 Authentication",
             "enabled": true,
             "icon": "\ud83d\udd10",
-            "order": 12
+            "order": 14
         },
         "style": {
             "id": "style",
             "title": "\ud83c\udfa8 Style & layout",
             "enabled": true,
             "icon": "\ud83c\udfa8",
-            "order": 13
+            "order": 15
         },
         "development": {
             "id": "development",
             "title": "\ud83d\udee0\ufe0f Developer tools",
             "enabled": true,
             "icon": "\ud83d\udee0\ufe0f",
-            "order": 14
+            "order": 16
         },
         "app-builder": {
             "id": "app-builder",
             "title": "\ud83c\udfd7\ufe0f App builders",
             "enabled": true,
             "icon": "\ud83c\udfd7\ufe0f",
-            "order": 15
+            "order": 17
         },
         "integrations": {
             "id": "integrations",
-            "title": "\ud83d\udd0c Integrations with other tools",
+            "title": "\ud83d\udd0c Integrations",
             "enabled": true,
             "icon": "\ud83d\udd0c",
-            "order": 16
+            "order": 18
         },
         "collection": {
             "id": "collection",
-            "title": "\ud83d\udce6 Collections of components",
+            "title": "\ud83d\udce6 Collections",
             "enabled": true,
             "icon": "\ud83d\udce6",
-            "order": 17
+            "order": 19
         }
     }
 }
