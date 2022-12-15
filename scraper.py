@@ -182,25 +182,23 @@ def get_all_packages():
 
 def get_downloads(package):
     try:
-        downloads = pypistats.recent(package, "month", format="pandas")["last_month"][
-            0
-        ]  # .iloc[-1]["downloads"]
+        # downloads = pypistats.recent(package, "month", format="pandas")["last_month"][
+        #     0
+        # ]  # .iloc[-1]["downloads"]
+        downloads = pypistats.overall(package, format="pandas")["downloads"][2]
     except httpx.HTTPStatusError:
+        # TODO: Need to see if we can speed this up.
         time.sleep(10)
         try:
-            downloads = pypistats.recent(package, "month", format="pandas")[
-                "last_month"
-            ][
-                0
-            ]  # .iloc[-1]["downloads"]
+            downloads = pypistats.overall(package, format="pandas")["downloads"][2]
         except httpx.HTTPStatusError:
             # give up
             return 0
     time.sleep(0.1)  # don't get rate-limited
-    return downloads
+    return int(downloads)
 
 
-def get_components():
+def get_components(use_pypi=True, use_github=True, use_pypistats=True, use_manual=True):
     components_dict = {}
 
     # Step 1: Get components from tracker
@@ -251,173 +249,187 @@ def get_components():
             components_dict[c.name] = c
 
     # Step 2: Download PyPI index
-    print("⬇️ Downloading PyPI index (step 2/5)")
-    packages = get_all_packages()
+    if use_pypi:
+        print("⬇️ Downloading PyPI index (step 2/5)")
+        packages = get_all_packages()
 
-    # Step 3: Search through PyPI packages
-    # TODO: This could be wrapped in memo as well.
-    for p in tqdm(packages, desc="📦 Crawling PyPI (step 3/5)"):
-        # if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
+        # Step 3: Search through PyPI packages
+        # TODO: This could be wrapped in memo as well.
+        for p in tqdm(packages, desc="📦 Crawling PyPI (step 3/5)"):
+            # if p.startswith("streamlit") or p.startswith("st-") or p.startswith("st_"):
 
-        # TODO: There's a JSON API to do this: https://pypi.org/pypi/<package>/json
+            # TODO: There's a JSON API to do this: https://pypi.org/pypi/<package>/json
 
-        url = f"https://pypi.org/project/{p}/"
-        status_code, text = get(url)
-        if status_code != 404:
-            # st.expander("show html").code(res.text)
+            url = f"https://pypi.org/project/{p}/"
+            status_code, text = get(url)
+            if status_code != 404:
+                # st.expander("show html").code(res.text)
 
-            if not p in components_dict:
-                components_dict[p] = Component(name=p)
-            c = components_dict[p]
+                if not p in components_dict:
+                    components_dict[p] = Component(name=p)
+                c = components_dict[p]
 
-            if not c.package:
-                c.package = p
-            if not c.pypi:
-                c.pypi = url
+                if not c.package:
+                    c.package = p
+                if not c.pypi:
+                    c.pypi = url
 
-            if not c.pypi_author or not c.github:
-                soup = BeautifulSoup(text, "html.parser")
+                if not c.pypi_author or not c.github:
+                    soup = BeautifulSoup(text, "html.parser")
 
-                if not c.pypi_author:
-                    pypi_author = soup.find(
-                        "span", class_="sidebar-section__user-gravatar-text"
-                    ).text.strip()
-                    c.pypi_author = pypi_author
+                    if not c.pypi_author:
+                        pypi_author = soup.find(
+                            "span", class_="sidebar-section__user-gravatar-text"
+                        ).text.strip()
+                        c.pypi_author = pypi_author
 
-                if not c.github:
-                    homepage = soup.find("i", class_="fas fa-home")
-                    if homepage and "github.com" in homepage.parent["href"]:
-                        c.github = homepage.parent["href"]
-                        # print("found github link from homepage link:", c.github)
+                    if not c.github:
+                        homepage = soup.find("i", class_="fas fa-home")
+                        if homepage and "github.com" in homepage.parent["href"]:
+                            c.github = homepage.parent["href"]
+                            # print("found github link from homepage link:", c.github)
+                        else:
+                            sidebar_links = soup.find_all(
+                                "a",
+                                class_="vertical-tabs__tab vertical-tabs__tab--with-icon vertical-tabs__tab--condensed",
+                            )
+                            for l in sidebar_links:
+                                if "github.com" in l["href"]:
+                                    c.github = l["href"]
+                                    # print(
+                                    #     "found github link from sidebar link:",
+                                    #     c.github,
+                                    # )
+                                    break
+
+                    # TODO: Maybe do this outside of the if?
+                    summary = soup.find("p", class_="package-description__summary")
+                    if (
+                        summary
+                        and summary.text
+                        and summary.text != "No project description provided"
+                    ):
+                        # print("found summary description on pypi:", summary.text)
+                        c.pypi_description = summary.text
                     else:
-                        sidebar_links = soup.find_all(
-                            "a",
-                            class_="vertical-tabs__tab vertical-tabs__tab--with-icon vertical-tabs__tab--condensed",
+                        # Search for first non-empty paragraph.
+                        project_description = soup.find(
+                            "div", class_="project-description"
                         )
-                        for l in sidebar_links:
-                            if "github.com" in l["href"]:
-                                c.github = l["href"]
-                                # print(
-                                #     "found github link from sidebar link:",
-                                #     c.github,
-                                # )
-                                break
-
-                # TODO: Maybe do this outside of the if?
-                summary = soup.find("p", class_="package-description__summary")
-                if (
-                    summary
-                    and summary.text
-                    and summary.text != "No project description provided"
-                ):
-                    # print("found summary description on pypi:", summary.text)
-                    c.pypi_description = summary.text
-                else:
-                    # Search for first non-empty paragraph.
-                    project_description = soup.find("div", class_="project-description")
-                    if project_description:
-                        paragraphs = project_description.find_all("p")
-                        for p in paragraphs:
-                            text = p.text.replace("\n", "").strip()
-                            if text:
-                                c.pypi_description = text
-                                break
+                        if project_description:
+                            paragraphs = project_description.find_all("p")
+                            for p in paragraphs:
+                                text = p.text.replace("\n", "").strip()
+                                if text:
+                                    c.pypi_description = text
+                                    break
 
     # profiler.start()
-    # Step 4: Enrich info of components found above by reading data from Github
-    for c in tqdm(components_dict.values(), desc="👾 Crawling Github (step 4/5)"):
+    if use_github:
+        # Step 4: Enrich info of components found above by reading data from Github
+        for c in tqdm(components_dict.values(), desc="👾 Crawling Github (step 4/5)"):
 
-        # Try to get Github URL by combining PyPI author name + package name.
-        if not c.github and c.package and c.pypi_author:
-            possible_repo_names = [c.package]
-            if "-" in c.package:
-                # Sometimes, package names contain "-"" but repos "_", so check for these
-                # mutations as well.
-                possible_repo_names.append(c.package.replace("-", "_"))
-            for repo in possible_repo_names:
-                status_code, text = get(
-                    f"https://api.github.com/repos/{c.pypi_author}/{repo}",
-                    headers={
-                        "Accept": "application/vnd.github.v3+json",
-                        "Authorization": f"Token {GH_TOKEN}",
-                    },
+            # Try to get Github URL by combining PyPI author name + package name.
+            if not c.github and c.package and c.pypi_author:
+                possible_repo_names = [c.package]
+                if "-" in c.package:
+                    # Sometimes, package names contain "-"" but repos "_", so check for these
+                    # mutations as well.
+                    possible_repo_names.append(c.package.replace("-", "_"))
+                for repo in possible_repo_names:
+                    status_code, text = get(
+                        f"https://api.github.com/repos/{c.pypi_author}/{repo}",
+                        headers={
+                            "Accept": "application/vnd.github.v3+json",
+                            "Authorization": f"Token {GH_TOKEN}",
+                        },
+                    )
+                    if status_code == 200:
+                        c.github = f"https://github.com/{c.pypi_author}/{repo}"
+                        if repo != c.package:
+                            pass
+                            # print(
+                            #     f"found github url by mutating package name, original: {c.package}, mutated: {repo}"
+                            # )
+                        break
+
+            if c.github:
+                # print(c.github)
+                c.github_author = re.search("github.com/(.*?)/", c.github).group(1)
+                try:
+                    (
+                        c.stars,
+                        c.github_description,
+                        c.avatar,
+                        c.created_at,
+                    ) = get_github_info(c.github)
+                except:
+                    pass  # TODO: Handle this better. Sometimes Github shows 401 errors.
+
+                # this can also return None!
+                c.image_url, readme_description, demo_url = parse_github_readme(
+                    c.github
                 )
-                if status_code == 200:
-                    c.github = f"https://github.com/{c.pypi_author}/{repo}"
-                    if repo != c.package:
-                        pass
-                        # print(
-                        #     f"found github url by mutating package name, original: {c.package}, mutated: {repo}"
-                        # )
-                    break
+                if not c.github_description and readme_description:
+                    # print("found description in github readme")
+                    c.github_description = readme_description
+                if not c.demo and demo_url:
+                    # print("found demo url in github readme", demo_url)
+                    c.demo = demo_url
 
-        if c.github:
-            # print(c.github)
-            c.github_author = re.search("github.com/(.*?)/", c.github).group(1)
-            try:
-                (
-                    c.stars,
-                    c.github_description,
-                    c.avatar,
-                    c.created_at,
-                ) = get_github_info(c.github)
-            except:
-                pass  # TODO: Handle this better. Sometimes Github shows 401 errors.
+            # Set names based on PyPI package names.
+            # TODO: If I go with this, I should not even fetch the names from the forum post
+            # above.
+            if c.package:
+                name = c.package
+                if name.startswith("st-") or name.startswith("st_"):  # only do at start
+                    name = name[3:]
+                c.name = (
+                    name.replace("streamlit", "")
+                    .replace("--", " ")
+                    .replace("-", " ")
+                    .replace("__", " ")
+                    .replace("_", " ")
+                    .strip()
+                    .title()
+                )
 
-            # this can also return None!
-            c.image_url, readme_description, demo_url = parse_github_readme(c.github)
-            if not c.github_description and readme_description:
-                # print("found description in github readme")
-                c.github_description = readme_description
-            if not c.demo and demo_url:
-                # print("found demo url in github readme", demo_url)
-                c.demo = demo_url
-
-        # Get download numbers from PyPI
-        if c.package:
-            c.downloads = get_downloads(c.package)
-
-        # Set names based on PyPI package names.
-        # TODO: If I go with this, I should not even fetch the names from the forum post
-        # above.
-        if c.package:
-            name = c.package
-            if name.startswith("st-") or name.startswith("st_"):  # only do at start
-                name = name[3:]
-            c.name = (
-                name.replace("streamlit", "")
-                .replace("--", " ")
-                .replace("-", " ")
-                .replace("__", " ")
-                .replace("_", " ")
-                .strip()
-                .title()
+            c.search_text = (
+                str(c.name)
+                + str(c.github_description)
+                + str(c.pypi_description)
+                + str(c.github_author)
+                + str(c.package)
             )
 
-        c.search_text = (
-            str(c.name)
-            + str(c.github_description)
-            + str(c.pypi_description)
-            + str(c.github_author)
-            + str(c.package)
-        )
-
+    if use_pypistats:
+        for c in tqdm(
+            components_dict.values(), desc="Getting download numbers from PyPI"
+        ):
+            # Get download numbers from PyPI
+            if c.package:
+                c.downloads = get_downloads(c.package)
+                print(c.downloads)
     # profiler.stop()
 
     # Step 5: Enrich with additional data that was manually curated in
     # additional_data.yaml (currently only categories).
-    for c in tqdm(
-        components_dict.values(),
-        desc="🖐 Enriching with manually collected data (step 5/5)",
-    ):
-        if c.package and c.package in overwrite:
-            c.categories = overwrite[c.package]["categories"]
-            if "title" in overwrite[c.package]:
-                c.name = overwrite[c.package]["title"]
-            # TODO: Do this for all other properties as well.
+    if use_manual:
+        for c in tqdm(
+            components_dict.values(),
+            desc="🖐 Enriching with manually collected data (step 5/5)",
+        ):
+            if c.package and c.package in overwrite:
+                if not c.categories:
+                    c.categories = []
+                c.categories.extend(overwrite[c.package]["categories"])
+                if "title" in overwrite[c.package]:
+                    c.name = overwrite[c.package]["title"]
+                # TODO: Do this for all other properties as well.
 
-        else:
-            c.categories = []
+            else:
+                c.categories = []
+
     return list(components_dict.values())
 
 
@@ -443,10 +455,10 @@ def shorten(text, length=100):
         return text
 
 
-components = get_components()
+components = get_components()  # use_github=False, use_pypi=False)
 
 # components = [
-#     Component(name="Foo", package="foo"), 
+#     Component(name="Foo", package="foo"),
 #     Component(name="Bar", package="bar"),
 # ]
 
@@ -508,6 +520,7 @@ for c in components:
             pypi=c.pypi,
             avatar=c.avatar,
             stars=stars,
+            downloads=c.downloads,
         )
 
         # frontmatter.dump(post, components_dir / f"{c.package}.md")
