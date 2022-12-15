@@ -25,12 +25,12 @@ maps:
 dataframe:
   title: Dataframes
   icon: 🧮
-science:
-  title: Molecules & genes
-  icon: 🧬
 graph:
   title: Graphs
   icon: 🪢
+science:
+  title: Molecules & genes
+  icon: 🧬
 3d:
   title: 3D
   icon: 🧊

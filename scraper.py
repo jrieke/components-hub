@@ -221,7 +221,11 @@ def get_components(use_pypi=True, use_github=True, use_pypistats=True, use_manua
         for l in links:
             if l.startswith("https://github.com"):
                 c.github = l
-            elif l.startswith("https://share.streamlit.io") or "streamlitapp.com" in l:
+            elif (
+                l.startswith("https://share.streamlit.io")
+                or "streamlitapp.com" in l
+                or "streamlit.app" in l
+            ):
                 c.demo = l
             elif l.startswith("https://discuss.streamlit.io"):
                 c.forum_post = l
@@ -467,7 +471,7 @@ def shorten(text, length=100):
         return text
 
 
-components = get_components()#use_github=False, use_pypi=False)
+components = get_components()  # use_github=False, use_pypi=False)
 
 # Sort components by Github stars and download numbers. Note that the JSON file sorts
 # all components alphabetically (to make the diff easier to read and not have components
