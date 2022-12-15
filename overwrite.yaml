@@ -250,6 +250,7 @@ streamlit-tree-select:
 streamlit-faker:
   categories:
   - development
+  - app-builder
 streamlit-image-crop:
   categories:
   - image
