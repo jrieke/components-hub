@@ -445,13 +445,18 @@ def shorten(text, length=100):
 
 components = get_components()
 
+# components = [
+#     Component(name="Foo", package="foo"), 
+#     Component(name="Bar", package="bar"),
+# ]
+
 
 print("✍️ Writing to files")
-components_dir = Path("gallery_data/components")
-components_dir.mkdir(exist_ok=True, parents=True)
+# components_dir = Path("gallery_data/components")
+# components_dir.mkdir(exist_ok=True, parents=True)
 
-categories_dir = Path("gallery_data/componentCategories")
-categories_dir.mkdir(exist_ok=True, parents=True)
+# categories_dir = Path("gallery_data/componentCategories")
+# categories_dir.mkdir(exist_ok=True, parents=True)
 
 json_dict = {"components": {}, "componentCategories": {}}
 
@@ -484,8 +489,9 @@ for c in components:
         if c.stars:
             stars = c.stars
 
-        post = frontmatter.Post(
-            "",
+        # post = frontmatter.Post(
+        #     "",
+        json_dict["components"][c.package] = dict(
             title=c.name,
             author=author,
             description=description,
@@ -504,25 +510,27 @@ for c in components:
             stars=stars,
         )
 
-        frontmatter.dump(post, components_dir / f"{c.package}.md")
-        json_dict["components"][c.package] = post.metadata
+        # frontmatter.dump(post, components_dir / f"{c.package}.md")
+        #  = data
 
 for i, (category, data) in enumerate(categories.items()):
     # st.write(category, data)
-    post = frontmatter.Post(
-        "",
+    # post = frontmatter.Post(
+    #     "",
+    json_dict["componentCategories"][category] = dict(
         id=category,
         title=data["icon"] + " " + data["title"],
         enabled=True,
         icon=data["icon"],
         order=i,
     )
-    frontmatter.dump(post, categories_dir / f"{category}.md")
-    json_dict["componentCategories"][category] = post.metadata
+    # frontmatter.dump(post, categories_dir / f"{category}.md")
+    #  = post.metadata
 
     # Write json_dict to a json file
-    with open("gallery_data/components.json", "w") as f:
-        json.dump(json_dict, f, indent=4)
 
-    with open("gallery_data/components.yaml", "w") as f:
-        yaml.dump(json_dict, f)
+    # with open("gallery_data/components.yaml", "w") as f:
+    #     yaml.dump(json_dict, f)
+
+with open("gallery_data/components.json", "w") as f:
+    json.dump(json_dict, f, indent=4)
