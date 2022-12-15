@@ -1,5 +1,11 @@
+all:
+  title: All-time favorites
+  icon: 🌟
+newcomers:
+  title: Newcomers
+  icon: 🐣
 widgets:
-  title: General widgets
+  title: Widgets
   icon: 🧰
 charts:
   title: Charts
@@ -14,10 +20,10 @@ text:
   title: Text
   icon: 📝
 maps:
-  title: Maps & geospatial
+  title: Maps
   icon: 🗺️
 dataframe:
-  title: Dataframes & tables
+  title: Dataframes
   icon: 🧮
 science:
   title: Molecules & genes
@@ -47,8 +53,8 @@ app-builder:
   title: App builders
   icon: 🏗️
 integrations:
-  title: Integrations with other tools
+  title: Integrations
   icon: 🔌
 collection:
-  title: Collections of components
+  title: Collections
   icon: 📦

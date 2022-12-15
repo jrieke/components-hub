@@ -3,7 +3,7 @@ import os
 import re
 import time
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List
 
 import httpx
@@ -409,6 +409,20 @@ def get_components(use_pypi=True, use_github=True, use_pypistats=True, use_manua
                 c.downloads = get_downloads(c.package)
                 # print(c.downloads)
     # profiler.stop()
+
+    # Assign general categories.
+    for c in tqdm(
+        components_dict.values(),
+        desc="Assigning automated categories",
+    ):
+        if not c.categories:
+            c.categories = []
+        print(c.categories)
+        c.categories.append("all")
+        print(c.categories)
+        # TODO: Should use pypi release date here instead of github date.
+        if c.created_at and c.created_at >= datetime.now() - timedelta(days=60):
+            c.categories.append("newcomers")
 
     # Step 5: Enrich with additional data that was manually curated in
     # additional_data.yaml (currently only categories).
