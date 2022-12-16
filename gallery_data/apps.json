@@ -10983,11 +10983,13 @@
     },
     "appCategories": {
         "all": {
+            "id": "all",
             "title": "\ud83c\udf1f All-time favorites",
             "order": 0,
             "enabled": true
         },
         "newcomers": {
+            "id": "newcomers",
             "title": "\ud83d\udc23 Newcomers",
             "order": 1,
             "enabled": true
