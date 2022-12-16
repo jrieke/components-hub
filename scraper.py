@@ -449,7 +449,7 @@ def get_components(use_pypi=True, use_github=True, use_pypistats=True, use_manua
     return list(components_dict.values())
 
 
-def shorten(text, length=100):
+def shorten(text, length=70):
     if len(text) > length:
         short_text = text[:length]
 
