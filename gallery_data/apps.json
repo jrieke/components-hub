@@ -1,7 +1,7 @@
 {
     "apps": {
         "0xbigz/drift-v2-streamlit/main/app.py": {
-            "title": "Drift v2",
+            "title": "Drift V2",
             "description": "Drift Protocol simulation viewer",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ee79142b-c40a-4fc8-8b04-aba5e874a276/Home_Page.png",
             "category": [
@@ -64,7 +64,7 @@
             "order": 503
         },
         "22ayaan/bitcoindashboard/main/finalapp.py": {
-            "title": "finalapp",
+            "title": "Finalapp",
             "description": "This is the front-end software for a streamlit application that...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4797e8cd-0d3f-46a4-acc7-738d5457eb81/Home_Page.png",
             "category": [
@@ -84,7 +84,7 @@
             "order": 476
         },
         "4boyz/project-practicum/main/app.py": {
-            "title": "deepset/roberta base squad2",
+            "title": "Deepset Roberta Base Squad2",
             "description": "\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u043c\u043e\u0434\u0435\u043b\u044c (deepset/roberta-base-squad2), \u043a\u043e\u0442\u043e\u0440\u0430\u044f...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a5f45033-4570-4fef-aac6-a2618da15013/Home_Page.png",
             "category": [
@@ -104,7 +104,7 @@
             "order": 355
         },
         "a-alviento/mlda-deep-learning-week-hackathon/main/webapp.py": {
-            "title": "MLDA DLW 2022 Hackathon Team We Don't Byte",
+            "title": "Mlda Dlw 2022 Hackathon Team We Don'T Byte",
             "description": "In the last few years, the amount of spam messages have been...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a8977ca2-f238-41ca-afbd-2d18b5d6a87b/Home_Page.png",
             "category": [
@@ -127,7 +127,7 @@
             "order": 512
         },
         "abbyhhoffman/programming2msba/main/linked_in_app.py": {
-            "title": "linked in app",
+            "title": "Linked In App",
             "description": "This repository contains the files used to deploy an app on streamlit.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1612a793-5890-4699-ae12-f3d14ca5cc0d/Home_Page.png",
             "category": [
@@ -146,7 +146,7 @@
             "order": 186
         },
         "abdelhamidadel/whatsapp-analyzer/main/app.py": {
-            "title": "WhatsApp Analyzer",
+            "title": "Whatsapp Analyzer",
             "description": "Today one of the trendy social media platforms is\u2026. guess what? One...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a9d84cc3-e844-440e-8e36-8b9e3bc9a142/Home_Page.png",
             "category": [
@@ -195,7 +195,7 @@
             "order": 157
         },
         "abrahantorres/-dalle-2-openai-appproject/master/dalle.py": {
-            "title": "DALL\u00b7E 2",
+            "title": "Dall\u00b7E 2",
             "description": "This app use the OpenAI API to create images through a requests.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ccda61c0-0bc1-4809-93d5-0d6927b7a668/Home_Page.png",
             "category": [
@@ -258,7 +258,7 @@
             "order": 510
         },
         "aheuma/elephant/main/Start.py": {
-            "title": "Information on Easy Language",
+            "title": "Information On Easy Language",
             "description": "This student project is embedded in the DFG-funded project \"CHYLSA \u2013...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/832a36ae-9711-4924-a013-3ba8e52fa9b4/Information_on_Easy_Language.png",
             "category": [
@@ -278,7 +278,7 @@
             "order": 419
         },
         "ai-yash/st-chat/main/examples/chatbot.py": {
-            "title": "Streamlit Chat Demo",
+            "title": "Chat Demo",
             "description": "Streamlit Component, for a Chat-bot UI, example app",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/355989dc-708e-4110-ac28-5ce1770d7e66/Home_Page.png",
             "category": [
@@ -299,7 +299,7 @@
             "order": 43
         },
         "akshaysat/historical_data_downloader/master/app.py": {
-            "title": "Historical data downloader",
+            "title": "Historical Data Downloader",
             "description": "Download the historical data for phree !!!",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/dc2f15f2-249c-4ad9-ae06-d65c17803e10/Home_Page.png",
             "category": [
@@ -318,7 +318,7 @@
             "order": 46
         },
         "alanjones2/stapod/main/apod1.py": {
-            "title": "apod1",
+            "title": "Apod1",
             "description": "This folder contains the code and data for the article:",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5b286d08-943d-4812-8db1-39754ed59ad0/Home_Page.png",
             "category": [
@@ -358,7 +358,7 @@
             "order": 331
         },
         "alexberkut98/group33repository/main/StreamLit_for_TextTone/streamlit_test_33group.py": {
-            "title": "streamlit test 33group",
+            "title": "Test 33Group",
             "description": "\u0413\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439 \u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0439 33-\u0435\u0439 \u0433\u0440\u0443\u043f\u043f\u044b \u043f\u043e \u0434\u0438\u0441\u0446\u0438\u043f\u043b\u0438\u043d\u0435 \"\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u0430\u044f...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/eccc8796-cd93-4ddd-a531-258d0ee19a72/Home_Page.png",
             "category": [
@@ -377,7 +377,7 @@
             "order": 242
         },
         "alexcaldarone/wstats/main/app.py": {
-            "title": "WhatsApp Stats",
+            "title": "Whatsapp Stats",
             "description": "With this simple app you will be able to analyze:",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1f6f1b1a-fae5-4c61-b59e-9a261a8b618b/Home_Page.png",
             "category": [
@@ -395,7 +395,7 @@
             "order": 477
         },
         "alexeygrigorev/student-acceptance-project/main/front.py": {
-            "title": "Student college acceptance",
+            "title": "Student College Acceptance",
             "description": "In this project, we develop a model for predicting if a student will...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0255776a-2059-417e-81ea-cc805ebc9b9e/Home_Page.png",
             "category": [
@@ -413,7 +413,7 @@
             "order": 443
         },
         "alihussainia/love-letter-generator/main/streamlit_app.py": {
-            "title": "loveLetter",
+            "title": "Loveletter",
             "description": "The project aims to create an app that allow people to generate love...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a6a0f1c1-fac6-400f-8e2e-75d329c9ca29/Home_Page.png",
             "category": [
@@ -451,7 +451,7 @@
             "order": 499
         },
         "almightyabe/seven-c-pirate-crew/main/\ud83c\udff4Home.py": {
-            "title": "Seven c Pirate Crew",
+            "title": "Seven C Pirate Crew",
             "description": "A Seven c Pirate Crew Dashboard that updates information frequently...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/9dc16800-0b48-41d0-a36f-13f27e7ee3f8/Home_Page.png",
             "category": [
@@ -500,7 +500,7 @@
             "order": 90
         },
         "alzarus/investcrip/master/src/cripto-board.py": {
-            "title": "cripto board",
+            "title": "Cripto Board",
             "description": "To run the project:",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a6bcbf50-10ba-4669-80e9-720422708536/Home_Page.png",
             "category": [
@@ -520,7 +520,7 @@
             "order": 340
         },
         "amalianurf/dss_spk_sumedang/main/dss_spk_wp.py": {
-            "title": "dss spk wp",
+            "title": "Dss Spk Wp",
             "description": "https://amalianurf-dss-spk-sumedang-dss-spk-wp-jagpfn.streamlit.app/",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c6254b86-aae2-4736-b256-84a01d8279ab/Home_Page.png",
             "category": [
@@ -541,7 +541,7 @@
             "order": 342
         },
         "amrrs/pencilsketch-webapp/main/pencilsketch_webapp.py": {
-            "title": "pencilsketch webapp",
+            "title": "Pencilsketch Webapp",
             "description": "This is a streamlit app that helps convert photos into realistic...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1690695e-21c6-4e3b-a14f-97245b6b47a7/Home_Page.png",
             "category": [
@@ -561,7 +561,7 @@
             "order": 406
         },
         "amsamms/general-machine-learning-algorithm/master/main.py": {
-            "title": "machine learning app",
+            "title": "Machine Learning App",
             "description": "This web app aplication is used for machine learning",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6cbcae2f-bb2e-455f-81d8-8e78f4a3f520/Home_Page.png",
             "category": [
@@ -583,7 +583,7 @@
             "order": 221
         },
         "andfanilo/s4a-css-hacking/main/streamlit_app.py": {
-            "title": "CSS hacks",
+            "title": "Css Hacks",
             "description": "Me trying to find all the ways to hack Streamlit CSS",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f078d33a-67ad-4da1-b674-9c376c2b351d/Home_Page.png",
             "category": [
@@ -601,7 +601,7 @@
             "order": 459
         },
         "andfanilo/streamlit-drawable-canvas-demo/master/app.py": {
-            "title": "Streamlit Drawable Canvas Demo",
+            "title": "Drawable Canvas Demo",
             "description": "Streamlit Drawable Canvas demo on Streamlit Sharing",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/cefad6d9-cb42-4466-9e9a-3bcf7c1e872d/Home_Page.png",
             "category": [
@@ -622,7 +622,7 @@
             "order": 39
         },
         "andfanilo/streamlit-echarts-demo/master/app.py": {
-            "title": "Streamlit ECharts Demo",
+            "title": "Echarts Demo",
             "description": "Streamlit ECharts demo on Streamlit Sharing",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c189121e-1ffe-4a05-9844-2a2fe0e4444c/Home_Page.png",
             "category": [
@@ -642,7 +642,7 @@
             "order": 20
         },
         "andfanilo/streamlit-lottie-demo/master/app.py": {
-            "title": "Streamlit Lottie Demo",
+            "title": "Lottie Demo",
             "description": "Streamlit Lottie demo on Streamlit Sharing",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b6e2f490-0746-4c89-848f-5458b0cbf275/Home_Page.png",
             "category": [
@@ -662,7 +662,7 @@
             "order": 73
         },
         "andfanilo/streamlit-midi-to-wav/main/app.py": {
-            "title": "MIDI to WAV",
+            "title": "Midi To Wav",
             "description": "I wanted to play Chopin.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/19aa7f01-618c-4c58-a2ec-6466ef8deb6f/Home_Page.png",
             "category": [
@@ -682,7 +682,7 @@
             "order": 351
         },
         "andfanilo/streamlit-techtalk-livedemo/master/app_final.py": {
-            "title": "Streamlit Techtalk Live demo",
+            "title": "Techtalk Live Demo",
             "description": "Transition to interactive : now this is very static, what if I want to...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/bb54c208-0e45-40d9-9582-71be3680ea4c/Home_Page.png",
             "category": [
@@ -708,7 +708,7 @@
             "order": 458
         },
         "andfanilo/streamlit-weekly-roundup-api/main/src/client.py": {
-            "title": "Streamlit Weekly roundups explorer",
+            "title": "Weekly Roundups Explorer",
             "description": "Browse through all links from Streamlit Weekly Roundup posts. ",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d9e80371-ae7e-45d1-9bda-1e64b393cf5c/Home_Page.png",
             "category": [
@@ -727,7 +727,7 @@
             "order": 448
         },
         "andregerardi/app-agregador-pesquisas/main/app-agregador-religiao.py": {
-            "title": "Agregador de pesquisas eleitorais por religi\u00e3o",
+            "title": "Agregador De Pesquisas Eleitorais Por Religi\u00e3o",
             "description": "Projeto desenvolvido para o acompanhamento das inten\u00e7\u00f5es de voto...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a9b9a35c-aff6-4179-8bc3-9a3a7273bc86/Home_Page.png",
             "category": [
@@ -763,7 +763,7 @@
             "order": 31
         },
         "andrew2077/airbnb-model/main/\u2708\ufe0f_Airbnb.py": {
-            "title": "Air bnb Data Visualization",
+            "title": "Air Bnb Data Visualization",
             "description": "Airbnb-model",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/361d318a-947e-47bb-b618-b40001a1f319/Home_Page.png",
             "category": [
@@ -804,7 +804,7 @@
             "order": 206
         },
         "andrijama/streamlit/main/streamlit_app.py": {
-            "title": "CSV uploader",
+            "title": "Csv Uploader",
             "description": "Easy way to upload CSV files to Snowflake",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/96f33cbc-28db-4b86-939e-3de6b1c8c725/Home_Page.png",
             "category": [
@@ -822,7 +822,7 @@
             "order": 19
         },
         "andris-vilcuks/projlab/master/app.py": {
-            "title": "Projekt\u0113\u0161anas laboratorija",
+            "title": "Projekt\u0113\u0161anas Laboratorija",
             "description": "Basketbola sp\u0113\u013cu rezult\u0101tu prognoz\u0113\u0161ana",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/fd347c4a-8cc6-4cd6-bf38-423fbf0bf1f6/about.png",
             "category": [
@@ -840,7 +840,7 @@
             "order": 261
         },
         "anuliketat/drug_launch_sequence/main/npv_opt_streamlit.py": {
-            "title": "npv opt streamlit",
+            "title": "Npv Opt",
             "description": "The optimizer web app for Drug Launch Sequence. The scope of this...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5844fab5-f8a4-41bf-803b-b159ed9b8142/Home_Page.png",
             "category": [
@@ -859,7 +859,7 @@
             "order": 446
         },
         "anuraag027/streamlitproject/main/streamlit1.py": {
-            "title": "streamlit1",
+            "title": "1",
             "description": "I use a non-supervised Machine Learning algorithm to process the stats...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0a34dfc4-66ef-45fd-b7cd-8d722c37ad2e/Home_Page.png",
             "category": [
@@ -880,7 +880,7 @@
             "order": 280
         },
         "aphp/edspdf/master/demo/app.py": {
-            "title": "EDS PDF Demo",
+            "title": "Eds Pdf Demo",
             "description": "EDS-PDF provides modular framework to extract text from PDF documents.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8d355d4f-2697-4717-adec-0bb25bad4616/Home_Page.png",
             "category": [
@@ -900,7 +900,7 @@
             "order": 423
         },
         "apiispanen/biohacker/main/stream.py": {
-            "title": "stream",
+            "title": "Stream",
             "description": "My personal mood tracker & predictor.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5dd8fd06-6ce6-4b7f-b3ad-183380becf6b/Home_Page.png",
             "category": [
@@ -939,7 +939,7 @@
             "order": 294
         },
         "arbiansa/webdatamining/main/mainku.py": {
-            "title": "mainku",
+            "title": "Mainku",
             "description": "WebDataMining",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5f59925b-0fbd-4f07-bc6b-2c1c635e0d16/Home_Page.png",
             "category": [
@@ -964,7 +964,7 @@
             "order": 441
         },
         "arnaudmiribel/markdownlit/main/streamlit_app.py": {
-            "title": "markdownlit",
+            "title": "Markdownlit",
             "description": "markdownlit gives you a couple of lit additional Markdown commands for...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/cf60d1f9-9063-4c3e-97d6-b40468400498/Home_Page.png",
             "category": [
@@ -1001,7 +1001,7 @@
             "order": 492
         },
         "arnaudmiribel/stoc/main/streamlit_app.py": {
-            "title": "stoc: Table of contents in Streamlit",
+            "title": "Stoc: Table Of Contents In",
             "description": "Learn how to generate table of contents in your Streamlit app! It's as...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d40be1de-ab49-4f64-a985-ea70d428e3de/Home_Page.png",
             "category": [
@@ -1037,7 +1037,7 @@
             "order": 402
         },
         "arnaudmiribel/streamlit-app-badge-generator/main/streamlit_app.py": {
-            "title": "Badge generator",
+            "title": "Badge Generator",
             "description": "This app helps you find the ideal custom Shields badge you are looking...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2765419f-2297-412b-95c0-79e2f5b0854a/Home_Page.png",
             "category": [
@@ -1164,7 +1164,7 @@
             "order": 505
         },
         "asehmi/bmi_calculator/main/bmi_calc_app.py": {
-            "title": "bmi calc app",
+            "title": "Bmi Calc App",
             "description": "The demo application can be seen running in the Streamlit Cloud at the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/36fca96c-5c5c-4f97-a6c9-b6558752870e/Home_Page.png",
             "category": [
@@ -1182,7 +1182,7 @@
             "order": 338
         },
         "asehmi/media-explorer-app/master/client_app.py": {
-            "title": "client app",
+            "title": "Client App",
             "description": "This app renders an image grid and provides some controls to sort and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0a177cd1-8f09-4bd4-a1dc-d63c32b93fe9/Home_Page.png",
             "category": [
@@ -1200,7 +1200,7 @@
             "order": 418
         },
         "asehmi/st-media-service/master/client_app.py": {
-            "title": "client app",
+            "title": "Client App",
             "description": ".",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/117f9e20-03b6-4c81-ba52-1d83b4fcf5d4/Home_Page.png",
             "category": [
@@ -1218,7 +1218,7 @@
             "order": 389
         },
         "ashuxen/youtube_downloader/main/youtubedownloader_1.py": {
-            "title": "Youtube downloader",
+            "title": "Youtube Downloader",
             "description": "youtube_downloader",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/9e6c2234-51b7-41ba-b4e8-bf20618a4f14/Home_Page.png",
             "category": [
@@ -1238,7 +1238,7 @@
             "order": 143
         },
         "athulyas123/malariaapp/main/streamlit_appTEST.py": {
-            "title": "streamlit appTEST",
+            "title": "Apptest",
             "description": "A Streamlit app that uses Machine Learning model to classify objects...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4631eac9-2428-42e4-a475-cd0e73533d68/Home_Page.png",
             "category": [
@@ -1260,7 +1260,7 @@
             "order": 364
         },
         "atlas-dev-sec/aapl_svc_strategy_app/main/1_\ud83d\udcc8_AAPL_Profitable_Strategy_Ml_Model_App.py": {
-            "title": "SVC Model Strategy App AAPL Data",
+            "title": "Svc Model Strategy App Aapl Data",
             "description": "Machine learning model based on a SVC that based on the Apple stock...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2d17d2c4-c0ac-42ea-be1b-a817889e7868/Home_Page.png",
             "category": [
@@ -1282,7 +1282,7 @@
             "order": 509
         },
         "avishai231/deepcook/main/streamlit_app.py": {
-            "title": "muchtar",
+            "title": "Muchtar",
             "description": "DeepCook is a Python program that randomly suggests ideas to prepare...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/83c99919-83e1-4d71-b9da-54a099e15aeb/muchtar.png",
             "category": [
@@ -1307,7 +1307,7 @@
             "order": 191
         },
         "awojidetola/mobile-phone-price-prediction/main/prediction.py": {
-            "title": "prediction",
+            "title": "Prediction",
             "description": "In this project, the price ranges of mobile phones are predicted based...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/7719611f-1cd0-4073-8e2d-0c51a2e7d32d/Home_Page.png",
             "category": [
@@ -1327,7 +1327,7 @@
             "order": 336
         },
         "azhar416/new-credit-home-scoring-prediction/master/web_app.py": {
-            "title": "web app",
+            "title": "Web App",
             "description": "Final Project Zenius (Studi Independen)",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/175d8c71-f9eb-46c9-934f-6e8216931895/Home_Page.png",
             "category": [
@@ -1365,7 +1365,7 @@
             "order": 360
         },
         "bachtiyararief/rfm_kmeans/main/rfm_analysis.py": {
-            "title": "rfm analysis",
+            "title": "Rfm Analysis",
             "description": "Customer Segmentation with Recency-Frequency-Monetary (RFM) values and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4f775ee9-16ed-4941-b5c1-774a7cd35945/Home_Page.png",
             "category": [
@@ -1401,7 +1401,7 @@
             "order": 506
         },
         "bila9630/nlp-project/main/application/streamlit_app.py": {
-            "title": "The fast reporters",
+            "title": "The Fast Reporters",
             "description": "Check out our application...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ce59efd6-5531-4667-a179-4491f2dac649/Home_Page.png",
             "category": [
@@ -1420,7 +1420,7 @@
             "order": 380
         },
         "blackary/st.database/main/streamlit_app.py": {
-            "title": "st.database",
+            "title": "St.Database",
             "description": "Adds a new object in streamlit, st.database, which is a key-value...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1fd27191-e453-4c15-93d4-2885d96838de/Home_Page.png",
             "category": [
@@ -1439,7 +1439,7 @@
             "order": 502
         },
         "blogramadhan/dashukpbj/main/1_\ud83e\udd13_Home.py": {
-            "title": "Dashboard UKPBJ",
+            "title": "Dashboard Ukpbj",
             "description": "Dashboard ini dibuat untuk menampilkan beberapa data yang didapatkan...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f234303e-085f-4f9d-a875-299b05ceabb4/Home_Page.png",
             "category": [
@@ -1461,7 +1461,7 @@
             "order": 88
         },
         "borisbaldassari/unhappy-earth/main/streamlit/en/app.py": {
-            "title": "UnhapPy Earth",
+            "title": "Unhappy Earth",
             "description": "Ce r\u00e9f\u00e9rentiel est un projet d'application des m\u00e9thodes de  auxdonn\u00e9es...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/41cd95ea-376b-4467-acb5-13002f2aad57/Home_Page.png",
             "category": [
@@ -1480,7 +1480,7 @@
             "order": 449
         },
         "browndw/corpus-tagger/main/corpus_analysis.py": {
-            "title": "corpus analysis",
+            "title": "Corpus Analysis",
             "description": "This application is designed for the analysis of small corpora...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/18a87511-3835-4139-956a-7f9c0197bbb8/Home_Page.png",
             "category": [
@@ -1504,7 +1504,7 @@
             "order": 75
         },
         "bruct/radar-test/main/app.py": {
-            "title": "Audit de maturit\u00e9 360\u00b0 Data Gouvernance",
+            "title": "Audit De Maturit\u00e9 360\u00b0 Data Gouvernance",
             "description": "Test de d\u00e9ploiement radar",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/17c0e88d-575b-46a7-904a-74236dd6a965/Home_Page.png",
             "category": [
@@ -1589,7 +1589,7 @@
             "order": 201
         },
         "caitlan-krasinski/crossing-probability-model/main/crossing_ui.py": {
-            "title": "crossing ui",
+            "title": "Crossing Ui",
             "description": "Hello and welcome to my Women in Sports Data Hackathon project!My name...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0a313669-2a70-41b2-aa56-f1f0fce52c71/Home_Page.png",
             "category": [
@@ -1657,7 +1657,7 @@
             "order": 414
         },
         "cap497/streamlit-example/master/streamlit_app.py": {
-            "title": "Di\u00e1rio de Treino",
+            "title": "Di\u00e1rio De Treino",
             "description": "Edit /streamlit_app.py to customize this app to your heart's desire.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/19a9b4d1-3439-437d-a6b7-3194a4f89e5b/Home_Page.png",
             "category": [
@@ -1680,7 +1680,7 @@
             "order": 247
         },
         "captain785/whatsapp-chat-analysis/main/chat-analyzer.py": {
-            "title": "chat analyzer",
+            "title": "Chat Analyzer",
             "description": "This chat analysis work on 12 hour time format.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a1daf1b9-4e90-4eb5-a78a-0a305bd59e5f/Home_Page.png",
             "category": [
@@ -1707,7 +1707,7 @@
             "order": 292
         },
         "cbellera/metrics/main/metrics.py": {
-            "title": "LIDEB Tools Metrics",
+            "title": "Lideb Tools Metrics",
             "description": "Web App to evaluate the perfomance of classificatory models by...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a34e3faf-9994-4a8a-bb5f-99b3263510b5/Home_Page.png",
             "category": [
@@ -1729,7 +1729,7 @@
             "order": 198
         },
         "cedric0852/predicta/main/mybet.py": {
-            "title": "mybet",
+            "title": "Mybet",
             "description": "Not a finacial adivisor,",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/bfd0b7ea-39dd-4559-980c-6830a7418dfa/Home_Page.png",
             "category": [
@@ -1747,7 +1747,7 @@
             "order": 349
         },
         "cengo12/rfm-demo/main/app.py": {
-            "title": "RFM M\u00fc\u015fteri Segmentasyonu",
+            "title": "Rfm M\u00fc\u015fteri Segmentasyonu",
             "description": "A quickly prepared streamlit app for an university assignment.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/207fd69a-1330-47b1-a56a-d5729887bc19/Home_Page.png",
             "category": [
@@ -1769,7 +1769,7 @@
             "order": 491
         },
         "chandinir/linkedin_prediction_app/main/final_project_app.py": {
-            "title": "final project app",
+            "title": "Final Project App",
             "description": "Application to predict if someone is a LinkedIn user based on...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5488124f-e51b-4ab4-ac26-0254d225b7a4/Home_Page.png",
             "category": [
@@ -1795,7 +1795,7 @@
             "order": 255
         },
         "charliejeynes/guardian_film_reviews/main/guardian_streamlit.py": {
-            "title": "guardian streamlit",
+            "title": "Guardian",
             "description": "A database of film reviews from the Guardian UK based newspaper",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c6634614-85af-4c41-929a-0bbcf8054ff6/Home_Page.png",
             "category": [
@@ -1860,7 +1860,7 @@
             "order": 518
         },
         "charlywargnier/keywordmapperforbrightonseo/main/app.py": {
-            "title": "Keyword Mapper for BrightonSEO",
+            "title": "Keyword Mapper For Brightonseo",
             "description": "As part of my Brightonseo talk, I created a mighty Streamlit app which...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e76d2d74-6a2f-47fc-ac77-504a18c5aba8/Home_Page.png",
             "category": [
@@ -1901,7 +1901,7 @@
             "order": 167
         },
         "charlywargnier/speech-to-text-streamlit-app/main/streamlit_app.py": {
-            "title": "Speech to Text Transcription App",
+            "title": "Speech To Text Transcription App",
             "description": "This speech to text recognition is powered by the Facebook's Wav2Vec2...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b735cd32-0abf-42dc-94f0-a51dbfdcc388/Home_Page.png",
             "category": [
@@ -1980,7 +1980,7 @@
             "order": 17
         },
         "chemicopy/speech-text-analytic-app/main/speech-text-analytic-app.py": {
-            "title": "speech text analytic app",
+            "title": "Speech Text Analytic App",
             "description": "This is an AI web application that offers transcription of text to...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b5fa3812-5798-4872-b210-d2db8a9b9ff3/Home_Page.png",
             "category": [
@@ -2006,7 +2006,7 @@
             "order": 334
         },
         "chraibi/zoterotidy/main/app.py": {
-            "title": "ZoteroTidy",
+            "title": "Zoterotidy",
             "description": "This is a diagnostic tool to ease maintaining a Zotero library.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/110178d1-8b6b-4fa9-b40e-cf4ad61f9ba9/Home_Page.png",
             "category": [
@@ -2024,7 +2024,7 @@
             "order": 482
         },
         "chrieke/prettymapp/main/streamlit-prettymapp/app.py": {
-            "title": "prettymapp",
+            "title": "Prettymapp",
             "description": "Prettymapp is based on a rewrite of the fantastic prettymaps project...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e17c0e5c-0cd8-447e-8320-c571d0bedbed/Home_Page.png",
             "category": [
@@ -2063,7 +2063,7 @@
             "order": 463
         },
         "christonikos/td_eda/main/eda_report.py": {
-            "title": "TD EDA Report",
+            "title": "Td Eda Report",
             "description": "An interactive report for the initial exploration of the TD-Brain...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6be014eb-e011-4008-be29-88367bbef752/Home_Page.png",
             "category": [
@@ -2083,7 +2083,7 @@
             "order": 227
         },
         "christopherdavisuci/streamlit_ed/main/grad_desc.py": {
-            "title": "Streamlit Ed",
+            "title": "Ed",
             "description": "Example using Streamlit to illustrate gradient descent for linear...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/660226b2-9348-40d3-a0ad-4bf3b2f058da/Home_Page.png",
             "category": [
@@ -2104,7 +2104,7 @@
             "order": 60
         },
         "cidowu/flightsdelay/main/flight_dash.py": {
-            "title": "US Flights Delay Report",
+            "title": "Us Flights Delay Report",
             "description": "Create new environment",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/484a8c6f-df2a-4e1f-81f2-70bab0e322f5/Home_Page.png",
             "category": [
@@ -2123,7 +2123,7 @@
             "order": 420
         },
         "classiccollins/emzycash/Python_projects/options.py": {
-            "title": "options",
+            "title": "Options",
             "description": " is a platform for quantitative analyses of financial instruments.Its...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ae482861-c63a-4cc1-9cc1-72c5aa6fefc2/Home_Page.png",
             "category": [
@@ -2171,7 +2171,7 @@
             "order": 357
         },
         "cmu-ids-fall-2022/final-project-migration-x-group/main/welcome.py": {
-            "title": "2 migration factors",
+            "title": "2 Migration Factors",
             "description": "| Team Member     | Responsible Parts...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/39516a19-3c49-4431-bb13-a866f021aa8d/2-migration-factors.png",
             "category": [
@@ -2217,7 +2217,7 @@
             "order": 140
         },
         "code49/personalwebsite/master/main.py": {
-            "title": "david chan",
+            "title": "David Chan",
             "description": "The purpose of this program is simple: produce a nice personal...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8e71b37b-903e-4a29-90e3-634cb74f08ac/Home_Page.png",
             "category": [
@@ -2244,7 +2244,7 @@
             "order": 59
         },
         "cogitovsmachina/hello_streamlit/main/hello.py": {
-            "title": "hello",
+            "title": "Hello",
             "description": "A basic template for our ML students personal streamlit page",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/22ea0d61-0f80-4c18-aefb-030759ccf2c2/Home_Page.png",
             "category": [
@@ -2262,7 +2262,7 @@
             "order": 413
         },
         "coindataschool/minvar-portfolio-dashbord/main/main.py": {
-            "title": "gmx gns min variance portfolio",
+            "title": "Gmx Gns Min Variance Portfolio",
             "description": "A dashboard for calculating the efficient frontier and min-variance...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/33fb0ea6-623f-4095-be7c-d17e1cad8718/Home_Page.png",
             "category": [
@@ -2302,7 +2302,7 @@
             "order": 231
         },
         "conor7276/ctp-nyc-parking-ticket-data-visualization-app/main/Home.py": {
-            "title": "NYC Parking Ticket Data Visualizer",
+            "title": "Nyc Parking Ticket Data Visualizer",
             "description": "A Data visualizer that displays the following: Where are the most...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1540f577-ec81-4e69-b626-1ac1c754b4bb/Home_Page.png",
             "category": [
@@ -2366,7 +2366,7 @@
             "order": 159
         },
         "ctpfallgroupproject/music-analysis-machine_learning/main/streamlit-app/app.py": {
-            "title": "result",
+            "title": "Result",
             "description": "Visit our app: https://ctpfallgroupproject-vibify.streamlit.app/",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/aac0820d-8919-47fe-b797-da055af84a51/result.png",
             "category": [
@@ -2403,7 +2403,7 @@
             "order": 507
         },
         "daanalytics/snowflake/master/presentations/BUILD.local/code/Streamlit_Cloud_Pets.py": {
-            "title": "Streamlit Cloud Pets",
+            "title": "Cloud Pets",
             "description": "Snowflake scripts and useful snippets",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b0bb9142-fb2d-49d0-ade6-212e7a7abe92/Home_Page.png",
             "category": [
@@ -2440,7 +2440,7 @@
             "order": 526
         },
         "damianboh/stock_sentiment_streamlit/master/app.py": {
-            "title": "Bohmian's Stock News Sentiment Analyzer",
+            "title": "Bohmian'S Stock News Sentiment Analyzer",
             "description": "Web app which displays the daily and hourly sentiments for a stock...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/be43b88c-a515-45d4-b833-c8db119174cc/Home_Page.png",
             "category": [
@@ -2462,7 +2462,7 @@
             "order": 252
         },
         "daniellewisdl/streamlit-cheat-sheet/master/app.py": {
-            "title": "Streamlit cheat sheet",
+            "title": "Cheat Sheet",
             "description": "App to summarise streamlit docs v1.8.0",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/7af36651-2b6e-4114-947d-2c12de066a9c/Home_Page.png",
             "category": [
@@ -2521,7 +2521,7 @@
             "order": 312
         },
         "dansk-data-science-community/danish-data-science-salary-survey/main/src/dashboard.py": {
-            "title": "DDSC Salary Survey Dashboard",
+            "title": "Ddsc Salary Survey Dashboard",
             "description": "This repository contains the source code related to the analysis of...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/aaf73cd6-1031-463c-a132-2c63f974ca3f/Home_Page.png",
             "category": [
@@ -2541,7 +2541,7 @@
             "order": 124
         },
         "darlainedeme/local_gisele/main/local_gisele.py": {
-            "title": "local gisele",
+            "title": "Local Gisele",
             "description": "Local version of the GIS for Electrification tool",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/53ad1fea-3060-4d9e-8f2a-14d341bddefa/Home_Page.png",
             "category": [
@@ -2563,7 +2563,7 @@
             "order": 131
         },
         "dataforgoodfr/quotaclimat/main/app.py": {
-            "title": "Programme TV",
+            "title": "Programme Tv",
             "description": "The aim of this work is to deliver a tool to QuotaClimat, allowing...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4e160b1f-876d-4528-a90f-17773ac7f7b8/Programme_TV.png",
             "category": [
@@ -2618,7 +2618,7 @@
             "order": 89
         },
         "dataprofessor/bioinformatics_talk/master/app.py": {
-            "title": "Bioinformatics talk",
+            "title": "Bioinformatics Talk",
             "description": "A presentation app of the talk.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b1928ac2-454c-4439-894c-4acb93a1a5e5/Home_Page.png",
             "category": [
@@ -2700,7 +2700,7 @@
             "order": 234
         },
         "dataprofessor/simple-ml/master/streamlit_app.py": {
-            "title": "Simple ML App",
+            "title": "Simple Ml App",
             "description": "Description of the app ...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/617ba7c1-2540-4ca0-883d-b56390385928/Home_Page.png",
             "category": [
@@ -2758,7 +2758,7 @@
             "order": 362
         },
         "dataprofessor/streamlit-10/main/sp500-app.py": {
-            "title": "sp500 app",
+            "title": "Sp500 App",
             "description": "Launch the web app:",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/53b2497f-55e0-4d18-9003-058d04d00041/Home_Page.png",
             "category": [
@@ -2776,7 +2776,7 @@
             "order": 208
         },
         "dataprofessor/streamlit_navbar/main/app_navbar.py": {
-            "title": "app navbar",
+            "title": "App Navbar",
             "description": "Is it Possible to Add a Navigation Bar to Streamlit Apps? | Streamlit...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ca0d7aab-77cc-46dd-88eb-01e3d68a9b63/Home_Page.png",
             "category": [
@@ -2834,7 +2834,7 @@
             "order": 317
         },
         "datrz/danish_football_league/main/danish_league.py": {
-            "title": "danish league",
+            "title": "Danish League",
             "description": "LINK TO THE STREAMLIT DASHBOARD",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/41cfee95-02b8-4287-a3d5-67d880e3fc47/Home_Page.png",
             "category": [
@@ -2877,7 +2877,7 @@
             "order": 106
         },
         "davide97l/gpx-distance-modifier/main/streamlit_app.py": {
-            "title": "GPX distance modifier",
+            "title": "Gpx Distance Modifier",
             "description": "\ud83d\udc49 Has it ever happened that your watch stopped or had ant malfunction...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/7ca3122f-b91d-4931-a81d-3f7a3a3e437a/Home_Page.png",
             "category": [
@@ -2896,7 +2896,7 @@
             "order": 260
         },
         "dddd-onigiri/browser_ttest/main/main.py": {
-            "title": "\u30d6\u30e9\u30a6\u30b6t\u691c\u5b9a(\u5bfe\u5fdc\u306a\u3057)",
+            "title": "\u30d6\u30e9\u30a6\u30b6T\u691c\u5b9a(\u5bfe\u5fdc\u306a\u3057)",
             "description": "\u30d6\u30e9\u30a6\u30b6\u4e0a\u3067t\u691c\u5b9a\u2192\u8868\u2192\u89e3\u91c8\u307e\u3067\u51fa\u529b\u3067\u304d\u308b\u30a6\u30a7\u30d6\u30a2\u30d7\u30ea\u3067\u3059\u3002",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4aba207e-f271-4438-9de1-93e08700b7e4/Home_Page.png",
             "category": [
@@ -2914,7 +2914,7 @@
             "order": 235
         },
         "ddytang-fi/json-parse/main/JSON_Parsing.py": {
-            "title": "JSON Parser",
+            "title": "Json Parser",
             "description": "This file parses a JSON downloaded by Hotelbeds and returns a CSV",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2d4f2bb7-df0f-4728-b3c8-3a8f24cfb226/Home_Page.png",
             "category": [
@@ -2933,7 +2933,7 @@
             "order": 425
         },
         "debayanpaul93/mcdmt_symposiumtest/master/MCDMT.py": {
-            "title": "Multi criteria Decision Support Tool",
+            "title": "Multi Criteria Decision Support Tool",
             "description": "This Github Repository has been created for verification purpose for...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/3e0b9347-8307-4615-be4e-903d90792d40/Home_Page.png",
             "category": [
@@ -2955,7 +2955,7 @@
             "order": 262
         },
         "deniskorepanov/ml_devops_urfu/main/app_web.py": {
-            "title": "app web",
+            "title": "App Web",
             "description": "Command #19 URFU\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \"\u0420\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f\"/\"\u0420\u0430\u0441\u043f\u043e\u0437\u043d\u043e\u0432\u0430\u043d\u0438\u0435...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d2d1845c-5204-4f75-b1b7-0a2cc3923f76/Home_Page.png",
             "category": [
@@ -2975,7 +2975,7 @@
             "order": 284
         },
         "dinh2644/anime_recommender_app/main/recommender_app.py": {
-            "title": "recommender app",
+            "title": "Recommender App",
             "description": "CSP 15000 Project | Recommender system for anime",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/07a2237b-e71a-4204-8bf1-f963635d1661/Home_Page.png",
             "category": [
@@ -2996,7 +2996,7 @@
             "order": 498
         },
         "dionisio35/graph_plotting/main/src/visual.py": {
-            "title": "visual",
+            "title": "Visual",
             "description": "To run the code, you must first install the python dependencies found...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/7860e8d0-fc8f-4f69-9e16-0c2bcd349295/Home_Page.png",
             "category": [
@@ -3018,7 +3018,7 @@
             "order": 450
         },
         "dionisio35/sri/main/src/visual.py": {
-            "title": "visual",
+            "title": "Visual",
             "description": "Lauren Guerra Hern\u00e1ndez Paula Rodr\u00edguez P\u00e9rez Dennis Fiallo Mu\u00f1oz",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b932fdd2-2328-454b-97c3-261beee2a02c/Home_Page.png",
             "category": [
@@ -3099,7 +3099,7 @@
             "order": 104
         },
         "dotaadarsh/cognitube/main/app.py": {
-            "title": "CogniTube",
+            "title": "Cognitube",
             "description": "Over the past few months, AI has been booming and new project are...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5e376388-d412-4490-951f-dbc478e78061/Home_Page.png",
             "category": [
@@ -3120,7 +3120,7 @@
             "order": 444
         },
         "dr4ca/kakuru/master/MainPage.py": {
-            "title": "\u30ab\u30af\u30eb/KAKURU",
+            "title": "\u30ab\u30af\u30eb Kakuru",
             "description": "Kakuru merupakan salah satu appstreamlit yang dibuat untuk mempermudah...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e0ef1cfc-b066-47dc-81b4-6816a77cbcc3/Home_Page.png",
             "category": [
@@ -3157,7 +3157,7 @@
             "order": 301
         },
         "dudikbender/geocoder2/main/dashboard.py": {
-            "title": "FRE UK Travel Time Analysis",
+            "title": "Fre Uk Travel Time Analysis",
             "description": "Advanced geocoding for UK addresses.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/579378eb-96b0-4c39-99d4-0e86deea56cc/Home_Page.png",
             "category": [
@@ -3175,7 +3175,7 @@
             "order": 333
         },
         "dylnbk/chatty/master/chat.py": {
-            "title": "Ask it.",
+            "title": "Ask It.",
             "description": "Chat with a GPT3 powered friend!",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/34e76059-955d-4006-8d44-7ed5519777e6/Home_Page.png",
             "category": [
@@ -3194,7 +3194,7 @@
             "order": 9
         },
         "dylnbk/quietly/master/app.py": {
-            "title": "Whisper it.",
+            "title": "Whisper It.",
             "description": "Store a message that can be revealed using the corresponding private...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2617f89f-9890-4ff5-b3e7-55c74032fe39/Home_Page.png",
             "category": [
@@ -3257,7 +3257,7 @@
             "order": 134
         },
         "edsaac/edsaac.github.io/main/st_index.py": {
-            "title": "Edwin site",
+            "title": "Edwin Site",
             "description": "Intro website",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f930da47-5142-4480-9fdd-1dcd29b9b1e6/Home_Page.png",
             "category": [
@@ -3297,7 +3297,7 @@
             "order": 278
         },
         "eferry974/sexism_jv_forum_app/main/jvcom_template.py": {
-            "title": "jvcom template",
+            "title": "Jvcom Template",
             "description": "Project Le Wagon Batch #1035 - Sexism in JV.com Blabla 18-25 forum",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/108bb61f-3aa0-46b9-bfde-f6b66b0e6ed9/Home_Page.png",
             "category": [
@@ -3335,7 +3335,7 @@
             "order": 299
         },
         "elrampa92/first_try_streamlit/main/main.py": {
-            "title": "First Try Streamlit",
+            "title": "First Try",
             "description": "prova per la creazione della prima mia webapp di visualizzazione data",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f01128fd-87a0-4045-a32b-eb7cf63c8478/Home_Page.png",
             "category": [
@@ -3354,7 +3354,7 @@
             "order": 272
         },
         "elzurdo/causal_inference/main/apps/simpsons_calculator.py": {
-            "title": "simpsons calculator",
+            "title": "Simpsons Calculator",
             "description": "Learnings in the field of Causal Inference",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d3ea0371-5728-4220-a03f-2a3350c76141/Home_Page.png",
             "category": [
@@ -3373,7 +3373,7 @@
             "order": 160
         },
         "elzurdo/multi_objective_optimisation/master/apps/whack_a_pareto.py": {
-            "title": "whack a pareto",
+            "title": "Whack A Pareto",
             "description": "This repository is dedicated to tutorials to learn and practice...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/88f35714-2dba-4ec0-a90a-fbcdd45115f9/Home_Page.png",
             "category": [
@@ -3420,7 +3420,7 @@
             "order": 152
         },
         "emirhanserveren/nft-collabot/master/deploy.py": {
-            "title": "deploy",
+            "title": "Deploy",
             "description": "NFT CollaBot is a data-oriented project designed by the requirements...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/49f3a92b-efc0-42f6-8e99-f24a20af6867/Home_Page.png",
             "category": [
@@ -3438,7 +3438,7 @@
             "order": 164
         },
         "epogrebnyak/ssg/main/streamlit_app.py": {
-            "title": "Static site generators dataset",
+            "title": "Static Site Generators Dataset",
             "description": "Static site generators are tools to create blogs, landing pages and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b6528d51-aeca-4434-a2e2-f3a0dfbdecfe/Home_Page.png",
             "category": [
@@ -3481,7 +3481,7 @@
             "order": 398
         },
         "erkamersaherging/stream_lit_recommender/main/sapp.py": {
-            "title": "sapp",
+            "title": "Sapp",
             "description": "movie recomender collaborative filtering",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c5d99509-1275-4965-b5ba-d297f091503e/Home_Page.png",
             "category": [
@@ -3502,7 +3502,7 @@
             "order": 495
         },
         "erlep/ppbb/main/bbWeb.py": {
-            "title": "BenzinBrno GitV0.45 Natural 95 prices in Brno Python Version",
+            "title": "Benzinbrno Gitv0.45 Natural 95 Prices In Brno Python Version",
             "description": " is  application to monitor petrol prices in Brno city.The web...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/62d2608b-0c90-4310-ad56-e1f5739359bf/Home_Page.png",
             "category": [
@@ -3524,7 +3524,7 @@
             "order": 522
         },
         "esevim/campaign_builder/master/App.py": {
-            "title": "SF DJ Campaign Builder Tool",
+            "title": "Sf Dj Campaign Builder Tool",
             "description": "SF-Campaign Builder for various projects",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f81d1efa-9760-410a-a779-21ee7afbbcd5/Home_Page.png",
             "category": [
@@ -3542,7 +3542,7 @@
             "order": 188
         },
         "evbiz/es-nq-dashboard/main/streamlit_dashboard.py": {
-            "title": "streamlit dashboard",
+            "title": "Dashboard",
             "description": "The nightly ES/NQ Dashboard as a Streamlit app.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/eac2968f-853e-4dff-8e4d-b04b02f6b6f4/Home_Page.png",
             "category": [
@@ -3604,7 +3604,7 @@
             "order": 405
         },
         "fabwerk90/pokemon_app/main/dashboard.py": {
-            "title": "dashboard",
+            "title": "Dashboard",
             "description": "This is a small dashboard I created to showcase what Streamlit is...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8b269199-d1dd-4707-a302-9fcafe56c385/Home_Page.png",
             "category": [
@@ -3625,7 +3625,7 @@
             "order": 230
         },
         "fatimajavid/crimepredictionapp/main/Homepage.py": {
-            "title": "DataCops",
+            "title": "Datacops",
             "description": "This web app is made using Streamlit for users to interact with the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/23322e13-2a01-4132-b4c1-a4dd2163f599/Home_Page.png",
             "category": [
@@ -3647,7 +3647,7 @@
             "order": 225
         },
         "felipenunezb/dia/progreso_no_pkg/app.py": {
-            "title": "DIA",
+            "title": "Dia",
             "description": "diagnostico integral aprendizaje",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1ada2a22-c8a8-47fb-8b32-c22ece276ae1/Home_Page.png",
             "category": [
@@ -3669,7 +3669,7 @@
             "order": 293
         },
         "fistumgps/eda_app/master/EDA_app.py": {
-            "title": "EDA Report Web App",
+            "title": "Eda Report Web App",
             "description": "Here is the link for the EDA App...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b9ba03d4-dd1a-4d62-ab66-0e4a8da4c096/Home_Page.png",
             "category": [
@@ -3687,7 +3687,7 @@
             "order": 508
         },
         "flyingspaghetti42/alan_location/master/Home.py": {
-            "title": "ALAN",
+            "title": "Alan",
             "description": "The goal of the project is to create a dashboard, which outputs an...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ede3e631-f5b5-416d-a09c-1493c4a18455/Home_Page.png",
             "category": [
@@ -3768,7 +3768,7 @@
             "order": 428
         },
         "fuzailpalnak/buildingextraction/streamlit-deploy/app/building_extraction.py": {
-            "title": "building extraction",
+            "title": "Building Extraction",
             "description": "https://fuzailpalnak-buildingextraction-appbuilding-extraction-s-ov1r...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/aa5c9dca-4ca6-463a-b5f0-3c0e16aea1a8/Home_Page.png",
             "category": [
@@ -3789,7 +3789,7 @@
             "order": 184
         },
         "gdurante2019/graph-workout-streamlit/main/Graph-from-fitfile-121222.py": {
-            "title": "Graph from fitfile 121222",
+            "title": "Graph From Fitfile 121222",
             "description": "This repo houses code for a Streamlit-hosted app that takes in a .fit...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2dabd306-9ceb-4a49-a4a9-f589db2bc1a3/Home_Page.png",
             "category": [
@@ -3831,7 +3831,7 @@
             "order": 16
         },
         "geowaterpku/homepage/main/homepage.py": {
-            "title": "homepage",
+            "title": "Homepage",
             "description": "This is Prof. Peirong Lin's homepage.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b9074a48-2b8b-4562-81fc-b44fd1acc3c3/Home_Page.png",
             "category": [
@@ -3851,7 +3851,7 @@
             "order": 189
         },
         "gerardrbentley/darts-playground/main/streamlit_app.py": {
-            "title": "Darts API Playground",
+            "title": "Darts Api Playground",
             "description": ":construction: Under Development.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/09d820bb-e495-4067-8844-9935f070b352/Home_Page.png",
             "category": [
@@ -3870,7 +3870,7 @@
             "order": 212
         },
         "gerardrbentley/fidelity-account-overview/main/app.py": {
-            "title": "Fidelity Account View by Gerard Bentley",
+            "title": "Fidelity Account View By Gerard Bentley",
             "description": "tl;dr:",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ffcb9170-a5d6-4498-86ac-efb1d84004fe/Home_Page.png",
             "category": [
@@ -3909,7 +3909,7 @@
             "order": 487
         },
         "gerardrbentley/streamlit-location-guesser/main/country_guesser.py": {
-            "title": "Spatial lit",
+            "title": "Spatial Lit",
             "description": "Using Streamlit + Sqlite + Spatialite to make Geography Guessing Games",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/eca3d27c-e47e-44b0-9ba3-790c982d5f56/Home_Page.png",
             "category": [
@@ -3929,7 +3929,7 @@
             "order": 411
         },
         "gerardrbentley/streamlit-random/main/pandas_power.py": {
-            "title": "pandas power",
+            "title": "Pandas Power",
             "description": "Made with :heart: from Gar's Bar",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/89fb28eb-13da-4e6d-8cd1-832ecb2517a0/Home_Page.png",
             "category": [
@@ -3949,7 +3949,7 @@
             "order": 257
         },
         "gerardrbentley/streamlit-random/main/pdf_merge_and_split.py": {
-            "title": "pdf merge and split",
+            "title": "Pdf Merge And Split",
             "description": "Made with :heart: from Gar's Bar",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/863b46f7-4622-4c7a-babf-e149eb620828/Home_Page.png",
             "category": [
@@ -3969,7 +3969,7 @@
             "order": 480
         },
         "gerardrbentley/streamlit-random/main/redirect.py": {
-            "title": "redirect",
+            "title": "Redirect",
             "description": "Made with :heart: from Gar's Bar",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/887d5a96-580a-4eab-b777-644ba5a1b3dd/Home_Page.png",
             "category": [
@@ -3989,7 +3989,7 @@
             "order": 483
         },
         "gerardrbentley/streamlit-random/main/st_func_form.py": {
-            "title": "st func form",
+            "title": "St Func Form",
             "description": "Made with :heart: from Gar's Bar",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/551d44d3-684a-4c32-88d0-310c75292e45/Home_Page.png",
             "category": [
@@ -4007,7 +4007,7 @@
             "order": 410
         },
         "gerardrbentley/streamlit-state-guesser/main/streamlit_app.py": {
-            "title": "Spatial lit",
+            "title": "Spatial Lit",
             "description": "Using Streamlit + Sqlite + Spatialite to make Geography Guessing Games",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/9d25387d-be7b-464a-aeee-057ef1bd2b27/Home_Page.png",
             "category": [
@@ -4027,7 +4027,7 @@
             "order": 382
         },
         "gerardrbentley/streamlit-url-scanner/main/streamlit_app/streamlit_app.py": {
-            "title": "URL Scan",
+            "title": "Url Scan",
             "description": "Powered by Streamlit + AWS Rekognition.Specifically, Streamlit runs...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/cb67a0a6-5641-4f7c-99a6-c37fb34d6ece/Home_Page.png",
             "category": [
@@ -4045,7 +4045,7 @@
             "order": 473
         },
         "gerardrbentley/streamlit_worldle/main/streamlit_app.py": {
-            "title": "Spatial lit Worldle",
+            "title": "Spatial Lit Worldle",
             "description": "Streamlit + SQLite clone of worldle",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/07f71e2a-c0ee-41aa-a887-61c922a22c11/Home_Page.png",
             "category": [
@@ -4081,7 +4081,7 @@
             "order": 391
         },
         "gerardrbentley/timeseries-examples/main/streamlit_apps/02_darts.py": {
-            "title": "Darts + Streamlit",
+            "title": "Darts +",
             "description": "We live in an age of data that we don't know how to sort through...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d73aaf57-5a69-433b-b742-0aed2ffbfcab/Home_Page.png",
             "category": [
@@ -4099,7 +4099,7 @@
             "order": 117
         },
         "gerardrbentley/uber-nyc-pickups-duckdb/main/streamlit_app_duck.py": {
-            "title": "streamlit app duck",
+            "title": "App Duck",
             "description": "Read more in the accompanying blog post \u270d\ud83c\udffb",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a056178a-0765-418f-b02c-88ccf9f64e6e/Home_Page.png",
             "category": [
@@ -4118,7 +4118,7 @@
             "order": 384
         },
         "giswqs/geospatial-apps/master/split_map.py": {
-            "title": "Split panel Map",
+            "title": "Split Panel Map",
             "description": "A streamlit app template for geospatial applications based on...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/77ab667e-7e8d-4f84-ac48-2b0169c53f19/Home_Page.png",
             "category": [
@@ -4140,7 +4140,7 @@
             "order": 442
         },
         "giswqs/geospatial-apps/master/xyz.py": {
-            "title": "Split panel Map",
+            "title": "Split Panel Map",
             "description": "A streamlit app template for geospatial applications based on...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/42c897a4-249f-4a96-ad17-bcf9543be8ac/Home_Page.png",
             "category": [
@@ -4162,7 +4162,7 @@
             "order": 83
         },
         "giswqs/global-surface-water/master/streamlit_app.py": {
-            "title": "Global Surface Water Information System (GSWIS)",
+            "title": "Global Surface Water Information System (Gswis)",
             "description": "A streamlit web app for mapping global surface water extent.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e3b13b5d-8b82-41cb-a2bf-126967f79f86/Home_Page.png",
             "category": [
@@ -4245,7 +4245,7 @@
             "order": 42
         },
         "giswqs/streamlit-google-sheet/master/streamlit_app.py": {
-            "title": "UT Parking",
+            "title": "Ut Parking",
             "description": "A streamlit web app for connecting Streamlit to a public Google Sheet",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ae9492ae-56dd-4cfb-8655-e1b73495effa/Home_Page.png",
             "category": [
@@ -4284,7 +4284,7 @@
             "order": 53
         },
         "giswqs/streamlit-template/master/streamlit_app.py": {
-            "title": "Streamlit Geospatial",
+            "title": "Geospatial",
             "description": "A streamlit app template for geospatial applications based on...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/feb88fb4-bfc2-4ebc-b06f-5e1b26cc2c52/Home_Page.png",
             "category": [
@@ -4344,7 +4344,7 @@
             "order": 98
         },
         "goumiwalid/cinema_app/main/cinema_app.py": {
-            "title": "Cin\u00e9mas de France",
+            "title": "Cin\u00e9mas De France",
             "description": "An application for analyzing and exploring french movie theaters made...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/652fd16a-4906-4b20-9d2c-b18cf7d34d0d/Home_Page.png",
             "category": [
@@ -4367,7 +4367,7 @@
             "order": 399
         },
         "granantuin/levx_1km/main/operational_LEVX_1km_time.py": {
-            "title": "Vigo airport (LEVX) forecast Machine Learning",
+            "title": "Vigo Airport (Levx) Forecast Machine Learning",
             "description": "Vigo airport",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c160d77a-d154-4e69-bb78-546cd94deb1e/Home_Page.png",
             "category": [
@@ -4390,7 +4390,7 @@
             "order": 115
         },
         "grummble-ai/pathofexile-skillgemmargins/main/main.py": {
-            "title": "Skill Gem Leveling Helper by PoE Academy",
+            "title": "Skill Gem Leveling Helper By Poe Academy",
             "description": "This is a little program made for Path of Exile. If you don't know the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f8eab875-be5d-4d0f-a51b-06c79ee00a7c/Home_Page.png",
             "category": [
@@ -4431,7 +4431,7 @@
             "order": 76
         },
         "haikalef/hacktive_final_project_3/main/streamlit_hf_model.py": {
-            "title": "streamlit hf model",
+            "title": "Hf Model",
             "description": "Link Deployment...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/408e399f-594f-4e4c-9f2d-610e4f9b4368/Home_Page.png",
             "category": [
@@ -4472,7 +4472,7 @@
             "order": 350
         },
         "hanbincho/clinical-sensor-scoring/main/senbace/main.py": {
-            "title": "training and prediction",
+            "title": "Training And Prediction",
             "description": " is a tool that aims to assign clinically relevant scores based off of...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/3b0a5f0a-a169-489b-856b-6824ff50df44/training_and_prediction.png",
             "category": [
@@ -4491,7 +4491,7 @@
             "order": 440
         },
         "harahu/streamlit-typing-example/main/typing_playground/playground.py": {
-            "title": "playground",
+            "title": "Playground",
             "description": "Code examples for blogpost on streamlit + mypy, as well as a streamlit...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f817332e-e5e8-4ce8-8dfa-cc1a233847d0/Home_Page.png",
             "category": [
@@ -4551,7 +4551,7 @@
             "order": 434
         },
         "hewliyang/pru-viz/main/main.py": {
-            "title": "pru viz",
+            "title": "Pru Viz",
             "description": "A simple web app to visualise Malaysian election data through maps!",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c2cc6c17-18ce-483f-b16f-497d1b8dc6e2/Home_Page.png",
             "category": [
@@ -4574,7 +4574,7 @@
             "order": 396
         },
         "hieutrn1205/ctp/main/index.py": {
-            "title": "NYC Inspection",
+            "title": "Nyc Inspection",
             "description": "Create a web app that consists of data visualizations insight on New...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/bb57de7b-f032-4d94-8173-20362dacedd0/Home_Page.png",
             "category": [
@@ -4618,7 +4618,7 @@
             "order": 119
         },
         "hshih25/cs765_final_project/main/interface.py": {
-            "title": "CS765 Final Project",
+            "title": "Cs765 Final Project",
             "description": "The following link is the web demo of Subgroup Data Visualizer.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a05ed314-5750-4afb-8c66-26c39b6b685a/Home_Page.png",
             "category": [
@@ -4638,7 +4638,7 @@
             "order": 281
         },
         "huangshuewei/streamlit_finger_function_assessment/master/streamlit_main.py": {
-            "title": "streamlit main",
+            "title": "Main",
             "description": "https://huangshuewei-streamlit-finger-function-as-streamlit-main-fs40...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/175062df-b7d7-4f7c-b188-9932ba890750/Home_Page.png",
             "category": [
@@ -4680,7 +4680,7 @@
             "order": 228
         },
         "hwaitengteoh/nlp_textclassification_cyberbullying_detection/main/cb_detection_app.py": {
-            "title": "cb detection app",
+            "title": "Cb Detection App",
             "description": "Feel free to try the cyberbullying post checker from this...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/9531efe9-15f1-42d1-aa2a-7b34c8884588/Home_Page.png",
             "category": [
@@ -4705,7 +4705,7 @@
             "order": 175
         },
         "iamontheinet/snowpark-python-anaconda/main/streamlit_app.py": {
-            "title": "Snowpark Python Packages in Snowflake Conda Channel",
+            "title": "Snowpark Python Packages In Snowflake Conda Channel",
             "description": "This application lists the Python packages from the Snowflake Conda...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2519ff14-b097-412d-bd6b-a23aa55a0a36/Home_Page.png",
             "category": [
@@ -4771,7 +4771,7 @@
             "order": 35
         },
         "ineelhere/curated/development/1_\ud83c\udfe0_curatED.py": {
-            "title": "THINK",
+            "title": "Think",
             "description": "Will be updating periodically Collaborations are always welcome. Just...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f077b1e5-6083-4b6a-a086-fac787d03e47/THINK.png",
             "category": [
@@ -4807,7 +4807,7 @@
             "order": 122
         },
         "inputblackboxoutput/streamlit-svg2mod/main/app.py": {
-            "title": "KiCad tool: svg2mod",
+            "title": "Kicad Tool: Svg2Mod",
             "description": "Link...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f708fa3b-8d93-4ca3-9c2e-14504ccb94a8/Home_Page.png",
             "category": [
@@ -4844,7 +4844,7 @@
             "order": 403
         },
         "isabellecontant/p7_dashboard_streamlit/master/01_\ud83c\udfe1_Homepage.py": {
-            "title": "Score du Client",
+            "title": "Score Du Client",
             "description": "Projet r\u00e9alis\u00e9 dans le cadre du parcours dipl\u00f4mant de Data Scientist...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a5f804e1-8ba4-4480-9a1c-b389c15fd7dc/Score_du_client.png",
             "category": [
@@ -4867,7 +4867,7 @@
             "order": 233
         },
         "isichei-nnamdi/team-jm5-unsupervised-predict-streamlit-template/master/edsa_recommender.py": {
-            "title": "edsa recommender",
+            "title": "Edsa Recommender",
             "description": "This repository forms the basis of  for the  within EDSA's Data...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/86728568-9a10-44c8-909d-c43f7768a877/Home_Page.png",
             "category": [
@@ -4885,7 +4885,7 @@
             "order": 466
         },
         "ivanakovacova/fitness_app/main/main.py": {
-            "title": "DADS Fitness Challenge",
+            "title": "Dads Fitness Challenge",
             "description": "Versions: plotly == 5.9.0openpyxl == 3.0.10Data update process:",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/479588da-ae6d-44fc-baf7-b628b7f6ffa9/Home_Page.png",
             "category": [
@@ -4903,7 +4903,7 @@
             "order": 49
         },
         "izainea/skill_matching/main/senapp.py": {
-            "title": "senapp",
+            "title": "Senapp",
             "description": "Modelo de recomendaci\u00f3n de cursos SENA de la oferta 2022 para las...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ba2bc68b-fbfe-44b8-bf09-562f35f78926/Home_Page.png",
             "category": [
@@ -4921,7 +4921,7 @@
             "order": 85
         },
         "jabmorris4/voting/main/voting.py": {
-            "title": "voting",
+            "title": "Voting",
             "description": "Streamlit app VOTE!",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/459e6cf7-d7e6-459a-9fea-fb90d40f81d7/Home_Page.png",
             "category": [
@@ -4974,7 +4974,7 @@
             "order": 64
         },
         "jacky930515/streamlit-classification/main/app-v2.py": {
-            "title": "app v2",
+            "title": "App V2",
             "description": "This is a simple streamlit artifact for surpervised model: Gender...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/3d1fdccf-4987-405f-9535-4b2049eccaf7/Home_Page.png",
             "category": [
@@ -5021,7 +5021,7 @@
             "order": 269
         },
         "jacobses/pearl_global/main/Report_Main.py": {
-            "title": "ENTYRE Plant Master Production",
+            "title": "Entyre Plant Master Production",
             "description": "Edit /streamlit_app.py to customize this app to your heart's desire.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5638264f-3670-4083-802a-8f87e2a071ab/Home_Page.png",
             "category": [
@@ -5079,7 +5079,7 @@
             "order": 190
         },
         "jawook/energyminuteabpowergen/main/AESOPowerProduction.py": {
-            "title": "AESOPowerProduction",
+            "title": "Aesopowerproduction",
             "description": "Data compiled from the Alberta Electric System Operator.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/22b0a3da-c89e-425f-9f4b-da845293a8f8/Home_Page.png",
             "category": [
@@ -5100,7 +5100,7 @@
             "order": 12
         },
         "jayeskumar/jayes-chefs/main/app.py": {
-            "title": "Chef in Your Hand",
+            "title": "Chef In Your Hand",
             "description": "Want to give it a try? Then what's the wait, head over to the demo...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/33d9128a-6397-481d-9020-36ceb522302f/Home_Page.png",
             "category": [
@@ -5121,7 +5121,7 @@
             "order": 282
         },
         "jayeskumar/tuberculosis-classification/main/web.py": {
-            "title": "web",
+            "title": "Web",
             "description": "A CNN model that can classify X-Ray images as a Tuberculosis case or a...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d3c2d0cb-4583-4976-8cd9-fb06f5b8c6b7/Home_Page.png",
             "category": [
@@ -5139,7 +5139,7 @@
             "order": 365
         },
         "jdetras/htpps/stable/app.py": {
-            "title": "Predict Phenotype from HTP indices",
+            "title": "Predict Phenotype From Htp Indices",
             "description": "In this project, we developed an application to easily apply machine...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f23e3e6b-1cd8-4969-bc0f-92a907d5e18f/Home_Page.png",
             "category": [
@@ -5161,7 +5161,7 @@
             "order": 394
         },
         "jecronin/us-housing-data/main/market-hotness.py": {
-            "title": "market hotness",
+            "title": "Market Hotness",
             "description": "us-housing-data",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a30e9e9f-48db-4ae7-8eec-d171b96c2666/Home_Page.png",
             "category": [
@@ -5181,7 +5181,7 @@
             "order": 339
         },
         "jedandroby/crypto-stock-dashboard/main/test.py": {
-            "title": "test",
+            "title": "Test",
             "description": "We created an asset price predictor using monte carlo simulations. The...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2014bb14-c107-4630-aaac-90348c2e35f0/Home_Page.png",
             "category": [
@@ -5199,7 +5199,7 @@
             "order": 93
         },
         "jianglab/helicallattice/main/streamlit_app.py": {
-            "title": "HelicalLattice: 2D Lattice \u21d4 Helical Lattice",
+            "title": "Helicallattice: 2D Lattice \u21d4 Helical Lattice",
             "description": " is a Web app that helps the user to understand how a helical lattice...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1a19cb0a-1633-4c3c-95fe-ba327f41f073/Home_Page.png",
             "category": [
@@ -5219,7 +5219,7 @@
             "order": 319
         },
         "jjpc98/diplomadopython/main/streamlit.py": {
-            "title": "DASHBOARD ESTADISTICAS APROBACION",
+            "title": "Dashboard Estadisticas Aprobacion",
             "description": "este es el repositorio del proyecto de diplomado",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5a01c44d-8113-47c6-beda-15a9943c82f0/Home_Page.png",
             "category": [
@@ -5243,7 +5243,7 @@
             "order": 288
         },
         "jkanner/streamlit-dataview/master/app.py": {
-            "title": "GW Quickview",
+            "title": "Gw Quickview",
             "description": "This app downloads and displays a few seconds of data from the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/378edd13-395a-4da7-9530-3fd2d5c5f19c/Home_Page.png",
             "category": [
@@ -5261,7 +5261,7 @@
             "order": 32
         },
         "jlluch/mapapreciocarburantes/main/MapaPrecioCarburantes.py": {
-            "title": "Precio de carburantes de estaciones de servicio",
+            "title": "Precio De Carburantes De Estaciones De Servicio",
             "description": "Mapa de los precios de carburantes: Pen\u00ednsula y Baleares con...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/320be550-9958-4e4c-bf12-bf22c69b5621/Home_Page.png",
             "category": [
@@ -5327,7 +5327,7 @@
             "order": 224
         },
         "joa50/first-repository/main/finalproject/final.py": {
-            "title": "CS230 Final Project Volcanoes",
+            "title": "Cs230 Final Project Volcanoes",
             "description": "My first repository on github",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e3c33ce0-1343-47e2-ba60-eecd4059cfa4/Home_Page.png",
             "category": [
@@ -5399,7 +5399,7 @@
             "order": 457
         },
         "jojo96/asciigan/main/asciiGan.py": {
-            "title": "asciiGan",
+            "title": "Asciigan",
             "description": "Keras implementation for learning a mapping from input images to...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f23e97b3-693d-4704-86fc-cba80feecb0e/Home_Page.png",
             "category": [
@@ -5421,7 +5421,7 @@
             "order": 30
         },
         "jordanate/sentiment-analysis-phase-4-project/main/model.py": {
-            "title": "model",
+            "title": "Model",
             "description": "https://jordanate-sentiment-analysis-phase-4-project-model-0ki2uu.str...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0b604855-0e8e-4f49-b8a7-bd0f4ccada4a/Home_Page.png",
             "category": [
@@ -5483,7 +5483,7 @@
             "order": 335
         },
         "jrieke/color-coder/main/streamlit_app.py": {
-            "title": "Color code your writing",
+            "title": "Color Code Your Writing",
             "description": "Streamlit app to color-code your text based on sentence length.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/79b99deb-08e8-42b5-9e7d-e359fc1b9312/Home_Page.png",
             "category": [
@@ -5501,7 +5501,7 @@
             "order": 138
         },
         "jrieke/components-hub/main/streamlit_app.py": {
-            "title": "Streamlit Components Hub",
+            "title": "Components Hub",
             "description": "An automated hub of Streamlit components",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/aea21baa-dc90-4708-bf7a-0f71b770789a/Home_Page.png",
             "category": [
@@ -5538,7 +5538,7 @@
             "order": 460
         },
         "jrieke/so-you-heard-about-streamlit/main/streamlit_app.py": {
-            "title": "So you heard about Streamlit...",
+            "title": "So You Heard About ...",
             "description": "An interactive guide to Streamlit + Python for absolute newcomers. WIP...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e68956ff-c26d-4168-89d9-102a8793ef5d/Home_Page.png",
             "category": [
@@ -5575,7 +5575,7 @@
             "order": 274
         },
         "jrieke/streamlit-analytics/main/examples/sharing-demo.py": {
-            "title": "sharing demo",
+            "title": "Sharing Demo",
             "description": "This is a small extension for the fantastic streamlitframework. With...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/3ea585ef-b379-4ed4-917b-193fa3abc521/Home_Page.png",
             "category": [
@@ -5593,7 +5593,7 @@
             "order": 96
         },
         "jrieke/streamlit-image-select/main/demo/streamlit_app.py": {
-            "title": "Demo for streamlit image select",
+            "title": "Demo For  Image Select",
             "description": "This custom component works just like st.selectbox but with images.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/cfec6669-b0fa-47ee-b156-342f09ef2f23/Home_Page.png",
             "category": [
@@ -5611,7 +5611,7 @@
             "order": 57
         },
         "jrieke/streamlit-inspector/main/streamlit_app.py": {
-            "title": "Demo for streamlit inspect",
+            "title": "Demo For  Inspect",
             "description": "Pass any object and streamlit-inspector will write an interactive...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f27cd0fc-a91b-4bff-8b2c-7ff75e402057/Home_Page.png",
             "category": [
@@ -5629,7 +5629,7 @@
             "order": 371
         },
         "jrieke/streamlit-pills/main/demo/streamlit_app.py": {
-            "title": "Demo for streamlit pills",
+            "title": "Demo For  Pills",
             "description": "This custom component works just like st.selectbox but shows the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/24f865ba-b6b4-465a-bd34-4ae091fa863a/Home_Page.png",
             "category": [
@@ -5647,7 +5647,7 @@
             "order": 179
         },
         "jrieke/streamlit-profiler/main/examples/basic.py": {
-            "title": "basic",
+            "title": "Basic",
             "description": "streamlit-profiler is a Streamlit component thathelps you find out...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/48d8bde7-255b-46f0-93c6-11e7eb7d02b5/Home_Page.png",
             "category": [
@@ -5686,7 +5686,7 @@
             "order": 38
         },
         "jrieke/year-on-github/main/app/main.py": {
-            "title": "Year on Github 2021",
+            "title": "Year On Github 2021",
             "description": "This project contains a small web app that let's you share stats about...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/92ff0864-493f-4d4a-9732-9d00d185df22/Home_Page.png",
             "category": [
@@ -5704,7 +5704,7 @@
             "order": 86
         },
         "jrmontag/co-covid-ww-streamlit/main/streamlit_app.py": {
-            "title": "CO COVID 19 Wastewater",
+            "title": "Co Covid 19 Wastewater",
             "description": "The official COVID wastewater data from CDPHE, presented in a...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8e71a369-2cd9-41ee-a41a-90e2656f2ec1/Home_Page.png",
             "category": [
@@ -5725,7 +5725,7 @@
             "order": 51
         },
         "jugnyongji/serving/pre_model/serving.py": {
-            "title": "serving",
+            "title": "Serving",
             "description": "\uac10\uc815 \uae30\ubc18 \uc74c\uc545 \ucd94\ucc9c\uc2dc\uc2a4\ud15c\uc744 Streamlit\uc73c\ub85c \ubc30\ud3ec\ud558\uae30 \uc704\ud574 \uad6c\ucd95\ud55c github repogitary",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c53c0488-e2de-451f-b0a1-7195a22eb18b/Home_Page.png",
             "category": [
@@ -5747,7 +5747,7 @@
             "order": 316
         },
         "julesbrable/ufo/main/UFOs_cartography.py": {
-            "title": "UFOs Sightings Reports Map",
+            "title": "Ufos Sightings Reports Map",
             "description": "This repository contains our final work for the 2nd year Computer...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a1138840-d498-476a-b671-01f64eab8f39/Home_Page.png",
             "category": [
@@ -5772,7 +5772,7 @@
             "order": 254
         },
         "justanothertunainthesea/thai-it-salary-prediction-deployed/main/app/app.py": {
-            "title": "LittleHR, IT Salary Estimator",
+            "title": "Littlehr, It Salary Estimator",
             "description": "\u0e42\u0e21\u0e40\u0e14\u0e25\u0e1b\u0e23\u0e30\u0e40\u0e21\u0e34\u0e19\u0e40\u0e07\u0e34\u0e19\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e2d\u0e32\u0e0a\u0e35\u0e1e\u0e2a\u0e32\u0e22 IT \u0e43\u0e19\u0e44\u0e17\u0e22",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2fe9c02b-3b91-43d1-9a53-0840204330da/Home_Page.png",
             "category": [
@@ -5790,7 +5790,7 @@
             "order": 245
         },
         "jv-nunes/dou_adm/producao/src/app.py": {
-            "title": "Adm. do Boletim DOU Acredito",
+            "title": "Adm. Do Boletim Dou Acredito",
             "description": "Este \u00e9 um aplicativo web feito no Streamlit utilizado para realizar a...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c6fa2e97-30d9-4fd5-9693-7db1ff9c5ccc/Home_Page.png",
             "category": [
@@ -5811,7 +5811,7 @@
             "order": 277
         },
         "jxhe/ctrlsum-demo/master/ctrlsum_demo.py": {
-            "title": "CTRLsum demo",
+            "title": "Ctrlsum Demo",
             "description": "The streamlit-powerd web demo to navigate controllable summarizations...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/9cbee253-a48e-4424-86b1-c748220d387a/Home_Page.png",
             "category": [
@@ -5830,7 +5830,7 @@
             "order": 183
         },
         "kadrefe/autoscout_lgbm/main/web_deploy.py": {
-            "title": "web deploy",
+            "title": "Web Deploy",
             "description": "This data obtained from \"autoscout.nl\".Dataframe (df) has 71104...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/61fca49c-3af8-4f59-baf6-e72872305eec/Home_Page.png",
             "category": [
@@ -5851,7 +5851,7 @@
             "order": 348
         },
         "kael558/redesigned-spoon/main/ui.py": {
-            "title": "ui",
+            "title": "Ui",
             "description": "The Semantic Search Tool maps research papers into points on a 2-d...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/558bc88b-a386-4b44-8ff0-b00447c44ee3/Home_Page.png",
             "category": [
@@ -5893,7 +5893,7 @@
             "order": 496
         },
         "karennjoki/data-science-project/main/stock_app.py": {
-            "title": "stock app",
+            "title": "Stock App",
             "description": "Dashboard...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/acbe8949-45fd-4543-9002-53f2e26f8650/Home_Page.png",
             "category": [
@@ -5933,7 +5933,7 @@
             "order": 309
         },
         "kennedymolwantwa/bankchurnpred-trial/main/webapp.py": {
-            "title": "webapp",
+            "title": "Webapp",
             "description": "This is test-trial repository.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/fc228493-060f-439b-9fdb-ac8cddf386a2/Home_Page.png",
             "category": [
@@ -6052,7 +6052,7 @@
             "order": 11
         },
         "kismetist/streamlit-geospatial-1/master/Home.py": {
-            "title": "Streamlit Geospatial 1",
+            "title": "Geospatial 1",
             "description": "A streamlit multipage app for geospatial applications. It can be...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c7ba9320-d365-4b44-832e-9be4cfb6052a/Marker_Cluster.png",
             "category": [
@@ -6074,7 +6074,7 @@
             "order": 202
         },
         "klapeye/gtc-explorer/main/gtc.py": {
-            "title": "GTC EXPLORER | K\u0141APEYE FOUNDATION",
+            "title": "Gtc Explorer | K\u0142apeye Foundation",
             "description": "Kaggle Dataset",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d64168f0-a980-442d-b06b-ee8d0f0f9478/Home_Page.png",
             "category": [
@@ -6119,7 +6119,7 @@
             "order": 81
         },
         "koushul/spartan_webapp/main/app_v2.py": {
-            "title": "COVID 19db of Immune Cell States",
+            "title": "Covid 19Db Of Immune Cell States",
             "description": "https://covid19db.streamlit.app/",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c3921621-e7a3-4c64-937c-bd91295d69be/Home_Page.png",
             "category": [
@@ -6142,7 +6142,7 @@
             "order": 65
         },
         "kozodoi/pet_pawpularity/main/web_app.py": {
-            "title": "Score your pet!",
+            "title": "Score Your Pet!",
             "description": "Top-4% solution to the PetFinder Pawpularity Contest and web app for...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/83c00e54-9084-42a7-a814-ef168d2a8422/Home_Page.png",
             "category": [
@@ -6164,7 +6164,7 @@
             "order": 345
         },
         "kssubhodh/pca-streamlit/main/pca-app.py": {
-            "title": "pca app",
+            "title": "Pca App",
             "description": "Streamlit web-app to demonstrate Principle Component analysis",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/532908d8-86c2-496c-b14a-c8d90d91ed8e/Home_Page.png",
             "category": [
@@ -6185,7 +6185,7 @@
             "order": 267
         },
         "kyauy/phenogenius/main/phenogenius_app.py": {
-            "title": "PhenoGenius",
+            "title": "Phenogenius",
             "description": "Symptom interaction modeling for precision medicine",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/02fef347-bb16-446d-bfce-1d6a7cbd464f/Home_Page.png",
             "category": [
@@ -6206,7 +6206,7 @@
             "order": 77
         },
         "l-vicen/-wi000684-marketingcampaignplanner/master/app.py": {
-            "title": "Ex stream ly Cool App",
+            "title": "Ex Stream Ly Cool App",
             "description": "1. Streamlit Server",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a7627b36-453e-4f45-af90-17994aa2f4b6/Home_Page.png",
             "category": [
@@ -6224,7 +6224,7 @@
             "order": 393
         },
         "lcalmbach/strom-bs/master/app.py": {
-            "title": "e Verbrauch bs",
+            "title": "E Verbrauch Bs",
             "description": "Electricity consumption of the canton of Basel-Stadt, based on quarter...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8d688195-90fd-44fb-8a64-d1ef281f6070/Home_Page.png",
             "category": [
@@ -6242,7 +6242,7 @@
             "order": 215
         },
         "leonardoacquaroli/extra-project-on-t-test/main/t-test_results.py": {
-            "title": "t test results",
+            "title": "T Test Results",
             "description": "This repo contains the data provided as .xlsx, the notebook for the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/baf5b600-9d0e-4db2-9055-c47004556a2c/Home_Page.png",
             "category": [
@@ -6264,7 +6264,7 @@
             "order": 358
         },
         "linbinbin92/v2o5_app/master/V2O5_app.py": {
-            "title": "V2O5 app",
+            "title": "V2O5 App",
             "description": "To use the app, please visit the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a837708e-4875-48eb-982c-0bd6a3baa706/Home_Page.png",
             "category": [
@@ -6300,7 +6300,7 @@
             "order": 4
         },
         "lordareicgnon/mapper_plus/main/sample_app.py": {
-            "title": "sample app",
+            "title": "Sample App",
             "description": "(c) 2022 Esha Datta, Aditya Ballal, Javier Lopez & Leighton T. Izu",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/90286293-71c0-4270-aa51-3ee78920dd32/Home_Page.png",
             "category": [
@@ -6340,7 +6340,7 @@
             "order": 244
         },
         "ltirrell/allday/final/app.py": {
-            "title": "NFL [Big Play] ALL DAY",
+            "title": "Nfl [Big Play] All Day",
             "description": "Work for the Flipside Crypto NFL All Day bounty tournament.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a6460e16-048d-42ed-a8da-e6e278770d1a/Home_Page.png",
             "category": [
@@ -6363,7 +6363,7 @@
             "order": 172
         },
         "ltirrell/flipside_bounties/main/near/citizens_of_NEAR_users.py": {
-            "title": "Citizens of NEAR: Active USers",
+            "title": "Citizens Of Near: Active Users",
             "description": "Code used for Flipside Crypto bounty submissions and dashboards...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6516c4d2-417c-4664-9565-a008b50847f1/Home_Page.png",
             "category": [
@@ -6384,7 +6384,7 @@
             "order": 529
         },
         "mabdellahi/mabdellahi_api_p7/main/dashboard.py": {
-            "title": "dashboard",
+            "title": "Dashboard",
             "description": "Dashboard interactif",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a10fb377-998c-4d7d-b67d-2277df5cd49e/Home_Page.png",
             "category": [
@@ -6411,7 +6411,7 @@
             "order": 222
         },
         "macro128/epl_erratas/main/epl_erratas/app.py": {
-            "title": "EPL Erratas",
+            "title": "Epl Erratas",
             "description": "An app for generating ePubLibre errata reports.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5606c0dd-1a35-4d1f-b1c5-dcef1d7fc1d0/Home_Page.png",
             "category": [
@@ -6430,7 +6430,7 @@
             "order": 525
         },
         "madslang/nyhedsoverblik/main/\ud83d\udcac_Nyhedsoverblik.py": {
-            "title": "Over tid",
+            "title": "Over Tid",
             "description": "This is the repository of my app, which you can visit at...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ea2c5c31-c4b7-4454-8588-28aebfb10337/Over_tid.png",
             "category": [
@@ -6453,7 +6453,7 @@
             "order": 478
         },
         "manassharma07/mnist-plus/main/mnist_NN_crysx_app.py": {
-            "title": "mnist NN crysx app",
+            "title": "Mnist Nn Crysx App",
             "description": "Extended MNIST dataset with more examples of handwritten digits with...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f4117d3e-56fa-452b-a1bc-e7f5e73f3693/Home_Page.png",
             "category": [
@@ -6471,7 +6471,7 @@
             "order": 146
         },
         "mannlabs/omiclearn/master/omiclearn/omic_learn.py": {
-            "title": "OmicLearn \u2014 ML platform for omics datasets",
+            "title": "Omiclearn \u2014 Ml Platform For Omics Datasets",
             "description": "Transparent exploration of machine learning for biomarker discovery...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/22865ca5-637e-4f14-9603-4d49e9879372/Home_Page.png",
             "category": [
@@ -6489,7 +6489,7 @@
             "order": 29
         },
         "marcosmvgs/dash-inst/main/notas_st.py": {
-            "title": "1\u00b0/3\u00b0 GAV Desempenho dos alunos",
+            "title": "1\u00b0 3\u00b0 Gav Desempenho Dos Alunos",
             "description": "Dashboard constru\u00eddo completamente em Python com a biblioteca...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/559133a9-d838-4e38-8704-dd920df339b7/Home_Page.png",
             "category": [
@@ -6515,7 +6515,7 @@
             "order": 314
         },
         "marquetce/tmvisdb/main/streamlitapp.py": {
-            "title": "TMvis DB",
+            "title": "Tmvis Db",
             "description": "Welcome to : A database to search and visualize predicted...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/558053e9-7421-43c7-9dce-8d5fb3c101f4/Home_Page.png",
             "category": [
@@ -6537,7 +6537,7 @@
             "order": 497
         },
         "martina-volley/webapp_ml/main/web_app.py": {
-            "title": "web app",
+            "title": "Web App",
             "description": "Use streamlit+ YOLOv5 to build object detection",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a2f57053-d464-4321-8ecd-760854b24694/Home_Page.png",
             "category": [
@@ -6586,7 +6586,7 @@
             "order": 302
         },
         "matipina/alerta-temprana/main/app.py": {
-            "title": "Sistema de Alerta Temprana",
+            "title": "Sistema De Alerta Temprana",
             "description": "Proyecto de investigaci\u00f3n para detectar estudiantes en situaciones de...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/004ddef8-6966-4f01-8c75-0e89760288a9/Home_Page.png",
             "category": [
@@ -6646,7 +6646,7 @@
             "order": 14
         },
         "maximus-sunshine/bagelizer/main/bagelizer.py": {
-            "title": "bagelizer",
+            "title": "Bagelizer",
             "description": "the latest & greatest in bagel software technology",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ac7e80ab-9869-4696-bad8-f54669c1ecfd/Home_Page.png",
             "category": [
@@ -6690,7 +6690,7 @@
             "order": 71
         },
         "mdelventhal/telecommute_viz/main/telecommute_viz.py": {
-            "title": "telecommute viz",
+            "title": "Telecommute Viz",
             "description": "Interactive visualizations for .",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a388c0bb-64b2-4f11-bf62-15cf8261f657/Home_Page.png",
             "category": [
@@ -6711,7 +6711,7 @@
             "order": 276
         },
         "mehulgupta2016154/resume_builder/main/streamlit_app.py": {
-            "title": "mehul gupta's portfolio",
+            "title": "Mehul Gupta'S Portfolio",
             "description": "A streamlit based webapp deployed at here",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e5536a7f-91c2-4b74-a3b8-f3e8555d42fc/Home_Page.png",
             "category": [
@@ -6729,7 +6729,7 @@
             "order": 55
         },
         "mesmith027/streamlit_emojis/main/emoji_options.py": {
-            "title": "Streamlit Emojis",
+            "title": "Emojis",
             "description": "An app to search all emojis available to a Streamlit app",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ce3077e4-12df-4fcb-9a71-932d027373b4/Home_Page.png",
             "category": [
@@ -6785,7 +6785,7 @@
             "order": 271
         },
         "mgrkan/whatsapp-chat-analysis/main/main.py": {
-            "title": "WhatsApp Chat Analyzer",
+            "title": "Whatsapp Chat Analyzer",
             "description": "WhatsApp Chat Analyzer",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/bb89be8d-62e3-442f-92e2-6ce696a30f50/Home_Page.png",
             "category": [
@@ -6810,7 +6810,7 @@
             "order": 326
         },
         "mikael-dataanalyst/pret_a_depenser/sampling/Home.py": {
-            "title": "Statut credit",
+            "title": "Statut Credit",
             "description": "Permettre au charg\u00e9 de relation client d'expliquer de fa\u00e7on...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5f8b13b6-e6a1-4ffc-a756-113511ed4ae6/Statut_credit.png",
             "category": [
@@ -6851,7 +6851,7 @@
             "order": 200
         },
         "mitch-parker/rascore/main/src/rascore/rascore_gui.py": {
-            "title": "rascore",
+            "title": "Rascore",
             "description": " is a tool for analyzing structures of the RAS protein family (KRAS...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8bf5f845-b2d5-4d61-b517-146698e1c9c0/Home_Page.png",
             "category": [
@@ -6874,7 +6874,7 @@
             "order": 25
         },
         "mlgidata/seismic-alerts/main/streamlit/alerta-sismica.py": {
-            "title": "Alerta s\u00edsmica M\u00e9xico",
+            "title": "Alerta S\u00edsmica M\u00e9xico",
             "description": "En este repositorio se encuentra el desarrollo de un proyecto que...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/003a3228-8997-4073-b386-72e52d52d94a/Home_Page.png",
             "category": [
@@ -6915,7 +6915,7 @@
             "order": 156
         },
         "morispolanco/finetune_gpj/main/run_clm.py": {
-            "title": "run clm",
+            "title": "Run Clm",
             "description": "Definition of problem: A product has 2 images called \"front\" and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f05f9233-5a32-404e-8f39-bcb97e91e6c8/Home_Page.png",
             "category": [
@@ -6933,7 +6933,7 @@
             "order": 528
         },
         "morlotn/p9_ocr/main/app_st.py": {
-            "title": "app st",
+            "title": "App St",
             "description": "Projet 9 Openclassrooms",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/675e2153-88e9-47a0-8475-f5808bb75b68/Home_Page.png",
             "category": [
@@ -6994,7 +6994,7 @@
             "order": 248
         },
         "mugashdk/classification-predict-streamlit-template/master/base_app.py": {
-            "title": "base app",
+            "title": "Base App",
             "description": "This repository forms the basis of  for the  within EDSA's Data...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/136cfe24-1039-4711-bdca-5629010ac7db/Home_Page.png",
             "category": [
@@ -7013,7 +7013,7 @@
             "order": 520
         },
         "mwalmsley/galaxy-poster/master/gz_decals_mike_walmsley.py": {
-            "title": "GZ DECaLS",
+            "title": "Gz Decals",
             "description": "Show ML predictions w/ Streamlit",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/24162c24-0979-47ad-a752-6ba6e554fdeb/Home_Page.png",
             "category": [
@@ -7071,7 +7071,7 @@
             "order": 72
         },
         "nainiayoub/pdf-text-data-extractor/main/app.py": {
-            "title": "PDF to Text",
+            "title": "Pdf To Text",
             "description": "This PDF text data extraction app takes a PDF document as input and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/01e58127-4c54-444b-9c69-46179c7e13dd/Home_Page.png",
             "category": [
@@ -7089,7 +7089,7 @@
             "order": 121
         },
         "nandoulopes/ypoemas/main/ypo.py": {
-            "title": "a m\u00e1quina de fazer Poesia yPoemas",
+            "title": "A M\u00e1quina De Fazer Poesia Ypoemas",
             "description": "yPoemas is an App that randomly gathers words and phrasesfrom specific...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/82ef33db-252b-4466-bd83-36991eece4c1/Home_Page.png",
             "category": [
@@ -7109,7 +7109,7 @@
             "order": 213
         },
         "napoles-uach/medium_mol/main/app1.py": {
-            "title": "app1",
+            "title": "App1",
             "description": "This repo has the code shown in this Medium post.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c233e9b8-fffc-4bfe-98dc-c54acb7a7b7d/Home_Page.png",
             "category": [
@@ -7128,7 +7128,7 @@
             "order": 386
         },
         "napoles-uach/medium_mol/main/app2.py": {
-            "title": "app2",
+            "title": "App2",
             "description": "This repo has the code shown in this Medium post.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0ba8c70b-1b80-4d49-9597-e4dc36f8d5d4/Home_Page.png",
             "category": [
@@ -7147,7 +7147,7 @@
             "order": 308
         },
         "napoles-uach/medium_mol/main/app3.py": {
-            "title": "app3",
+            "title": "App3",
             "description": "This repo has the code shown in this Medium post.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/16339243-f4ab-455d-9702-f12c6f278a10/Home_Page.png",
             "category": [
@@ -7166,7 +7166,7 @@
             "order": 404
         },
         "napoles-uach/medium_mol/main/app4.py": {
-            "title": "app4",
+            "title": "App4",
             "description": "This repo has the code shown in this Medium post.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/76e0b60b-f658-4be3-9da1-f65742dbd47c/Home_Page.png",
             "category": [
@@ -7185,7 +7185,7 @@
             "order": 297
         },
         "napoles-uach/mundaneapps/main/st_parade.py": {
-            "title": "st parade",
+            "title": "St Parade",
             "description": "Showcase of cool Streamlit apps from the community.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ef521e2d-2e6b-44ee-8a29-1ad427e8d2b0/Home_Page.png",
             "category": [
@@ -7205,7 +7205,7 @@
             "order": 220
         },
         "napoles-uach/pycon_cl_taller/main/appGraph/appGraph.py": {
-            "title": "appGraph",
+            "title": "Appgraph",
             "description": "Link al material en Notion",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6cf9104d-042d-4ee5-9d5e-9a5f848ff6d9/Home_Page.png",
             "category": [
@@ -7223,7 +7223,7 @@
             "order": 153
         },
         "napoles-uach/st_selfies/main/st_selfies.py": {
-            "title": "st selfies",
+            "title": "St Selfies",
             "description": "Selfies proof of concept",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/557413ec-9bc9-498b-8856-65efa7cfc1ae/Home_Page.png",
             "category": [
@@ -7241,7 +7241,7 @@
             "order": 378
         },
         "napoles-uach/st_smiles/main/smiles.py": {
-            "title": "smiles",
+            "title": "Smiles",
             "description": "Streamlit web app to display SMILES",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2c133538-a588-453c-b3c8-db7b925e9ea2/Home_Page.png",
             "category": [
@@ -7277,7 +7277,7 @@
             "order": 102
         },
         "narendraiiitl/medical_image_project/main/final.py": {
-            "title": "final",
+            "title": "Final",
             "description": "Medical imaging is the process of creating visual representations of...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/14840273-2d61-459e-b477-4c9ed3d06d1c/Home_Page.png",
             "category": [
@@ -7300,7 +7300,7 @@
             "order": 523
         },
         "nathgui404/projet3/main/projet3_graphs.py": {
-            "title": "projet3 graphs",
+            "title": "Projet3 Graphs",
             "description": "Projet 3 reseau de transports publics de la ville de RennesUtilisation...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f427ef91-f3e6-4fd2-949c-c98d7c9604de/Home_Page.png",
             "category": [
@@ -7323,7 +7323,7 @@
             "order": 108
         },
         "neelnanda-io/grokking/main/streamlit_experiment.py": {
-            "title": "streamlit experiment",
+            "title": "Experiment",
             "description": "A Mechanistic Interpretability Analysis of Grokking",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/21bad2fe-b118-47db-835c-27277e272d7d/Home_Page.png",
             "category": [
@@ -7380,7 +7380,7 @@
             "order": 229
         },
         "nikitapandey01/image-to-music-with-python/main/image2music.py": {
-            "title": "image2music",
+            "title": "Image2Music",
             "description": "we will be creating music from the image with the help of python in...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/43f03d0f-7cd4-4fb6-b42e-230603958b89/Home_Page.png",
             "category": [
@@ -7419,7 +7419,7 @@
             "order": 305
         },
         "nikotaufiq/projekakhir_orbit/main/ProjekAkhir.py": {
-            "title": "Minang to Indonesia Translater",
+            "title": "Minang To Indonesia Translater",
             "description": "ProjekAkhirOrbitSimpan file nanti",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/cc678622-d803-4636-8146-6014615f73c0/Home_Page.png",
             "category": [
@@ -7442,7 +7442,7 @@
             "order": 474
         },
         "nileshsp05/fraud-detection-sport-betting/main/application.py": {
-            "title": "application",
+            "title": "Application",
             "description": "Fraud detection for Online soccer sport betting project",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1b04bd07-3a63-42ab-92fc-3b94eb646d39/Home_Page.png",
             "category": [
@@ -7463,7 +7463,7 @@
             "order": 327
         },
         "noedgeatlife/streamlit-data-web-app/main/cmc/cmc.py": {
-            "title": "cmc",
+            "title": "Cmc",
             "description": "#streamlit run myapp.py",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e245863c-8f52-40c3-ae32-b70a675e7e77/Home_Page.png",
             "category": [
@@ -7506,7 +7506,7 @@
             "order": 150
         },
         "ojasmittal/samachar/master/main.py": {
-            "title": "SAMACHAR",
+            "title": "Samachar",
             "description": "1)To make newspapers tremendous amount of trees are cut daily. In...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/7287c94e-748b-4528-8043-662fc1f2658e/Home_Page.png",
             "category": [
@@ -7524,7 +7524,7 @@
             "order": 149
         },
         "osamkz/trading/DevSeer/StockScreenDemo.py": {
-            "title": "StockScreenDemo",
+            "title": "Stockscreendemo",
             "description": "RivacubeScreenerThis App is a BETA version for a Dashboard in...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/df77fa86-228b-4955-974b-e26534607965/Home_Page.png",
             "category": [
@@ -7549,7 +7549,7 @@
             "order": 161
         },
         "oscarschraenkler/dengue_fever_predictions/master/app.py": {
-            "title": "DengAI",
+            "title": "Dengai",
             "description": "By Oscar Schraenkler, Tizian Hamm & Anton Kleihues",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5ee7ee28-4dbb-40c8-ac16-5d74a75b92ee/Home_Page.png",
             "category": [
@@ -7573,7 +7573,7 @@
             "order": 78
         },
         "pablocfonseca/streamlit-aggrid-examples/main/example.py": {
-            "title": "Streamlit Aggrid Examples",
+            "title": "Aggrid Examples",
             "description": "Examples Repository for streamlit-aggrid",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6d55b01a-6a54-4694-8b9e-7bfddace729e/Home_Page.png",
             "category": [
@@ -7593,7 +7593,7 @@
             "order": 0
         },
         "pablocfonseca/streamlit-aggrid/main/examples/example.py": {
-            "title": "Streamlit Aggrid",
+            "title": "Aggrid",
             "description": "AgGrid is an awesome grid for web frontend. More information in...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e10de78d-c514-42f3-a1a8-aac3d8ee2703/Home_Page.png",
             "category": [
@@ -7640,7 +7640,7 @@
             "order": 390
         },
         "panditpranav/svm_covid_tracking/main/COVID_app.py": {
-            "title": "COVID19: EpiCenter for Disease Dynamics",
+            "title": "Covid19: Epicenter For Disease Dynamics",
             "description": "COVID Tracking app for data in Northern California",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/216f4213-92e6-461d-89ac-3f828e0059af/Home_Page.png",
             "category": [
@@ -7680,7 +7680,7 @@
             "order": 123
         },
         "pauldes/nba-mvp-predictor/main/streamlit_app.py": {
-            "title": "The MVP Predictor",
+            "title": "The Mvp Predictor",
             "description": "This project aims at predicting the player who will win the NBA MVP...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/be7bf75d-4fad-48af-a699-a979935348ef/Home_Page.png",
             "category": [
@@ -7702,7 +7702,7 @@
             "order": 243
         },
         "paulovisam/copadomundo_qatar2022/master/main.py": {
-            "title": "Estatisticas Jogos da Copa do Mundo",
+            "title": "Estatisticas Jogos Da Copa Do Mundo",
             "description": "Modelagem estat\u00edstica para predi\u00e7\u00e3o de resultado da Copa do Mundo 2022...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0d0c4199-4b50-43bf-a560-9af07d42e0a6/Home_Page.png",
             "category": [
@@ -7720,7 +7720,7 @@
             "order": 145
         },
         "payaneco/so_survey_kakkokari/main/index.py": {
-            "title": "SOja\u30a2\u30f3\u30b1\u30fc\u30c8",
+            "title": "Soja\u30a2\u30f3\u30b1\u30fc\u30c8",
             "description": "SOja\u306e\u3054\u610f\u898b\u3092\u96c6\u3081\u308b\u30a2\u30f3\u30b1\u30fc\u30c8\u30d5\u30a9\u30fc\u30e0\u4f8b",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2cc2d7b7-ef1c-41e6-8e9f-7c76ea12fd51/Home_Page.png",
             "category": [
@@ -7738,7 +7738,7 @@
             "order": 94
         },
         "pedestriandynamics/dashboard/main/app.py": {
-            "title": "JuPedSim Analytics",
+            "title": "Jupedsim Analytics",
             "description": "Show statistics and make plots extracted from jpscore-simulations and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b2562088-52ef-4081-a758-c3f86fb99571/Home_Page.png",
             "category": [
@@ -7783,7 +7783,7 @@
             "order": 56
         },
         "phanzgz/mxc-utilities/main/app.py": {
-            "title": "DHX Mining calculator",
+            "title": "Dhx Mining Calculator",
             "description": "A small web-app containing useful information and a calculator to...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/02659aaa-9706-4a1c-a5ea-552e08c17b37/Home_Page.png",
             "category": [
@@ -7804,7 +7804,7 @@
             "order": 128
         },
         "philippemoussa/speechrecognition/main/streamlitDemo.py": {
-            "title": "streamlitDemo",
+            "title": "Demo",
             "description": "A beginner friendly, step-by-step deep learning project on speech...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ebbf75b5-afd7-4ed2-b156-480df2c77bce/Home_Page.png",
             "category": [
@@ -7864,7 +7864,7 @@
             "order": 437
         },
         "pvonglehn/drinks_tracking/master/alcohol_consumption.py": {
-            "title": "intermittent fasting",
+            "title": "Intermittent Fasting",
             "description": "Streamlit app monitoring alcohol consumption",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/24e72c39-b2e2-42ef-8d73-b451bac69845/intermittent_fasting.png",
             "category": [
@@ -7884,7 +7884,7 @@
             "order": 265
         },
         "rafaelrubenstein/stonksllc-app/main/home.py": {
-            "title": "Stonks LLC",
+            "title": "Stonks Llc",
             "description": "A web application that uses stock fundamental data to classify stocks...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6dd1a69c-c9e5-4e24-a8e2-982a403c41bb/Home_Page.png",
             "category": [
@@ -7921,7 +7921,7 @@
             "order": 266
         },
         "rahulbanerjee26/githubprofilereadmegenerator/main/__init__.py": {
-            "title": "init",
+            "title": "Init",
             "description": "The article contains resources for GIFs, royalty free images/icons and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a6687922-6dfb-4077-8f6e-9d737697f187/Home_Page.png",
             "category": [
@@ -7959,7 +7959,7 @@
             "order": 209
         },
         "randyzwitch/streamlit-folium/master/examples/streamlit_app.py": {
-            "title": "streamlit folium documentation: Draw Support",
+            "title": "Folium Documentation: Draw Support",
             "description": "streamlit-folium integrates two great open-source projects in the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8071c62b-9334-4d57-a848-bc99381cdfa9/draw_support.png",
             "category": [
@@ -7979,7 +7979,7 @@
             "order": 392
         },
         "rashidahjohari/strokeprediction/main/strokeApp.py": {
-            "title": "strokeApp",
+            "title": "Strokeapp",
             "description": "To view...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b77d53dc-2262-4199-87f6-28499bb3d5b7/Home_Page.png",
             "category": [
@@ -7997,7 +7997,7 @@
             "order": 178
         },
         "rcsmit/covidcases/main/covid_menu_streamlit.py": {
-            "title": "COVID SCRIPTS of Ren\u00e9 Smit",
+            "title": "Covid Scripts Of Ren\u00e9 Smit",
             "description": "Various files with models and graphs concerning COVID-19.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/24788a0c-1136-4fae-926f-90a50d08f44f/Home_Page.png",
             "category": [
@@ -8015,7 +8015,7 @@
             "order": 226
         },
         "rdd48/st_apps/main/lefi_graph/graph_lefi_output.py": {
-            "title": "Local EFI",
+            "title": "Local Efi",
             "description": "Streamlit apps",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5327100f-198e-46f9-966c-f80a316ec639/Home_Page.png",
             "category": [
@@ -8034,7 +8034,7 @@
             "order": 400
         },
         "real-veersandhu/article-ai/master/app.py": {
-            "title": "Article AI",
+            "title": "Article Ai",
             "description": "The NLP summarizers were built such that the user can summarize...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4c0703d0-a7b4-4378-942f-f66d13b901f2/Home_Page.png",
             "category": [
@@ -8076,7 +8076,7 @@
             "order": 251
         },
         "rebekahchin/poll_out/main/dash.py": {
-            "title": "dash",
+            "title": "Dash",
             "description": "Output from the following sensors would be pushed to...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e6a6a97c-51b2-469f-8a99-f02e2aa55143/Home_Page.png",
             "category": [
@@ -8094,7 +8094,7 @@
             "order": 490
         },
         "reed-schimmel/haven-vbs-streamlit/main/streamlit_app.py": {
-            "title": "VBS Simulator",
+            "title": "Vbs Simulator",
             "description": "Run simulations with this Streamlit App",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/878591f7-5093-4982-b4b5-7602f5bb73ae/Home_Page.png",
             "category": [
@@ -8113,7 +8113,7 @@
             "order": 63
         },
         "renatoaab/tccsite/master/app.py": {
-            "title": "IAnita TCC",
+            "title": "Ianita Tcc",
             "description": "Check out the configuration reference at...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a1b8b823-84f8-469a-b01b-54840258628a/Home_Page.png",
             "category": [
@@ -8197,7 +8197,7 @@
             "order": 273
         },
         "robbiel37/streamlit-sales_predict/main/sales_predict_interaction.py": {
-            "title": "sales predict interaction",
+            "title": "Sales Predict Interaction",
             "description": "sales prediction with user input",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/52cfb07b-a3de-451c-8482-eede6b8f6da7/Home_Page.png",
             "category": [
@@ -8216,7 +8216,7 @@
             "order": 238
         },
         "rocketdav1d/streamlit-stock-portfolio/master/main_page.py": {
-            "title": "main page",
+            "title": "Main Page",
             "description": "Get a glimpse of the running version here",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6b178c1f-a2fc-4ff6-b59c-dd1abed8a199/Home_Page.png",
             "category": [
@@ -8242,7 +8242,7 @@
             "order": 455
         },
         "rodrigoriboldi/fake_news_detector_mentorama/main/streamlit_app.py": {
-            "title": "Detector de Fake News",
+            "title": "Detector De Fake News",
             "description": "Este projeto corresponde ao projeto final do curso sobre ci\u00eancia de...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d53727d5-d94c-468e-a506-f51c2bd017ab/Home_Page.png",
             "category": [
@@ -8287,7 +8287,7 @@
             "order": 347
         },
         "rtalamas/marketregimes/main/market_regimes.py": {
-            "title": "market regimes",
+            "title": "Market Regimes",
             "description": "Analysis of Market Regimes Through the Inflation Lens",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d468dd85-16d3-41d0-8438-eb867a1d9a0c/Home_Page.png",
             "category": [
@@ -8306,7 +8306,7 @@
             "order": 116
         },
         "saiteja-99/realfakedetector/main/real_fake.py": {
-            "title": "real fake",
+            "title": "Real Fake",
             "description": "https://realfakeclassifyer.herokuapp.com/",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/33cbaa3d-f851-48c0-a02b-8dc9d097fc37/Home_Page.png",
             "category": [
@@ -8326,7 +8326,7 @@
             "order": 500
         },
         "samdobson/streamlit-sandbox/main/app.py": {
-            "title": "Streamlit Sandbox",
+            "title": "Sandbox",
             "description": "Enabling fast experimentation with Streamlit, with live in-browser...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ab8c6b0a-56b7-42cd-a8b5-560f5a2299a7/Home_Page.png",
             "category": [
@@ -8346,7 +8346,7 @@
             "order": 70
         },
         "sampai28/generatedsketches/main/streamlit_app.py": {
-            "title": "XCI Sketch: Extraction of Color Information from Images for Generation of Colored Outlines and Sketches",
+            "title": "Xci Sketch: Extraction Of Color Information From Images For Generation Of Colored Outlines And Sketches",
             "description": "V Manushree, Sameer Saxena, Parna Chowdhury, Manisimha Varma, Harsh...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b9bc0970-fb34-43f8-be3d-e11d2eb10489/Home_Page.png",
             "category": [
@@ -8366,7 +8366,7 @@
             "order": 322
         },
         "sandipsn/sikh_business_directory/main/form.py": {
-            "title": "SBR: Submission Form",
+            "title": "Sbr: Submission Form",
             "description": "A business directory for Sikh businesses and places of interest for...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/661308d2-a741-42f2-a339-4f0c8e173ad8/Home_Page.png",
             "category": [
@@ -8388,7 +8388,7 @@
             "order": 151
         },
         "sanji-moku/cot/main/0_\ud83d\udcca_Accueil.py": {
-            "title": "Meilleures metriques",
+            "title": "Meilleures Metriques",
             "description": "This project is licensed under the MIT License.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/040134b8-16b9-4889-bf68-16a1dd9b64f6/Meilleures_metriques.png",
             "category": [
@@ -8410,7 +8410,7 @@
             "order": 3
         },
         "sardiirfan27/ocr_irfan/main/main.py": {
-            "title": "Python OCR",
+            "title": "Python Ocr",
             "description": "Referensi:",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5943a80d-e124-4f4c-9f35-b039a537b865/Home_Page.png",
             "category": [
@@ -8428,7 +8428,7 @@
             "order": 454
         },
         "sarthakjariwala/pvlimit-web-app/main/app.py": {
-            "title": "PV limit calculator",
+            "title": "Pv Limit Calculator",
             "description": "This is the repository for the  web application at...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/fd925003-51be-44ea-9dec-51c230695b2f/Home_Page.png",
             "category": [
@@ -8447,7 +8447,7 @@
             "order": 373
         },
         "sathwick-reddy-m/sign-language-to-text/main/web_app.py": {
-            "title": "ASL Recognition",
+            "title": "Asl Recognition",
             "description": "The model developed can classify any letter in the American Sign...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/38b5d43e-476a-4a2b-ba47-5fcc25cd09c1/Home_Page.png",
             "category": [
@@ -8468,7 +8468,7 @@
             "order": 91
         },
         "saudalzahri/airsa/main/web.py": {
-            "title": "AIRSA: Road Safety Assessment Tool",
+            "title": "Airsa: Road Safety Assessment Tool",
             "description": "AIRSA \u2014 Artificial Intelligence Road Safety Analysis",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e65801ad-31d0-46e3-b2a1-ed35da7c1ed3/Home_Page.png",
             "category": [
@@ -8496,7 +8496,7 @@
             "order": 48
         },
         "sayalaruano/ampredst/main/streamlit_app.py": {
-            "title": "AMPredST",
+            "title": "Ampredst",
             "description": "Antimicrobial peptides (AMPs) are small bioactive drugs, commonly with...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a9c124ea-91d0-47a8-a59b-f1d0344b0bae/Home_Page.png",
             "category": [
@@ -8520,7 +8520,7 @@
             "order": 132
         },
         "sdrocco/entrenadoriot/main/appEntrenadorIoT.py": {
-            "title": "appEntrenadorIoT",
+            "title": "Appentrenadoriot",
             "description": "Aplicaci\u00f3n Web para ejecutar rutinas de Ejercicios con el prototipo...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/eaddf576-5b83-4b20-bc9f-320ad18153f1/Home_Page.png",
             "category": [
@@ -8539,7 +8539,7 @@
             "order": 223
         },
         "sebastiandres/bbva/main/Inicio.py": {
-            "title": "BBVA",
+            "title": "Bbva",
             "description": "This is a template for streamlit projects. You can modify it at will.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b3ddccfd-fd1b-4dbc-a559-01c1873f9304/Home_Page.png",
             "category": [
@@ -8579,7 +8579,7 @@
             "order": 147
         },
         "sebastiandres/st_pythonchile/main/Inicio.py": {
-            "title": "Contenido audiovisual Python Chile",
+            "title": "Contenido Audiovisual Python Chile",
             "description": "Indexador de charlas de Python Chile",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0dd2ead7-4bcf-48b7-9b70-4c90fa672a78/Home_Page.png",
             "category": [
@@ -8599,7 +8599,7 @@
             "order": 84
         },
         "sebastiandres/st_vizzu/main/streamlit_app.py": {
-            "title": "complex",
+            "title": "Complex",
             "description": "See:",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/fed3b33e-645f-47c5-a199-55fe7ecb29f0/complex.png",
             "category": [
@@ -8618,7 +8618,7 @@
             "order": 475
         },
         "sebastiandres/stblog_uplanner/main/Home.py": {
-            "title": "uPlanner's Streamlit Demo",
+            "title": "Uplanner'S  Demo",
             "description": "This is a simplified version of the streamlit apps developped at...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/9b6eedc9-0bda-4582-b00b-b99c1e57c12f/Concatenate.png",
             "category": [
@@ -8638,7 +8638,7 @@
             "order": 127
         },
         "sebastiandres/stbook_methods/main/streamlit_app.py": {
-            "title": "stb methods demo",
+            "title": "Stb Methods Demo",
             "description": "This is an auxiliar repository of streamlit_book (github, pypi...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/68cd492a-78a1-404f-93be-3b9bef3a849a/Home_Page.png",
             "category": [
@@ -8656,7 +8656,7 @@
             "order": 141
         },
         "sebastiandres/stbook_multipaging/main/native.py": {
-            "title": "single",
+            "title": "Single",
             "description": "This is an auxiliar repository of streamlit_book (github, pypi...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/05219046-9624-4aca-a017-7ea791d6d53d/single.png",
             "category": [
@@ -8712,7 +8712,7 @@
             "order": 195
         },
         "sebastiandres/streamlit_happy_birds/main/happy_birds.py": {
-            "title": "HappyBirds",
+            "title": "Happybirds",
             "description": "A practical example of using streamlit book",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/de09beb1-ddad-409e-8154-5302ebfb1fc1/Home_Page.png",
             "category": [
@@ -8730,7 +8730,7 @@
             "order": 130
         },
         "serhiy-andrejev/fcst_panel/main/forecast_panel.py": {
-            "title": "forecast panel",
+            "title": "Forecast Panel",
             "description": "Iqvia forecasting panel for Webber Naturals",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/92799891-ee1c-4591-84ff-4fc4a2347027/Home_Page.png",
             "category": [
@@ -8789,7 +8789,7 @@
             "order": 13
         },
         "shabtay/dancesearch/main/web.py": {
-            "title": "LatinFest Find your next dance festival",
+            "title": "Latinfest Find Your Next Dance Festival",
             "description": "Latin dance festival search engine",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b0311e93-84d2-45cb-9e57-15a82e8ef5f8/Home_Page.png",
             "category": [
@@ -8828,7 +8828,7 @@
             "order": 313
         },
         "sharkfin-top/streamlitwebapp/main/BaiduIndexDownload/test.py": {
-            "title": "test",
+            "title": "Test",
             "description": "Time series anomaly detection by ADTK .",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f3e6963f-c0fc-4c78-8906-09976a66d751/Home_Page.png",
             "category": [
@@ -8846,7 +8846,7 @@
             "order": 22
         },
         "sheraz-n/carboxyglutamate/master/app.py": {
-            "title": "iCarboxE Deep",
+            "title": "Icarboxe Deep",
             "description": "\"# This repo contains the code for deploying carboxE model using...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/b8526908-dfaf-4c06-9c08-00226dc54d87/Home_Page.png",
             "category": [
@@ -8867,7 +8867,7 @@
             "order": 517
         },
         "shimat/deer_appearance/main/main.py": {
-            "title": "JR\u5317\u6d77\u9053 \u9e7f\u885d\u7a81\u30de\u30c3\u30d7",
+            "title": "Jr\u5317\u6d77\u9053 \u9e7f\u885d\u7a81\u30de\u30c3\u30d7",
             "description": "https://shimat-deer-appearance-main-r59r01.streamlit.app/",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d5f8c5a0-173d-4b1f-abcb-134f0eaf6f56/Home_Page.png",
             "category": [
@@ -8906,7 +8906,7 @@
             "order": 513
         },
         "shubham-sd/time-series-forecasting/main/main_v2.py": {
-            "title": "main v2",
+            "title": "Main V2",
             "description": "time series forecasting",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/09ede21b-92ce-4e9b-8a9f-c6bbd5c7a7bf/Home_Page.png",
             "category": [
@@ -8933,7 +8933,7 @@
             "order": 366
         },
         "shyamaleet/glaucocare/main/glaucocare.py": {
-            "title": "glaucocare",
+            "title": "Glaucocare",
             "description": "-GlaucoCare, a web application developed in support of computer-aided...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/407f9e87-5fc6-4d55-b6b7-2083a306ee9b/Home_Page.png",
             "category": [
@@ -9044,7 +9044,7 @@
             "order": 370
         },
         "sinagolchi/frc_admin/master/FRC_admin_app.py": {
-            "title": "FRC admin app",
+            "title": "Frc Admin App",
             "description": "Administration Panel",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c383583d-673a-499f-9d16-eb481ff2c8ec/Home_Page.png",
             "category": [
@@ -9064,7 +9064,7 @@
             "order": 135
         },
         "sinagolchi/frc_admin2/master/FRC_admin_app.py": {
-            "title": "FRC admin app",
+            "title": "Frc Admin App",
             "description": "Administration Panel",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/3fd70e59-9be8-42b2-a1e1-b46e592df2b9/Home_Page.png",
             "category": [
@@ -9154,7 +9154,7 @@
             "order": 352
         },
         "sizipusx/fundamental/main/rebuild_house.py": {
-            "title": "\uc804\uad6d \ubd84\uc591\uad8c/\uc7ac\uac1c\ubc1c/\uc7ac\uac74\ucd95 \uc544\ud30c\ud2b8 \ub124\uc774\ubc84 \uc2dc\uc138",
+            "title": "\uc804\uad6d \ubd84\uc591\uad8c \uc7ac\uac1c\ubc1c \uc7ac\uac74\ucd95 \uc544\ud30c\ud2b8 \ub124\uc774\ubc84 \uc2dc\uc138",
             "description": "\uad6d\ub0b4 \uc544\ud30c\ud2b8 \uc2dc\uc138\ub098 \ud604\ud669\uc744 \ubcf4\uc5ec\uc8fc\ub294 \uc560\ud50c\ub9ac\ucf00\uc774\uc158\uc744 streamlit \uacfc \uc5f0\ub3d9\ud558\uc5ec \uc6b4\uc601\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/61d493fd-a608-422e-b32b-8f1c87e869af/Home_Page.png",
             "category": [
@@ -9180,7 +9180,7 @@
             "order": 332
         },
         "sizipusx/fundamental/main/us-chart.py": {
-            "title": "us chart",
+            "title": "Us Chart",
             "description": "\uad6d\ub0b4 \uc544\ud30c\ud2b8 \uc2dc\uc138\ub098 \ud604\ud669\uc744 \ubcf4\uc5ec\uc8fc\ub294 \uc560\ud50c\ub9ac\ucf00\uc774\uc158\uc744 streamlit \uacfc \uc5f0\ub3d9\ud558\uc5ec \uc6b4\uc601\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ff8f1d1b-a5b6-4da8-abcd-170f1734622c/Home_Page.png",
             "category": [
@@ -9198,7 +9198,7 @@
             "order": 531
         },
         "sizipusx/fundamental/main/\ud83c\udfe0_apt_main.py": {
-            "title": "\uc804\uad6d \ubd84\uc591\uad8c/\uc7ac\uac1c\ubc1c/\uc7ac\uac74\ucd95 \uc544\ud30c\ud2b8 \ub124\uc774\ubc84 \uc2dc\uc138",
+            "title": "\uc804\uad6d \ubd84\uc591\uad8c \uc7ac\uac1c\ubc1c \uc7ac\uac74\ucd95 \uc544\ud30c\ud2b8 \ub124\uc774\ubc84 \uc2dc\uc138",
             "description": "\uad6d\ub0b4 \uc544\ud30c\ud2b8 \uc2dc\uc138\ub098 \ud604\ud669\uc744 \ubcf4\uc5ec\uc8fc\ub294 \uc560\ud50c\ub9ac\ucf00\uc774\uc158\uc744 streamlit \uacfc \uc5f0\ub3d9\ud558\uc5ec \uc6b4\uc601\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/fe23aeeb-d749-42b4-8fe7-0e65edacc8a1/apt_rebuild.png",
             "category": [
@@ -9224,7 +9224,7 @@
             "order": 232
         },
         "snowflake-labs/sfquickstart-data-clean-room/main/dcr_setup_assistant.py": {
-            "title": "DCR Setup Assistant",
+            "title": "Dcr Setup Assistant",
             "description": "Copyright (c) 2022 Snowflake Inc. All Rights Reserved.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/53c9d287-6c40-4c0b-ae6e-116dcea27237/Home_Page.png",
             "category": [
@@ -9266,7 +9266,7 @@
             "order": 158
         },
         "solovyevevgeniy/image_classification_web/main/image_classification.py": {
-            "title": "image classification",
+            "title": "Image Classification",
             "description": "\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u043e\u043f\u0440\u043e\u0431\u043e\u0432\u0430\u0442\u044c \u0432\u043e\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0441\u044f \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0439\u0434\u044f \u043f\u043e \u0441\u0441\u044b\u043b\u043a\u0438",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a5cff1e8-41d0-4156-875c-9997d87e5b36/Home_Page.png",
             "category": [
@@ -9285,7 +9285,7 @@
             "order": 369
         },
         "ssraza21/arabic-ocr/main/SL_ArabicOCR.py": {
-            "title": "SL ArabicOCR",
+            "title": "Sl Arabicocr",
             "description": "A user can input a whole PDF with Arabic text images and it will...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5f663079-8b20-43e7-bfc3-90dbd3bde820/Home_Page.png",
             "category": [
@@ -9306,7 +9306,7 @@
             "order": 114
         },
         "stechlab/voterfraud2020-analysis/main/app.py": {
-            "title": "VoterFraud2020 - a Twitter Dataset of Election Fraud Claims",
+            "title": "Voterfraud2020 - A Twitter Dataset Of Election Fraud Claims",
             "description": "Voterfraud2020 is a multi-modal Twitter dataset with 7.6M tweets and...",
             "image": "https://storage.googleapis.com/voter-fraud-2020/img/retweet-graph-suspended-orange-min.jpg",
             "category": [
@@ -9330,7 +9330,7 @@
             "order": 181
         },
         "stroke-optimist/streamlit_lifetime_stroke/main/Introduction.py": {
-            "title": "Stroke risk model",
+            "title": "Stroke Risk Model",
             "description": "This repository contains the code behind the Streamlit app for the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4e286a9f-95a6-41f5-814d-2c9a82364b97/Advanced_options.png",
             "category": [
@@ -9351,7 +9351,7 @@
             "order": 290
         },
         "student4ever/yep-bm-analyzer/main/streamlit_app.py": {
-            "title": "Interactive YEP app",
+            "title": "Interactive Yep App",
             "description": "This app shows how you can use the results of the 9. Working Group of...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4d91e9c2-7401-4788-b825-000e0ebac341/Home_Page.png",
             "category": [
@@ -9390,7 +9390,7 @@
             "order": 481
         },
         "sudokara/stockinfo/main/app.py": {
-            "title": "NASDAQ Stock Info",
+            "title": "Nasdaq Stock Info",
             "description": "An app for data about various publicly listed companies. Currently...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ae4946e6-a22f-4437-88e9-d6ce66501867/Home_Page.png",
             "category": [
@@ -9411,7 +9411,7 @@
             "order": 346
         },
         "suldinvyacheslav/confignlp/FirstRelease/app/main.py": {
-            "title": "MyConfig",
+            "title": "Myconfig",
             "description": "I am glad to welcome you to my application \ud83d\ude01!Here you can assemble...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5e99c886-a523-42b0-a7ea-8f5b7594a24e/Home_Page.png",
             "category": [
@@ -9430,7 +9430,7 @@
             "order": 182
         },
         "suneelbvs/streamlit-app/main/streamlit_app.py": {
-            "title": "MolGenerator",
+            "title": "Molgenerator",
             "description": "streamlit multipage app for cheminformatics",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6cc1f40f-f9f0-4164-bd80-d5920e13b105/MolGenerator.png",
             "category": [
@@ -9491,7 +9491,7 @@
             "order": 34
         },
         "sven-bo/streamlit-income-expense-tracker/master/app.py": {
-            "title": "Income and Expense Tracker",
+            "title": "Income And Expense Tracker",
             "description": "Have you ever wanted to keep track of your monthly income and expenses...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2c047e09-9c04-4d27-921f-d67346eab183/Home_Page.png",
             "category": [
@@ -9573,7 +9573,7 @@
             "order": 137
         },
         "tanul-mathur/music-through-the-ages/master/AppFinal.py": {
-            "title": "Music Through the Ages",
+            "title": "Music Through The Ages",
             "description": "A Data Geek's take on the question ",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/05465ad1-b3d9-4dc9-b967-3a148a44afde/Home_Page.png",
             "category": [
@@ -9591,7 +9591,7 @@
             "order": 67
         },
         "tdenzl/bulian/main/BuLiAn.py": {
-            "title": "BuLiAn",
+            "title": "Bulian",
             "description": "This repository conatains a Python Streamlit application for analyzing...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2cf123cf-4cd6-41cf-805a-2ffcd3cc9217/Home_Page.png",
             "category": [
@@ -9611,7 +9611,7 @@
             "order": 2
         },
         "technicalsecretariatr2r/r2rdataexplorer/main/app.py": {
-            "title": "R2R DATA EXPLORER",
+            "title": "R2R Data Explorer",
             "description": "Race to Resilience Data Explorer Trial Phase",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6ef7f96b-9d5c-4c08-999a-94c993aad7f1/Home_Page.png",
             "category": [
@@ -9633,7 +9633,7 @@
             "order": 58
         },
         "tederix/wsp/main/WSP.py": {
-            "title": "IAPWS",
+            "title": "Iapws",
             "description": "\u0414\u043e\u0441\u0442\u0443\u043f \u043a web: www.iapwsted.ml",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/254f24a3-2ff1-4a24-9266-13edc036a947/Home_Page.png",
             "category": [
@@ -9654,7 +9654,7 @@
             "order": 126
         },
         "terrorchay/fessboard/master/streamlit_app/Dashboard.py": {
-            "title": "FESSBoard",
+            "title": "Fessboard",
             "description": "Here we will write what the project is and how it works!!!",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d0275788-220e-455c-a98c-974c44bfa222/Home_Page.png",
             "category": [
@@ -9691,7 +9691,7 @@
             "order": 177
         },
         "thelexmeister/collegebowlgamepickem/main/BowlGameFun_streamlit.py": {
-            "title": "Bowl Game Pick em",
+            "title": "Bowl Game Pick Em",
             "description": "This is just a silly app I made to share our picks and records within...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0c558173-4dbe-40fa-90b5-76199470ec07/Home_Page.png",
             "category": [
@@ -9768,7 +9768,7 @@
             "order": 144
         },
         "thuwarakeshm/streamlit-intro/main/quickstart.py": {
-            "title": "quickstart",
+            "title": "Quickstart",
             "description": "This is an introductory article by Thuwarakesh Murallie on Medium.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4a01a3b6-f25e-400e-ba52-aa887c9e9f32/Home_Page.png",
             "category": [
@@ -9794,7 +9794,7 @@
             "order": 69
         },
         "tiagolofi/sesma_app/main/app.py": {
-            "title": "Tratamento das Fontes de Dados",
+            "title": "Tratamento Das Fontes De Dados",
             "description": "Limpeza de Bases de Dados usadas pelo Controle Financeiro da...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ccc3d1ff-bd29-47f8-beeb-15a05dcb5d84/Home_Page.png",
             "category": [
@@ -9814,7 +9814,7 @@
             "order": 169
         },
         "tiagomnz/whatsapp_reportgraph/main/app.py": {
-            "title": "GRAPHOS insights chats",
+            "title": "Graphos Insights Chats",
             "description": "Ferramenta para extrair dados de conversa do Whatsapp e gerar...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/aee7ccee-f4b0-4697-8e13-5dfcb8fb8d0d/Home_Page.png",
             "category": [
@@ -9837,7 +9837,7 @@
             "order": 532
         },
         "tobiarnold/co2-per-country/main/app.py": {
-            "title": "CO2",
+            "title": "Co2",
             "description": "https://tobiarnold-co2-per-country-app-lgkjgb.streamlit.app/",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f2ac7675-3d7b-415b-8a2c-85c330029f00/Home_Page.png",
             "category": [
@@ -9859,7 +9859,7 @@
             "order": 240
         },
         "tobiarnold/sachsenheim-klimaneutral/main/main.py": {
-            "title": "Wetterdaten DWD",
+            "title": "Wetterdaten Dwd",
             "description": "https://share.streamlit.io/tobiarnold/sachsenheim-klimaneutral/main/m...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4d04f274-066d-4cec-b733-fd9c6b7f4603/Home_Page.png",
             "category": [
@@ -9877,7 +9877,7 @@
             "order": 431
         },
         "tom-doerr/dalle_flow_streamlit/main/streamlit_app.py": {
-            "title": "DALL\u00b7E Flow Streamlit",
+            "title": "Dall\u00b7E Flow",
             "description": "Live Streamlit Website",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/25abb971-1548-48e5-a90f-07777fe5d5a1/Home_Page.png",
             "category": [
@@ -9919,7 +9919,7 @@
             "order": 318
         },
         "toroekle/elhub/main/elhub_streamlit.py": {
-            "title": "Elhub visualisert",
+            "title": "Elhub Visualisert",
             "description": "This is an application build with Python and Streamlit to make...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2132386b-40fe-4119-bc88-44d0dc555d8c/Home_Page.png",
             "category": [
@@ -9941,7 +9941,7 @@
             "order": 268
         },
         "tripti-g/image-captioning-using-dl/main/final.py": {
-            "title": "final",
+            "title": "Final",
             "description": "Medical imaging is the process of creating visual representations of...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/25dc9892-4266-45fd-8864-416ab31c235b/Home_Page.png",
             "category": [
@@ -9964,7 +9964,7 @@
             "order": 479
         },
         "tsu2000/drop_rates/main/drop_rates.py": {
-            "title": "drop rates",
+            "title": "Drop Rates",
             "description": "Statistical analysis and modeling of drop rates in the MMORPG...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a8a97933-1237-4978-a949-5d00c0a5ba83/Home_Page.png",
             "category": [
@@ -9984,7 +9984,7 @@
             "order": 337
         },
         "tugasbesardaspro/tubesdaspro/main/Home.py": {
-            "title": "Youtube downloader",
+            "title": "Youtube Downloader",
             "description": "\"#Aplikasi Operator matematika \"",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/69432271-db2d-443e-b0f1-9991475ebd02/Youtube-downloader.png",
             "category": [
@@ -10029,7 +10029,7 @@
             "order": 23
         },
         "tylerjrichards/bingo/main/app.py": {
-            "title": "NormConf Bingo!",
+            "title": "Normconf Bingo!",
             "description": "Who doesn't like Bingo?",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/584abaa7-4d92-4312-a5fc-b6d30bd8d3ad/Home_Page.png",
             "category": [
@@ -10048,7 +10048,7 @@
             "order": 165
         },
         "tylerjrichards/penguin_ml/main/penguins_streamlit.py": {
-            "title": "penguins streamlit",
+            "title": "Penguins",
             "description": "This folder contains the machine learning app created to predict the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d986d85f-911d-4765-9680-31818efd806c/Home_Page.png",
             "category": [
@@ -10140,7 +10140,7 @@
             "order": 109
         },
         "ukratic/getaround_dashboard/main/Delay.py": {
-            "title": "delay dashboard",
+            "title": "Delay Dashboard",
             "description": "Dashboard for the project on streamlit cloud",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6abfb3cb-8a51-4acc-a640-9c1489b9741c/Pricing.png",
             "category": [
@@ -10161,7 +10161,7 @@
             "order": 377
         },
         "utk61198/dfp-project/main/dashboard.py": {
-            "title": "dashboard",
+            "title": "Dashboard",
             "description": "Links of the library used",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2a0d1a3b-bbfd-4d2e-afdf-eacdf233b6e8/Home_Page.png",
             "category": [
@@ -10211,7 +10211,7 @@
             "order": 300
         },
         "victorbsr/house-rocket_analytics/main/dashboard.py": {
-            "title": "dashboard",
+            "title": "Dashboard",
             "description": "House Rocket \u00e9 uma empresa fict\u00edcia que visa analisar dados de...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8d947a46-bd08-4fc8-a141-bc2cfc4a8627/Home_Page.png",
             "category": [
@@ -10248,7 +10248,7 @@
             "order": 239
         },
         "vilasrhegde/wiki_qna/master/aapp.py": {
-            "title": "aapp",
+            "title": "Aapp",
             "description": "Go to hosted webpage on Streamlit",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c0bb3748-286b-4ac0-8286-36cf5d91683d/Home_Page.png",
             "category": [
@@ -10267,7 +10267,7 @@
             "order": 504
         },
         "vishalbhoir18/dnantdcount/main/dna-ntd-app.py": {
-            "title": "dna ntd app",
+            "title": "Dna Ntd App",
             "description": "DNA nucleotide counting web app",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e1d11207-5336-42e7-bdd7-c3a1fb733e97/Home_Page.png",
             "category": [
@@ -10285,7 +10285,7 @@
             "order": 110
         },
         "vladyoslav/spbu-ml/dev/app.py": {
-            "title": "ConvNeXT",
+            "title": "Convnext",
             "description": "\u0414\u043e\u043c\u0430\u0448\u043d\u044f\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u043f\u043e ML \u0434\u043b\u044f \u0421\u041f\u0431\u0413\u0423",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/7d6877d1-8d78-412e-98aa-f051a59af0c2/Home_Page.png",
             "category": [
@@ -10304,7 +10304,7 @@
             "order": 210
         },
         "voltek62/codex-for-seo/main/streamlit_app.py": {
-            "title": "No Code Gallery with Streamlit & Codex",
+            "title": "No Code Gallery With  & Codex",
             "description": "~/.streamlit/secrets.toml by default the file doesn\u2019t exist, you have...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e2e6cdda-46dd-47e9-a262-6f1514937d8b/Home_Page.png",
             "category": [
@@ -10325,7 +10325,7 @@
             "order": 310
         },
         "vuxvix/streamlit_project1_startups/main/Home.py": {
-            "title": "Streamlit Project1 Startups",
+            "title": "Project1 Startups",
             "description": "https://vuxvix-streamlit-project1-startups-startups-7b0k42.streamlit.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5e679c8e-bc65-45a9-901d-46cc5f254eeb/Home_Page.png",
             "category": [
@@ -10416,7 +10416,7 @@
             "order": 107
         },
         "whaleshark0601/streamlit-classification/main/app-v2.py": {
-            "title": "app v2",
+            "title": "App V2",
             "description": "This is a simple streamlit artifact for surpervised model: Gender...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c4dc5758-0b95-4148-b9d6-5d5c90d080bc/Home_Page.png",
             "category": [
@@ -10435,7 +10435,7 @@
             "order": 453
         },
         "whitphx/streamlit-server-state/main/app_chat_rooms.py": {
-            "title": "app chat rooms",
+            "title": "App Chat Rooms",
             "description": "A \"server-wide\" state shared across the sessions.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/bf05bba5-f79c-4db4-bf1c-e65c8f422b01/Home_Page.png",
             "category": [
@@ -10454,7 +10454,7 @@
             "order": 296
         },
         "whitphx/streamlit-stt-app/main/app_deepspeech.py": {
-            "title": "app deepspeech",
+            "title": "App Deepspeech",
             "description": "A real time Speech-to-Text app built with Streamlit and .The STT...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0b4b9e99-6dc8-49ee-8fa4-8dfbce04d29b/Home_Page.png",
             "category": [
@@ -10476,7 +10476,7 @@
             "order": 10
         },
         "whitphx/streamlit-webrtc-example/main/app.py": {
-            "title": "media files streaming",
+            "title": "Media Files Streaming",
             "description": "Hosted on Streamlit Cloud...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f93c0b8a-5dd5-4640-8844-6cf3d2123287/media_files_streaming.png",
             "category": [
@@ -10521,7 +10521,7 @@
             "order": 205
         },
         "willyrizkiyan/eda-and-imdb-rating-prediction/main/imdb.py": {
-            "title": "IMDb Apps",
+            "title": "Imdb Apps",
             "description": "My first end-to-end Data Science project. This project includes web...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c6ad006a-ce05-4816-a765-ac125d4ca9ca/Home_Page.png",
             "category": [
@@ -10592,7 +10592,7 @@
             "order": 192
         },
         "xiaoyanh/rkdapp/main/rkd_app.py": {
-            "title": "rkd app",
+            "title": "Rkd App",
             "description": "Sometime I'm trying out... Ignore this...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e19f45ce-3d00-4029-988b-bb871e5c2c67/Home_Page.png",
             "category": [
@@ -10634,7 +10634,7 @@
             "order": 120
         },
         "ximenarojo/proyecto-final/main/archivo.py": {
-            "title": "archivo",
+            "title": "Archivo",
             "description": "El objetivo principal del presente proyecto es permitir al usuario un...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/cf5d6ef1-9e04-4e90-9bac-b1115c462a61/Home_Page.png",
             "category": [
@@ -10657,7 +10657,7 @@
             "order": 285
         },
         "xingyaolu0716/cs213final/main/finalproject.py": {
-            "title": "finalproject",
+            "title": "Finalproject",
             "description": "import streamlit as stimport pandas as pdimport matplotlib.pyplot as...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/86a5f79b-70df-4ece-bc32-5e9516865338/Home_Page.png",
             "category": [
@@ -10676,7 +10676,7 @@
             "order": 438
         },
         "xyborg/tiktok-search-autosuggest-api-parser/main/tiktok-autosuggest-streamlit.py": {
-            "title": "TikTok Search Autosuggest API Parser SEO",
+            "title": "Tiktok Search Autosuggest Api Parser Seo",
             "description": "This was made in less than an hour, just for fun and educational...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/67a4767b-8ea2-479b-a114-d7436cf2e680/Home_Page.png",
             "category": [
@@ -10696,7 +10696,7 @@
             "order": 328
         },
         "yi75/fake-news_identifier_ctp/main/fake_real.py": {
-            "title": "fake real",
+            "title": "Fake Real",
             "description": "(Click...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/580a2d82-24f7-49c6-9553-bfcdbb67dbad/Home_Page.png",
             "category": [
@@ -10717,7 +10717,7 @@
             "order": 185
         },
         "yoannz42/test_mp_data/main/dashboard.py": {
-            "title": "dashboard",
+            "title": "Dashboard",
             "description": "Lien du tableau de bord ...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/319b1c30-e9e8-4242-83da-76f407c53d2e/Home_Page.png",
             "category": [
@@ -10757,7 +10757,7 @@
             "order": 527
         },
         "yrd2612/salary_predict/main/salary_predict.py": {
-            "title": "salary predict",
+            "title": "Salary Predict",
             "description": "A basic salary prediction model using the concepts of Linear...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/153229c5-6d32-436c-bdfd-ce2f1c13794b/Home_Page.png",
             "category": [
@@ -10797,7 +10797,7 @@
             "order": 103
         },
         "yves54/iris-flower-prediction/main/app3.py": {
-            "title": "app3",
+            "title": "App3",
             "description": "Iris Flower PredictionLaunch the web app:",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/9808f1f0-f042-4e6a-b143-fdc2ea5451fd/Home_Page.png",
             "category": [
@@ -10835,7 +10835,7 @@
             "order": 236
         },
         "zaidusa/ds1/DS1/DSP/DS.py": {
-            "title": "DS",
+            "title": "Ds",
             "description": "\"# DS\"",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e03fe03c-f899-4fb3-a330-8a862546f8b6/Home_Page.png",
             "category": [
@@ -10854,7 +10854,7 @@
             "order": 426
         },
         "zaidusa/ds1/DS1/DSP/sandy.py": {
-            "title": "sandy",
+            "title": "Sandy",
             "description": "\"# DS\"",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d52ca1cd-9d8f-46f3-9e98-309e6b2bb056/Home_Page.png",
             "category": [
@@ -10873,7 +10873,7 @@
             "order": 469
         },
         "zakaria-aabbou/arabic_tweet_sentiment_analysis/main/SentimentAnalysisArabic/SA_app.py": {
-            "title": "SA app",
+            "title": "Sa App",
             "description": "The project...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/d6f0fd6d-a36c-42b4-8e5f-9e6e8f013951/Home_Page.png",
             "category": [
@@ -10917,7 +10917,7 @@
             "order": 113
         },
         "zkgogreen/heartattack/main/stream-heart.py": {
-            "title": "stream heart",
+            "title": "Stream Heart",
             "description": "I ran a few different models and each one landed in the same accuracy...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a6c21c22-fb38-4b5a-acca-47789b975370/Home_Page.png",
             "category": [
@@ -10938,7 +10938,7 @@
             "order": 530
         },
         "zkgogreen/loan/main/index.py": {
-            "title": "index",
+            "title": "Index",
             "description": "Is there any data on what a typical profile of people who apply for...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6d5cfb5b-f532-4b6b-89f5-d6bb8d131d77/Home_Page.png",
             "category": [
@@ -10959,7 +10959,7 @@
             "order": 519
         },
         "zkgogreen/streamlit-diabetes/main/stream-diabetes.py": {
-            "title": "stream diabetes",
+            "title": "Stream Diabetes",
             "description": "#ContextThis dataset is originally from the National Institute of...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e4b6a744-ba05-4cce-a093-d3ef0f55931e/Home_Page.png",
             "category": [
