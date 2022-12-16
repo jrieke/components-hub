@@ -3,7 +3,7 @@
         "audio-recorder-streamlit": {
             "title": "Audio Recorder",
             "author": "Joooohan",
-            "description": "This streamlit component allows to register an audio utterence from a user.",
+            "description": "This streamlit component allows to register an audio utterence from a...",
             "pipLink": "pip install audio-recorder-streamlit",
             "category": [
                 "all",
@@ -26,7 +26,7 @@
         "barfi": {
             "title": "Barfi",
             "author": "krish-adi",
-            "description": "Python Flow Based Programming environment that provides a graphical programming environment.",
+            "description": "Python Flow Based Programming environment that provides a graphical...",
             "pipLink": "pip install barfi",
             "category": [
                 "all",
@@ -42,7 +42,7 @@
             "forum": "https://discuss.streamlit.io/t/barfi-flow-based-programming-for-data-science-new-component/23237/3",
             "pypi": "https://pypi.org/project/barfi/",
             "avatar": "https://avatars.githubusercontent.com/u/6900550?v=4",
-            "stars": "152",
+            "stars": "154",
             "downloads": "7.4k",
             "order": 16
         },
@@ -63,7 +63,7 @@
             "pypi": "https://pypi.org/project/ct-auth0-streamlit-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "609",
+            "downloads": "611",
             "order": 235
         },
         "dvc-streamlit": {
@@ -83,8 +83,8 @@
             "pypi": "https://pypi.org/project/dvc-streamlit/",
             "avatar": null,
             "stars": "0",
-            "downloads": "789",
-            "order": 220
+            "downloads": "783",
+            "order": 221
         },
         "elyra-streamlit-extension": {
             "title": "Elyra Extension",
@@ -106,13 +106,13 @@
             "pypi": "https://pypi.org/project/elyra-streamlit-extension/",
             "avatar": "https://avatars.githubusercontent.com/u/48364812?v=4",
             "stars": "3",
-            "downloads": "461",
+            "downloads": "464",
             "order": 130
         },
         "extra-streamlit-components": {
             "title": "Extra Components",
             "author": "Mohamed-512",
-            "description": "An all in one place, to find complex or just not available components by default on streamlit.",
+            "description": "An all in one place, to find complex or just not available components...",
             "pipLink": "pip install extra-streamlit-components",
             "category": [
                 "all",
@@ -132,7 +132,7 @@
             "pypi": "https://pypi.org/project/extra-streamlit-components/",
             "avatar": "https://avatars.githubusercontent.com/u/31454258?v=4",
             "stars": "173",
-            "downloads": "94.2k",
+            "downloads": "94.8k",
             "order": 13
         },
         "flet-like-streamlit": {
@@ -175,13 +175,13 @@
             "pypi": "https://pypi.org/project/hiplot/",
             "avatar": "https://avatars.githubusercontent.com/u/16943930?v=4",
             "stars": "2.4k",
-            "downloads": "220.1k",
+            "downloads": "221k",
             "order": 1
         },
         "hydralit-components": {
             "title": "Hydralit Components",
             "author": "TangleSpace",
-            "description": "A package of custom components for Streamlit and Hydralit. Can be used directly or in combination...",
+            "description": "A package of custom components for Streamlit and Hydralit. Can be used...",
             "pipLink": "pip install hydralit-components",
             "category": [
                 "all",
@@ -198,7 +198,7 @@
             "pypi": "https://pypi.org/project/hydralit-components/",
             "avatar": "https://avatars.githubusercontent.com/u/50782232?v=4",
             "stars": "62",
-            "downloads": "35.8k",
+            "downloads": "35.6k",
             "order": 37
         },
         "metastreamlit": {
@@ -247,7 +247,7 @@
         "nlu": {
             "title": "NLU",
             "author": "JohnSnowLabs",
-            "description": "1 line for thousands of State of The Art NLP models in hundreds of languages  The fastest and most...",
+            "description": "1 line for thousands of State of The Art NLP models in hundreds of...",
             "pipLink": "pip install nlu",
             "category": [
                 "all",
@@ -293,7 +293,7 @@
         "pollination-streamlit": {
             "title": "Pollination",
             "author": "pollination",
-            "description": "A pollination extention to facilitate working with Pollination in Streamlit apps",
+            "description": "A pollination extention to facilitate working with Pollination in...",
             "pipLink": "pip install pollination-streamlit",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -328,12 +328,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/18115514?v=4",
             "stars": "0",
             "downloads": "3.6k",
-            "order": 172
+            "order": 171
         },
         "semantha-streamlit-compare": {
             "title": "Semantha Compare",
             "author": "thingsTHINKING",
-            "description": "This is the project for a streamlit component which uses semantha semantic compare.",
+            "description": "This is the project for a streamlit component which uses semantha...",
             "pipLink": "pip install semantha-streamlit-compare",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -347,7 +347,7 @@
             "pypi": "https://pypi.org/project/semantha-streamlit-compare/",
             "avatar": null,
             "stars": "0",
-            "downloads": "1.7k",
+            "downloads": "1.8k",
             "order": 190
         },
         "sherpa-streamlit": {
@@ -367,7 +367,7 @@
             "pypi": "https://pypi.org/project/sherpa-streamlit/",
             "avatar": "https://avatars.githubusercontent.com/u/8970395?v=4",
             "stars": "0",
-            "downloads": "16k",
+            "downloads": "15.7k",
             "order": 161
         },
         "spacy-streamlit": {
@@ -389,8 +389,8 @@
             "forum": null,
             "pypi": "https://pypi.org/project/spacy-streamlit/",
             "avatar": "https://avatars.githubusercontent.com/u/20011530?v=4",
-            "stars": "611",
-            "downloads": "19.7k",
+            "stars": "612",
+            "downloads": "19.6k",
             "order": 3
         },
         "st-agraph-symrzknr": {
@@ -411,7 +411,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/30259408?v=4",
             "stars": "0",
             "downloads": "1.5k",
-            "order": 197
+            "order": 198
         },
         "st-annotated-text": {
             "title": "Annotated Text",
@@ -433,7 +433,7 @@
             "pypi": "https://pypi.org/project/st-annotated-text/",
             "avatar": "https://avatars.githubusercontent.com/u/690814?v=4",
             "stars": "307",
-            "downloads": "37.7k",
+            "downloads": "38.2k",
             "order": 8
         },
         "st-btn-select": {
@@ -477,7 +477,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "760",
-            "order": 222
+            "order": 223
         },
         "st-card-component": {
             "title": "Card Component",
@@ -520,7 +520,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "814",
-            "order": 219
+            "order": 220
         },
         "st-card-component-2": {
             "title": "Card Component 2",
@@ -539,8 +539,8 @@
             "pypi": "https://pypi.org/project/st-card-component-2/",
             "avatar": null,
             "stars": "0",
-            "downloads": "483",
-            "order": 243
+            "downloads": "476",
+            "order": 244
         },
         "st-card-component-alex": {
             "title": "Card Component Alex",
@@ -559,8 +559,8 @@
             "pypi": "https://pypi.org/project/st-card-component-alex/",
             "avatar": null,
             "stars": "0",
-            "downloads": "513",
-            "order": 237
+            "downloads": "507",
+            "order": 239
         },
         "st-card-search-component": {
             "title": "Card Search Component",
@@ -580,12 +580,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.8k",
-            "order": 188
+            "order": 189
         },
         "st-click-detector": {
             "title": "Click Detector",
             "author": "vivien000",
-            "description": "st-click-detector is a Streamlit component to display some HTML content and detect when hyperlinks...",
+            "description": "st-click-detector is a Streamlit component to display some HTML...",
             "pipLink": "pip install st-click-detector",
             "category": [
                 "all",
@@ -609,7 +609,7 @@
         "st-clickable-images": {
             "title": "Clickable Images",
             "author": "vivien000",
-            "description": "[You might be interested by st-click-detector which generalizes this component]",
+            "description": "[You might be interested by st-click-detector which generalizes this...",
             "pipLink": "pip install st-clickable-images",
             "category": [
                 "all",
@@ -646,13 +646,13 @@
             "pypi": "https://pypi.org/project/st-comp-3dmodel/",
             "avatar": null,
             "stars": "0",
-            "downloads": "699",
-            "order": 231
+            "downloads": "692",
+            "order": 232
         },
         "st-compare-stock": {
             "title": "Compare Stock",
             "author": "MihaiBlebea",
-            "description": "This repo contains templates and example code for creating Streamlit Components.",
+            "description": "This repo contains templates and example code for creating Streamlit...",
             "pipLink": "pip install st-compare-stock",
             "category": [],
             "image": "https://github.com/MihaiBlebea/streamlit_compare_stock/raw/master/quickstart.png",
@@ -666,13 +666,13 @@
             "pypi": "https://pypi.org/project/st-compare-stock/",
             "avatar": "https://avatars.githubusercontent.com/u/28536015?v=4",
             "stars": "0",
-            "downloads": "1.5k",
-            "order": 198
+            "downloads": "1.4k",
+            "order": 199
         },
         "st-cytoscape": {
             "title": "Cytoscape",
             "author": "vivien000",
-            "description": "st-cytoscape is a Streamlit component to embed a Cytoscape.js graph and get the selected nodes and...",
+            "description": "st-cytoscape is a Streamlit component to embed a Cytoscape.js graph...",
             "pipLink": "pip install st-cytoscape",
             "category": [
                 "all",
@@ -689,7 +689,7 @@
             "pypi": "https://pypi.org/project/st-cytoscape/",
             "avatar": "https://avatars.githubusercontent.com/u/44180787?v=4",
             "stars": "8",
-            "downloads": "507",
+            "downloads": "498",
             "order": 96
         },
         "st-dataframe-component": {
@@ -710,7 +710,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.1k",
-            "order": 212
+            "order": 211
         },
         "st-dep-parsing-component": {
             "title": "Dep Parsing Component",
@@ -730,7 +730,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.6k",
-            "order": 196
+            "order": 195
         },
         "st-echarts-events": {
             "title": "Echarts Events",
@@ -752,7 +752,7 @@
             "pypi": "https://pypi.org/project/st-echarts-events/",
             "avatar": "https://avatars.githubusercontent.com/u/45062230?v=4",
             "stars": "1",
-            "downloads": "414",
+            "downloads": "405",
             "order": 160
         },
         "st-event-selection-interfaces": {
@@ -773,7 +773,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "316",
-            "order": 256
+            "order": 257
         },
         "st-execbox": {
             "title": "Execbox",
@@ -795,7 +795,7 @@
             "pypi": "https://pypi.org/project/st-execbox/",
             "avatar": "https://avatars.githubusercontent.com/u/690814?v=4",
             "stars": "8",
-            "downloads": "496",
+            "downloads": "489",
             "order": 97
         },
         "st-flashcard": {
@@ -815,8 +815,8 @@
             "pypi": "https://pypi.org/project/st-flashcard/",
             "avatar": null,
             "stars": "0",
-            "downloads": "1.6k",
-            "order": 194
+            "downloads": "1.5k",
+            "order": 197
         },
         "st-highlightable-text": {
             "title": "Highlightable Text",
@@ -945,8 +945,8 @@
             "pypi": "https://pypi.org/project/st-row-buttons/",
             "avatar": "https://avatars.githubusercontent.com/u/32181194?v=4",
             "stars": "0",
-            "downloads": "1.3k",
-            "order": 203
+            "downloads": "1.2k",
+            "order": 204
         },
         "st-searchbar": {
             "title": "Searchbar",
@@ -971,7 +971,7 @@
         "st-speckmol": {
             "title": "Speckmol",
             "author": "avrabyt",
-            "description": "\ud83e\uddecStreamlit Component for creating Speck molecular structures within Streamlit Web app\ud83d\ude80.",
+            "description": "\ud83e\uddecStreamlit Component for creating Speck molecular structures within...",
             "pipLink": "pip install st-speckmol",
             "category": [
                 "all",
@@ -994,7 +994,7 @@
         "st-stylish": {
             "title": "Stylish",
             "author": "busbyk",
-            "description": "A collection of custom components and helper functions for Streamlit that are focused on providing...",
+            "description": "A collection of custom components and helper functions for Streamlit...",
             "pipLink": "pip install st-stylish",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -1008,8 +1008,8 @@
             "pypi": "https://pypi.org/project/st-stylish/",
             "avatar": "https://avatars.githubusercontent.com/u/5056653?v=4",
             "stars": "0",
-            "downloads": "667",
-            "order": 232
+            "downloads": "668",
+            "order": 233
         },
         "st-textnav-components": {
             "title": "Textnav Components",
@@ -1029,7 +1029,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "320",
-            "order": 255
+            "order": 256
         },
         "st-tokenization-vis-component": {
             "title": "Tokenization Vis Component",
@@ -1054,7 +1054,7 @@
         "st-vizzu": {
             "title": "Vizzu",
             "author": "avrabyt",
-            "description": "Create animated charts easily! A ipyvizzu wrapper for intuitive usage of ipyvizzu functions and...",
+            "description": "Create animated charts easily! A ipyvizzu wrapper for intuitive usage...",
             "pipLink": "pip install st-vizzu",
             "category": [
                 "all",
@@ -1071,13 +1071,13 @@
             "pypi": "https://pypi.org/project/st-vizzu/",
             "avatar": "https://avatars.githubusercontent.com/u/96898985?v=4",
             "stars": "18",
-            "downloads": "441",
+            "downloads": "443",
             "order": 69
         },
         "stmol": {
             "title": "Stmol",
             "author": "napoles-uach",
-            "description": "This is the repository for the Stmol project, a Streamlit component that uses py3Dmol to render...",
+            "description": "This is the repository for the Stmol project, a Streamlit component...",
             "pipLink": "pip install stmol",
             "category": [
                 "all",
@@ -1139,7 +1139,7 @@
             "forum": "https://discuss.streamlit.io/t/stqdm-a-tqdm-like-progress-bar-for-streamlit/10097",
             "pypi": "https://pypi.org/project/stqdm/",
             "avatar": "https://avatars.githubusercontent.com/u/17848620?v=4",
-            "stars": "101",
+            "stars": "102",
             "downloads": "81.4k",
             "order": 27
         },
@@ -1184,7 +1184,7 @@
             "pypi": "https://pypi.org/project/streamlit-ace/",
             "avatar": "https://avatars.githubusercontent.com/u/65978885?v=4",
             "stars": "139",
-            "downloads": "57.9k",
+            "downloads": "58.3k",
             "order": 18
         },
         "streamlit-aggrid": {
@@ -1206,14 +1206,14 @@
             "forum": "https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108",
             "pypi": "https://pypi.org/project/streamlit-aggrid/",
             "avatar": "https://avatars.githubusercontent.com/u/17606067?v=4",
-            "stars": "547",
-            "downloads": "341.3k",
+            "stars": "548",
+            "downloads": "343.7k",
             "order": 5
         },
         "streamlit-aggrid-community": {
             "title": "Aggrid Community",
             "author": "LucasTrg",
-            "description": "Implementation of Ag-Grid component for Streamlit. Safe from evil licenses.",
+            "description": "Implementation of Ag-Grid component for Streamlit. Safe from evil...",
             "pipLink": "pip install streamlit-aggrid-community",
             "category": [],
             "image": "https://github.com/PablocFonseca/streamlit-aggrid/raw/main/group_selection_example.gif",
@@ -1227,8 +1227,8 @@
             "pypi": "https://pypi.org/project/streamlit-aggrid-community/",
             "avatar": "https://avatars.githubusercontent.com/u/47852577?v=4",
             "stars": "0",
-            "downloads": "967",
-            "order": 216
+            "downloads": "971",
+            "order": 217
         },
         "streamlit-agraph": {
             "title": "Agraph",
@@ -1250,7 +1250,7 @@
             "pypi": "https://pypi.org/project/streamlit-agraph/",
             "avatar": "https://avatars.githubusercontent.com/u/19912393?v=4",
             "stars": "155",
-            "downloads": "19k",
+            "downloads": "18.9k",
             "order": 15
         },
         "streamlit-alert-component": {
@@ -1270,8 +1270,8 @@
             "pypi": "https://pypi.org/project/streamlit-alert-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "0",
-            "order": 261
+            "downloads": "2.2k",
+            "order": 184
         },
         "streamlit-analytics": {
             "title": "Analytics",
@@ -1313,13 +1313,13 @@
             "pypi": "https://pypi.org/project/streamlit-antd/",
             "avatar": "https://avatars.githubusercontent.com/u/932699?v=4",
             "stars": "0",
-            "downloads": "232",
+            "downloads": "240",
             "order": 258
         },
         "streamlit-antv": {
             "title": "Antv",
             "author": "ais-one",
-            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS. Streamlit for rapid development.",
+            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS.",
             "pipLink": "pip install streamlit-antv",
             "category": [
                 "all",
@@ -1336,7 +1336,7 @@
             "pypi": "https://pypi.org/project/streamlit-antv/",
             "avatar": "https://avatars.githubusercontent.com/u/4284574?v=4",
             "stars": "20",
-            "downloads": "738",
+            "downloads": "728",
             "order": 66
         },
         "streamlit-audiorecorder": {
@@ -1403,7 +1403,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "2.1k",
-            "order": 184
+            "order": 185
         },
         "streamlit-auth0-service": {
             "title": "Auth0 Service",
@@ -1422,13 +1422,13 @@
             "pypi": "https://pypi.org/project/streamlit-auth0-service/",
             "avatar": null,
             "stars": "0",
-            "downloads": "5k",
+            "downloads": "4.9k",
             "order": 164
         },
         "streamlit-authenticator": {
             "title": "Authenticator",
             "author": "mkhorasani",
-            "description": "A secure authentication module to validate user credentials in a Streamlit application.",
+            "description": "A secure authentication module to validate user credentials in a...",
             "pipLink": "pip install streamlit-authenticator",
             "category": [
                 "all",
@@ -1445,7 +1445,7 @@
             "pypi": "https://pypi.org/project/streamlit-authenticator/",
             "avatar": "https://avatars.githubusercontent.com/u/38884731?v=4",
             "stars": "318",
-            "downloads": "68.7k",
+            "downloads": "69.3k",
             "order": 6
         },
         "streamlit-autorefresh": {
@@ -1474,7 +1474,7 @@
         "streamlit-awesome-table": {
             "title": "Awesome Table",
             "author": "caiodearaujo",
-            "description": "Table with many features for Streamlit. This component use Bootstrap and FontAwesome.",
+            "description": "Table with many features for Streamlit. This component use Bootstrap...",
             "pipLink": "pip install streamlit-awesome-table",
             "category": [
                 "all",
@@ -1512,7 +1512,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.4k",
-            "order": 199
+            "order": 200
         },
         "streamlit-base-extras": {
             "title": "Base Extras",
@@ -1555,13 +1555,13 @@
             "pypi": "https://pypi.org/project/streamlit-bias-rank-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "666",
-            "order": 233
+            "downloads": "667",
+            "order": 234
         },
         "streamlit-bokeh-events": {
             "title": "Bokeh Events",
             "author": "ash2shukla",
-            "description": "A streamlit component for bi-directional communication with bokeh plots.",
+            "description": "A streamlit component for bi-directional communication with bokeh...",
             "pipLink": "pip install streamlit-bokeh-events",
             "category": [
                 "all",
@@ -1601,13 +1601,13 @@
             "pypi": "https://pypi.org/project/streamlit-book/",
             "avatar": "https://avatars.githubusercontent.com/u/1276326?v=4",
             "stars": "52",
-            "downloads": "5.2k",
+            "downloads": "5.1k",
             "order": 41
         },
         "streamlit-bridge": {
             "title": "Bridge",
             "author": "binh-vu",
-            "description": "Streamlit components that allow client side (javascript) to send data to the server side (python)...",
+            "description": "Streamlit components that allow client side (javascript) to send data...",
             "pipLink": "pip install streamlit-bridge",
             "category": [
                 "all",
@@ -1630,7 +1630,7 @@
         "streamlit-browser-storage": {
             "title": "Browser Storage",
             "author": "kosfera",
-            "description": "Streamlit component allowing one to connect to the following browser storages:",
+            "description": "Streamlit component allowing one to connect to the following browser...",
             "pipLink": "pip install streamlit-browser-storage",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -1650,7 +1650,7 @@
         "streamlit-business-intelligence": {
             "title": "Business Intelligence",
             "author": "GeorgePearse",
-            "description": "A set of streamlit projects of increasing complexity, for Analytics and ML",
+            "description": "A set of streamlit projects of increasing complexity, for Analytics...",
             "pipLink": "pip install streamlit-business-intelligence",
             "category": [
                 "all",
@@ -1667,7 +1667,7 @@
             "pypi": "https://pypi.org/project/streamlit-business-intelligence/",
             "avatar": "https://avatars.githubusercontent.com/u/47161914?v=4",
             "stars": "1",
-            "downloads": "959",
+            "downloads": "960",
             "order": 150
         },
         "streamlit-callbacks": {
@@ -1690,13 +1690,13 @@
             "pypi": "https://pypi.org/project/streamlit-callbacks/",
             "avatar": "https://avatars.githubusercontent.com/u/67372148?v=4",
             "stars": "6",
-            "downloads": "428",
+            "downloads": "420",
             "order": 108
         },
         "streamlit-camera-input-live": {
             "title": "Camera Input Live",
             "author": "blackary",
-            "description": "Alternative version of st.camera_input which returns the webcam images live, without any button...",
+            "description": "Alternative version of st.camera_input which returns the webcam images...",
             "pipLink": "pip install streamlit-camera-input-live",
             "category": [
                 "all",
@@ -1714,7 +1714,7 @@
             "pypi": "https://pypi.org/project/streamlit-camera-input-live/",
             "avatar": "https://avatars.githubusercontent.com/u/4040678?v=4",
             "stars": "5",
-            "downloads": "5.5k",
+            "downloads": "5.7k",
             "order": 109
         },
         "streamlit-card": {
@@ -1737,7 +1737,7 @@
             "pypi": "https://pypi.org/project/streamlit-card/",
             "avatar": "https://avatars.githubusercontent.com/u/18115514?v=4",
             "stars": "3",
-            "downloads": "5.4k",
+            "downloads": "5.7k",
             "order": 125
         },
         "streamlit-card-select": {
@@ -1757,8 +1757,8 @@
             "pypi": "https://pypi.org/project/streamlit-card-select/",
             "avatar": null,
             "stars": "0",
-            "downloads": "1.6k",
-            "order": 195
+            "downloads": "1.5k",
+            "order": 196
         },
         "streamlit-cards-templates": {
             "title": "Cards Templates",
@@ -1777,8 +1777,8 @@
             "pypi": "https://pypi.org/project/streamlit-cards-templates/",
             "avatar": null,
             "stars": "0",
-            "downloads": "737",
-            "order": 224
+            "downloads": "738",
+            "order": 225
         },
         "streamlit-cardselectable": {
             "title": "Cardselectable",
@@ -1821,7 +1821,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "2.2k",
-            "order": 183
+            "order": 182
         },
         "streamlit-charty": {
             "title": "Charty",
@@ -1840,8 +1840,8 @@
             "pypi": "https://pypi.org/project/streamlit-charty/",
             "avatar": null,
             "stars": "0",
-            "downloads": "910",
-            "order": 217
+            "downloads": "912",
+            "order": 218
         },
         "streamlit-chat": {
             "title": "Chat",
@@ -1883,8 +1883,8 @@
             "pypi": "https://pypi.org/project/streamlit-circular-progress-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "840",
-            "order": 218
+            "downloads": "832",
+            "order": 219
         },
         "streamlit-cookies": {
             "title": "Cookies",
@@ -1903,8 +1903,8 @@
             "pypi": "https://pypi.org/project/streamlit-cookies/",
             "avatar": null,
             "stars": "0",
-            "downloads": "533",
-            "order": 236
+            "downloads": "527",
+            "order": 237
         },
         "streamlit-cookies-manager": {
             "title": "Cookies Manager",
@@ -1969,13 +1969,13 @@
             "pypi": "https://pypi.org/project/streamlit-custom-button/",
             "avatar": null,
             "stars": "0",
-            "downloads": "756",
-            "order": 223
+            "downloads": "758",
+            "order": 224
         },
         "streamlit-custom-notification-box": {
             "title": "Custom Notification Box",
             "author": "Socvest",
-            "description": "A custom notification box for streamlit with the ability to close it out",
+            "description": "A custom notification box for streamlit with the ability to close it...",
             "pipLink": "pip install streamlit-custom-notification-box",
             "category": [
                 "all",
@@ -1998,7 +1998,7 @@
         "streamlit-custom-toggle": {
             "title": "Custom Toggle",
             "author": "ShruAgarwal",
-            "description": "A Streamlit custom component to load heart-shaped Toggle Switch widget \ud83e\udde1",
+            "description": "A Streamlit custom component to load heart-shaped Toggle Switch widget...",
             "pipLink": "pip install streamlit-custom-toggle",
             "category": [
                 "all",
@@ -2016,7 +2016,7 @@
             "pypi": "https://pypi.org/project/streamlit-custom-toggle/",
             "avatar": "https://avatars.githubusercontent.com/u/82811717?v=4",
             "stars": "6",
-            "downloads": "620",
+            "downloads": "624",
             "order": 107
         },
         "streamlit-custom-tooltip": {
@@ -2059,7 +2059,7 @@
             "pypi": "https://pypi.org/project/streamlit-cytoscapejs/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "10",
-            "downloads": "897",
+            "downloads": "892",
             "order": 88
         },
         "streamlit-d3-demo": {
@@ -2082,13 +2082,13 @@
             "pypi": "https://pypi.org/project/streamlit-d3-demo/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "51",
-            "downloads": "766",
+            "downloads": "761",
             "order": 42
         },
         "streamlit-d3graph": {
             "title": "D3Graph",
             "author": "snehankekre",
-            "description": "A simple component to display d3graph network graphs in Streamlit apps.",
+            "description": "A simple component to display d3graph network graphs in Streamlit...",
             "pipLink": "pip install streamlit-d3graph",
             "category": [
                 "all",
@@ -2106,7 +2106,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/20672874?v=4",
             "stars": "15",
             "downloads": "1.5k",
-            "order": 73
+            "order": 74
         },
         "streamlit-data-profile-viewer": {
             "title": "Data Profile Viewer",
@@ -2125,8 +2125,8 @@
             "pypi": "https://pypi.org/project/streamlit-data-profile-viewer/",
             "avatar": null,
             "stars": "0",
-            "downloads": "711",
-            "order": 226
+            "downloads": "700",
+            "order": 229
         },
         "streamlit-datalist": {
             "title": "Datalist",
@@ -2149,7 +2149,7 @@
             "pypi": "https://pypi.org/project/streamlit-datalist/",
             "avatar": "https://avatars.githubusercontent.com/u/108201791?v=4",
             "stars": "2",
-            "downloads": "838",
+            "downloads": "839",
             "order": 137
         },
         "streamlit-dbtree": {
@@ -2190,12 +2190,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.7k",
-            "order": 189
+            "order": 191
         },
         "streamlit-dimensions": {
             "title": "Dimensions",
             "author": "avsolatorio",
-            "description": "A simple streamlit component that returns the dimensions of the container where it is rendered.",
+            "description": "A simple streamlit component that returns the dimensions of the...",
             "pipLink": "pip install streamlit-dimensions",
             "category": [
                 "all",
@@ -2213,7 +2213,7 @@
             "pypi": "https://pypi.org/project/streamlit-dimensions/",
             "avatar": "https://avatars.githubusercontent.com/u/3009596?v=4",
             "stars": "1",
-            "downloads": "476",
+            "downloads": "471",
             "order": 159
         },
         "streamlit-discourse": {
@@ -2302,13 +2302,13 @@
             "pypi": "https://pypi.org/project/streamlit-draggable-list/",
             "avatar": "https://avatars.githubusercontent.com/u/8386849?v=4",
             "stars": "1",
-            "downloads": "496",
+            "downloads": "497",
             "order": 157
         },
         "streamlit-drawable-canvas": {
             "title": "Drawable Canvas",
             "author": "andfanilo",
-            "description": "Do you like Quick, Draw? Well what if you could train/predict doodles drawn inside Streamlit? Also...",
+            "description": "Do you like Quick, Draw? Well what if you could train/predict doodles...",
             "pipLink": "pip install streamlit-drawable-canvas",
             "category": [
                 "all",
@@ -2325,7 +2325,7 @@
             "pypi": "https://pypi.org/project/streamlit-drawable-canvas/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "311",
-            "downloads": "35k",
+            "downloads": "35.2k",
             "order": 7
         },
         "streamlit-dynamic-tabs": {
@@ -2371,7 +2371,7 @@
             "pypi": "https://pypi.org/project/streamlit-echarts/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "283",
-            "downloads": "15.7k",
+            "downloads": "15.8k",
             "order": 9
         },
         "streamlit-editorjs": {
@@ -2391,13 +2391,13 @@
             "pypi": "https://pypi.org/project/streamlit-editorjs/",
             "avatar": "https://avatars.githubusercontent.com/u/45425937?v=4",
             "stars": "0",
-            "downloads": "224",
-            "order": 259
+            "downloads": "229",
+            "order": 260
         },
         "streamlit-elements": {
             "title": "Elements",
             "author": "okld",
-            "description": "Create a draggable and resizable dashboard in Streamlit, featuring Material UI widgets, Monaco...",
+            "description": "Create a draggable and resizable dashboard in Streamlit, featuring...",
             "pipLink": "pip install streamlit-elements",
             "category": [
                 "all",
@@ -2415,7 +2415,7 @@
             "pypi": "https://pypi.org/project/streamlit-elements/",
             "avatar": "https://avatars.githubusercontent.com/u/65978885?v=4",
             "stars": "130",
-            "downloads": "9.9k",
+            "downloads": "10k",
             "order": 19
         },
         "streamlit-elements-fluence": {
@@ -2436,12 +2436,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.9k",
-            "order": 187
+            "order": 188
         },
         "streamlit-embedcode": {
             "title": "Embedcode",
             "author": "randyzwitch",
-            "description": "Streamlit component for embedding code snippets such as GitHub gists, CodePen snippets, Gitlab...",
+            "description": "Streamlit component for embedding code snippets such as GitHub gists...",
             "pipLink": "pip install streamlit-embedcode",
             "category": [
                 "all",
@@ -2458,13 +2458,13 @@
             "pypi": "https://pypi.org/project/streamlit-embedcode/",
             "avatar": "https://avatars.githubusercontent.com/u/2762787?v=4",
             "stars": "35",
-            "downloads": "7.8k",
+            "downloads": "8k",
             "order": 48
         },
         "streamlit-embeded": {
             "title": "Embeded",
             "author": "mapix",
-            "description": "[![GitHub][github_badge]][github_link] [![PyPI][pypi_badge]][pypi_link]",
+            "description": "[![GitHub][github_badge]][github_link]...",
             "pipLink": "pip install streamlit-embeded",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2478,8 +2478,8 @@
             "pypi": "https://pypi.org/project/streamlit-embeded/",
             "avatar": "https://avatars.githubusercontent.com/u/932699?v=4",
             "stars": "0",
-            "downloads": "511",
-            "order": 239
+            "downloads": "506",
+            "order": 240
         },
         "streamlit-excel-table": {
             "title": "Excel Table",
@@ -2507,7 +2507,7 @@
         "streamlit-ext": {
             "title": "Ext",
             "author": "PaleNeutron",
-            "description": "Streamlit widgets synce value with url ,download button which won't cause rerun and some useful...",
+            "description": "Streamlit widgets synce value with url ,download button which won't...",
             "pipLink": "pip install streamlit-ext",
             "category": [
                 "all",
@@ -2530,7 +2530,7 @@
         "streamlit-extras": {
             "title": "Extras",
             "author": "arnaudmiribel",
-            "description": "Discover, try, install and share Streamlit re-usable bits we call \"extras\"!",
+            "description": "Discover, try, install and share Streamlit re-usable bits we call...",
             "pipLink": "pip install streamlit-extras",
             "category": [
                 "all",
@@ -2556,7 +2556,7 @@
             "pypi": "https://pypi.org/project/streamlit-extras/",
             "avatar": "https://avatars.githubusercontent.com/u/7164864?v=4",
             "stars": "114",
-            "downloads": "12k",
+            "downloads": "12.2k",
             "order": 21
         },
         "streamlit-faker": {
@@ -2580,7 +2580,7 @@
             "pypi": "https://pypi.org/project/streamlit-faker/",
             "avatar": "https://avatars.githubusercontent.com/u/7164864?v=4",
             "stars": "14",
-            "downloads": "3.8k",
+            "downloads": "4k",
             "order": 75
         },
         "streamlit-fb-post": {
@@ -2600,8 +2600,8 @@
             "pypi": "https://pypi.org/project/streamlit-fb-post/",
             "avatar": null,
             "stars": "0",
-            "downloads": "508",
-            "order": 240
+            "downloads": "502",
+            "order": 241
         },
         "streamlit-firebase-remote-config-component": {
             "title": "Firebase Remote Config Component",
@@ -2620,8 +2620,8 @@
             "pypi": "https://pypi.org/project/streamlit-firebase-remote-config-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "979",
-            "order": 215
+            "downloads": "980",
+            "order": 216
         },
         "streamlit-firstlanguage": {
             "title": "Firstlanguage",
@@ -2664,8 +2664,8 @@
             "pypi": "https://pypi.org/project/streamlit-flashcard/",
             "avatar": null,
             "stars": "0",
-            "downloads": "393",
-            "order": 253
+            "downloads": "385",
+            "order": 254
         },
         "streamlit-folium": {
             "title": "Folium",
@@ -2687,13 +2687,13 @@
             "pypi": "https://pypi.org/project/streamlit-folium/",
             "avatar": "https://avatars.githubusercontent.com/u/2762787?v=4",
             "stars": "222",
-            "downloads": "68.7k",
+            "downloads": "68.8k",
             "order": 10
         },
         "streamlit-force-graph-simulator": {
             "title": "Force Graph Simulator",
             "author": "erikweis",
-            "description": "Useful for animating dynamic networks using d3 force-directed graph from a purely python interface.",
+            "description": "Useful for animating dynamic networks using d3 force-directed graph...",
             "pipLink": "pip install streamlit-force-graph-simulator",
             "category": [
                 "all",
@@ -2710,13 +2710,13 @@
             "pypi": "https://pypi.org/project/streamlit-force-graph-simulator/",
             "avatar": "https://avatars.githubusercontent.com/u/32458904?v=4",
             "stars": "1",
-            "downloads": "772",
+            "downloads": "759",
             "order": 152
         },
         "streamlit-forum": {
             "title": "Forum",
             "author": "snehankekre",
-            "description": "Streamlit component to display topics from Streamlit's community forum related to any exception.",
+            "description": "Streamlit component to display topics from Streamlit's community forum...",
             "pipLink": "pip install streamlit-forum",
             "category": [
                 "all",
@@ -2733,13 +2733,13 @@
             "pypi": "https://pypi.org/project/streamlit-forum/",
             "avatar": "https://avatars.githubusercontent.com/u/20672874?v=4",
             "stars": "7",
-            "downloads": "456",
-            "order": 103
+            "downloads": "449",
+            "order": 104
         },
         "streamlit-gallery": {
             "title": "Gallery",
             "author": "yevgnen",
-            "description": "To ensure the codebase complies with a style guide, please use flake8, black and isort tools to...",
+            "description": "To ensure the codebase complies with a style guide, please use flake8...",
             "pipLink": "pip install streamlit-gallery",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2753,8 +2753,8 @@
             "pypi": "https://pypi.org/project/streamlit-gallery/",
             "avatar": "https://avatars.githubusercontent.com/u/16749790?v=4",
             "stars": "0",
-            "downloads": "475",
-            "order": 244
+            "downloads": "467",
+            "order": 246
         },
         "streamlit-gchart": {
             "title": "Gchart",
@@ -2778,7 +2778,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/64399223?v=4",
             "stars": "6",
             "downloads": "2.3k",
-            "order": 105
+            "order": 106
         },
         "streamlit-gcp": {
             "title": "Gcp",
@@ -2797,13 +2797,13 @@
             "pypi": "https://pypi.org/project/streamlit-gcp/",
             "avatar": null,
             "stars": "0",
-            "downloads": "430",
-            "order": 249
+            "downloads": "424",
+            "order": 250
         },
         "streamlit-geo-selector": {
             "title": "Geo Selector",
             "author": "crsmi",
-            "description": "Streamlit Leaflet component that allows user to place marker on map and return coordinates.",
+            "description": "Streamlit Leaflet component that allows user to place marker on map...",
             "pipLink": "pip install streamlit-geo-selector",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2817,13 +2817,13 @@
             "pypi": "https://pypi.org/project/streamlit-geo-selector/",
             "avatar": null,
             "stars": "0",
-            "downloads": "406",
-            "order": 252
+            "downloads": "400",
+            "order": 253
         },
         "streamlit-globe": {
             "title": "Globe",
             "author": "padmalcom",
-            "description": "Streamlit Globe is a wrapper around globe.gl and provides some simple data visualization...",
+            "description": "Streamlit Globe is a wrapper around globe.gl and provides some simple...",
             "pipLink": "pip install streamlit-globe",
             "category": [
                 "all",
@@ -2840,7 +2840,7 @@
             "pypi": "https://pypi.org/project/streamlit-globe/",
             "avatar": "https://avatars.githubusercontent.com/u/3961950?v=4",
             "stars": "1",
-            "downloads": "486",
+            "downloads": "481",
             "order": 158
         },
         "streamlit-google-geochart": {
@@ -2860,8 +2860,8 @@
             "pypi": "https://pypi.org/project/streamlit-google-geochart/",
             "avatar": "https://avatars.githubusercontent.com/u/24946400?v=4",
             "stars": "0",
-            "downloads": "376",
-            "order": 254
+            "downloads": "368",
+            "order": 255
         },
         "streamlit-gosling": {
             "title": "Gosling",
@@ -2884,13 +2884,13 @@
             "pypi": "https://pypi.org/project/streamlit-gosling/",
             "avatar": "https://avatars.githubusercontent.com/u/77859375?v=4",
             "stars": "4",
-            "downloads": "3.3k",
+            "downloads": "3.2k",
             "order": 116
         },
         "streamlit-gov-uk-components": {
             "title": "Gov Uk Components",
             "author": "uktrade",
-            "description": "A collection of Streamlit components that use or are inspired by the GOV.UK Design System",
+            "description": "A collection of Streamlit components that use or are inspired by the...",
             "pipLink": "pip install streamlit-gov-uk-components",
             "category": [
                 "all",
@@ -2907,7 +2907,7 @@
             "pypi": "https://pypi.org/project/streamlit-gov-uk-components/",
             "avatar": "https://avatars.githubusercontent.com/u/15107524?v=4",
             "stars": "2",
-            "downloads": "4.6k",
+            "downloads": "4.5k",
             "order": 132
         },
         "streamlit-gradio": {
@@ -2927,7 +2927,7 @@
             "pypi": "https://pypi.org/project/streamlit-gradio/",
             "avatar": null,
             "stars": "0",
-            "downloads": "2.3k",
+            "downloads": "2.2k",
             "order": 181
         },
         "streamlit-graphic-slider": {
@@ -2953,7 +2953,7 @@
         "streamlit-heroku": {
             "title": "Heroku",
             "author": "danielschutz",
-            "description": "A command line tool to help create necessary files to deploy a Streamlit app on Heroku",
+            "description": "A command line tool to help create necessary files to deploy a...",
             "pipLink": "pip install streamlit-heroku",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -2967,7 +2967,7 @@
             "pypi": "https://pypi.org/project/streamlit-heroku/",
             "avatar": "https://avatars.githubusercontent.com/u/53131308?v=4",
             "stars": "1",
-            "downloads": "749",
+            "downloads": "737",
             "order": 153
         },
         "streamlit-hgb": {
@@ -2987,8 +2987,8 @@
             "pypi": "https://pypi.org/project/streamlit-hgb/",
             "avatar": "https://avatars.githubusercontent.com/u/12047794?v=4",
             "stars": "0",
-            "downloads": "705",
-            "order": 227
+            "downloads": "693",
+            "order": 231
         },
         "streamlit-highcharts": {
             "title": "Highcharts",
@@ -3008,7 +3008,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "2.1k",
-            "order": 185
+            "order": 186
         },
         "streamlit-huggingface": {
             "title": "Huggingface",
@@ -3027,8 +3027,8 @@
             "pypi": "https://pypi.org/project/streamlit-huggingface/",
             "avatar": null,
             "stars": "0",
-            "downloads": "410",
-            "order": 250
+            "downloads": "404",
+            "order": 252
         },
         "streamlit-icon-component": {
             "title": "Icon Component",
@@ -3047,8 +3047,8 @@
             "pypi": "https://pypi.org/project/streamlit-icon-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "487",
-            "order": 242
+            "downloads": "482",
+            "order": 243
         },
         "streamlit-image-comparison": {
             "title": "Image Comparison",
@@ -3136,7 +3136,7 @@
             "pypi": "https://pypi.org/project/streamlit-image-select-mod/",
             "avatar": null,
             "stars": "0",
-            "downloads": "408",
+            "downloads": "411",
             "order": 251
         },
         "streamlit-imagegrid": {
@@ -3157,12 +3157,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.6k",
-            "order": 193
+            "order": 194
         },
         "streamlit-img-label": {
             "title": "Img Label",
             "author": "lit26",
-            "description": "streamlit-img-label is a graphical image annotation tool using streamlit. Annotations are saved as...",
+            "description": "streamlit-img-label is a graphical image annotation tool using...",
             "pipLink": "pip install streamlit-img-label",
             "category": [
                 "all",
@@ -3202,7 +3202,7 @@
             "pypi": "https://pypi.org/project/streamlit-inspect/",
             "avatar": "https://avatars.githubusercontent.com/u/15624271?v=4",
             "stars": "2",
-            "downloads": "395",
+            "downloads": "387",
             "order": 138
         },
         "streamlit-inspector": {
@@ -3225,13 +3225,13 @@
             "pypi": "https://pypi.org/project/streamlit-inspector/",
             "avatar": "https://avatars.githubusercontent.com/u/5103165?v=4",
             "stars": "4",
-            "downloads": "806",
+            "downloads": "796",
             "order": 122
         },
         "streamlit-javascript": {
             "title": "Javascript",
             "author": "thunderbug1",
-            "description": "Streamlit component to execute javascript code on the client side and get back the result",
+            "description": "Streamlit component to execute javascript code on the client side and...",
             "pipLink": "pip install streamlit-javascript",
             "category": [
                 "all",
@@ -3269,7 +3269,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.3k",
-            "order": 200
+            "order": 201
         },
         "streamlit-jina": {
             "title": "Jina",
@@ -3298,7 +3298,7 @@
         "streamlit-js-eval": {
             "title": "Js Eval",
             "author": "aghasemi",
-            "description": "A custom Streamlit component to evaluate arbitrary Javascript expressions",
+            "description": "A custom Streamlit component to evaluate arbitrary Javascript...",
             "pipLink": "pip install streamlit-js-eval",
             "category": [
                 "all",
@@ -3321,7 +3321,7 @@
         "streamlit-keboola-api": {
             "title": "Keboola Api",
             "author": "alteirac",
-            "description": "Wrapper around Kebolla python client to list tables, buckets and upload files to stage",
+            "description": "Wrapper around Kebolla python client to list tables, buckets and...",
             "pipLink": "pip install streamlit-keboola-api",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -3336,7 +3336,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.6k",
-            "order": 192
+            "order": 193
         },
         "streamlit-keplergl": {
             "title": "Keplergl",
@@ -3358,13 +3358,13 @@
             "pypi": "https://pypi.org/project/streamlit-keplergl/",
             "avatar": "https://avatars.githubusercontent.com/u/12833517?v=4",
             "stars": "39",
-            "downloads": "7.2k",
+            "downloads": "7.1k",
             "order": 46
         },
         "streamlit-keycloak": {
             "title": "Keycloak",
             "author": "bleumink",
-            "description": "User authentication and single sign-on in your Streamlit app using Keycloak",
+            "description": "User authentication and single sign-on in your Streamlit app using...",
             "pipLink": "pip install streamlit-keycloak",
             "category": [
                 "all",
@@ -3405,7 +3405,7 @@
             "pypi": "https://pypi.org/project/streamlit-keyup/",
             "avatar": "https://avatars.githubusercontent.com/u/4040678?v=4",
             "stars": "23",
-            "downloads": "9.7k",
+            "downloads": "9.9k",
             "order": 58
         },
         "streamlit-kickoff-cli": {
@@ -3448,13 +3448,13 @@
             "pypi": "https://pypi.org/project/streamlit-kpi-metric/",
             "avatar": null,
             "stars": "0",
-            "downloads": "727",
-            "order": 225
+            "downloads": "718",
+            "order": 226
         },
         "streamlit-labelstudio": {
             "title": "Labelstudio",
             "author": "deneland",
-            "description": "A Streamlit component that provides an annotation interface using the LabelStudio Frontend.",
+            "description": "A Streamlit component that provides an annotation interface using the...",
             "pipLink": "pip install streamlit-labelstudio",
             "category": [
                 "all",
@@ -3480,7 +3480,7 @@
         "streamlit-launchpad": {
             "title": "Launchpad",
             "author": "ideonate",
-            "description": "Browse a folder containing multiple streamlit apps and launch them immediately",
+            "description": "Browse a folder containing multiple streamlit apps and launch them...",
             "pipLink": "pip install streamlit-launchpad",
             "category": [
                 "all",
@@ -3497,7 +3497,7 @@
             "pypi": "https://pypi.org/project/streamlit-launchpad/",
             "avatar": "https://avatars.githubusercontent.com/u/48213139?v=4",
             "stars": "85",
-            "downloads": "2.7k",
+            "downloads": "2.6k",
             "order": 32
         },
         "streamlit-leaflet": {
@@ -3520,7 +3520,7 @@
             "pypi": "https://pypi.org/project/streamlit-leaflet/",
             "avatar": "https://avatars.githubusercontent.com/u/5016453?v=4",
             "stars": "4",
-            "downloads": "383",
+            "downloads": "384",
             "order": 123
         },
         "streamlit-letsplot": {
@@ -3563,8 +3563,8 @@
             "pypi": "https://pypi.org/project/streamlit-lianshan/",
             "avatar": null,
             "stars": "0",
-            "downloads": "703",
-            "order": 229
+            "downloads": "704",
+            "order": 228
         },
         "streamlit-likedislike": {
             "title": "Likedislike",
@@ -3603,13 +3603,13 @@
             "pypi": "https://pypi.org/project/streamlit-location/",
             "avatar": null,
             "stars": "0",
-            "downloads": "704",
-            "order": 228
+            "downloads": "694",
+            "order": 230
         },
         "streamlit-login-auth-ui": {
             "title": "Login Auth UI",
             "author": "GauriSP10",
-            "description": "It lets you connect your streamlit application to a pre-built and secure Login/ Sign-Up page.",
+            "description": "It lets you connect your streamlit application to a pre-built and...",
             "pipLink": "pip install streamlit-login-auth-ui",
             "category": [
                 "all",
@@ -3626,7 +3626,7 @@
             "pypi": "https://pypi.org/project/streamlit-login-auth-ui/",
             "avatar": "https://avatars.githubusercontent.com/u/75731631?v=4",
             "stars": "35",
-            "downloads": "979",
+            "downloads": "985",
             "order": 49
         },
         "streamlit-lottie": {
@@ -3649,7 +3649,7 @@
             "pypi": "https://pypi.org/project/streamlit-lottie/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "79",
-            "downloads": "30.7k",
+            "downloads": "30.3k",
             "order": 33
         },
         "streamlit-mapbox": {
@@ -3672,7 +3672,7 @@
             "pypi": "https://pypi.org/project/streamlit-mapbox/",
             "avatar": "https://avatars.githubusercontent.com/u/5016453?v=4",
             "stars": "4",
-            "downloads": "374",
+            "downloads": "375",
             "order": 124
         },
         "streamlit-marquee": {
@@ -3695,7 +3695,7 @@
             "pypi": "https://pypi.org/project/streamlit-marquee/",
             "avatar": "https://avatars.githubusercontent.com/u/27605264?v=4",
             "stars": "1",
-            "downloads": "594",
+            "downloads": "595",
             "order": 156
         },
         "streamlit-message": {
@@ -3715,7 +3715,7 @@
             "pypi": "https://pypi.org/project/streamlit-message/",
             "avatar": null,
             "stars": "0",
-            "downloads": "513",
+            "downloads": "508",
             "order": 238
         },
         "streamlit-metrics": {
@@ -3801,8 +3801,8 @@
             "pypi": "https://pypi.org/project/streamlit-monaco-yaml/",
             "avatar": null,
             "stars": "0",
-            "downloads": "498",
-            "order": 241
+            "downloads": "489",
+            "order": 242
         },
         "streamlit-multi-row-inputs": {
             "title": "Multi Row Inputs",
@@ -3841,8 +3841,8 @@
             "pypi": "https://pypi.org/project/streamlit-multi-textarea/",
             "avatar": null,
             "stars": "0",
-            "downloads": "701",
-            "order": 230
+            "downloads": "707",
+            "order": 227
         },
         "streamlit-multipage": {
             "title": "Multipage",
@@ -3864,7 +3864,7 @@
             "pypi": "https://pypi.org/project/streamlit-multipage/",
             "avatar": "https://avatars.githubusercontent.com/u/14986783?v=4",
             "stars": "10",
-            "downloads": "8.3k",
+            "downloads": "8.2k",
             "order": 86
         },
         "streamlit-nested-layout": {
@@ -3887,7 +3887,7 @@
             "pypi": "https://pypi.org/project/streamlit-nested-layout/",
             "avatar": "https://avatars.githubusercontent.com/u/6729737?v=4",
             "stars": "27",
-            "downloads": "29.3k",
+            "downloads": "29.4k",
             "order": 55
         },
         "streamlit-nivo": {
@@ -3930,8 +3930,8 @@
             "pypi": "https://pypi.org/project/streamlit-node-graph/",
             "avatar": "https://avatars.githubusercontent.com/u/3398156?v=4",
             "stars": "0",
-            "downloads": "3.6k",
-            "order": 171
+            "downloads": "3.5k",
+            "order": 172
         },
         "streamlit-observable": {
             "title": "Observable",
@@ -3974,12 +3974,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.3k",
-            "order": 202
+            "order": 203
         },
         "streamlit-on-Hover-tabs": {
             "title": "On Hover Tabs",
             "author": "Socvest",
-            "description": "Custom tabs for on hover streamlit navigation bar created by custom css",
+            "description": "Custom tabs for on hover streamlit navigation bar created by custom...",
             "pipLink": "pip install streamlit-on-Hover-tabs",
             "category": [
                 "all",
@@ -3996,13 +3996,13 @@
             "pypi": "https://pypi.org/project/streamlit-on-Hover-tabs/",
             "avatar": "https://avatars.githubusercontent.com/u/82335390?v=4",
             "stars": "52",
-            "downloads": "33.7k",
+            "downloads": "33.8k",
             "order": 40
         },
         "streamlit-option-menu": {
             "title": "Option Menu",
             "author": "victoryhb",
-            "description": "streamlit-option-menu is a simple Streamlit component that allows users to select a single item from...",
+            "description": "streamlit-option-menu is a simple Streamlit component that allows...",
             "pipLink": "pip install streamlit-option-menu",
             "category": [
                 "all",
@@ -4019,7 +4019,7 @@
             "pypi": "https://pypi.org/project/streamlit-option-menu/",
             "avatar": "https://avatars.githubusercontent.com/u/3033215?v=4",
             "stars": "161",
-            "downloads": "105.3k",
+            "downloads": "105.1k",
             "order": 14
         },
         "streamlit-pages": {
@@ -4042,7 +4042,7 @@
             "pypi": "https://pypi.org/project/streamlit-pages/",
             "avatar": "https://avatars.githubusercontent.com/u/56408803?v=4",
             "stars": "35",
-            "downloads": "911",
+            "downloads": "0",
             "order": 50
         },
         "streamlit-pagination": {
@@ -4086,7 +4086,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.2k",
-            "order": 205
+            "order": 206
         },
         "streamlit-pagnation": {
             "title": "Pagnation",
@@ -4106,12 +4106,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.2k",
-            "order": 204
+            "order": 205
         },
         "streamlit-pandas": {
             "title": "Pandas",
             "author": "wjbmattingly",
-            "description": "Streamlit Pandas is a component for the Streamlit library. It allows users to load a Pandas...",
+            "description": "Streamlit Pandas is a component for the Streamlit library. It allows...",
             "pipLink": "pip install streamlit-pandas",
             "category": [],
             "image": "https://github.com/wjbmattingly/streamlit-pandas/raw/main/images/streamlit-pandas-app.jpg",
@@ -4178,7 +4178,7 @@
         "streamlit-permalink": {
             "title": "Permalink",
             "author": "franekp",
-            "description": "The streamlit_permalink (shorthand: stp) namespace contains url-aware versions of almost all input...",
+            "description": "The streamlit_permalink (shorthand: stp) namespace contains url-aware...",
             "pipLink": "pip install streamlit-permalink",
             "category": [
                 "all",
@@ -4202,7 +4202,7 @@
         "streamlit-persistence": {
             "title": "Persistence",
             "author": "yaphott",
-            "description": "Allows for persistence of class attributes when using Streamlit in Python.",
+            "description": "Allows for persistence of class attributes when using Streamlit in...",
             "pipLink": "pip install streamlit-persistence",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -4216,7 +4216,7 @@
             "pypi": "https://pypi.org/project/streamlit-persistence/",
             "avatar": "https://avatars.githubusercontent.com/u/56131068?v=4",
             "stars": "1",
-            "downloads": "859",
+            "downloads": "849",
             "order": 151
         },
         "streamlit-pills": {
@@ -4235,14 +4235,14 @@
             "forum": null,
             "pypi": "https://pypi.org/project/streamlit-pills/",
             "avatar": "https://avatars.githubusercontent.com/u/5103165?v=4",
-            "stars": "6",
-            "downloads": "1.1k",
-            "order": 106
+            "stars": "7",
+            "downloads": "1.2k",
+            "order": 101
         },
         "streamlit-player": {
             "title": "Player",
             "author": "okld",
-            "description": "A streamlit component to embed video and music players from various websites.",
+            "description": "A streamlit component to embed video and music players from various...",
             "pipLink": "pip install streamlit-player",
             "category": [
                 "all",
@@ -4265,7 +4265,7 @@
         "streamlit-plotly-events": {
             "title": "Plotly Events",
             "author": "null-jones",
-            "description": "Streamlit component that allows Plotly events to bubble back up to streamlit.  Makes Plotly charts...",
+            "description": "Streamlit component that allows Plotly events to bubble back up to...",
             "pipLink": "pip install streamlit-plotly-events",
             "category": [
                 "all",
@@ -4282,13 +4282,13 @@
             "pypi": "https://pypi.org/project/streamlit-plotly-events/",
             "avatar": "https://avatars.githubusercontent.com/u/42727975?v=4",
             "stars": "105",
-            "downloads": "15.1k",
+            "downloads": "15.2k",
             "order": 25
         },
         "streamlit-plotly-mapboxEvents": {
             "title": "Plotly Mapboxevents",
             "author": "reyemb",
-            "description": "Plotly mapbox component for Streamlit that also allows for events to bubble back up to Streamlit.",
+            "description": "Plotly mapbox component for Streamlit that also allows for events to...",
             "pipLink": "pip install streamlit-plotly-mapboxEvents",
             "category": [
                 "all",
@@ -4357,7 +4357,7 @@
         "streamlit-prophet": {
             "title": "Prophet",
             "author": "artefactory-global",
-            "description": "Streamlit app to train, evaluate and optimize a Prophet forecasting model.",
+            "description": "Streamlit app to train, evaluate and optimize a Prophet forecasting...",
             "pipLink": "pip install streamlit-prophet",
             "category": [
                 "all",
@@ -4374,7 +4374,7 @@
             "pypi": "https://pypi.org/project/streamlit-prophet/",
             "avatar": "https://avatars.githubusercontent.com/u/86767100?v=4",
             "stars": "141",
-            "downloads": "732",
+            "downloads": "728",
             "order": 17
         },
         "streamlit-pydantic": {
@@ -4418,7 +4418,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/1222747?v=4",
             "stars": "0",
             "downloads": "2.2k",
-            "order": 182
+            "order": 183
         },
         "streamlit-quill": {
             "title": "Quill",
@@ -4446,7 +4446,7 @@
         "streamlit-raster": {
             "title": "Raster",
             "author": "giswqs",
-            "description": "A Python package for rendering raster datasets with streamlit and localtileserver",
+            "description": "A Python package for rendering raster datasets with streamlit and...",
             "pipLink": "pip install streamlit-raster",
             "category": [
                 "all",
@@ -4464,8 +4464,8 @@
             "pypi": "https://pypi.org/project/streamlit-raster/",
             "avatar": "https://avatars.githubusercontent.com/u/5016453?v=4",
             "stars": "7",
-            "downloads": "605",
-            "order": 102
+            "downloads": "607",
+            "order": 103
         },
         "streamlit-raw-echarts": {
             "title": "Raw Echarts",
@@ -4487,7 +4487,7 @@
             "pypi": "https://pypi.org/project/streamlit-raw-echarts/",
             "avatar": "https://avatars.githubusercontent.com/u/41217877?v=4",
             "stars": "4",
-            "downloads": "884",
+            "downloads": "871",
             "order": 121
         },
         "streamlit-react-flow": {
@@ -4553,7 +4553,7 @@
             "pypi": "https://pypi.org/project/streamlit-router/",
             "avatar": "https://avatars.githubusercontent.com/u/932699?v=4",
             "stars": "2",
-            "downloads": "332",
+            "downloads": "337",
             "order": 139
         },
         "streamlit-scrollable-textbox": {
@@ -4578,7 +4578,7 @@
             "pypi": "https://pypi.org/project/streamlit-scrollable-textbox/",
             "avatar": "https://avatars.githubusercontent.com/u/108201791?v=4",
             "stars": "1",
-            "downloads": "639",
+            "downloads": "643",
             "order": 155
         },
         "streamlit-searchbar": {
@@ -4599,12 +4599,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.7k",
-            "order": 191
+            "order": 192
         },
         "streamlit-searchbox": {
             "title": "Searchbox",
             "author": "m-wrzr",
-            "description": "Streamlit searchbox that dynamically updates and provides a list of suggestions based on a provided...",
+            "description": "Streamlit searchbox that dynamically updates and provides a list of...",
             "pipLink": "pip install streamlit-searchbox",
             "category": [
                 "all",
@@ -4627,7 +4627,7 @@
         "streamlit-sentence-selector": {
             "title": "Sentence Selector",
             "author": "Doogle_publish",
-            "description": "A selector for a list of sentences or strings, and return a list of sentences or strings that you...",
+            "description": "A selector for a list of sentences or strings, and return a list of...",
             "pipLink": "pip install streamlit-sentence-selector",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -4647,7 +4647,7 @@
         "streamlit-server-state": {
             "title": "Server State",
             "author": "whitphx",
-            "description": "A \"server-wide\" state object shared across sessions on a Streamlit server.",
+            "description": "A \"server-wide\" state object shared across sessions on a Streamlit...",
             "pipLink": "pip install streamlit-server-state",
             "category": [
                 "all",
@@ -4664,7 +4664,7 @@
             "pypi": "https://pypi.org/project/streamlit-server-state/",
             "avatar": "https://avatars.githubusercontent.com/u/3135397?v=4",
             "stars": "37",
-            "downloads": "32.4k",
+            "downloads": "32.5k",
             "order": 47
         },
         "streamlit-shap": {
@@ -4693,7 +4693,7 @@
         "streamlit-sidemenu": {
             "title": "Sidemenu",
             "author": "ais-one",
-            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS. Streamlit for rapid development.",
+            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS.",
             "pipLink": "pip install streamlit-sidemenu",
             "category": [
                 "all",
@@ -4710,7 +4710,7 @@
             "pypi": "https://pypi.org/project/streamlit-sidemenu/",
             "avatar": "https://avatars.githubusercontent.com/u/4284574?v=4",
             "stars": "20",
-            "downloads": "453",
+            "downloads": "448",
             "order": 67
         },
         "streamlit-sortables": {
@@ -4772,9 +4772,9 @@
             "forum": null,
             "pypi": "https://pypi.org/project/streamlit-sparrow-labeling/",
             "avatar": "https://avatars.githubusercontent.com/u/49202856?v=4",
-            "stars": "15",
-            "downloads": "243",
-            "order": 74
+            "stars": "16",
+            "downloads": "369",
+            "order": 73
         },
         "streamlit-stackoverflow": {
             "title": "Stackoverflow",
@@ -4794,7 +4794,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/25757129?v=4",
             "stars": "0",
             "downloads": "1.1k",
-            "order": 209
+            "order": 212
         },
         "streamlit-state": {
             "title": "State",
@@ -4814,7 +4814,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/2161266?v=4",
             "stars": "0",
             "downloads": "441",
-            "order": 248
+            "order": 249
         },
         "streamlit-stepper-bar": {
             "title": "Stepper Bar",
@@ -4833,8 +4833,8 @@
             "pypi": "https://pypi.org/project/streamlit-stepper-bar/",
             "avatar": null,
             "stars": "0",
-            "downloads": "1.1k",
-            "order": 211
+            "downloads": "1k",
+            "order": 213
         },
         "streamlit-supabase-auth": {
             "title": "Supabase Auth",
@@ -4862,7 +4862,7 @@
         "streamlit-sync": {
             "title": "Sync",
             "author": "Wauplin",
-            "description": "A library to easily synchronize sessions between themselves or on local drive for later reuse.",
+            "description": "A library to easily synchronize sessions between themselves or on...",
             "pipLink": "pip install streamlit-sync",
             "category": [
                 "all",
@@ -4879,7 +4879,7 @@
             "pypi": "https://pypi.org/project/streamlit-sync/",
             "avatar": "https://avatars.githubusercontent.com/u/11801849?v=4",
             "stars": "5",
-            "downloads": "494",
+            "downloads": "490",
             "order": 114
         },
         "streamlit-tags": {
@@ -4902,13 +4902,13 @@
             "pypi": "https://pypi.org/project/streamlit-tags/",
             "avatar": "https://avatars.githubusercontent.com/u/49101362?v=4",
             "stars": "110",
-            "downloads": "35.3k",
+            "downloads": "35.4k",
             "order": 22
         },
         "streamlit-tailwind": {
             "title": "Tailwind",
             "author": "kevinismus",
-            "description": "A streamlit component that allows the addition of custom HTML with Tailwind classes",
+            "description": "A streamlit component that allows the addition of custom HTML with...",
             "pipLink": "pip install streamlit-tailwind",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -4922,8 +4922,8 @@
             "pypi": "https://pypi.org/project/streamlit-tailwind/",
             "avatar": "https://avatars.githubusercontent.com/u/57078068?v=4",
             "stars": "0",
-            "downloads": "233",
-            "order": 257
+            "downloads": "236",
+            "order": 259
         },
         "streamlit-talk": {
             "title": "Talk",
@@ -4948,7 +4948,7 @@
         "streamlit-tensorboard": {
             "title": "Tensorboard",
             "author": "snehankekre",
-            "description": "Streamlit component for TensorBoard, TensorFlow's visualization toolkit",
+            "description": "Streamlit component for TensorBoard, TensorFlow's visualization...",
             "pipLink": "pip install streamlit-tensorboard",
             "category": [
                 "all",
@@ -4965,7 +4965,7 @@
             "pypi": "https://pypi.org/project/streamlit-tensorboard/",
             "avatar": "https://avatars.githubusercontent.com/u/20672874?v=4",
             "stars": "27",
-            "downloads": "19.2k",
+            "downloads": "19.3k",
             "order": 56
         },
         "streamlit-terran-timeline": {
@@ -4994,7 +4994,7 @@
         "streamlit-text-annotation": {
             "title": "Text Annotation",
             "author": "victoryhb",
-            "description": "streamlit-text-annotation is a simple streamlit component for displaying and editing text...",
+            "description": "streamlit-text-annotation is a simple streamlit component for...",
             "pipLink": "pip install streamlit-text-annotation",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -5009,12 +5009,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "2k",
-            "order": 186
+            "order": 187
         },
         "streamlit-text-label": {
             "title": "Text Label",
             "author": "sweatybridge",
-            "description": "Custom streamlit component for labelling text selections, based on Label Studio.",
+            "description": "Custom streamlit component for labelling text selections, based on...",
             "pipLink": "pip install streamlit-text-label",
             "category": [
                 "all",
@@ -5032,7 +5032,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/1639722?v=4",
             "stars": "7",
             "downloads": "1.2k",
-            "order": 101
+            "order": 102
         },
         "streamlit-text-like": {
             "title": "Text Like",
@@ -5051,8 +5051,8 @@
             "pypi": "https://pypi.org/project/streamlit-text-like/",
             "avatar": null,
             "stars": "0",
-            "downloads": "456",
-            "order": 247
+            "downloads": "446",
+            "order": 248
         },
         "streamlit-text-rating": {
             "title": "Text Rating",
@@ -5094,7 +5094,7 @@
             "pypi": "https://pypi.org/project/streamlit-tfx/",
             "avatar": "https://avatars.githubusercontent.com/u/11793274?v=4",
             "stars": "1",
-            "downloads": "719",
+            "downloads": "718",
             "order": 154
         },
         "streamlit-theme": {
@@ -5114,13 +5114,13 @@
             "pypi": "https://pypi.org/project/streamlit-theme/",
             "avatar": null,
             "stars": "0",
-            "downloads": "613",
-            "order": 234
+            "downloads": "608",
+            "order": 236
         },
         "streamlit-timeline": {
             "title": "Timeline",
             "author": "innerdoc",
-            "description": "A simple Streamlit Component to display a Timeline in Streamlit apps. It integrates Knightlab's...",
+            "description": "A simple Streamlit Component to display a Timeline in Streamlit apps.",
             "pipLink": "pip install streamlit-timeline",
             "category": [
                 "all",
@@ -5157,8 +5157,8 @@
             "pypi": "https://pypi.org/project/streamlit-timing/",
             "avatar": "https://avatars.githubusercontent.com/u/3135397?v=4",
             "stars": "0",
-            "downloads": "466",
-            "order": 246
+            "downloads": "461",
+            "order": 247
         },
         "streamlit-toggle": {
             "title": "Toggle",
@@ -5178,7 +5178,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/61935833?v=4",
             "stars": "0",
             "downloads": "1.1k",
-            "order": 208
+            "order": 209
         },
         "streamlit-toggle-switch": {
             "title": "Toggle Switch",
@@ -5201,8 +5201,8 @@
             "pypi": "https://pypi.org/project/streamlit-toggle-switch/",
             "avatar": "https://avatars.githubusercontent.com/u/63619432?v=4",
             "stars": "6",
-            "downloads": "4.6k",
-            "order": 104
+            "downloads": "4.8k",
+            "order": 105
         },
         "streamlit-tree-select": {
             "title": "Tree Select",
@@ -5250,7 +5250,7 @@
         "streamlit-vega-lite": {
             "title": "Vega Lite",
             "author": "domoritz",
-            "description": "A Streamlit component to render interactive Vega, Vega-Lite, and Altair visualizations and access...",
+            "description": "A Streamlit component to render interactive Vega, Vega-Lite, and...",
             "pipLink": "pip install streamlit-vega-lite",
             "category": [
                 "all",
@@ -5291,7 +5291,7 @@
             "pypi": "https://pypi.org/project/streamlit-vertical-slider/",
             "avatar": "https://avatars.githubusercontent.com/u/63619432?v=4",
             "stars": "12",
-            "downloads": "5k",
+            "downloads": "5.2k",
             "order": 79
         },
         "streamlit-vis-timeline": {
@@ -5337,7 +5337,7 @@
             "pypi": "https://pypi.org/project/streamlit-visgraph/",
             "avatar": "https://avatars.githubusercontent.com/u/8046408?v=4",
             "stars": "9",
-            "downloads": "764",
+            "downloads": "753",
             "order": 92
         },
         "streamlit-vtkjs": {
@@ -5377,13 +5377,13 @@
             "pypi": "https://pypi.org/project/streamlit-wallet-connect/",
             "avatar": null,
             "stars": "0",
-            "downloads": "3.3k",
+            "downloads": "3.2k",
             "order": 174
         },
         "streamlit-weather-widget": {
             "title": "Weather Widget",
             "author": "muhammadateeb",
-            "description": "A component loading forecast data from OpenWeather and uses react-open-weather React component",
+            "description": "A component loading forecast data from OpenWeather and uses...",
             "pipLink": "pip install streamlit-weather-widget",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -5397,8 +5397,8 @@
             "pypi": "https://pypi.org/project/streamlit-weather-widget/",
             "avatar": null,
             "stars": "0",
-            "downloads": "788",
-            "order": 221
+            "downloads": "781",
+            "order": 222
         },
         "streamlit-webrtc": {
             "title": "WebRTC",
@@ -5420,7 +5420,7 @@
             "pypi": "https://pypi.org/project/streamlit-webrtc/",
             "avatar": "https://avatars.githubusercontent.com/u/3135397?v=4",
             "stars": "640",
-            "downloads": "46.4k",
+            "downloads": "46.2k",
             "order": 2
         },
         "streamlit-webscrap-tool": {
@@ -5441,7 +5441,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1k",
-            "order": 213
+            "order": 215
         },
         "streamlit-widget-tracker": {
             "title": "Widget Tracker",
@@ -5461,7 +5461,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/54973126?v=4",
             "stars": "0",
             "downloads": "1.3k",
-            "order": 201
+            "order": 202
         },
         "streamlit-with-ssl": {
             "title": "With Ssl",
@@ -5480,13 +5480,13 @@
             "pypi": "https://pypi.org/project/streamlit-with-ssl/",
             "avatar": "https://avatars.githubusercontent.com/u/45109972?v=4",
             "stars": "21.8k",
-            "downloads": "163",
+            "downloads": "279",
             "order": 0
         },
         "streamlit-wizard": {
             "title": "Wizard",
             "author": "archydeberker",
-            "description": "Component for handling wizard-like sequential interactions in streamlit",
+            "description": "Component for handling wizard-like sequential interactions in...",
             "pipLink": "pip install streamlit-wizard",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -5501,12 +5501,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/9258253?v=4",
             "stars": "0",
             "downloads": "1.1k",
-            "order": 206
+            "order": 208
         },
         "streamlit-wordcloud": {
             "title": "Wordcloud",
             "author": "rezaho",
-            "description": "This component will allow you to build beautiful and interactive Wordcloud visualizations in...",
+            "description": "This component will allow you to build beautiful and interactive...",
             "pipLink": "pip install streamlit-wordcloud",
             "category": [
                 "all",
@@ -5523,13 +5523,13 @@
             "pypi": "https://pypi.org/project/streamlit-wordcloud/",
             "avatar": "https://avatars.githubusercontent.com/u/43442401?v=4",
             "stars": "11",
-            "downloads": "925",
+            "downloads": "912",
             "order": 85
         },
         "streamlit-ws-localstorage": {
             "title": "Ws Localstorage",
             "author": "gagangoku",
-            "description": "A simple synchronous way of accessing localStorage from your Streamlit app.",
+            "description": "A simple synchronous way of accessing localStorage from your Streamlit...",
             "pipLink": "pip install streamlit-ws-localstorage",
             "category": [
                 "all",
@@ -5552,7 +5552,7 @@
         "streamlit-xui": {
             "title": "Xui",
             "author": "ais-one",
-            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS. Streamlit for rapid development.",
+            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS.",
             "pipLink": "pip install streamlit-xui",
             "category": [
                 "all",
@@ -5569,13 +5569,13 @@
             "pypi": "https://pypi.org/project/streamlit-xui/",
             "avatar": "https://avatars.githubusercontent.com/u/4284574?v=4",
             "stars": "20",
-            "downloads": "761",
+            "downloads": "750",
             "order": 65
         },
         "streamlit-yellowbrick": {
             "title": "Yellowbrick",
             "author": "snehankekre",
-            "description": "Streamlit component for the Yellowbrick visualization and model diagnostics library",
+            "description": "Streamlit component for the Yellowbrick visualization and model...",
             "pipLink": "pip install streamlit-yellowbrick",
             "category": [
                 "all",
@@ -5658,7 +5658,7 @@
             "pypi": "https://pypi.org/project/stvis/",
             "avatar": "https://avatars.githubusercontent.com/u/30182239?v=4",
             "stars": "1",
-            "downloads": "1.4k",
+            "downloads": "1.3k",
             "order": 147
         },
         "vegafusion-streamlit": {
@@ -5678,8 +5678,8 @@
             "pypi": "https://pypi.org/project/vegafusion-streamlit/",
             "avatar": null,
             "stars": "0",
-            "downloads": "193",
-            "order": 260
+            "downloads": "195",
+            "order": 261
         }
     },
     "componentCategories": {
@@ -5828,7 +5828,7 @@
         "audio-recorder-streamlit": {
             "title": "Audio Recorder",
             "author": "Joooohan",
-            "description": "This streamlit component allows to register an audio utterence from a user.",
+            "description": "This streamlit component allows to register an audio utterence from a...",
             "pipLink": "pip install audio-recorder-streamlit",
             "category": [
                 "all",
@@ -5851,7 +5851,7 @@
         "barfi": {
             "title": "Barfi",
             "author": "krish-adi",
-            "description": "Python Flow Based Programming environment that provides a graphical programming environment.",
+            "description": "Python Flow Based Programming environment that provides a graphical...",
             "pipLink": "pip install barfi",
             "category": [
                 "all",
@@ -5867,7 +5867,7 @@
             "forum": "https://discuss.streamlit.io/t/barfi-flow-based-programming-for-data-science-new-component/23237/3",
             "pypi": "https://pypi.org/project/barfi/",
             "avatar": "https://avatars.githubusercontent.com/u/6900550?v=4",
-            "stars": "152",
+            "stars": "154",
             "downloads": "7.4k",
             "order": 16
         },
@@ -5888,7 +5888,7 @@
             "pypi": "https://pypi.org/project/ct-auth0-streamlit-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "609",
+            "downloads": "611",
             "order": 235
         },
         "dvc-streamlit": {
@@ -5908,8 +5908,8 @@
             "pypi": "https://pypi.org/project/dvc-streamlit/",
             "avatar": null,
             "stars": "0",
-            "downloads": "789",
-            "order": 220
+            "downloads": "783",
+            "order": 221
         },
         "elyra-streamlit-extension": {
             "title": "Elyra Extension",
@@ -5931,13 +5931,13 @@
             "pypi": "https://pypi.org/project/elyra-streamlit-extension/",
             "avatar": "https://avatars.githubusercontent.com/u/48364812?v=4",
             "stars": "3",
-            "downloads": "461",
+            "downloads": "464",
             "order": 130
         },
         "extra-streamlit-components": {
             "title": "Extra Components",
             "author": "Mohamed-512",
-            "description": "An all in one place, to find complex or just not available components by default on streamlit.",
+            "description": "An all in one place, to find complex or just not available components...",
             "pipLink": "pip install extra-streamlit-components",
             "category": [
                 "all",
@@ -5957,7 +5957,7 @@
             "pypi": "https://pypi.org/project/extra-streamlit-components/",
             "avatar": "https://avatars.githubusercontent.com/u/31454258?v=4",
             "stars": "173",
-            "downloads": "94.2k",
+            "downloads": "94.8k",
             "order": 13
         },
         "flet-like-streamlit": {
@@ -6000,13 +6000,13 @@
             "pypi": "https://pypi.org/project/hiplot/",
             "avatar": "https://avatars.githubusercontent.com/u/16943930?v=4",
             "stars": "2.4k",
-            "downloads": "220.1k",
+            "downloads": "221k",
             "order": 1
         },
         "hydralit-components": {
             "title": "Hydralit Components",
             "author": "TangleSpace",
-            "description": "A package of custom components for Streamlit and Hydralit. Can be used directly or in combination...",
+            "description": "A package of custom components for Streamlit and Hydralit. Can be used...",
             "pipLink": "pip install hydralit-components",
             "category": [
                 "all",
@@ -6023,7 +6023,7 @@
             "pypi": "https://pypi.org/project/hydralit-components/",
             "avatar": "https://avatars.githubusercontent.com/u/50782232?v=4",
             "stars": "62",
-            "downloads": "35.8k",
+            "downloads": "35.6k",
             "order": 37
         },
         "metastreamlit": {
@@ -6072,7 +6072,7 @@
         "nlu": {
             "title": "NLU",
             "author": "JohnSnowLabs",
-            "description": "1 line for thousands of State of The Art NLP models in hundreds of languages  The fastest and most...",
+            "description": "1 line for thousands of State of The Art NLP models in hundreds of...",
             "pipLink": "pip install nlu",
             "category": [
                 "all",
@@ -6118,7 +6118,7 @@
         "pollination-streamlit": {
             "title": "Pollination",
             "author": "pollination",
-            "description": "A pollination extention to facilitate working with Pollination in Streamlit apps",
+            "description": "A pollination extention to facilitate working with Pollination in...",
             "pipLink": "pip install pollination-streamlit",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -6153,12 +6153,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/18115514?v=4",
             "stars": "0",
             "downloads": "3.6k",
-            "order": 172
+            "order": 171
         },
         "semantha-streamlit-compare": {
             "title": "Semantha Compare",
             "author": "thingsTHINKING",
-            "description": "This is the project for a streamlit component which uses semantha semantic compare.",
+            "description": "This is the project for a streamlit component which uses semantha...",
             "pipLink": "pip install semantha-streamlit-compare",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -6172,7 +6172,7 @@
             "pypi": "https://pypi.org/project/semantha-streamlit-compare/",
             "avatar": null,
             "stars": "0",
-            "downloads": "1.7k",
+            "downloads": "1.8k",
             "order": 190
         },
         "sherpa-streamlit": {
@@ -6192,7 +6192,7 @@
             "pypi": "https://pypi.org/project/sherpa-streamlit/",
             "avatar": "https://avatars.githubusercontent.com/u/8970395?v=4",
             "stars": "0",
-            "downloads": "16k",
+            "downloads": "15.7k",
             "order": 161
         },
         "spacy-streamlit": {
@@ -6214,8 +6214,8 @@
             "forum": null,
             "pypi": "https://pypi.org/project/spacy-streamlit/",
             "avatar": "https://avatars.githubusercontent.com/u/20011530?v=4",
-            "stars": "611",
-            "downloads": "19.7k",
+            "stars": "612",
+            "downloads": "19.6k",
             "order": 3
         },
         "st-agraph-symrzknr": {
@@ -6236,7 +6236,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/30259408?v=4",
             "stars": "0",
             "downloads": "1.5k",
-            "order": 197
+            "order": 198
         },
         "st-annotated-text": {
             "title": "Annotated Text",
@@ -6258,7 +6258,7 @@
             "pypi": "https://pypi.org/project/st-annotated-text/",
             "avatar": "https://avatars.githubusercontent.com/u/690814?v=4",
             "stars": "307",
-            "downloads": "37.7k",
+            "downloads": "38.2k",
             "order": 8
         },
         "st-btn-select": {
@@ -6302,7 +6302,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "760",
-            "order": 222
+            "order": 223
         },
         "st-card-component": {
             "title": "Card Component",
@@ -6345,7 +6345,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "814",
-            "order": 219
+            "order": 220
         },
         "st-card-component-2": {
             "title": "Card Component 2",
@@ -6364,8 +6364,8 @@
             "pypi": "https://pypi.org/project/st-card-component-2/",
             "avatar": null,
             "stars": "0",
-            "downloads": "483",
-            "order": 243
+            "downloads": "476",
+            "order": 244
         },
         "st-card-component-alex": {
             "title": "Card Component Alex",
@@ -6384,8 +6384,8 @@
             "pypi": "https://pypi.org/project/st-card-component-alex/",
             "avatar": null,
             "stars": "0",
-            "downloads": "513",
-            "order": 237
+            "downloads": "507",
+            "order": 239
         },
         "st-card-search-component": {
             "title": "Card Search Component",
@@ -6405,12 +6405,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.8k",
-            "order": 188
+            "order": 189
         },
         "st-click-detector": {
             "title": "Click Detector",
             "author": "vivien000",
-            "description": "st-click-detector is a Streamlit component to display some HTML content and detect when hyperlinks...",
+            "description": "st-click-detector is a Streamlit component to display some HTML...",
             "pipLink": "pip install st-click-detector",
             "category": [
                 "all",
@@ -6434,7 +6434,7 @@
         "st-clickable-images": {
             "title": "Clickable Images",
             "author": "vivien000",
-            "description": "[You might be interested by st-click-detector which generalizes this component]",
+            "description": "[You might be interested by st-click-detector which generalizes this...",
             "pipLink": "pip install st-clickable-images",
             "category": [
                 "all",
@@ -6471,13 +6471,13 @@
             "pypi": "https://pypi.org/project/st-comp-3dmodel/",
             "avatar": null,
             "stars": "0",
-            "downloads": "699",
-            "order": 231
+            "downloads": "692",
+            "order": 232
         },
         "st-compare-stock": {
             "title": "Compare Stock",
             "author": "MihaiBlebea",
-            "description": "This repo contains templates and example code for creating Streamlit Components.",
+            "description": "This repo contains templates and example code for creating Streamlit...",
             "pipLink": "pip install st-compare-stock",
             "category": [],
             "image": "https://github.com/MihaiBlebea/streamlit_compare_stock/raw/master/quickstart.png",
@@ -6491,13 +6491,13 @@
             "pypi": "https://pypi.org/project/st-compare-stock/",
             "avatar": "https://avatars.githubusercontent.com/u/28536015?v=4",
             "stars": "0",
-            "downloads": "1.5k",
-            "order": 198
+            "downloads": "1.4k",
+            "order": 199
         },
         "st-cytoscape": {
             "title": "Cytoscape",
             "author": "vivien000",
-            "description": "st-cytoscape is a Streamlit component to embed a Cytoscape.js graph and get the selected nodes and...",
+            "description": "st-cytoscape is a Streamlit component to embed a Cytoscape.js graph...",
             "pipLink": "pip install st-cytoscape",
             "category": [
                 "all",
@@ -6514,7 +6514,7 @@
             "pypi": "https://pypi.org/project/st-cytoscape/",
             "avatar": "https://avatars.githubusercontent.com/u/44180787?v=4",
             "stars": "8",
-            "downloads": "507",
+            "downloads": "498",
             "order": 96
         },
         "st-dataframe-component": {
@@ -6535,7 +6535,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.1k",
-            "order": 212
+            "order": 211
         },
         "st-dep-parsing-component": {
             "title": "Dep Parsing Component",
@@ -6555,7 +6555,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.6k",
-            "order": 196
+            "order": 195
         },
         "st-echarts-events": {
             "title": "Echarts Events",
@@ -6577,7 +6577,7 @@
             "pypi": "https://pypi.org/project/st-echarts-events/",
             "avatar": "https://avatars.githubusercontent.com/u/45062230?v=4",
             "stars": "1",
-            "downloads": "414",
+            "downloads": "405",
             "order": 160
         },
         "st-event-selection-interfaces": {
@@ -6598,7 +6598,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "316",
-            "order": 256
+            "order": 257
         },
         "st-execbox": {
             "title": "Execbox",
@@ -6620,7 +6620,7 @@
             "pypi": "https://pypi.org/project/st-execbox/",
             "avatar": "https://avatars.githubusercontent.com/u/690814?v=4",
             "stars": "8",
-            "downloads": "496",
+            "downloads": "489",
             "order": 97
         },
         "st-flashcard": {
@@ -6640,8 +6640,8 @@
             "pypi": "https://pypi.org/project/st-flashcard/",
             "avatar": null,
             "stars": "0",
-            "downloads": "1.6k",
-            "order": 194
+            "downloads": "1.5k",
+            "order": 197
         },
         "st-highlightable-text": {
             "title": "Highlightable Text",
@@ -6770,8 +6770,8 @@
             "pypi": "https://pypi.org/project/st-row-buttons/",
             "avatar": "https://avatars.githubusercontent.com/u/32181194?v=4",
             "stars": "0",
-            "downloads": "1.3k",
-            "order": 203
+            "downloads": "1.2k",
+            "order": 204
         },
         "st-searchbar": {
             "title": "Searchbar",
@@ -6796,7 +6796,7 @@
         "st-speckmol": {
             "title": "Speckmol",
             "author": "avrabyt",
-            "description": "\ud83e\uddecStreamlit Component for creating Speck molecular structures within Streamlit Web app\ud83d\ude80.",
+            "description": "\ud83e\uddecStreamlit Component for creating Speck molecular structures within...",
             "pipLink": "pip install st-speckmol",
             "category": [
                 "all",
@@ -6819,7 +6819,7 @@
         "st-stylish": {
             "title": "Stylish",
             "author": "busbyk",
-            "description": "A collection of custom components and helper functions for Streamlit that are focused on providing...",
+            "description": "A collection of custom components and helper functions for Streamlit...",
             "pipLink": "pip install st-stylish",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -6833,8 +6833,8 @@
             "pypi": "https://pypi.org/project/st-stylish/",
             "avatar": "https://avatars.githubusercontent.com/u/5056653?v=4",
             "stars": "0",
-            "downloads": "667",
-            "order": 232
+            "downloads": "668",
+            "order": 233
         },
         "st-textnav-components": {
             "title": "Textnav Components",
@@ -6854,7 +6854,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "320",
-            "order": 255
+            "order": 256
         },
         "st-tokenization-vis-component": {
             "title": "Tokenization Vis Component",
@@ -6879,7 +6879,7 @@
         "st-vizzu": {
             "title": "Vizzu",
             "author": "avrabyt",
-            "description": "Create animated charts easily! A ipyvizzu wrapper for intuitive usage of ipyvizzu functions and...",
+            "description": "Create animated charts easily! A ipyvizzu wrapper for intuitive usage...",
             "pipLink": "pip install st-vizzu",
             "category": [
                 "all",
@@ -6896,13 +6896,13 @@
             "pypi": "https://pypi.org/project/st-vizzu/",
             "avatar": "https://avatars.githubusercontent.com/u/96898985?v=4",
             "stars": "18",
-            "downloads": "441",
+            "downloads": "443",
             "order": 69
         },
         "stmol": {
             "title": "Stmol",
             "author": "napoles-uach",
-            "description": "This is the repository for the Stmol project, a Streamlit component that uses py3Dmol to render...",
+            "description": "This is the repository for the Stmol project, a Streamlit component...",
             "pipLink": "pip install stmol",
             "category": [
                 "all",
@@ -6964,7 +6964,7 @@
             "forum": "https://discuss.streamlit.io/t/stqdm-a-tqdm-like-progress-bar-for-streamlit/10097",
             "pypi": "https://pypi.org/project/stqdm/",
             "avatar": "https://avatars.githubusercontent.com/u/17848620?v=4",
-            "stars": "101",
+            "stars": "102",
             "downloads": "81.4k",
             "order": 27
         },
@@ -7009,7 +7009,7 @@
             "pypi": "https://pypi.org/project/streamlit-ace/",
             "avatar": "https://avatars.githubusercontent.com/u/65978885?v=4",
             "stars": "139",
-            "downloads": "57.9k",
+            "downloads": "58.3k",
             "order": 18
         },
         "streamlit-aggrid": {
@@ -7031,14 +7031,14 @@
             "forum": "https://discuss.streamlit.io/t/ag-grid-component-with-input-support/8108",
             "pypi": "https://pypi.org/project/streamlit-aggrid/",
             "avatar": "https://avatars.githubusercontent.com/u/17606067?v=4",
-            "stars": "547",
-            "downloads": "341.3k",
+            "stars": "548",
+            "downloads": "343.7k",
             "order": 5
         },
         "streamlit-aggrid-community": {
             "title": "Aggrid Community",
             "author": "LucasTrg",
-            "description": "Implementation of Ag-Grid component for Streamlit. Safe from evil licenses.",
+            "description": "Implementation of Ag-Grid component for Streamlit. Safe from evil...",
             "pipLink": "pip install streamlit-aggrid-community",
             "category": [],
             "image": "https://github.com/PablocFonseca/streamlit-aggrid/raw/main/group_selection_example.gif",
@@ -7052,8 +7052,8 @@
             "pypi": "https://pypi.org/project/streamlit-aggrid-community/",
             "avatar": "https://avatars.githubusercontent.com/u/47852577?v=4",
             "stars": "0",
-            "downloads": "967",
-            "order": 216
+            "downloads": "971",
+            "order": 217
         },
         "streamlit-agraph": {
             "title": "Agraph",
@@ -7075,7 +7075,7 @@
             "pypi": "https://pypi.org/project/streamlit-agraph/",
             "avatar": "https://avatars.githubusercontent.com/u/19912393?v=4",
             "stars": "155",
-            "downloads": "19k",
+            "downloads": "18.9k",
             "order": 15
         },
         "streamlit-alert-component": {
@@ -7095,8 +7095,8 @@
             "pypi": "https://pypi.org/project/streamlit-alert-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "0",
-            "order": 261
+            "downloads": "2.2k",
+            "order": 184
         },
         "streamlit-analytics": {
             "title": "Analytics",
@@ -7138,13 +7138,13 @@
             "pypi": "https://pypi.org/project/streamlit-antd/",
             "avatar": "https://avatars.githubusercontent.com/u/932699?v=4",
             "stars": "0",
-            "downloads": "232",
+            "downloads": "240",
             "order": 258
         },
         "streamlit-antv": {
             "title": "Antv",
             "author": "ais-one",
-            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS. Streamlit for rapid development.",
+            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS.",
             "pipLink": "pip install streamlit-antv",
             "category": [
                 "all",
@@ -7161,7 +7161,7 @@
             "pypi": "https://pypi.org/project/streamlit-antv/",
             "avatar": "https://avatars.githubusercontent.com/u/4284574?v=4",
             "stars": "20",
-            "downloads": "738",
+            "downloads": "728",
             "order": 66
         },
         "streamlit-audiorecorder": {
@@ -7228,7 +7228,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "2.1k",
-            "order": 184
+            "order": 185
         },
         "streamlit-auth0-service": {
             "title": "Auth0 Service",
@@ -7247,13 +7247,13 @@
             "pypi": "https://pypi.org/project/streamlit-auth0-service/",
             "avatar": null,
             "stars": "0",
-            "downloads": "5k",
+            "downloads": "4.9k",
             "order": 164
         },
         "streamlit-authenticator": {
             "title": "Authenticator",
             "author": "mkhorasani",
-            "description": "A secure authentication module to validate user credentials in a Streamlit application.",
+            "description": "A secure authentication module to validate user credentials in a...",
             "pipLink": "pip install streamlit-authenticator",
             "category": [
                 "all",
@@ -7270,7 +7270,7 @@
             "pypi": "https://pypi.org/project/streamlit-authenticator/",
             "avatar": "https://avatars.githubusercontent.com/u/38884731?v=4",
             "stars": "318",
-            "downloads": "68.7k",
+            "downloads": "69.3k",
             "order": 6
         },
         "streamlit-autorefresh": {
@@ -7299,7 +7299,7 @@
         "streamlit-awesome-table": {
             "title": "Awesome Table",
             "author": "caiodearaujo",
-            "description": "Table with many features for Streamlit. This component use Bootstrap and FontAwesome.",
+            "description": "Table with many features for Streamlit. This component use Bootstrap...",
             "pipLink": "pip install streamlit-awesome-table",
             "category": [
                 "all",
@@ -7337,7 +7337,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.4k",
-            "order": 199
+            "order": 200
         },
         "streamlit-base-extras": {
             "title": "Base Extras",
@@ -7380,13 +7380,13 @@
             "pypi": "https://pypi.org/project/streamlit-bias-rank-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "666",
-            "order": 233
+            "downloads": "667",
+            "order": 234
         },
         "streamlit-bokeh-events": {
             "title": "Bokeh Events",
             "author": "ash2shukla",
-            "description": "A streamlit component for bi-directional communication with bokeh plots.",
+            "description": "A streamlit component for bi-directional communication with bokeh...",
             "pipLink": "pip install streamlit-bokeh-events",
             "category": [
                 "all",
@@ -7426,13 +7426,13 @@
             "pypi": "https://pypi.org/project/streamlit-book/",
             "avatar": "https://avatars.githubusercontent.com/u/1276326?v=4",
             "stars": "52",
-            "downloads": "5.2k",
+            "downloads": "5.1k",
             "order": 41
         },
         "streamlit-bridge": {
             "title": "Bridge",
             "author": "binh-vu",
-            "description": "Streamlit components that allow client side (javascript) to send data to the server side (python)...",
+            "description": "Streamlit components that allow client side (javascript) to send data...",
             "pipLink": "pip install streamlit-bridge",
             "category": [
                 "all",
@@ -7455,7 +7455,7 @@
         "streamlit-browser-storage": {
             "title": "Browser Storage",
             "author": "kosfera",
-            "description": "Streamlit component allowing one to connect to the following browser storages:",
+            "description": "Streamlit component allowing one to connect to the following browser...",
             "pipLink": "pip install streamlit-browser-storage",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -7475,7 +7475,7 @@
         "streamlit-business-intelligence": {
             "title": "Business Intelligence",
             "author": "GeorgePearse",
-            "description": "A set of streamlit projects of increasing complexity, for Analytics and ML",
+            "description": "A set of streamlit projects of increasing complexity, for Analytics...",
             "pipLink": "pip install streamlit-business-intelligence",
             "category": [
                 "all",
@@ -7492,7 +7492,7 @@
             "pypi": "https://pypi.org/project/streamlit-business-intelligence/",
             "avatar": "https://avatars.githubusercontent.com/u/47161914?v=4",
             "stars": "1",
-            "downloads": "959",
+            "downloads": "960",
             "order": 150
         },
         "streamlit-callbacks": {
@@ -7515,13 +7515,13 @@
             "pypi": "https://pypi.org/project/streamlit-callbacks/",
             "avatar": "https://avatars.githubusercontent.com/u/67372148?v=4",
             "stars": "6",
-            "downloads": "428",
+            "downloads": "420",
             "order": 108
         },
         "streamlit-camera-input-live": {
             "title": "Camera Input Live",
             "author": "blackary",
-            "description": "Alternative version of st.camera_input which returns the webcam images live, without any button...",
+            "description": "Alternative version of st.camera_input which returns the webcam images...",
             "pipLink": "pip install streamlit-camera-input-live",
             "category": [
                 "all",
@@ -7539,7 +7539,7 @@
             "pypi": "https://pypi.org/project/streamlit-camera-input-live/",
             "avatar": "https://avatars.githubusercontent.com/u/4040678?v=4",
             "stars": "5",
-            "downloads": "5.5k",
+            "downloads": "5.7k",
             "order": 109
         },
         "streamlit-card": {
@@ -7562,7 +7562,7 @@
             "pypi": "https://pypi.org/project/streamlit-card/",
             "avatar": "https://avatars.githubusercontent.com/u/18115514?v=4",
             "stars": "3",
-            "downloads": "5.4k",
+            "downloads": "5.7k",
             "order": 125
         },
         "streamlit-card-select": {
@@ -7582,8 +7582,8 @@
             "pypi": "https://pypi.org/project/streamlit-card-select/",
             "avatar": null,
             "stars": "0",
-            "downloads": "1.6k",
-            "order": 195
+            "downloads": "1.5k",
+            "order": 196
         },
         "streamlit-cards-templates": {
             "title": "Cards Templates",
@@ -7602,8 +7602,8 @@
             "pypi": "https://pypi.org/project/streamlit-cards-templates/",
             "avatar": null,
             "stars": "0",
-            "downloads": "737",
-            "order": 224
+            "downloads": "738",
+            "order": 225
         },
         "streamlit-cardselectable": {
             "title": "Cardselectable",
@@ -7646,7 +7646,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "2.2k",
-            "order": 183
+            "order": 182
         },
         "streamlit-charty": {
             "title": "Charty",
@@ -7665,8 +7665,8 @@
             "pypi": "https://pypi.org/project/streamlit-charty/",
             "avatar": null,
             "stars": "0",
-            "downloads": "910",
-            "order": 217
+            "downloads": "912",
+            "order": 218
         },
         "streamlit-chat": {
             "title": "Chat",
@@ -7708,8 +7708,8 @@
             "pypi": "https://pypi.org/project/streamlit-circular-progress-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "840",
-            "order": 218
+            "downloads": "832",
+            "order": 219
         },
         "streamlit-cookies": {
             "title": "Cookies",
@@ -7728,8 +7728,8 @@
             "pypi": "https://pypi.org/project/streamlit-cookies/",
             "avatar": null,
             "stars": "0",
-            "downloads": "533",
-            "order": 236
+            "downloads": "527",
+            "order": 237
         },
         "streamlit-cookies-manager": {
             "title": "Cookies Manager",
@@ -7794,13 +7794,13 @@
             "pypi": "https://pypi.org/project/streamlit-custom-button/",
             "avatar": null,
             "stars": "0",
-            "downloads": "756",
-            "order": 223
+            "downloads": "758",
+            "order": 224
         },
         "streamlit-custom-notification-box": {
             "title": "Custom Notification Box",
             "author": "Socvest",
-            "description": "A custom notification box for streamlit with the ability to close it out",
+            "description": "A custom notification box for streamlit with the ability to close it...",
             "pipLink": "pip install streamlit-custom-notification-box",
             "category": [
                 "all",
@@ -7823,7 +7823,7 @@
         "streamlit-custom-toggle": {
             "title": "Custom Toggle",
             "author": "ShruAgarwal",
-            "description": "A Streamlit custom component to load heart-shaped Toggle Switch widget \ud83e\udde1",
+            "description": "A Streamlit custom component to load heart-shaped Toggle Switch widget...",
             "pipLink": "pip install streamlit-custom-toggle",
             "category": [
                 "all",
@@ -7841,7 +7841,7 @@
             "pypi": "https://pypi.org/project/streamlit-custom-toggle/",
             "avatar": "https://avatars.githubusercontent.com/u/82811717?v=4",
             "stars": "6",
-            "downloads": "620",
+            "downloads": "624",
             "order": 107
         },
         "streamlit-custom-tooltip": {
@@ -7884,7 +7884,7 @@
             "pypi": "https://pypi.org/project/streamlit-cytoscapejs/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "10",
-            "downloads": "897",
+            "downloads": "892",
             "order": 88
         },
         "streamlit-d3-demo": {
@@ -7907,13 +7907,13 @@
             "pypi": "https://pypi.org/project/streamlit-d3-demo/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "51",
-            "downloads": "766",
+            "downloads": "761",
             "order": 42
         },
         "streamlit-d3graph": {
             "title": "D3Graph",
             "author": "snehankekre",
-            "description": "A simple component to display d3graph network graphs in Streamlit apps.",
+            "description": "A simple component to display d3graph network graphs in Streamlit...",
             "pipLink": "pip install streamlit-d3graph",
             "category": [
                 "all",
@@ -7931,7 +7931,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/20672874?v=4",
             "stars": "15",
             "downloads": "1.5k",
-            "order": 73
+            "order": 74
         },
         "streamlit-data-profile-viewer": {
             "title": "Data Profile Viewer",
@@ -7950,8 +7950,8 @@
             "pypi": "https://pypi.org/project/streamlit-data-profile-viewer/",
             "avatar": null,
             "stars": "0",
-            "downloads": "711",
-            "order": 226
+            "downloads": "700",
+            "order": 229
         },
         "streamlit-datalist": {
             "title": "Datalist",
@@ -7974,7 +7974,7 @@
             "pypi": "https://pypi.org/project/streamlit-datalist/",
             "avatar": "https://avatars.githubusercontent.com/u/108201791?v=4",
             "stars": "2",
-            "downloads": "838",
+            "downloads": "839",
             "order": 137
         },
         "streamlit-dbtree": {
@@ -8015,12 +8015,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.7k",
-            "order": 189
+            "order": 191
         },
         "streamlit-dimensions": {
             "title": "Dimensions",
             "author": "avsolatorio",
-            "description": "A simple streamlit component that returns the dimensions of the container where it is rendered.",
+            "description": "A simple streamlit component that returns the dimensions of the...",
             "pipLink": "pip install streamlit-dimensions",
             "category": [
                 "all",
@@ -8038,7 +8038,7 @@
             "pypi": "https://pypi.org/project/streamlit-dimensions/",
             "avatar": "https://avatars.githubusercontent.com/u/3009596?v=4",
             "stars": "1",
-            "downloads": "476",
+            "downloads": "471",
             "order": 159
         },
         "streamlit-discourse": {
@@ -8127,13 +8127,13 @@
             "pypi": "https://pypi.org/project/streamlit-draggable-list/",
             "avatar": "https://avatars.githubusercontent.com/u/8386849?v=4",
             "stars": "1",
-            "downloads": "496",
+            "downloads": "497",
             "order": 157
         },
         "streamlit-drawable-canvas": {
             "title": "Drawable Canvas",
             "author": "andfanilo",
-            "description": "Do you like Quick, Draw? Well what if you could train/predict doodles drawn inside Streamlit? Also...",
+            "description": "Do you like Quick, Draw? Well what if you could train/predict doodles...",
             "pipLink": "pip install streamlit-drawable-canvas",
             "category": [
                 "all",
@@ -8150,7 +8150,7 @@
             "pypi": "https://pypi.org/project/streamlit-drawable-canvas/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "311",
-            "downloads": "35k",
+            "downloads": "35.2k",
             "order": 7
         },
         "streamlit-dynamic-tabs": {
@@ -8196,7 +8196,7 @@
             "pypi": "https://pypi.org/project/streamlit-echarts/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "283",
-            "downloads": "15.7k",
+            "downloads": "15.8k",
             "order": 9
         },
         "streamlit-editorjs": {
@@ -8216,13 +8216,13 @@
             "pypi": "https://pypi.org/project/streamlit-editorjs/",
             "avatar": "https://avatars.githubusercontent.com/u/45425937?v=4",
             "stars": "0",
-            "downloads": "224",
-            "order": 259
+            "downloads": "229",
+            "order": 260
         },
         "streamlit-elements": {
             "title": "Elements",
             "author": "okld",
-            "description": "Create a draggable and resizable dashboard in Streamlit, featuring Material UI widgets, Monaco...",
+            "description": "Create a draggable and resizable dashboard in Streamlit, featuring...",
             "pipLink": "pip install streamlit-elements",
             "category": [
                 "all",
@@ -8240,7 +8240,7 @@
             "pypi": "https://pypi.org/project/streamlit-elements/",
             "avatar": "https://avatars.githubusercontent.com/u/65978885?v=4",
             "stars": "130",
-            "downloads": "9.9k",
+            "downloads": "10k",
             "order": 19
         },
         "streamlit-elements-fluence": {
@@ -8261,12 +8261,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.9k",
-            "order": 187
+            "order": 188
         },
         "streamlit-embedcode": {
             "title": "Embedcode",
             "author": "randyzwitch",
-            "description": "Streamlit component for embedding code snippets such as GitHub gists, CodePen snippets, Gitlab...",
+            "description": "Streamlit component for embedding code snippets such as GitHub gists...",
             "pipLink": "pip install streamlit-embedcode",
             "category": [
                 "all",
@@ -8283,13 +8283,13 @@
             "pypi": "https://pypi.org/project/streamlit-embedcode/",
             "avatar": "https://avatars.githubusercontent.com/u/2762787?v=4",
             "stars": "35",
-            "downloads": "7.8k",
+            "downloads": "8k",
             "order": 48
         },
         "streamlit-embeded": {
             "title": "Embeded",
             "author": "mapix",
-            "description": "[![GitHub][github_badge]][github_link] [![PyPI][pypi_badge]][pypi_link]",
+            "description": "[![GitHub][github_badge]][github_link]...",
             "pipLink": "pip install streamlit-embeded",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -8303,8 +8303,8 @@
             "pypi": "https://pypi.org/project/streamlit-embeded/",
             "avatar": "https://avatars.githubusercontent.com/u/932699?v=4",
             "stars": "0",
-            "downloads": "511",
-            "order": 239
+            "downloads": "506",
+            "order": 240
         },
         "streamlit-excel-table": {
             "title": "Excel Table",
@@ -8332,7 +8332,7 @@
         "streamlit-ext": {
             "title": "Ext",
             "author": "PaleNeutron",
-            "description": "Streamlit widgets synce value with url ,download button which won't cause rerun and some useful...",
+            "description": "Streamlit widgets synce value with url ,download button which won't...",
             "pipLink": "pip install streamlit-ext",
             "category": [
                 "all",
@@ -8355,7 +8355,7 @@
         "streamlit-extras": {
             "title": "Extras",
             "author": "arnaudmiribel",
-            "description": "Discover, try, install and share Streamlit re-usable bits we call \"extras\"!",
+            "description": "Discover, try, install and share Streamlit re-usable bits we call...",
             "pipLink": "pip install streamlit-extras",
             "category": [
                 "all",
@@ -8381,7 +8381,7 @@
             "pypi": "https://pypi.org/project/streamlit-extras/",
             "avatar": "https://avatars.githubusercontent.com/u/7164864?v=4",
             "stars": "114",
-            "downloads": "12k",
+            "downloads": "12.2k",
             "order": 21
         },
         "streamlit-faker": {
@@ -8405,7 +8405,7 @@
             "pypi": "https://pypi.org/project/streamlit-faker/",
             "avatar": "https://avatars.githubusercontent.com/u/7164864?v=4",
             "stars": "14",
-            "downloads": "3.8k",
+            "downloads": "4k",
             "order": 75
         },
         "streamlit-fb-post": {
@@ -8425,8 +8425,8 @@
             "pypi": "https://pypi.org/project/streamlit-fb-post/",
             "avatar": null,
             "stars": "0",
-            "downloads": "508",
-            "order": 240
+            "downloads": "502",
+            "order": 241
         },
         "streamlit-firebase-remote-config-component": {
             "title": "Firebase Remote Config Component",
@@ -8445,8 +8445,8 @@
             "pypi": "https://pypi.org/project/streamlit-firebase-remote-config-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "979",
-            "order": 215
+            "downloads": "980",
+            "order": 216
         },
         "streamlit-firstlanguage": {
             "title": "Firstlanguage",
@@ -8489,8 +8489,8 @@
             "pypi": "https://pypi.org/project/streamlit-flashcard/",
             "avatar": null,
             "stars": "0",
-            "downloads": "393",
-            "order": 253
+            "downloads": "385",
+            "order": 254
         },
         "streamlit-folium": {
             "title": "Folium",
@@ -8512,13 +8512,13 @@
             "pypi": "https://pypi.org/project/streamlit-folium/",
             "avatar": "https://avatars.githubusercontent.com/u/2762787?v=4",
             "stars": "222",
-            "downloads": "68.7k",
+            "downloads": "68.8k",
             "order": 10
         },
         "streamlit-force-graph-simulator": {
             "title": "Force Graph Simulator",
             "author": "erikweis",
-            "description": "Useful for animating dynamic networks using d3 force-directed graph from a purely python interface.",
+            "description": "Useful for animating dynamic networks using d3 force-directed graph...",
             "pipLink": "pip install streamlit-force-graph-simulator",
             "category": [
                 "all",
@@ -8535,13 +8535,13 @@
             "pypi": "https://pypi.org/project/streamlit-force-graph-simulator/",
             "avatar": "https://avatars.githubusercontent.com/u/32458904?v=4",
             "stars": "1",
-            "downloads": "772",
+            "downloads": "759",
             "order": 152
         },
         "streamlit-forum": {
             "title": "Forum",
             "author": "snehankekre",
-            "description": "Streamlit component to display topics from Streamlit's community forum related to any exception.",
+            "description": "Streamlit component to display topics from Streamlit's community forum...",
             "pipLink": "pip install streamlit-forum",
             "category": [
                 "all",
@@ -8558,13 +8558,13 @@
             "pypi": "https://pypi.org/project/streamlit-forum/",
             "avatar": "https://avatars.githubusercontent.com/u/20672874?v=4",
             "stars": "7",
-            "downloads": "456",
-            "order": 103
+            "downloads": "449",
+            "order": 104
         },
         "streamlit-gallery": {
             "title": "Gallery",
             "author": "yevgnen",
-            "description": "To ensure the codebase complies with a style guide, please use flake8, black and isort tools to...",
+            "description": "To ensure the codebase complies with a style guide, please use flake8...",
             "pipLink": "pip install streamlit-gallery",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -8578,8 +8578,8 @@
             "pypi": "https://pypi.org/project/streamlit-gallery/",
             "avatar": "https://avatars.githubusercontent.com/u/16749790?v=4",
             "stars": "0",
-            "downloads": "475",
-            "order": 244
+            "downloads": "467",
+            "order": 246
         },
         "streamlit-gchart": {
             "title": "Gchart",
@@ -8603,7 +8603,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/64399223?v=4",
             "stars": "6",
             "downloads": "2.3k",
-            "order": 105
+            "order": 106
         },
         "streamlit-gcp": {
             "title": "Gcp",
@@ -8622,13 +8622,13 @@
             "pypi": "https://pypi.org/project/streamlit-gcp/",
             "avatar": null,
             "stars": "0",
-            "downloads": "430",
-            "order": 249
+            "downloads": "424",
+            "order": 250
         },
         "streamlit-geo-selector": {
             "title": "Geo Selector",
             "author": "crsmi",
-            "description": "Streamlit Leaflet component that allows user to place marker on map and return coordinates.",
+            "description": "Streamlit Leaflet component that allows user to place marker on map...",
             "pipLink": "pip install streamlit-geo-selector",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -8642,13 +8642,13 @@
             "pypi": "https://pypi.org/project/streamlit-geo-selector/",
             "avatar": null,
             "stars": "0",
-            "downloads": "406",
-            "order": 252
+            "downloads": "400",
+            "order": 253
         },
         "streamlit-globe": {
             "title": "Globe",
             "author": "padmalcom",
-            "description": "Streamlit Globe is a wrapper around globe.gl and provides some simple data visualization...",
+            "description": "Streamlit Globe is a wrapper around globe.gl and provides some simple...",
             "pipLink": "pip install streamlit-globe",
             "category": [
                 "all",
@@ -8665,7 +8665,7 @@
             "pypi": "https://pypi.org/project/streamlit-globe/",
             "avatar": "https://avatars.githubusercontent.com/u/3961950?v=4",
             "stars": "1",
-            "downloads": "486",
+            "downloads": "481",
             "order": 158
         },
         "streamlit-google-geochart": {
@@ -8685,8 +8685,8 @@
             "pypi": "https://pypi.org/project/streamlit-google-geochart/",
             "avatar": "https://avatars.githubusercontent.com/u/24946400?v=4",
             "stars": "0",
-            "downloads": "376",
-            "order": 254
+            "downloads": "368",
+            "order": 255
         },
         "streamlit-gosling": {
             "title": "Gosling",
@@ -8709,13 +8709,13 @@
             "pypi": "https://pypi.org/project/streamlit-gosling/",
             "avatar": "https://avatars.githubusercontent.com/u/77859375?v=4",
             "stars": "4",
-            "downloads": "3.3k",
+            "downloads": "3.2k",
             "order": 116
         },
         "streamlit-gov-uk-components": {
             "title": "Gov Uk Components",
             "author": "uktrade",
-            "description": "A collection of Streamlit components that use or are inspired by the GOV.UK Design System",
+            "description": "A collection of Streamlit components that use or are inspired by the...",
             "pipLink": "pip install streamlit-gov-uk-components",
             "category": [
                 "all",
@@ -8732,7 +8732,7 @@
             "pypi": "https://pypi.org/project/streamlit-gov-uk-components/",
             "avatar": "https://avatars.githubusercontent.com/u/15107524?v=4",
             "stars": "2",
-            "downloads": "4.6k",
+            "downloads": "4.5k",
             "order": 132
         },
         "streamlit-gradio": {
@@ -8752,7 +8752,7 @@
             "pypi": "https://pypi.org/project/streamlit-gradio/",
             "avatar": null,
             "stars": "0",
-            "downloads": "2.3k",
+            "downloads": "2.2k",
             "order": 181
         },
         "streamlit-graphic-slider": {
@@ -8778,7 +8778,7 @@
         "streamlit-heroku": {
             "title": "Heroku",
             "author": "danielschutz",
-            "description": "A command line tool to help create necessary files to deploy a Streamlit app on Heroku",
+            "description": "A command line tool to help create necessary files to deploy a...",
             "pipLink": "pip install streamlit-heroku",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -8792,7 +8792,7 @@
             "pypi": "https://pypi.org/project/streamlit-heroku/",
             "avatar": "https://avatars.githubusercontent.com/u/53131308?v=4",
             "stars": "1",
-            "downloads": "749",
+            "downloads": "737",
             "order": 153
         },
         "streamlit-hgb": {
@@ -8812,8 +8812,8 @@
             "pypi": "https://pypi.org/project/streamlit-hgb/",
             "avatar": "https://avatars.githubusercontent.com/u/12047794?v=4",
             "stars": "0",
-            "downloads": "705",
-            "order": 227
+            "downloads": "693",
+            "order": 231
         },
         "streamlit-highcharts": {
             "title": "Highcharts",
@@ -8833,7 +8833,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "2.1k",
-            "order": 185
+            "order": 186
         },
         "streamlit-huggingface": {
             "title": "Huggingface",
@@ -8852,8 +8852,8 @@
             "pypi": "https://pypi.org/project/streamlit-huggingface/",
             "avatar": null,
             "stars": "0",
-            "downloads": "410",
-            "order": 250
+            "downloads": "404",
+            "order": 252
         },
         "streamlit-icon-component": {
             "title": "Icon Component",
@@ -8872,8 +8872,8 @@
             "pypi": "https://pypi.org/project/streamlit-icon-component/",
             "avatar": null,
             "stars": "0",
-            "downloads": "487",
-            "order": 242
+            "downloads": "482",
+            "order": 243
         },
         "streamlit-image-comparison": {
             "title": "Image Comparison",
@@ -8961,7 +8961,7 @@
             "pypi": "https://pypi.org/project/streamlit-image-select-mod/",
             "avatar": null,
             "stars": "0",
-            "downloads": "408",
+            "downloads": "411",
             "order": 251
         },
         "streamlit-imagegrid": {
@@ -8982,12 +8982,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.6k",
-            "order": 193
+            "order": 194
         },
         "streamlit-img-label": {
             "title": "Img Label",
             "author": "lit26",
-            "description": "streamlit-img-label is a graphical image annotation tool using streamlit. Annotations are saved as...",
+            "description": "streamlit-img-label is a graphical image annotation tool using...",
             "pipLink": "pip install streamlit-img-label",
             "category": [
                 "all",
@@ -9027,7 +9027,7 @@
             "pypi": "https://pypi.org/project/streamlit-inspect/",
             "avatar": "https://avatars.githubusercontent.com/u/15624271?v=4",
             "stars": "2",
-            "downloads": "395",
+            "downloads": "387",
             "order": 138
         },
         "streamlit-inspector": {
@@ -9050,13 +9050,13 @@
             "pypi": "https://pypi.org/project/streamlit-inspector/",
             "avatar": "https://avatars.githubusercontent.com/u/5103165?v=4",
             "stars": "4",
-            "downloads": "806",
+            "downloads": "796",
             "order": 122
         },
         "streamlit-javascript": {
             "title": "Javascript",
             "author": "thunderbug1",
-            "description": "Streamlit component to execute javascript code on the client side and get back the result",
+            "description": "Streamlit component to execute javascript code on the client side and...",
             "pipLink": "pip install streamlit-javascript",
             "category": [
                 "all",
@@ -9094,7 +9094,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.3k",
-            "order": 200
+            "order": 201
         },
         "streamlit-jina": {
             "title": "Jina",
@@ -9123,7 +9123,7 @@
         "streamlit-js-eval": {
             "title": "Js Eval",
             "author": "aghasemi",
-            "description": "A custom Streamlit component to evaluate arbitrary Javascript expressions",
+            "description": "A custom Streamlit component to evaluate arbitrary Javascript...",
             "pipLink": "pip install streamlit-js-eval",
             "category": [
                 "all",
@@ -9146,7 +9146,7 @@
         "streamlit-keboola-api": {
             "title": "Keboola Api",
             "author": "alteirac",
-            "description": "Wrapper around Kebolla python client to list tables, buckets and upload files to stage",
+            "description": "Wrapper around Kebolla python client to list tables, buckets and...",
             "pipLink": "pip install streamlit-keboola-api",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -9161,7 +9161,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.6k",
-            "order": 192
+            "order": 193
         },
         "streamlit-keplergl": {
             "title": "Keplergl",
@@ -9183,13 +9183,13 @@
             "pypi": "https://pypi.org/project/streamlit-keplergl/",
             "avatar": "https://avatars.githubusercontent.com/u/12833517?v=4",
             "stars": "39",
-            "downloads": "7.2k",
+            "downloads": "7.1k",
             "order": 46
         },
         "streamlit-keycloak": {
             "title": "Keycloak",
             "author": "bleumink",
-            "description": "User authentication and single sign-on in your Streamlit app using Keycloak",
+            "description": "User authentication and single sign-on in your Streamlit app using...",
             "pipLink": "pip install streamlit-keycloak",
             "category": [
                 "all",
@@ -9230,7 +9230,7 @@
             "pypi": "https://pypi.org/project/streamlit-keyup/",
             "avatar": "https://avatars.githubusercontent.com/u/4040678?v=4",
             "stars": "23",
-            "downloads": "9.7k",
+            "downloads": "9.9k",
             "order": 58
         },
         "streamlit-kickoff-cli": {
@@ -9273,13 +9273,13 @@
             "pypi": "https://pypi.org/project/streamlit-kpi-metric/",
             "avatar": null,
             "stars": "0",
-            "downloads": "727",
-            "order": 225
+            "downloads": "718",
+            "order": 226
         },
         "streamlit-labelstudio": {
             "title": "Labelstudio",
             "author": "deneland",
-            "description": "A Streamlit component that provides an annotation interface using the LabelStudio Frontend.",
+            "description": "A Streamlit component that provides an annotation interface using the...",
             "pipLink": "pip install streamlit-labelstudio",
             "category": [
                 "all",
@@ -9305,7 +9305,7 @@
         "streamlit-launchpad": {
             "title": "Launchpad",
             "author": "ideonate",
-            "description": "Browse a folder containing multiple streamlit apps and launch them immediately",
+            "description": "Browse a folder containing multiple streamlit apps and launch them...",
             "pipLink": "pip install streamlit-launchpad",
             "category": [
                 "all",
@@ -9322,7 +9322,7 @@
             "pypi": "https://pypi.org/project/streamlit-launchpad/",
             "avatar": "https://avatars.githubusercontent.com/u/48213139?v=4",
             "stars": "85",
-            "downloads": "2.7k",
+            "downloads": "2.6k",
             "order": 32
         },
         "streamlit-leaflet": {
@@ -9345,7 +9345,7 @@
             "pypi": "https://pypi.org/project/streamlit-leaflet/",
             "avatar": "https://avatars.githubusercontent.com/u/5016453?v=4",
             "stars": "4",
-            "downloads": "383",
+            "downloads": "384",
             "order": 123
         },
         "streamlit-letsplot": {
@@ -9388,8 +9388,8 @@
             "pypi": "https://pypi.org/project/streamlit-lianshan/",
             "avatar": null,
             "stars": "0",
-            "downloads": "703",
-            "order": 229
+            "downloads": "704",
+            "order": 228
         },
         "streamlit-likedislike": {
             "title": "Likedislike",
@@ -9428,13 +9428,13 @@
             "pypi": "https://pypi.org/project/streamlit-location/",
             "avatar": null,
             "stars": "0",
-            "downloads": "704",
-            "order": 228
+            "downloads": "694",
+            "order": 230
         },
         "streamlit-login-auth-ui": {
             "title": "Login Auth UI",
             "author": "GauriSP10",
-            "description": "It lets you connect your streamlit application to a pre-built and secure Login/ Sign-Up page.",
+            "description": "It lets you connect your streamlit application to a pre-built and...",
             "pipLink": "pip install streamlit-login-auth-ui",
             "category": [
                 "all",
@@ -9451,7 +9451,7 @@
             "pypi": "https://pypi.org/project/streamlit-login-auth-ui/",
             "avatar": "https://avatars.githubusercontent.com/u/75731631?v=4",
             "stars": "35",
-            "downloads": "979",
+            "downloads": "985",
             "order": 49
         },
         "streamlit-lottie": {
@@ -9474,7 +9474,7 @@
             "pypi": "https://pypi.org/project/streamlit-lottie/",
             "avatar": "https://avatars.githubusercontent.com/u/5351877?v=4",
             "stars": "79",
-            "downloads": "30.7k",
+            "downloads": "30.3k",
             "order": 33
         },
         "streamlit-mapbox": {
@@ -9497,7 +9497,7 @@
             "pypi": "https://pypi.org/project/streamlit-mapbox/",
             "avatar": "https://avatars.githubusercontent.com/u/5016453?v=4",
             "stars": "4",
-            "downloads": "374",
+            "downloads": "375",
             "order": 124
         },
         "streamlit-marquee": {
@@ -9520,7 +9520,7 @@
             "pypi": "https://pypi.org/project/streamlit-marquee/",
             "avatar": "https://avatars.githubusercontent.com/u/27605264?v=4",
             "stars": "1",
-            "downloads": "594",
+            "downloads": "595",
             "order": 156
         },
         "streamlit-message": {
@@ -9540,7 +9540,7 @@
             "pypi": "https://pypi.org/project/streamlit-message/",
             "avatar": null,
             "stars": "0",
-            "downloads": "513",
+            "downloads": "508",
             "order": 238
         },
         "streamlit-metrics": {
@@ -9626,8 +9626,8 @@
             "pypi": "https://pypi.org/project/streamlit-monaco-yaml/",
             "avatar": null,
             "stars": "0",
-            "downloads": "498",
-            "order": 241
+            "downloads": "489",
+            "order": 242
         },
         "streamlit-multi-row-inputs": {
             "title": "Multi Row Inputs",
@@ -9666,8 +9666,8 @@
             "pypi": "https://pypi.org/project/streamlit-multi-textarea/",
             "avatar": null,
             "stars": "0",
-            "downloads": "701",
-            "order": 230
+            "downloads": "707",
+            "order": 227
         },
         "streamlit-multipage": {
             "title": "Multipage",
@@ -9689,7 +9689,7 @@
             "pypi": "https://pypi.org/project/streamlit-multipage/",
             "avatar": "https://avatars.githubusercontent.com/u/14986783?v=4",
             "stars": "10",
-            "downloads": "8.3k",
+            "downloads": "8.2k",
             "order": 86
         },
         "streamlit-nested-layout": {
@@ -9712,7 +9712,7 @@
             "pypi": "https://pypi.org/project/streamlit-nested-layout/",
             "avatar": "https://avatars.githubusercontent.com/u/6729737?v=4",
             "stars": "27",
-            "downloads": "29.3k",
+            "downloads": "29.4k",
             "order": 55
         },
         "streamlit-nivo": {
@@ -9755,8 +9755,8 @@
             "pypi": "https://pypi.org/project/streamlit-node-graph/",
             "avatar": "https://avatars.githubusercontent.com/u/3398156?v=4",
             "stars": "0",
-            "downloads": "3.6k",
-            "order": 171
+            "downloads": "3.5k",
+            "order": 172
         },
         "streamlit-observable": {
             "title": "Observable",
@@ -9799,12 +9799,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.3k",
-            "order": 202
+            "order": 203
         },
         "streamlit-on-Hover-tabs": {
             "title": "On Hover Tabs",
             "author": "Socvest",
-            "description": "Custom tabs for on hover streamlit navigation bar created by custom css",
+            "description": "Custom tabs for on hover streamlit navigation bar created by custom...",
             "pipLink": "pip install streamlit-on-Hover-tabs",
             "category": [
                 "all",
@@ -9821,13 +9821,13 @@
             "pypi": "https://pypi.org/project/streamlit-on-Hover-tabs/",
             "avatar": "https://avatars.githubusercontent.com/u/82335390?v=4",
             "stars": "52",
-            "downloads": "33.7k",
+            "downloads": "33.8k",
             "order": 40
         },
         "streamlit-option-menu": {
             "title": "Option Menu",
             "author": "victoryhb",
-            "description": "streamlit-option-menu is a simple Streamlit component that allows users to select a single item from...",
+            "description": "streamlit-option-menu is a simple Streamlit component that allows...",
             "pipLink": "pip install streamlit-option-menu",
             "category": [
                 "all",
@@ -9844,7 +9844,7 @@
             "pypi": "https://pypi.org/project/streamlit-option-menu/",
             "avatar": "https://avatars.githubusercontent.com/u/3033215?v=4",
             "stars": "161",
-            "downloads": "105.3k",
+            "downloads": "105.1k",
             "order": 14
         },
         "streamlit-pages": {
@@ -9867,7 +9867,7 @@
             "pypi": "https://pypi.org/project/streamlit-pages/",
             "avatar": "https://avatars.githubusercontent.com/u/56408803?v=4",
             "stars": "35",
-            "downloads": "911",
+            "downloads": "0",
             "order": 50
         },
         "streamlit-pagination": {
@@ -9911,7 +9911,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.2k",
-            "order": 205
+            "order": 206
         },
         "streamlit-pagnation": {
             "title": "Pagnation",
@@ -9931,12 +9931,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.2k",
-            "order": 204
+            "order": 205
         },
         "streamlit-pandas": {
             "title": "Pandas",
             "author": "wjbmattingly",
-            "description": "Streamlit Pandas is a component for the Streamlit library. It allows users to load a Pandas...",
+            "description": "Streamlit Pandas is a component for the Streamlit library. It allows...",
             "pipLink": "pip install streamlit-pandas",
             "category": [],
             "image": "https://github.com/wjbmattingly/streamlit-pandas/raw/main/images/streamlit-pandas-app.jpg",
@@ -10003,7 +10003,7 @@
         "streamlit-permalink": {
             "title": "Permalink",
             "author": "franekp",
-            "description": "The streamlit_permalink (shorthand: stp) namespace contains url-aware versions of almost all input...",
+            "description": "The streamlit_permalink (shorthand: stp) namespace contains url-aware...",
             "pipLink": "pip install streamlit-permalink",
             "category": [
                 "all",
@@ -10027,7 +10027,7 @@
         "streamlit-persistence": {
             "title": "Persistence",
             "author": "yaphott",
-            "description": "Allows for persistence of class attributes when using Streamlit in Python.",
+            "description": "Allows for persistence of class attributes when using Streamlit in...",
             "pipLink": "pip install streamlit-persistence",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -10041,7 +10041,7 @@
             "pypi": "https://pypi.org/project/streamlit-persistence/",
             "avatar": "https://avatars.githubusercontent.com/u/56131068?v=4",
             "stars": "1",
-            "downloads": "859",
+            "downloads": "849",
             "order": 151
         },
         "streamlit-pills": {
@@ -10060,14 +10060,14 @@
             "forum": null,
             "pypi": "https://pypi.org/project/streamlit-pills/",
             "avatar": "https://avatars.githubusercontent.com/u/5103165?v=4",
-            "stars": "6",
-            "downloads": "1.1k",
-            "order": 106
+            "stars": "7",
+            "downloads": "1.2k",
+            "order": 101
         },
         "streamlit-player": {
             "title": "Player",
             "author": "okld",
-            "description": "A streamlit component to embed video and music players from various websites.",
+            "description": "A streamlit component to embed video and music players from various...",
             "pipLink": "pip install streamlit-player",
             "category": [
                 "all",
@@ -10090,7 +10090,7 @@
         "streamlit-plotly-events": {
             "title": "Plotly Events",
             "author": "null-jones",
-            "description": "Streamlit component that allows Plotly events to bubble back up to streamlit.  Makes Plotly charts...",
+            "description": "Streamlit component that allows Plotly events to bubble back up to...",
             "pipLink": "pip install streamlit-plotly-events",
             "category": [
                 "all",
@@ -10107,13 +10107,13 @@
             "pypi": "https://pypi.org/project/streamlit-plotly-events/",
             "avatar": "https://avatars.githubusercontent.com/u/42727975?v=4",
             "stars": "105",
-            "downloads": "15.1k",
+            "downloads": "15.2k",
             "order": 25
         },
         "streamlit-plotly-mapboxEvents": {
             "title": "Plotly Mapboxevents",
             "author": "reyemb",
-            "description": "Plotly mapbox component for Streamlit that also allows for events to bubble back up to Streamlit.",
+            "description": "Plotly mapbox component for Streamlit that also allows for events to...",
             "pipLink": "pip install streamlit-plotly-mapboxEvents",
             "category": [
                 "all",
@@ -10182,7 +10182,7 @@
         "streamlit-prophet": {
             "title": "Prophet",
             "author": "artefactory-global",
-            "description": "Streamlit app to train, evaluate and optimize a Prophet forecasting model.",
+            "description": "Streamlit app to train, evaluate and optimize a Prophet forecasting...",
             "pipLink": "pip install streamlit-prophet",
             "category": [
                 "all",
@@ -10199,7 +10199,7 @@
             "pypi": "https://pypi.org/project/streamlit-prophet/",
             "avatar": "https://avatars.githubusercontent.com/u/86767100?v=4",
             "stars": "141",
-            "downloads": "732",
+            "downloads": "728",
             "order": 17
         },
         "streamlit-pydantic": {
@@ -10243,7 +10243,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/1222747?v=4",
             "stars": "0",
             "downloads": "2.2k",
-            "order": 182
+            "order": 183
         },
         "streamlit-quill": {
             "title": "Quill",
@@ -10271,7 +10271,7 @@
         "streamlit-raster": {
             "title": "Raster",
             "author": "giswqs",
-            "description": "A Python package for rendering raster datasets with streamlit and localtileserver",
+            "description": "A Python package for rendering raster datasets with streamlit and...",
             "pipLink": "pip install streamlit-raster",
             "category": [
                 "all",
@@ -10289,8 +10289,8 @@
             "pypi": "https://pypi.org/project/streamlit-raster/",
             "avatar": "https://avatars.githubusercontent.com/u/5016453?v=4",
             "stars": "7",
-            "downloads": "605",
-            "order": 102
+            "downloads": "607",
+            "order": 103
         },
         "streamlit-raw-echarts": {
             "title": "Raw Echarts",
@@ -10312,7 +10312,7 @@
             "pypi": "https://pypi.org/project/streamlit-raw-echarts/",
             "avatar": "https://avatars.githubusercontent.com/u/41217877?v=4",
             "stars": "4",
-            "downloads": "884",
+            "downloads": "871",
             "order": 121
         },
         "streamlit-react-flow": {
@@ -10378,7 +10378,7 @@
             "pypi": "https://pypi.org/project/streamlit-router/",
             "avatar": "https://avatars.githubusercontent.com/u/932699?v=4",
             "stars": "2",
-            "downloads": "332",
+            "downloads": "337",
             "order": 139
         },
         "streamlit-scrollable-textbox": {
@@ -10403,7 +10403,7 @@
             "pypi": "https://pypi.org/project/streamlit-scrollable-textbox/",
             "avatar": "https://avatars.githubusercontent.com/u/108201791?v=4",
             "stars": "1",
-            "downloads": "639",
+            "downloads": "643",
             "order": 155
         },
         "streamlit-searchbar": {
@@ -10424,12 +10424,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1.7k",
-            "order": 191
+            "order": 192
         },
         "streamlit-searchbox": {
             "title": "Searchbox",
             "author": "m-wrzr",
-            "description": "Streamlit searchbox that dynamically updates and provides a list of suggestions based on a provided...",
+            "description": "Streamlit searchbox that dynamically updates and provides a list of...",
             "pipLink": "pip install streamlit-searchbox",
             "category": [
                 "all",
@@ -10452,7 +10452,7 @@
         "streamlit-sentence-selector": {
             "title": "Sentence Selector",
             "author": "Doogle_publish",
-            "description": "A selector for a list of sentences or strings, and return a list of sentences or strings that you...",
+            "description": "A selector for a list of sentences or strings, and return a list of...",
             "pipLink": "pip install streamlit-sentence-selector",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -10472,7 +10472,7 @@
         "streamlit-server-state": {
             "title": "Server State",
             "author": "whitphx",
-            "description": "A \"server-wide\" state object shared across sessions on a Streamlit server.",
+            "description": "A \"server-wide\" state object shared across sessions on a Streamlit...",
             "pipLink": "pip install streamlit-server-state",
             "category": [
                 "all",
@@ -10489,7 +10489,7 @@
             "pypi": "https://pypi.org/project/streamlit-server-state/",
             "avatar": "https://avatars.githubusercontent.com/u/3135397?v=4",
             "stars": "37",
-            "downloads": "32.4k",
+            "downloads": "32.5k",
             "order": 47
         },
         "streamlit-shap": {
@@ -10518,7 +10518,7 @@
         "streamlit-sidemenu": {
             "title": "Sidemenu",
             "author": "ais-one",
-            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS. Streamlit for rapid development.",
+            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS.",
             "pipLink": "pip install streamlit-sidemenu",
             "category": [
                 "all",
@@ -10535,7 +10535,7 @@
             "pypi": "https://pypi.org/project/streamlit-sidemenu/",
             "avatar": "https://avatars.githubusercontent.com/u/4284574?v=4",
             "stars": "20",
-            "downloads": "453",
+            "downloads": "448",
             "order": 67
         },
         "streamlit-sortables": {
@@ -10597,9 +10597,9 @@
             "forum": null,
             "pypi": "https://pypi.org/project/streamlit-sparrow-labeling/",
             "avatar": "https://avatars.githubusercontent.com/u/49202856?v=4",
-            "stars": "15",
-            "downloads": "243",
-            "order": 74
+            "stars": "16",
+            "downloads": "369",
+            "order": 73
         },
         "streamlit-stackoverflow": {
             "title": "Stackoverflow",
@@ -10619,7 +10619,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/25757129?v=4",
             "stars": "0",
             "downloads": "1.1k",
-            "order": 209
+            "order": 212
         },
         "streamlit-state": {
             "title": "State",
@@ -10639,7 +10639,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/2161266?v=4",
             "stars": "0",
             "downloads": "441",
-            "order": 248
+            "order": 249
         },
         "streamlit-stepper-bar": {
             "title": "Stepper Bar",
@@ -10658,8 +10658,8 @@
             "pypi": "https://pypi.org/project/streamlit-stepper-bar/",
             "avatar": null,
             "stars": "0",
-            "downloads": "1.1k",
-            "order": 211
+            "downloads": "1k",
+            "order": 213
         },
         "streamlit-supabase-auth": {
             "title": "Supabase Auth",
@@ -10687,7 +10687,7 @@
         "streamlit-sync": {
             "title": "Sync",
             "author": "Wauplin",
-            "description": "A library to easily synchronize sessions between themselves or on local drive for later reuse.",
+            "description": "A library to easily synchronize sessions between themselves or on...",
             "pipLink": "pip install streamlit-sync",
             "category": [
                 "all",
@@ -10704,7 +10704,7 @@
             "pypi": "https://pypi.org/project/streamlit-sync/",
             "avatar": "https://avatars.githubusercontent.com/u/11801849?v=4",
             "stars": "5",
-            "downloads": "494",
+            "downloads": "490",
             "order": 114
         },
         "streamlit-tags": {
@@ -10727,13 +10727,13 @@
             "pypi": "https://pypi.org/project/streamlit-tags/",
             "avatar": "https://avatars.githubusercontent.com/u/49101362?v=4",
             "stars": "110",
-            "downloads": "35.3k",
+            "downloads": "35.4k",
             "order": 22
         },
         "streamlit-tailwind": {
             "title": "Tailwind",
             "author": "kevinismus",
-            "description": "A streamlit component that allows the addition of custom HTML with Tailwind classes",
+            "description": "A streamlit component that allows the addition of custom HTML with...",
             "pipLink": "pip install streamlit-tailwind",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -10747,8 +10747,8 @@
             "pypi": "https://pypi.org/project/streamlit-tailwind/",
             "avatar": "https://avatars.githubusercontent.com/u/57078068?v=4",
             "stars": "0",
-            "downloads": "233",
-            "order": 257
+            "downloads": "236",
+            "order": 259
         },
         "streamlit-talk": {
             "title": "Talk",
@@ -10773,7 +10773,7 @@
         "streamlit-tensorboard": {
             "title": "Tensorboard",
             "author": "snehankekre",
-            "description": "Streamlit component for TensorBoard, TensorFlow's visualization toolkit",
+            "description": "Streamlit component for TensorBoard, TensorFlow's visualization...",
             "pipLink": "pip install streamlit-tensorboard",
             "category": [
                 "all",
@@ -10790,7 +10790,7 @@
             "pypi": "https://pypi.org/project/streamlit-tensorboard/",
             "avatar": "https://avatars.githubusercontent.com/u/20672874?v=4",
             "stars": "27",
-            "downloads": "19.2k",
+            "downloads": "19.3k",
             "order": 56
         },
         "streamlit-terran-timeline": {
@@ -10819,7 +10819,7 @@
         "streamlit-text-annotation": {
             "title": "Text Annotation",
             "author": "victoryhb",
-            "description": "streamlit-text-annotation is a simple streamlit component for displaying and editing text...",
+            "description": "streamlit-text-annotation is a simple streamlit component for...",
             "pipLink": "pip install streamlit-text-annotation",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -10834,12 +10834,12 @@
             "avatar": null,
             "stars": "0",
             "downloads": "2k",
-            "order": 186
+            "order": 187
         },
         "streamlit-text-label": {
             "title": "Text Label",
             "author": "sweatybridge",
-            "description": "Custom streamlit component for labelling text selections, based on Label Studio.",
+            "description": "Custom streamlit component for labelling text selections, based on...",
             "pipLink": "pip install streamlit-text-label",
             "category": [
                 "all",
@@ -10857,7 +10857,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/1639722?v=4",
             "stars": "7",
             "downloads": "1.2k",
-            "order": 101
+            "order": 102
         },
         "streamlit-text-like": {
             "title": "Text Like",
@@ -10876,8 +10876,8 @@
             "pypi": "https://pypi.org/project/streamlit-text-like/",
             "avatar": null,
             "stars": "0",
-            "downloads": "456",
-            "order": 247
+            "downloads": "446",
+            "order": 248
         },
         "streamlit-text-rating": {
             "title": "Text Rating",
@@ -10919,7 +10919,7 @@
             "pypi": "https://pypi.org/project/streamlit-tfx/",
             "avatar": "https://avatars.githubusercontent.com/u/11793274?v=4",
             "stars": "1",
-            "downloads": "719",
+            "downloads": "718",
             "order": 154
         },
         "streamlit-theme": {
@@ -10939,13 +10939,13 @@
             "pypi": "https://pypi.org/project/streamlit-theme/",
             "avatar": null,
             "stars": "0",
-            "downloads": "613",
-            "order": 234
+            "downloads": "608",
+            "order": 236
         },
         "streamlit-timeline": {
             "title": "Timeline",
             "author": "innerdoc",
-            "description": "A simple Streamlit Component to display a Timeline in Streamlit apps. It integrates Knightlab's...",
+            "description": "A simple Streamlit Component to display a Timeline in Streamlit apps.",
             "pipLink": "pip install streamlit-timeline",
             "category": [
                 "all",
@@ -10982,8 +10982,8 @@
             "pypi": "https://pypi.org/project/streamlit-timing/",
             "avatar": "https://avatars.githubusercontent.com/u/3135397?v=4",
             "stars": "0",
-            "downloads": "466",
-            "order": 246
+            "downloads": "461",
+            "order": 247
         },
         "streamlit-toggle": {
             "title": "Toggle",
@@ -11003,7 +11003,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/61935833?v=4",
             "stars": "0",
             "downloads": "1.1k",
-            "order": 208
+            "order": 209
         },
         "streamlit-toggle-switch": {
             "title": "Toggle Switch",
@@ -11026,8 +11026,8 @@
             "pypi": "https://pypi.org/project/streamlit-toggle-switch/",
             "avatar": "https://avatars.githubusercontent.com/u/63619432?v=4",
             "stars": "6",
-            "downloads": "4.6k",
-            "order": 104
+            "downloads": "4.8k",
+            "order": 105
         },
         "streamlit-tree-select": {
             "title": "Tree Select",
@@ -11075,7 +11075,7 @@
         "streamlit-vega-lite": {
             "title": "Vega Lite",
             "author": "domoritz",
-            "description": "A Streamlit component to render interactive Vega, Vega-Lite, and Altair visualizations and access...",
+            "description": "A Streamlit component to render interactive Vega, Vega-Lite, and...",
             "pipLink": "pip install streamlit-vega-lite",
             "category": [
                 "all",
@@ -11116,7 +11116,7 @@
             "pypi": "https://pypi.org/project/streamlit-vertical-slider/",
             "avatar": "https://avatars.githubusercontent.com/u/63619432?v=4",
             "stars": "12",
-            "downloads": "5k",
+            "downloads": "5.2k",
             "order": 79
         },
         "streamlit-vis-timeline": {
@@ -11162,7 +11162,7 @@
             "pypi": "https://pypi.org/project/streamlit-visgraph/",
             "avatar": "https://avatars.githubusercontent.com/u/8046408?v=4",
             "stars": "9",
-            "downloads": "764",
+            "downloads": "753",
             "order": 92
         },
         "streamlit-vtkjs": {
@@ -11202,13 +11202,13 @@
             "pypi": "https://pypi.org/project/streamlit-wallet-connect/",
             "avatar": null,
             "stars": "0",
-            "downloads": "3.3k",
+            "downloads": "3.2k",
             "order": 174
         },
         "streamlit-weather-widget": {
             "title": "Weather Widget",
             "author": "muhammadateeb",
-            "description": "A component loading forecast data from OpenWeather and uses react-open-weather React component",
+            "description": "A component loading forecast data from OpenWeather and uses...",
             "pipLink": "pip install streamlit-weather-widget",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -11222,8 +11222,8 @@
             "pypi": "https://pypi.org/project/streamlit-weather-widget/",
             "avatar": null,
             "stars": "0",
-            "downloads": "788",
-            "order": 221
+            "downloads": "781",
+            "order": 222
         },
         "streamlit-webrtc": {
             "title": "WebRTC",
@@ -11245,7 +11245,7 @@
             "pypi": "https://pypi.org/project/streamlit-webrtc/",
             "avatar": "https://avatars.githubusercontent.com/u/3135397?v=4",
             "stars": "640",
-            "downloads": "46.4k",
+            "downloads": "46.2k",
             "order": 2
         },
         "streamlit-webscrap-tool": {
@@ -11266,7 +11266,7 @@
             "avatar": null,
             "stars": "0",
             "downloads": "1k",
-            "order": 213
+            "order": 215
         },
         "streamlit-widget-tracker": {
             "title": "Widget Tracker",
@@ -11286,7 +11286,7 @@
             "avatar": "https://avatars.githubusercontent.com/u/54973126?v=4",
             "stars": "0",
             "downloads": "1.3k",
-            "order": 201
+            "order": 202
         },
         "streamlit-with-ssl": {
             "title": "With Ssl",
@@ -11305,13 +11305,13 @@
             "pypi": "https://pypi.org/project/streamlit-with-ssl/",
             "avatar": "https://avatars.githubusercontent.com/u/45109972?v=4",
             "stars": "21.8k",
-            "downloads": "163",
+            "downloads": "279",
             "order": 0
         },
         "streamlit-wizard": {
             "title": "Wizard",
             "author": "archydeberker",
-            "description": "Component for handling wizard-like sequential interactions in streamlit",
+            "description": "Component for handling wizard-like sequential interactions in...",
             "pipLink": "pip install streamlit-wizard",
             "category": [],
             "image": "https://raw.githubusercontent.com/jrieke/components-hub/snowvation/gallery-fallback.png",
@@ -11326,12 +11326,12 @@
             "avatar": "https://avatars.githubusercontent.com/u/9258253?v=4",
             "stars": "0",
             "downloads": "1.1k",
-            "order": 206
+            "order": 208
         },
         "streamlit-wordcloud": {
             "title": "Wordcloud",
             "author": "rezaho",
-            "description": "This component will allow you to build beautiful and interactive Wordcloud visualizations in...",
+            "description": "This component will allow you to build beautiful and interactive...",
             "pipLink": "pip install streamlit-wordcloud",
             "category": [
                 "all",
@@ -11348,13 +11348,13 @@
             "pypi": "https://pypi.org/project/streamlit-wordcloud/",
             "avatar": "https://avatars.githubusercontent.com/u/43442401?v=4",
             "stars": "11",
-            "downloads": "925",
+            "downloads": "912",
             "order": 85
         },
         "streamlit-ws-localstorage": {
             "title": "Ws Localstorage",
             "author": "gagangoku",
-            "description": "A simple synchronous way of accessing localStorage from your Streamlit app.",
+            "description": "A simple synchronous way of accessing localStorage from your Streamlit...",
             "pipLink": "pip install streamlit-ws-localstorage",
             "category": [
                 "all",
@@ -11377,7 +11377,7 @@
         "streamlit-xui": {
             "title": "Xui",
             "author": "ais-one",
-            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS. Streamlit for rapid development.",
+            "description": "Fullstack Web Application Framework With FastAPI + Vite + VueJS.",
             "pipLink": "pip install streamlit-xui",
             "category": [
                 "all",
@@ -11394,13 +11394,13 @@
             "pypi": "https://pypi.org/project/streamlit-xui/",
             "avatar": "https://avatars.githubusercontent.com/u/4284574?v=4",
             "stars": "20",
-            "downloads": "761",
+            "downloads": "750",
             "order": 65
         },
         "streamlit-yellowbrick": {
             "title": "Yellowbrick",
             "author": "snehankekre",
-            "description": "Streamlit component for the Yellowbrick visualization and model diagnostics library",
+            "description": "Streamlit component for the Yellowbrick visualization and model...",
             "pipLink": "pip install streamlit-yellowbrick",
             "category": [
                 "all",
@@ -11483,7 +11483,7 @@
             "pypi": "https://pypi.org/project/stvis/",
             "avatar": "https://avatars.githubusercontent.com/u/30182239?v=4",
             "stars": "1",
-            "downloads": "1.4k",
+            "downloads": "1.3k",
             "order": 147
         },
         "vegafusion-streamlit": {
@@ -11503,8 +11503,8 @@
             "pypi": "https://pypi.org/project/vegafusion-streamlit/",
             "avatar": null,
             "stars": "0",
-            "downloads": "193",
-            "order": 260
+            "downloads": "195",
+            "order": 261
         }
     }
 }
