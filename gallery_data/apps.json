@@ -22,7 +22,7 @@
             "order": 36
         },
         "112523chen/cet4973-fall-project/master/main.py": {
-            "title": "main",
+            "title": "Cet4973 Fall Project",
             "description": "Create a Supervised Machine Learning model to predict a listing price...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ced8cdc8-2c9b-46e6-aa50-fc828ef8a55d/Home_Page.png",
             "category": [
@@ -220,7 +220,7 @@
             "order": 415
         },
         "acolburn/food_wine_web/master/main.py": {
-            "title": "main",
+            "title": "Food Wine Web",
             "description": "A web app to help people find wines that go well with their meals.It's...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2507092f-f496-4a81-aa66-cb7dfcad81ce/Home_Page.png",
             "category": [
@@ -433,7 +433,7 @@
             "order": 193
         },
         "alinelpl/calculadoracoap/main/Home.py": {
-            "title": "Home",
+            "title": "Calculadoracoap",
             "description": "Aplicaci\u00f3n que ayuda a valuar los bonos gubernamentales, corporativos...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c346f2fb-8f0b-4f3e-80d7-d878d2e04c99/Home_Page.png",
             "category": [
@@ -1055,7 +1055,7 @@
             "order": 344
         },
         "arnaudmiribel/streamlit-extras/main/gallery/streamlit_app.py": {
-            "title": "Streamlit",
+            "title": "Extras",
             "description": "A Python library with useful Streamlit extras",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/31b99099-8eae-4ff8-aa89-042895ed3843/Card.png",
             "category": [
@@ -1073,7 +1073,7 @@
             "order": 1
         },
         "arpsgit/text_emotion_classification/main/main.py": {
-            "title": "main",
+            "title": "Text Emotion Classification",
             "description": "We just have to provide a piece of text in the text area of the app...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4a671162-601c-4d14-9345-fdc28bcc84d8/Home_Page.png",
             "category": [
@@ -1346,7 +1346,7 @@
             "order": 376
         },
         "azimmuradov/mini-oracle/master/frontend-streamlit/frontend_streamlit/src/main.py": {
-            "title": "main",
+            "title": "Mini Oracle",
             "description": " can give you answers for two types of questions:  and .",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/54ce9fe9-d184-406f-a89a-3ccf4561f39d/Home_Page.png",
             "category": [
@@ -1383,7 +1383,7 @@
             "order": 303
         },
         "berkanyuce/world-cup-2022/main/main.py": {
-            "title": "main",
+            "title": "World Cup 2022",
             "description": "The model developed using the machine learning tries to predict the...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2cde02e4-95b7-447d-9078-c822efb488a8/Home_Page.png",
             "category": [
@@ -1610,7 +1610,7 @@
             "order": 462
         },
         "canion3d/trade_cipher/main/main.py": {
-            "title": "Streamlit",
+            "title": "Trade Cipher",
             "description": "Do the knowledge!Making trading easy for everyone from 8 to 80!This is...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a73986dd-4032-4fa3-8b47-51e256935a20/Home_Page.png",
             "category": [
@@ -2045,7 +2045,7 @@
             "order": 21
         },
         "chrieke/vector-validator/main/app/main.py": {
-            "title": "main",
+            "title": "Vector Validator",
             "description": "Validates and automatically fixes your geospatial vector data. App...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/815d84a4-7f16-41ff-a3a0-3a4d2bdbb283/Home_Page.png",
             "category": [
@@ -2083,7 +2083,7 @@
             "order": 227
         },
         "christopherdavisuci/streamlit_ed/main/grad_desc.py": {
-            "title": "Streamlit",
+            "title": "Streamlit Ed",
             "description": "Example using Streamlit to illustrate gradient descent for linear...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/660226b2-9348-40d3-a0ad-4bf3b2f058da/Home_Page.png",
             "category": [
@@ -2197,7 +2197,7 @@
             "order": 216
         },
         "cnw89/ashp_annualized_forcasting/main/main.py": {
-            "title": "main",
+            "title": "Hp Annual Usage Estimator",
             "description": "Author: Chris Warwick",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/14a33977-b4c5-429c-b9a1-8be18e1e9dfe/Home_Page.png",
             "category": [
@@ -2321,7 +2321,7 @@
             "order": 367
         },
         "correaugusto/curry_company/main/Home.py": {
-            "title": "Home",
+            "title": "Curry Company",
             "description": "This repository contains files and script to build a company strategy...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ab7c8150-75dd-439c-8c8d-3b8d12a3bd8c/Home_Page.png",
             "category": [
@@ -2345,7 +2345,7 @@
             "order": 249
         },
         "creamofclubs/santa_test_flight/main/streamlit.py": {
-            "title": "streamlit",
+            "title": "Santa Test Flight",
             "description": "Yes its that time of year,",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0b1e20ba-2e04-421e-bb3d-c0c5734f2fd3/Home_Page.png",
             "category": [
@@ -2480,7 +2480,7 @@
             "order": 5
         },
         "daniyal-d/dog-breed-recognition/main/main.py": {
-            "title": "main",
+            "title": "Dog Breed Recognition",
             "description": "Web app that uses deep learning to detect the breed on a dog from an...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4ea84b77-b4a6-4665-9578-fd75844f46bb/Home_Page.png",
             "category": [
@@ -2502,7 +2502,7 @@
             "order": 307
         },
         "danplotkin/machine_learning_projects/main/bp_app.py": {
-            "title": "Streamlit",
+            "title": "Machine Learning Projects",
             "description": "This repository contains all of my projects dealing with Machine...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/0bd8ec2c-5c99-458e-b547-04438a24f496/Home_Page.png",
             "category": [
@@ -2816,7 +2816,7 @@
             "order": 343
         },
         "datawithed/sports-analytics-dashboard/main/Home.py": {
-            "title": "Home",
+            "title": "Sports Analytics Dashboard",
             "description": "Streamlit dashboard hosting sports analytics portfolio...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5738037e-aa0b-47bd-b7d9-e7c6a4fac005/Home_Page.png",
             "category": [
@@ -3221,8 +3221,7 @@
                 "data-processing",
                 "data-visualization",
                 "machine-learning",
-                "all",
-                "newcomers"
+                "all"
             ],
             "gitHubUrl": "https://github.com/edgarsantamaria/economicdashboard",
             "appUrl": "https://edgarsantamaria-economicdashboard-economic-d68mpg.streamlit.app/",
@@ -3279,7 +3278,7 @@
             "order": 521
         },
         "eduardochaves1/churn-prediction/main/streamlit.py": {
-            "title": "streamlit",
+            "title": "Churn Prediction",
             "description": "Este \u00e9 o meu primeiro projeto em Data Analytics e Machine Learning...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/25e69162-31bf-4b30-ae30-158a342a25f3/Home_Page.png",
             "category": [
@@ -3336,7 +3335,7 @@
             "order": 299
         },
         "elrampa92/first_try_streamlit/main/main.py": {
-            "title": "main",
+            "title": "First Try Streamlit",
             "description": "prova per la creazione della prima mia webapp di visualizzazione data",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f01128fd-87a0-4045-a32b-eb7cf63c8478/Home_Page.png",
             "category": [
@@ -3460,7 +3459,7 @@
             "order": 15
         },
         "erjieyong/generic_object_detection/main/streamlit.py": {
-            "title": "streamlit",
+            "title": "Generic Object Detection",
             "description": "...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1de739a2-99e6-49d9-90c1-3a0196bc6bde/Home_Page.png",
             "category": [
@@ -3562,7 +3561,7 @@
             "order": 95
         },
         "exp-er/carbon-chain/main/Main.py": {
-            "title": "Main",
+            "title": "Carbon Chain",
             "description": "Blockchain based Carbon footprint, indexing and credit transfer...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a4cdbb79-fec1-4fe4-97f9-54f05a436dac/Home_Page.png",
             "category": [
@@ -3712,7 +3711,7 @@
             "order": 105
         },
         "foxicution/code-review/main/main.py": {
-            "title": "main",
+            "title": "Code Review",
             "description": "A web-app for reviewing code with AI using streamlit and firestore for...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/9b9cdaa1-b3d4-4acc-af36-23794a917e0c/Home_Page.png",
             "category": [
@@ -3750,7 +3749,7 @@
             "order": 445
         },
         "fromadhana/cryptocurrency-etl-project/main/machine-learning/btc_prediction_fr/streamlit.py": {
-            "title": "streamlit",
+            "title": "Cryptocurrency Etl Project",
             "description": "This project covered of data engineering, data visualization and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/67a4d046-6a45-408b-bf54-03e00a20502b/Home_Page.png",
             "category": [
@@ -3811,7 +3810,7 @@
             "order": 388
         },
         "geovasconcelos/bolao2022/main/main.py": {
-            "title": "main",
+            "title": "Bolao2022",
             "description": "C\u00f3digo para pagina do Bolao 2022",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/2728e6ad-70ea-447e-98d9-19267f7f1fdb/Home_Page.png",
             "category": [
@@ -4204,7 +4203,7 @@
             "order": 241
         },
         "giswqs/streamlit-geospatial/master/Home.py": {
-            "title": "Streamlit",
+            "title": "Geospatial",
             "description": "A streamlit multipage app for geospatial applications. It can be...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8a91aabe-7bf0-4f3b-a66d-5f66c0237476/Timelapse.png",
             "category": [
@@ -4413,7 +4412,7 @@
             "order": 219
         },
         "hachemsfar/tomorrow-university-kfw-project/main/main.py": {
-            "title": "main",
+            "title": "Tomorrow University Kfw Project",
             "description": "To run it locally: streamlit run \"main.py\"",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/817eefb1-8aa0-4af9-b13f-6101acd9306a/Home_Page.png",
             "category": [
@@ -4949,7 +4948,7 @@
             "order": 320
         },
         "jackmleitch/whatscooking-deployment/master/streamlit.py": {
-            "title": "streamlit",
+            "title": "Whatscooking Deployment",
             "description": "The original repository for this project can be found here...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c17f07d8-0f17-42e1-a7ee-6dd38bc2b231/Home_Page.png",
             "category": [
@@ -5059,7 +5058,7 @@
             "order": 68
         },
         "jam516/sudovision/main/by_pool_owner.py": {
-            "title": "Streamlit",
+            "title": "Sudovision",
             "description": "\"# SudoVision\"",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/57a4d2e6-85b1-47ec-bac6-323da0d03ea7/by_nft_collection.png",
             "category": [
@@ -5284,7 +5283,7 @@
             "order": 74
         },
         "jms1192/app3_flipside/master/app4.py": {
-            "title": "Streamlit",
+            "title": "App3 Flipside",
             "description": "Edit /streamlit_app.py to customize this app to your heart's desire...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4a280832-1e52-465a-ae4a-2c72a9c510ce/Home_Page.png",
             "category": [
@@ -5306,7 +5305,7 @@
             "order": 417
         },
         "jms1192/app3_flipside/master/streamlit_app.py": {
-            "title": "Streamlit",
+            "title": "App3 Flipside",
             "description": "Edit /streamlit_app.py to customize this app to your heart's desire...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/53514312-9017-4445-9490-41a0eb7e5288/Home_Page.png",
             "category": [
@@ -5354,7 +5353,7 @@
             "order": 424
         },
         "joextitan/psa-analytical-platform/main/main.py": {
-            "title": "main",
+            "title": "Psa Analytical Platform",
             "description": "This application was built to help the public in the process of song...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/17bbff9c-bbc8-4c79-80ab-ce5836cb9a96/Home_Page.png",
             "category": [
@@ -5995,7 +5994,7 @@
             "order": 163
         },
         "khowfsix/finalproject_machinelearning/main/main.py": {
-            "title": "main",
+            "title": "Finalproject Machinelearning",
             "description": "M\u00e3 l\u1edbp: MALE431984_22_1_04",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/976471ca-961c-47b6-a29e-4389c31f6d0c/Home_Page.png",
             "category": [
@@ -6053,7 +6052,7 @@
             "order": 11
         },
         "kismetist/streamlit-geospatial-1/master/Home.py": {
-            "title": "Streamlit",
+            "title": "Streamlit Geospatial 1",
             "description": "A streamlit multipage app for geospatial applications. It can be...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c7ba9320-d365-4b44-832e-9be4cfb6052a/Marker_Cluster.png",
             "category": [
@@ -6283,7 +6282,7 @@
             "order": 246
         },
         "lmonari5/molecule-icon-generator/main/streamlit-app.py": {
-            "title": "Streamlit",
+            "title": "Molecule Icon Generator",
             "description": "This program follows the topology of SMILES chemical structures and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/68748921-2b9d-4649-9750-f5cf27bc5bdc/Home_Page.png",
             "category": [
@@ -7574,7 +7573,7 @@
             "order": 78
         },
         "pablocfonseca/streamlit-aggrid-examples/main/example.py": {
-            "title": "example",
+            "title": "Streamlit Aggrid Examples",
             "description": "Examples Repository for streamlit-aggrid",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6d55b01a-6a54-4694-8b9e-7bfddace729e/Home_Page.png",
             "category": [
@@ -7594,7 +7593,7 @@
             "order": 0
         },
         "pablocfonseca/streamlit-aggrid/main/examples/example.py": {
-            "title": "example",
+            "title": "Streamlit Aggrid",
             "description": "AgGrid is an awesome grid for web frontend. More information in...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e10de78d-c514-42f3-a1a8-aac3d8ee2703/Home_Page.png",
             "category": [
@@ -7812,8 +7811,7 @@
                 "data-processing",
                 "data-visualization",
                 "machine-learning",
-                "all",
-                "newcomers"
+                "all"
             ],
             "gitHubUrl": "https://github.com/philippemoussa/speechrecognition",
             "appUrl": "https://philippemoussa-speechrecognition-streamlitdemo-bw9nml.streamlit.app/",
@@ -7827,7 +7825,7 @@
             "order": 62
         },
         "piphi5/sees-2022-ceo-dashboard/main/main.py": {
-            "title": "main",
+            "title": "Sees 2022 Ceo Dashboard",
             "description": "Allows for visualization of Area of Interests for the Adopt a Pixel...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/71c7690b-98fc-474c-a979-d9d3e389e349/Home_Page.png",
             "category": [
@@ -8134,7 +8132,7 @@
             "order": 279
         },
         "ricecrispies8/3d_molecule/main/streamlit.py": {
-            "title": "streamlit",
+            "title": "3D Molecule",
             "description": "This github repo is for streamlit website...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/76174df7-8c24-49c0-97b7-63ca131c8bec/Home_Page.png",
             "category": [
@@ -8265,7 +8263,7 @@
             "order": 329
         },
         "rohantd/the-doctor/master/\ud83c\udfe0Home.py": {
-            "title": "Streamlit",
+            "title": "Thedoctor",
             "description": "Please see https://thedoctor.streamlitapp.com/ for the full app.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/e68b3c58-f6a9-42c3-b7fa-578f71449af8/Hospital_Locator.png",
             "category": [
@@ -8888,7 +8886,7 @@
             "order": 306
         },
         "shrenzypanda/crop-maxify/main/app.py": {
-            "title": "Streamlit",
+            "title": "Crop Maxify",
             "description": "Farmers in our country face many issues, such as scarce resources...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/bf0b73f2-8c29-49d5-b7d4-490bb115f381/Home_Page.png",
             "category": [
@@ -8975,7 +8973,7 @@
             "order": 439
         },
         "siddheshmane06/project_1/main/main.py": {
-            "title": "main",
+            "title": "Project 1",
             "description": "python demo project",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/c0adb4de-d0e2-4d9e-b251-c243fedf452c/Home_Page.png",
             "category": [
@@ -8993,7 +8991,7 @@
             "order": 511
         },
         "simjeongho/streamlitatopyclassifier/main/main.py": {
-            "title": "main",
+            "title": "Inhaatopyclassifier",
             "description": "https://inhaatopyclassifier.streamlit.app/",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/4084ec11-5853-47eb-9639-5aa59eb0654d/Home_Page.png",
             "category": [
@@ -9732,7 +9730,7 @@
             "order": 136
         },
         "thingsthinking/semantha-streamlit/main/main.py": {
-            "title": "main",
+            "title": "Semantha",
             "description": "This is the project to build a demo application for semantha's...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/f1f8d21e-37c0-4422-9ff3-c266da08a689/Home_Page.png",
             "category": [
@@ -10232,7 +10230,7 @@
             "order": 379
         },
         "vidito/summarizer/main/main.py": {
-            "title": "main",
+            "title": "Summarizer",
             "description": "A simple text summarizer and keyword extractor using Newspaper library",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/a626b865-35e9-4b61-8752-09654e42f751/Home_Page.png",
             "category": [
@@ -10327,7 +10325,7 @@
             "order": 310
         },
         "vuxvix/streamlit_project1_startups/main/Home.py": {
-            "title": "Home",
+            "title": "Streamlit Project1 Startups",
             "description": "https://vuxvix-streamlit-project1-startups-startups-7b0k42.streamlit.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/5e679c8e-bc65-45a9-901d-46cc5f254eeb/Home_Page.png",
             "category": [
@@ -10350,7 +10348,7 @@
             "order": 375
         },
         "wagnerpulido/brazil-elections-2022/main/Home.py": {
-            "title": "Streamlit",
+            "title": "Marmelada",
             "description": "streamlit run Home.py --server.maxMessageSize 500",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/396e19f8-dded-4acc-af0f-4bc1b41f3baa/Benford.png",
             "category": [
@@ -10392,7 +10390,7 @@
             "order": 217
         },
         "wazarr94/haxball-league-dashboard/master/Home.py": {
-            "title": "Home",
+            "title": "Haxball Bff",
             "description": "Dashboard for statistics for haxball leagues.",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6ba181ae-bf6b-4f35-bce5-b4be545884fe/Home_Page.png",
             "category": [
@@ -10547,7 +10545,7 @@
             "order": 409
         },
         "woochan-hwang/gsurvweb/main/main.py": {
-            "title": "main",
+            "title": "Gsurvweb",
             "description": "This project is focused on creating an interactive web application...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/1a8077a9-1194-4420-b026-24c437362432/Home_Page.png",
             "category": [
@@ -10705,8 +10703,7 @@
                 "natural-language-processing",
                 "data-processing",
                 "machine-learning",
-                "all",
-                "newcomers"
+                "all"
             ],
             "gitHubUrl": "https://github.com/yi75/fake-news_identifier_ctp",
             "appUrl": "https://yi75-fake-news-identifier-ctp-fake-real-m3gnc4.streamlit.app/",
@@ -10779,7 +10776,7 @@
             "order": 315
         },
         "yusufaliozkan/zotero-intelligence-bibliography/main/Home.py": {
-            "title": "Home",
+            "title": "Intelligence",
             "description": "This website lists secondary sources on intelligence studies and...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/231ba02e-3a12-460f-9053-4a5ed42ab26f/Home_Page.png",
             "category": [
