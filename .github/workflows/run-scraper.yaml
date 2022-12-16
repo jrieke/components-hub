@@ -1,7 +1,6 @@
 name: scrape
 run-name: Scrape components and write to file
 on: 
-  # TODO: Need to make sure this doesn't trigger a rerun when the automatic PR is merged.
   push:
     branches:
       - snowvation

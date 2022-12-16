@@ -6229,8 +6229,7 @@
             "description": "Electricity consumption of the canton of Basel-Stadt, based on quarter...",
             "image": "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/8d688195-90fd-44fb-8a64-d1ef281f6070/Home_Page.png",
             "category": [
-                "all",
-                "newcomers"
+                "all"
             ],
             "gitHubUrl": "https://github.com/lcalmbach/strom-bs",
             "appUrl": "https://lcalmbach-strom-bs-app-6sfs1t.streamlit.app/",
@@ -10994,71 +10993,85 @@
             "enabled": true
         },
         "audio-processing": {
+            "id": "audio-processing",
             "title": "\ud83c\udf99\ufe0f Audio processing",
             "order": 2,
             "enabled": true
         },
         "data-processing": {
+            "id": "data-processing",
             "title": "\ud83d\udc3c Data processing",
             "order": 3,
             "enabled": true
         },
         "data-visualization": {
+            "id": "data-visualization",
             "title": "\ud83d\udcca Data visualization",
             "order": 4,
             "enabled": true
         },
         "image-video-processing": {
+            "id": "image-video-processing",
             "title": "\ud83d\uddbc\ufe0f Image / video processing",
             "order": 5,
             "enabled": true
         },
         "streamlit-component": {
+            "id": "streamlit-component",
             "title": "\ud83e\udde9 Streamlit Component",
             "order": 6,
             "enabled": true
         },
         "web-interactions-html-api": {
+            "id": "web-interactions-html-api",
             "title": "\ud83c\udf10 Web interactions / HTML / API",
             "order": 7,
             "enabled": true
         },
         "user-interface": {
+            "id": "user-interface",
             "title": "\ud83c\udfa8 User Interface",
             "order": 8,
             "enabled": true
         },
         "natural-language-processing": {
+            "id": "natural-language-processing",
             "title": "\u2709\ufe0f Natural language processing",
             "order": 9,
             "enabled": true
         },
         "machine-learning": {
+            "id": "machine-learning",
             "title": "\ud83e\udde0 Machine learning",
             "order": 10,
             "enabled": true
         },
         "geospatial": {
+            "id": "geospatial",
             "title": "\ud83d\uddfa\ufe0f Geospatial",
             "order": 11,
             "enabled": true
         },
         "data-io": {
+            "id": "data-io",
             "title": "\ud83d\udd0c Data I/O",
             "order": 12,
             "enabled": true
         },
         "finance": {
+            "id": "finance",
             "title": "\ud83c\udfe6 Finance",
             "order": 13,
             "enabled": true
         },
         "database-connection": {
+            "id": "database-connection",
             "title": "\ud83d\udcd9 Database connection",
             "order": 14,
             "enabled": true
         },
         "social-networks": {
+            "id": "social-networks",
             "title": "\ud83c\udf10 Social networks",
             "order": 15,
             "enabled": true
