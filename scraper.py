@@ -583,7 +583,7 @@ for i, (category, data) in enumerate(categories.items()):
 # Sort all items in the JSON alphabetically. This ensures that the diff is easy to read,
 # since items don't change order.
 json_dict["components"] = dict(sorted(json_dict["components"].items()))
-json_dict["componentsCategories"] = dict(sorted(json_dict["components"].items()))
+json_dict["componentCategories"] = dict(sorted(json_dict["componentCategories"].items()))
 
 with open("gallery_data/components.json", "w") as f:
     json.dump(json_dict, f, indent=4)
