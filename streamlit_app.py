@@ -26,6 +26,8 @@ NUM_COLS = 4
 EXCLUDE = [
     "streamlit",
     "streamlit-nightly",
+    "repl-streamlit",
+    "streamlit-with-ssl",
     "streamlit-fesion",
     "streamlit-aggrid-pro",
     "st-dbscan",
