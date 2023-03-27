@@ -58,6 +58,8 @@ EXCLUDE = [
     "pollination-streamlit-viewer",
     "st-clustering",
     "streamlit-text-rating-component",
+    "custom-streamlit",
+    "hf-streamlit",
 ]
 
 CATEGORY_NAMES = {
