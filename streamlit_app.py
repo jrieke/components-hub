@@ -159,6 +159,8 @@ description = st.empty()
 description.write(description_text.format("all"))
 col1, col2 = st.columns([2, 1])
 search = col1.text_input("Search", placeholder='e.g. "image" or "text" or "card"')
+if search:
+    print(f"Search term: {search}")
 sorting = col2.selectbox(
     "Sort by", ["⭐️ Stars on GitHub", "⬇️ Downloads last month", "🐣 Newest"]
 )
