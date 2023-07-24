@@ -1,0 +1,7 @@
+streamlit==1.15.2
+beautifulsoup4==4.11.1
+stqdm==0.0.4
+pypistats==1.1.0
+markdownlit==0.0.5
+pyyaml==6.0
+streamlit-pills==0.3.0

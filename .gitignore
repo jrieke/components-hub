@@ -1,3 +1,6 @@
+Pipfile
+Pipfile.lock
+
 .streamlit/secrets.toml
 screenshots
 
