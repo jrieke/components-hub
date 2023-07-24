@@ -18,6 +18,8 @@ from streamlit_pills import pills
 
 # from streamlit_profiler import Profiler
 
+raise ValueError("sdf")
+
 # profiler = Profiler()
 
 st.set_page_config("Streamlit Components Hub", "🎪", layout="wide")
