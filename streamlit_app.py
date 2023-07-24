@@ -178,13 +178,13 @@ category = pills(
 st.write("")
 
 
-@st.cache_data(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get(*args, **kwargs):
     res = requests.get(*args, **kwargs)
     return res.status_code, res.text
 
 
-@st.cache_data(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get_github_info(url):
     """use the github api to get the number of stars for a given repo"""
     url = url.replace("https://", "").replace("http://", "")
@@ -212,7 +212,7 @@ def get_github_info(url):
     )
 
 
-@st.cache_data(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def parse_github_readme(url):
     """get the image url from the github readme"""
     # TODO: Could do this by getting the raw readme file and not the rendered page.
@@ -317,7 +317,7 @@ class Component:
     categories: List[str] = None
 
 
-@st.cache_data(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get_all_packages():
     url = "https://pypi.org/simple/"
     status_code, text = get(url)
@@ -335,7 +335,7 @@ def get_all_packages():
     return packages
 
 
-@st.cache_data(ttl=24 * 3600, persist="disk", show_spinner=False)
+@st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
 def get_downloads(package):
     try:
         downloads = pypistats.recent(package, "month", format="pandas")["last_month"][
@@ -356,7 +356,7 @@ def get_downloads(package):
     return downloads
 
 
-@st.cache_data(ttl=28 * 24 * 3600, show_spinner=False)
+@st.experimental_memo(ttl=28 * 24 * 3600, show_spinner=False)
 def get_components():
     components_dict = {}
 
@@ -591,7 +591,7 @@ def get_components():
     return list(components_dict.values())
 
 
-@st.cache_data(show_spinner=False)
+@st.experimental_memo(show_spinner=False)
 def sort_components(components: list, by):
     if by == "⭐️ Stars on GitHub":
         return sorted(
@@ -626,7 +626,7 @@ def sort_components(components: list, by):
         raise ValueError("`by` must be either 'Stars' or 'Newest'")
 
 
-@st.cache_data(show_spinner=False)
+@st.experimental_memo(show_spinner=False)
 def filter_components(components, search=None, category=None, newer_than=None):
     if search:
         components = list(filter(lambda c: search.lower() in c.search_text, components))
@@ -662,7 +662,7 @@ def shorten(text, length=100):
 
 
 # Can't memo-ize this right now because st.image doesn't work.
-# @st.cache_data
+# @st.experimental_memo
 def show_components(components, limit=None):
     if limit is not None:
         components = components[:limit]
