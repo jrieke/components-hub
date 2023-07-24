@@ -178,13 +178,13 @@ category = pills(
 st.write("")
 
 
-@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
+@st.cache_data(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get(*args, **kwargs):
     res = requests.get(*args, **kwargs)
     return res.status_code, res.text
 
 
-@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
+@st.cache_data(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get_github_info(url):
     """use the github api to get the number of stars for a given repo"""
     url = url.replace("https://", "").replace("http://", "")
@@ -212,7 +212,7 @@ def get_github_info(url):
     )
 
 
-@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
+@st.cache_data(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def parse_github_readme(url):
     """get the image url from the github readme"""
     # TODO: Could do this by getting the raw readme file and not the rendered page.
@@ -317,7 +317,7 @@ class Component:
     categories: List[str] = None
 
 
-@st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
+@st.cache_data(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get_all_packages():
     url = "https://pypi.org/simple/"
     status_code, text = get(url)
@@ -335,7 +335,7 @@ def get_all_packages():
     return packages
 
 
-@st.experimental_memo(ttl=24 * 3600, persist="disk", show_spinner=False)
+@st.cache_data(ttl=24 * 3600, persist="disk", show_spinner=False)
 def get_downloads(package):
     try:
         downloads = pypistats.recent(package, "month", format="pandas")["last_month"][
@@ -356,7 +356,7 @@ def get_downloads(package):
     return downloads
 
 
-@st.experimental_memo(ttl=28 * 24 * 3600, show_spinner=False)
+@st.cache_data(ttl=28 * 24 * 3600, show_spinner=False)
 def get_components():
     components_dict = {}
 
@@ -371,7 +371,6 @@ def get_components():
     lis = soup.find_all("ul")[3].find_all("li")
 
     for li in stqdm(lis, desc="🎈 Crawling Streamlit forum (step 1/5)"):
-
         c = Component()
         name = re.sub("\(.*?\)", "", li.text)
         name = name.split(" – ")[0]
@@ -423,7 +422,7 @@ def get_components():
         if status_code != 404:
             # st.expander("show html").code(res.text)
 
-            if not p in components_dict:
+            if p not in components_dict:
                 components_dict[p] = Component(name=p)
             c = components_dict[p]
 
@@ -483,7 +482,6 @@ def get_components():
     # profiler.start()
     # Step 4: Enrich info of components found above by reading data from Github
     for c in stqdm(components_dict.values(), desc="👾 Crawling Github (step 4/5)"):
-
         # Try to get Github URL by combining PyPI author name + package name.
         if not c.github and c.package and c.pypi_author:
             possible_repo_names = [c.package]
@@ -593,7 +591,7 @@ def get_components():
     return list(components_dict.values())
 
 
-@st.experimental_memo(show_spinner=False)
+@st.cache_data(show_spinner=False)
 def sort_components(components: list, by):
     if by == "⭐️ Stars on GitHub":
         return sorted(
@@ -628,7 +626,7 @@ def sort_components(components: list, by):
         raise ValueError("`by` must be either 'Stars' or 'Newest'")
 
 
-@st.experimental_memo(show_spinner=False)
+@st.cache_data(show_spinner=False)
 def filter_components(components, search=None, category=None, newer_than=None):
     if search:
         components = list(filter(lambda c: search.lower() in c.search_text, components))
@@ -664,9 +662,8 @@ def shorten(text, length=100):
 
 
 # Can't memo-ize this right now because st.image doesn't work.
-# @st.experimental_memo
+# @st.cache_data
 def show_components(components, limit=None):
-
     if limit is not None:
         components = components[:limit]
 
