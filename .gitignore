@@ -1,5 +1,5 @@
-Pipfile
-Pipfile.lock
+#Pipfile
+#Pipfile.lock
 
 .streamlit/secrets.toml
 screenshots

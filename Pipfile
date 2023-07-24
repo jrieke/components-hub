@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+beautifulsoup4 = "*"
+stqdm = "*"
+pypistats = "*"
+markdownlit = "*"
+pyyaml = "*"
+streamlit-pills = "==0.3.0"
+
+[dev-packages]
+watchdog = "*"
+black = "*"
+streamlit-profiler = "*"
+
+[requires]
+python_version = "3.9"
