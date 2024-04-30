@@ -1,4 +1,5 @@
 streamlit==1.15.2
+altair<5
 beautifulsoup4==4.11.1
 stqdm==0.0.4
 pypistats==1.1.0

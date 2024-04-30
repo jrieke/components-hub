@@ -377,7 +377,7 @@ def get_components():
         name = name.strip()
         c.name = name
 
-        links = [a.get("href") for a in li.find_all("a")]
+        links = [a.get("href") for a in li.find_all("a") if a.get("href")]
         for l in links:
             if l.startswith("https://github.com"):
                 c.github = l
@@ -387,7 +387,8 @@ def get_components():
                 c.forum_post = l
             elif l.startswith("https://pypi.org"):
                 c.pypi = l
-                c.package = re.match("https://pypi.org/project/(.*?)/", l).group(1)
+                if tmp_re := re.match("https://pypi.org/project/(.*?)/", l):
+                  c.package = tmp_re.group(1)
 
         if c.github and not c.package:
             repo_name = (
