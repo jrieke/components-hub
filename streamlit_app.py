@@ -176,7 +176,7 @@ category = pills(
 
 # if "screen_width" in st.session_state and st.session_state.screen_width < 768:
 st.write("")
-
+st.error("This app is deprecated and unmaintained. You can now find all components at https://streamlit.io/components")
 
 @st.experimental_memo(ttl=28 * 24 * 3600, persist="disk", show_spinner=False)
 def get(*args, **kwargs):
