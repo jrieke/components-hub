@@ -3,3 +3,7 @@ fastReruns = true
 
 [client]
 showErrorDetails = false
+
+[server]
+headless = true # This option is set to true to suppress the "Welcome to Streamlit! [blah blah blah] Email:" message, and keep streamlit from generating a .streamlit folder in my home dir with the config file that has that email address, which I find annoying. You can also run streamlit run with the --server.headless true flag if you're outside this directory but still want this behavior.
+runOnSave = true # We always want to rerun when the files change, for a smooth development experience.
